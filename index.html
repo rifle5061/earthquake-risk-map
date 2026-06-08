@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>地震危険度マップ｜地震活動リスク可視化</title>
+  <meta name="description" content="日本周辺の地震活動、プレート境界、直近地震データから防災上の注意度を可視化する地震危険度マップです。地震予知ではありません。" />
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQMyW9xD+HmhlK0YzL3vMefTt2AtnT0=" crossorigin="" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <p class="eyebrow">Earthquake Risk Map / Japan</p>
+      <h1>地震危険度マップ</h1>
+      <p class="lead">日本周辺の直近地震・プレート境界・過去活動から、防災上の注意度を見える化します。</p>
+    </div>
+    <div class="header-badge">
+      <span>β版</span>
+      <strong id="updatedAt">更新確認中</strong>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="map-panel">
+      <div class="panel-head">
+        <div>
+          <h2>日本地図</h2>
+          <p>期間・レイヤーを切り替えて、地震活動の見え方を変えられます。</p>
+        </div>
+        <div class="risk-pill" id="overallRiskPill">総合リスク --</div>
+      </div>
+
+      <div class="controls" aria-label="表示期間切替">
+        <button class="period-btn active" data-period="realtime">リアルタイム</button>
+        <button class="period-btn" data-period="12h">12時間</button>
+        <button class="period-btn" data-period="24h">24時間</button>
+        <button class="period-btn" data-period="7d">1週間</button>
+        <button class="period-btn" data-period="1m">1ヶ月</button>
+        <button class="period-btn" data-period="3m">3ヶ月</button>
+        <button class="period-btn" data-period="1y">1年</button>
+        <button class="period-btn" data-period="all">全て</button>
+      </div>
+
+      <div class="layer-controls" aria-label="レイヤー切替">
+        <label><input type="checkbox" id="toggleQuakes" checked> 震源</label>
+        <label><input type="checkbox" id="togglePlates" checked> プレート/海溝</label>
+        <label><input type="checkbox" id="toggleZones" checked> 危険度エリア</label>
+        <label><input type="checkbox" id="toggleMajorOnly"> M5以上のみ</label>
+      </div>
+
+      <div id="map" aria-label="地震危険度マップ"></div>
+
+      <p class="notice">
+        ※このサイトは地震の発生日・場所・規模を断定するものではありません。公開データをもとに防災上の注意度を整理するβ版です。
+      </p>
+    </section>
+
+    <aside class="side-panel">
+      <section class="card primary-card" id="selectedCard">
+        <p class="eyebrow">Selected Area</p>
+        <h2>エリアをクリック</h2>
+        <p>地図上のプレート・海溝エリア、または危険度エリアをクリックすると、リスクカードを表示します。</p>
+      </section>
+
+      <section class="card stats-card">
+        <h2>表示中の活動</h2>
+        <div class="stat-grid">
+          <div><span id="statCount">0</span><small>地震数</small></div>
+          <div><span id="statMaxM">-</span><small>最大M</small></div>
+          <div><span id="statMaxI">-</span><small>最大震度</small></div>
+          <div><span id="statMajor">0</span><small>M5以上</small></div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>最新地震</h2>
+        <div id="quakeList" class="quake-list"></div>
+      </section>
+
+      <section class="card ad-card">
+        <p class="ad-label">PR</p>
+        <h2>防災用品の確認</h2>
+        <p>危険度が高い地域では、非常持ち出し袋・非常食・ポータブル電源などの備えを確認しておくと安心です。</p>
+        <div class="ad-slot">
+          <strong>広告枠1：防災リュック</strong>
+          <p>ここに保存済みの防災リュック広告HTMLを貼り付け。</p>
+        </div>
+        <div class="ad-slot">
+          <strong>広告枠2：非常食7日分</strong>
+          <p>ここに保存済みの非常食広告HTMLを貼り付け。</p>
+        </div>
+        <div class="ad-slot muted">
+          <strong>広告枠3：ポータブル電源</strong>
+          <p>広告HTMLを取得したらここに追加。</p>
+        </div>
+      </section>
+    </aside>
+  </main>
+
+  <section class="lower-grid">
+    <article class="card">
+      <h2>リスクスコアの考え方</h2>
+      <ul class="clean-list">
+        <li>直近の地震回数・最大マグニチュード・最大震度</li>
+        <li>M5以上/M6以上の発生状況</li>
+        <li>プレート境界・海溝エリアとの位置関係</li>
+        <li>長期ハザード・沿岸/津波リスク</li>
+        <li>余震・群発活動の継続性</li>
+      </ul>
+    </article>
+    <article class="card">
+      <h2>防災行動レベル</h2>
+      <div class="level-row level-low"><strong>0〜39 通常</strong><span>家具固定・備蓄の確認</span></div>
+      <div class="level-row level-mid"><strong>40〜69 注意</strong><span>避難場所・連絡手段を確認</span></div>
+      <div class="level-row level-high"><strong>70〜100 高い</strong><span>停電・断水・津波避難も確認</span></div>
+    </article>
+  </section>
+
+  <footer class="site-footer">
+    <p>地震危険度マップ β版｜予知ではなく、防災上の注意度を可視化するサイトです。</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="app.js"></script>
+</body>
+</html>
