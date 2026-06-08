@@ -110,7 +110,7 @@ async function init() {
   await loadEarthquakeData();
   document.getElementById("updatedAt").textContent = `データ更新 ${formatDateTime(dataUpdatedAt)}`;
 
-  map = L.map("map", { zoomControl: true }).setView([37.8, 138.5], 5);
+  map = L.map("map", { zoomControl: true, preferCanvas: true }).setView([37.8, 138.5], 5);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 10,
     attribution: "&copy; OpenStreetMap contributors"
@@ -124,6 +124,11 @@ async function init() {
   renderZones();
   bindControls();
   updateView();
+
+  // スマホ表示・GitHub Pages読み込み直後に地図サイズ計算がずれることがあるため再計算する。
+  setTimeout(() => map.invalidateSize(), 150);
+  setTimeout(() => map.invalidateSize(), 600);
+  window.addEventListener("resize", () => map.invalidateSize());
 }
 
 async function loadEarthquakeData() {

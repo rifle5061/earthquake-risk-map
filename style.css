@@ -224,3 +224,123 @@ h2 { margin-bottom: 10px; font-size: 18px; }
   #map { min-height: 420px; height: 58vh; }
   .stat-grid { grid-template-columns: 1fr 1fr; }
 }
+
+/* Leaflet CSS fallback
+   GitHub Pages やスマホ内ブラウザで CDN の leaflet.css が読み込めない場合、
+   地図タイルがバラバラに並ぶため、最低限必要な配置CSSをローカルにも持たせる。 */
+.leaflet-container {
+  overflow: hidden;
+  position: relative;
+  outline: 0;
+  touch-action: none;
+  background: #08182a;
+}
+.leaflet-pane,
+.leaflet-tile,
+.leaflet-marker-icon,
+.leaflet-marker-shadow,
+.leaflet-tile-container,
+.leaflet-pane > svg,
+.leaflet-pane > canvas,
+.leaflet-zoom-box,
+.leaflet-image-layer,
+.leaflet-layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.leaflet-tile,
+.leaflet-marker-icon,
+.leaflet-marker-shadow {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+.leaflet-container .leaflet-overlay-pane svg,
+.leaflet-container .leaflet-marker-pane img,
+.leaflet-container .leaflet-shadow-pane img,
+.leaflet-container .leaflet-tile-pane img,
+.leaflet-container img.leaflet-image-layer,
+.leaflet-container .leaflet-tile {
+  max-width: none !important;
+  max-height: none !important;
+}
+.leaflet-tile {
+  width: 256px;
+  height: 256px;
+  filter: saturate(.95) brightness(.82);
+}
+.leaflet-map-pane canvas { z-index: 100; }
+.leaflet-map-pane svg { z-index: 200; }
+.leaflet-tile-pane { z-index: 200; }
+.leaflet-overlay-pane { z-index: 400; }
+.leaflet-shadow-pane { z-index: 500; }
+.leaflet-marker-pane { z-index: 600; }
+.leaflet-tooltip-pane { z-index: 650; }
+.leaflet-popup-pane { z-index: 700; }
+.leaflet-control { position: relative; z-index: 800; pointer-events: auto; }
+.leaflet-top,
+.leaflet-bottom { position: absolute; z-index: 1000; pointer-events: none; }
+.leaflet-top { top: 0; }
+.leaflet-right { right: 0; }
+.leaflet-bottom { bottom: 0; }
+.leaflet-left { left: 0; }
+.leaflet-control { float: left; clear: both; }
+.leaflet-right .leaflet-control { float: right; }
+.leaflet-top .leaflet-control { margin-top: 10px; }
+.leaflet-bottom .leaflet-control { margin-bottom: 10px; }
+.leaflet-left .leaflet-control { margin-left: 10px; }
+.leaflet-right .leaflet-control { margin-right: 10px; }
+.leaflet-control-zoom a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #111827;
+  background: #fff;
+  border-bottom: 1px solid #d1d5db;
+  font-size: 20px;
+  font-weight: 700;
+}
+.leaflet-control-zoom a:first-child { border-radius: 6px 6px 0 0; }
+.leaflet-control-zoom a:last-child { border-radius: 0 0 6px 6px; border-bottom: 0; }
+.leaflet-control-zoom a:hover { background: #f3f4f6; }
+.leaflet-control-attribution {
+  background: rgba(255,255,255,.78);
+  color: #111827;
+  padding: 2px 6px;
+  font-size: 10px;
+}
+.leaflet-control-attribution a { color: #0f766e; }
+.leaflet-popup {
+  position: absolute;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.leaflet-popup-content-wrapper {
+  padding: 1px;
+  text-align: left;
+  border-radius: 12px;
+}
+.leaflet-popup-content { margin: 12px 14px; line-height: 1.4; }
+.leaflet-popup-tip-container {
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: -20px;
+  overflow: hidden;
+  pointer-events: none;
+}
+.leaflet-popup-tip {
+  width: 17px;
+  height: 17px;
+  padding: 1px;
+  margin: -10px auto 0;
+  transform: rotate(45deg);
+}
+.leaflet-interactive { cursor: pointer; }
+.leaflet-grab { cursor: grab; }
+.leaflet-dragging .leaflet-grab { cursor: grabbing; }
