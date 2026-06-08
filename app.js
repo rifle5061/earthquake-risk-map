@@ -1,5 +1,6 @@
-const DATA_UPDATED_AT = "2026-06-09T05:40:00+09:00";
-const BASE_TIME = new Date("2026-06-09T12:00:00+09:00"); // デモ用の基準時刻。API化後は現在時刻に差し替え。
+let dataUpdatedAt = "2026-06-09T05:40:00+09:00";
+let baseTime = new Date("2026-06-09T12:00:00+09:00"); // サンプルデータ用の基準時刻。APIデータ読込後は現在時刻へ更新。
+let activeQuakes = [];
 
 const PERIODS = {
   realtime: { label: "リアルタイム", hours: 1, majorOnlyDefault: false },
@@ -104,8 +105,11 @@ let plateLayer = L.layerGroup();
 let zoneLayer = L.layerGroup();
 let currentPeriod = "realtime";
 
-function init() {
-  document.getElementById("updatedAt").textContent = `データ更新 ${formatDateTime(DATA_UPDATED_AT)}`;
+async function init() {
+  activeQuakes = SAMPLE_QUAKES;
+  await loadEarthquakeData();
+  document.getElementById("updatedAt").textContent = `データ更新 ${formatDateTime(dataUpdatedAt)}`;
+
   map = L.map("map", { zoomControl: true }).setView([37.8, 138.5], 5);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 10,
@@ -120,6 +124,32 @@ function init() {
   renderZones();
   bindControls();
   updateView();
+}
+
+async function loadEarthquakeData() {
+  try {
+    const response = await fetch("data/latest-earthquakes.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const payload = await response.json();
+    const quakes = Array.isArray(payload) ? payload : payload.earthquakes;
+    if (!Array.isArray(quakes) || quakes.length === 0) throw new Error("no earthquake data");
+
+    activeQuakes = quakes.map(q => ({
+      ...q,
+      mag: Number(q.mag ?? q.magnitude ?? 0),
+      lat: Number(q.lat),
+      lon: Number(q.lon),
+      depth: Number(q.depth ?? 0),
+      intensity: Number(q.intensity ?? 0)
+    })).filter(q => Number.isFinite(q.lat) && Number.isFinite(q.lon) && Number.isFinite(q.mag));
+
+    dataUpdatedAt = payload.updated_at || payload.fetched_at || activeQuakes[0]?.time || dataUpdatedAt;
+    baseTime = new Date();
+    console.info(`loaded earthquake API data: ${activeQuakes.length} items`);
+  } catch (error) {
+    console.warn("latest-earthquakes.json を読み込めないため、サンプルデータで表示します。", error);
+    activeQuakes = SAMPLE_QUAKES;
+  }
 }
 
 function bindControls() {
@@ -198,9 +228,9 @@ function updateView() {
 function getFilteredQuakes() {
   const period = PERIODS[currentPeriod];
   const majorOnly = document.getElementById("toggleMajorOnly")?.checked;
-  return SAMPLE_QUAKES.filter(q => {
+  return activeQuakes.filter(q => {
     if (currentPeriod !== "all") {
-      const diffHours = (BASE_TIME - new Date(q.time)) / 36e5;
+      const diffHours = (baseTime - new Date(q.time)) / 36e5;
       if (diffHours < 0 || diffHours > period.hours) return false;
     }
     if (currentPeriod === "all" && !q.majorHistorical && q.mag < 5) return false;
@@ -224,7 +254,7 @@ function renderQuakes() {
     marker.bindPopup(`
       <strong>${q.area}</strong><br>
       ${formatDateTime(q.time)}<br>
-      M${q.mag.toFixed(1)} / 最大震度 ${q.intensity}<br>
+      M${q.mag.toFixed(1)} / 最大震度 ${q.intensityLabel || q.intensity}<br>
       深さ ${q.depth}km
     `);
   });
@@ -251,7 +281,7 @@ function renderQuakeList() {
   list.innerHTML = quakes.map(q => `
     <div class="quake-item">
       <strong>${q.area} / M${q.mag.toFixed(1)}</strong>
-      <span>${formatDateTime(q.time)}　最大震度 ${q.intensity}　深さ ${q.depth}km</span>
+      <span>${formatDateTime(q.time)}　最大震度 ${q.intensityLabel || q.intensity}　深さ ${q.depth}km</span>
     </div>
   `).join("");
 }
