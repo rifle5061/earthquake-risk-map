@@ -153,6 +153,90 @@ h2 { margin-bottom: 10px; font-size: 18px; }
 }
 .quake-item strong { display: block; }
 .quake-item span { color: var(--muted); font-size: 12px; }
+
+.quake-item.clickable,
+.news-item.clickable {
+  cursor: pointer;
+}
+.quake-item.clickable:hover,
+.news-item.clickable:hover {
+  border-color: rgba(69,214,255,.62);
+  background: rgba(69,214,255,.08);
+}
+.quake-item {
+  width: 100%;
+  text-align: left;
+  color: inherit;
+  font: inherit;
+}
+.quake-item small {
+  display: block;
+  margin-top: 4px;
+  color: #facc15;
+  font-size: 11px;
+}
+.news-list {
+  display: grid;
+  gap: 10px;
+  max-height: 360px;
+  overflow: auto;
+  padding-right: 4px;
+}
+.news-item {
+  padding: 11px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(255,255,255,.04);
+}
+.news-item strong {
+  display: block;
+  line-height: 1.45;
+}
+.news-item p {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.55;
+}
+.news-item a {
+  display: inline-block;
+  margin-top: 6px;
+  color: var(--accent);
+  font-size: 12px;
+  text-decoration: none;
+}
+.news-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 11px;
+}
+.zoom-badge,
+.mini-badge {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(69,214,255,.35);
+  border-radius: 999px;
+  padding: 2px 7px;
+  color: #93e8ff;
+  background: rgba(69,214,255,.08);
+  font-size: 11px;
+}
+.zoom-badge.disabled {
+  color: var(--muted);
+  border-color: rgba(148,163,184,.28);
+  background: rgba(148,163,184,.07);
+}
+.card-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
 .ad-card { border-color: rgba(245,158,11,.35); }
 .ad-label {
   display: inline-block;
@@ -223,6 +307,10 @@ h2 { margin-bottom: 10px; font-size: 18px; }
   .side-panel, .lower-grid { grid-template-columns: 1fr; }
   #map { min-height: 420px; height: 58vh; }
   .stat-grid { grid-template-columns: 1fr 1fr; }
+  .controls { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 4px; }
+  .period-btn { flex: 0 0 auto; }
+  .card-title-row { align-items: flex-start; }
+  .news-list, .quake-list { max-height: none; }
 }
 
 /* Leaflet CSS fallback

@@ -71,3 +71,14 @@ https://api.p2pquake.net/v2/history?codes=551&limit=100
 このフォルダの中身をリポジトリに置き、GitHub Pagesを有効化すると公開できます。
 
 GitHub Pages上では、定期取得済みの `data/latest-earthquakes.json` を `app.js` が読み込んで表示します。
+
+## 地震関連ニュース
+
+`data/earthquake-news.json` を読み込み、地震関連ニュース欄に表示します。
+
+- `lat` / `lon` がある項目：クリックで地図ズーム
+- `lat` / `lon` がない一般ニュース：記事リンクのみ表示
+- `scripts/update_earthquake_news.py` でニュースJSONを生成
+- `.github/workflows/update-earthquake-news.yml` で30分ごとに更新
+
+一般ニュースの地域名からズームする機能は、次段階で地域名辞書を追加して対応します。
