@@ -432,3 +432,33 @@ h2 { margin-bottom: 10px; font-size: 18px; }
 .leaflet-interactive { cursor: pointer; }
 .leaflet-grab { cursor: grab; }
 .leaflet-dragging .leaflet-grab { cursor: grabbing; }
+
+.affiliate-slot {
+  overflow-x: auto;
+}
+.affiliate-slot > strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+.affiliate-slot table {
+  max-width: 100%;
+  background: #fff;
+  color: #111827;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.affiliate-slot table a {
+  color: #0f172a;
+}
+.affiliate-slot table img {
+  display: block;
+}
+.matched-area {
+  color: #facc15 !important;
+}
+@media (max-width: 720px) {
+  .affiliate-slot table {
+    width: 100% !important;
+  }
+}

@@ -1,84 +1,55 @@
-# 地震危険度マップ v1
+# 地震危険度マップ β版
 
-日本地図にプレート・海溝ライン、地震発生地点、期間切替、危険度カードを表示するMVPです。
+日本地図上に、直近地震・プレート/海溝・危険度エリア・地震関連ニュースを表示する防災リスク可視化サイトです。
 
-## 内容
+## 今回の追加
 
-- `index.html`：画面本体
-- `style.css`：デザイン
-- `app.js`：地図・期間切替・地震データ読込・リスク計算
-- `scripts/update_earthquake_data.py`：P2P地震情報APIから最新地震データを取得し、`data/latest-earthquakes.json` を生成
+- 地震関連ニュース欄
+- ニュースクリックで地図ズーム
+- 地域名辞書による推定ズーム
+- 防災リュック/非常食広告HTMLの差し込み
+- ポータブル電源広告枠
+- GitHub Actionsによる地震データ/ニュース自動更新
 
-## 現在の仕様
-
-- `data/latest-earthquakes.json` が存在する場合は、そのAPI取得データを表示します。
-- `data/latest-earthquakes.json` が存在しない場合や読み込みに失敗した場合は、`app.js` 内のサンプルデータで表示します。
-- プレート/海溝ラインは概略です。
-- リスクスコアはβ版の仮計算です。
-- 地震の発生日・場所・規模を予測するものではありません。
-
-## P2P地震情報APIデータ取得
-
-Python標準ライブラリだけで動きます。
-
-```bash
-python scripts/update_earthquake_data.py --pretty
-```
-
-出力先はデフォルトで以下です。
+## ファイル構成
 
 ```text
-data/latest-earthquakes.json
+index.html
+style.css
+app.js
+data/
+  area-dictionary.json
+  earthquake-news.json
+scripts/
+  update_earthquake_data.py
+  update_earthquake_news.py
+.github/workflows/
+  update-earthquake.yml
+  update-earthquake-news.yml
 ```
 
-取得件数を変える場合：
+## 地域名辞書
 
-```bash
-python scripts/update_earthquake_data.py --limit 100 --pretty
-```
+`data/area-dictionary.json` に、ニュースタイトルや概要から推定する地域名・座標・ズーム値を入れています。
 
-使用API：
-
-```text
-https://api.p2pquake.net/v2/history?codes=551&limit=100
-```
-
-`codes=551` は気象庁の地震情報です。取得したデータは、サイト側が使いやすいように以下へ正規化します。
+例：
 
 ```json
-{
-  "time": "2026-06-09T11:58:00+09:00",
-  "lat": 38.2,
-  "lon": 142.3,
-  "mag": 4.7,
-  "depth": 40,
-  "intensity": 3,
-  "intensityLabel": "3",
-  "area": "宮城県沖"
-}
+{ "name": "南海トラフ", "keywords": ["南海トラフ"], "lat": 32.8, "lon": 136.2, "zoom": 6 }
 ```
 
-## 次にやること
+## 自動更新
 
-1. GitHub Actionsで自動更新
-2. プレート境界/海溝エリアをGeoJSON化
-3. 期間別のJSON分割、または1年分・全期間用データの別管理
-4. J-SHISなどの長期ハザードデータを追加
-5. 防災リュック・非常食・ポータブル電源の広告HTMLを実装
+GitHub Actionsで以下を実行します。
 
-## GitHub Pages公開
+- `Update earthquake data`：15分ごとに地震情報を更新
+- `Update earthquake news`：30分ごとにニュースJSONを更新
 
-このフォルダの中身をリポジトリに置き、GitHub Pagesを有効化すると公開できます。
+## 注意
 
-GitHub Pages上では、定期取得済みの `data/latest-earthquakes.json` を `app.js` が読み込んで表示します。
+このサイトは地震の発生日・場所・規模を断定するものではありません。公開データから防災上の注意度を整理するβ版です。
 
-## 地震関連ニュース
 
-`data/earthquake-news.json` を読み込み、地震関連ニュース欄に表示します。
-
-- `lat` / `lon` がある項目：クリックで地図ズーム
-- `lat` / `lon` がない一般ニュース：記事リンクのみ表示
-- `scripts/update_earthquake_news.py` でニュースJSONを生成
-- `.github/workflows/update-earthquake-news.yml` で30分ごとに更新
-
-一般ニュースの地域名からズームする機能は、次段階で地域名辞書を追加して対応します。
+## 更新メモ
+- 地域名辞書によるニュースクリックズーム対応
+- 防災リュック・非常食・ポータブル電源広告HTML反映済み
