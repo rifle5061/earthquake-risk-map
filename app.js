@@ -1,6 +1,7 @@
 let dataUpdatedAt = "2026-06-09T05:40:00+09:00";
 let baseTime = new Date("2026-06-09T12:00:00+09:00"); // サンプルデータ用の基準時刻。APIデータ読込後は現在時刻へ更新。
 let activeQuakes = [];
+let activeNews = [];
 
 const PERIODS = {
   realtime: { label: "リアルタイム", hours: 1, majorOnlyDefault: false },
@@ -103,11 +104,13 @@ let map;
 let quakeLayer = L.layerGroup();
 let plateLayer = L.layerGroup();
 let zoneLayer = L.layerGroup();
+let highlightLayer = L.layerGroup();
 let currentPeriod = "realtime";
 
 async function init() {
   activeQuakes = SAMPLE_QUAKES;
   await loadEarthquakeData();
+  await loadEarthquakeNews();
   document.getElementById("updatedAt").textContent = `データ更新 ${formatDateTime(dataUpdatedAt)}`;
 
   map = L.map("map", { zoomControl: true, preferCanvas: true }).setView([37.8, 138.5], 5);
@@ -119,6 +122,7 @@ async function init() {
   quakeLayer.addTo(map);
   plateLayer.addTo(map);
   zoneLayer.addTo(map);
+  highlightLayer.addTo(map);
 
   renderPlates();
   renderZones();
@@ -129,6 +133,56 @@ async function init() {
   setTimeout(() => map.invalidateSize(), 150);
   setTimeout(() => map.invalidateSize(), 600);
   window.addEventListener("resize", () => map.invalidateSize());
+}
+
+async function loadEarthquakeNews() {
+  try {
+    const response = await fetch("data/earthquake-news.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const payload = await response.json();
+    const news = Array.isArray(payload) ? payload : payload.news;
+    if (!Array.isArray(news) || news.length === 0) throw new Error("no news data");
+
+    activeNews = news.map(normalizeNewsItem).filter(item => item.title);
+  } catch (error) {
+    console.warn("earthquake-news.json を読み込めないため、最新地震データからニュース欄を作ります。", error);
+    activeNews = buildNewsFromQuakes(activeQuakes);
+  }
+}
+
+function normalizeNewsItem(item) {
+  return {
+    title: String(item.title || ""),
+    source: String(item.source || item.publisher || "地震関連"),
+    time: item.time || item.published_at || item.pubDate || null,
+    url: item.url || item.link || "",
+    type: item.type || "news",
+    area: item.area || "",
+    summary: item.summary || item.description || "",
+    lat: item.lat === null || item.lat === undefined || item.lat === "" ? null : Number(item.lat),
+    lon: item.lon === null || item.lon === undefined || item.lon === "" ? null : Number(item.lon),
+    zoom: item.zoom ? Number(item.zoom) : 7,
+    zoomable: Boolean(item.zoomable || (Number.isFinite(Number(item.lat)) && Number.isFinite(Number(item.lon))))
+  };
+}
+
+function buildNewsFromQuakes(quakes) {
+  return quakes
+    .slice()
+    .sort((a, b) => new Date(b.time) - new Date(a.time))
+    .slice(0, 8)
+    .map(q => ({
+      title: `【地震情報】${q.area} M${Number(q.mag).toFixed(1)} 最大震度${q.intensityLabel || q.intensity}`,
+      source: "地震情報",
+      time: q.time,
+      type: "earthquake",
+      area: q.area,
+      summary: `震源の深さ ${q.depth}km。クリックで震源付近へ移動します。`,
+      lat: q.lat,
+      lon: q.lon,
+      zoom: Number(q.mag) >= 6 ? 7 : 8,
+      zoomable: true
+    }));
 }
 
 async function loadEarthquakeData() {
@@ -227,6 +281,7 @@ function updateView() {
   renderZones();
   renderStats();
   renderQuakeList();
+  renderNewsList();
   renderOverallRisk();
 }
 
@@ -283,12 +338,74 @@ function renderQuakeList() {
     list.innerHTML = `<p class="notice">この期間の表示対象データはありません。</p>`;
     return;
   }
-  list.innerHTML = quakes.map(q => `
-    <div class="quake-item">
-      <strong>${q.area} / M${q.mag.toFixed(1)}</strong>
-      <span>${formatDateTime(q.time)}　最大震度 ${q.intensityLabel || q.intensity}　深さ ${q.depth}km</span>
-    </div>
+  list.innerHTML = quakes.map((q, index) => `
+    <button class="quake-item clickable" type="button" data-quake-index="${index}">
+      <strong>${escapeHtml(q.area)} / M${q.mag.toFixed(1)}</strong>
+      <span>${formatDateTime(q.time)}　最大震度 ${escapeHtml(q.intensityLabel || q.intensity)}　深さ ${escapeHtml(q.depth)}km</span>
+      <small>クリックで震源へ移動</small>
+    </button>
   `).join("");
+
+  list.querySelectorAll("[data-quake-index]").forEach(button => {
+    button.addEventListener("click", () => {
+      const q = quakes[Number(button.dataset.quakeIndex)];
+      focusMapItem({
+        lat: q.lat,
+        lon: q.lon,
+        zoom: q.mag >= 6 ? 7 : 8,
+        title: q.area,
+        detail: `M${q.mag.toFixed(1)} / 最大震度 ${q.intensityLabel || q.intensity} / 深さ ${q.depth}km`,
+        time: q.time,
+        type: "earthquake"
+      });
+    });
+  });
+}
+
+function renderNewsList() {
+  const list = document.getElementById("newsList");
+  if (!list) return;
+
+  const news = activeNews.slice(0, 10);
+  if (!news.length) {
+    list.innerHTML = `<p class="notice">表示できる地震関連ニュースはまだありません。</p>`;
+    return;
+  }
+
+  list.innerHTML = news.map((item, index) => {
+    const canZoom = Number.isFinite(item.lat) && Number.isFinite(item.lon);
+    const time = item.time ? formatDateTime(item.time) : "日時不明";
+    const source = escapeHtml(item.source || "地震関連");
+    const title = escapeHtml(item.title);
+    const summary = item.summary ? `<p>${escapeHtml(item.summary)}</p>` : "";
+    const link = item.url ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">記事を開く</a>` : "";
+    const zoomBadge = canZoom ? `<span class="zoom-badge">地図へ移動</span>` : `<span class="zoom-badge disabled">リンクのみ</span>`;
+
+    return `
+      <div class="news-item ${canZoom ? "clickable" : ""}" data-news-index="${index}">
+        <div class="news-meta"><span>${source}</span><span>${time}</span>${zoomBadge}</div>
+        <strong>${title}</strong>
+        ${summary}
+        ${link}
+      </div>
+    `;
+  }).join("");
+
+  list.querySelectorAll(".news-item.clickable").forEach(itemEl => {
+    itemEl.addEventListener("click", event => {
+      if (event.target.tagName.toLowerCase() === "a") return;
+      const item = news[Number(itemEl.dataset.newsIndex)];
+      focusMapItem({
+        lat: item.lat,
+        lon: item.lon,
+        zoom: item.zoom || 7,
+        title: item.area || item.title,
+        detail: item.summary || item.title,
+        time: item.time,
+        type: item.type || "news"
+      });
+    });
+  });
 }
 
 function renderOverallRisk() {
@@ -336,6 +453,54 @@ function renderSelectedPlate(line) {
     </ul>
     <p class="notice">※プレート線は概略表示です。本格版ではGeoJSONを精密化します。</p>
   `;
+}
+
+function focusMapItem(item) {
+  if (!Number.isFinite(item.lat) || !Number.isFinite(item.lon)) return;
+
+  const zoom = item.zoom || 7;
+  map.flyTo([item.lat, item.lon], zoom, { duration: 0.8 });
+  highlightLayer.clearLayers();
+
+  L.circleMarker([item.lat, item.lon], {
+    radius: 16,
+    color: "#ffffff",
+    weight: 2,
+    fillColor: "#facc15",
+    fillOpacity: 0.35,
+    opacity: 0.95
+  }).addTo(highlightLayer).bindPopup(`
+    <strong>${escapeHtml(item.title || "地震関連地点")}</strong><br>
+    ${item.time ? `${formatDateTime(item.time)}<br>` : ""}
+    ${escapeHtml(item.detail || "")}
+  `).openPopup();
+
+  document.getElementById("selectedCard").innerHTML = `
+    <p class="eyebrow">Map Focus</p>
+    <h2>${escapeHtml(item.title || "地震関連地点")}</h2>
+    <div class="risk-pill" style="display:inline-block;border-color:#facc15">地図移動済み</div>
+    <p style="margin-top:12px">${escapeHtml(item.detail || "位置情報がある項目をクリックしたため、地図を該当地点へ移動しました。")}</p>
+    <ul class="clean-list">
+      <li>種別：${escapeHtml(item.type || "news")}</li>
+      ${item.time ? `<li>時刻：${formatDateTime(item.time)}</li>` : ""}
+      <li>緯度：${Number(item.lat).toFixed(3)}</li>
+      <li>経度：${Number(item.lon).toFixed(3)}</li>
+    </ul>
+    <p class="notice">※ニュース表示は防災確認用です。地震の発生日を予測するものではありません。</p>
+  `;
+
+  if (window.innerWidth <= 720) {
+    document.getElementById("map").scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+}
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
 }
 
 function calculateZoneRisk(zone, quakes) {
