@@ -2,6 +2,31 @@ let dataUpdatedAt = "2026-06-09T05:40:00+09:00";
 let baseTime = new Date("2026-06-09T12:00:00+09:00"); // サンプルデータ用の基準時刻。APIデータ読込後は現在時刻へ更新。
 let activeQuakes = [];
 let activeNews = [];
+let areaDictionary = [];
+
+
+const DEFAULT_AREA_DICTIONARY = [
+  { keywords: ["南海トラフ", "東海地震", "東南海地震", "南海地震"], name: "南海トラフ", lat: 32.8, lon: 136.2, zoom: 6 },
+  { keywords: ["日本海溝", "三陸沖", "東北沖"], name: "日本海溝・東北沖", lat: 38.6, lon: 143.0, zoom: 5 },
+  { keywords: ["千島海溝", "根室沖", "釧路沖", "十勝沖", "北海道東方沖"], name: "千島海溝・北海道東方沖", lat: 43.4, lon: 146.4, zoom: 5 },
+  { keywords: ["相模トラフ", "首都直下", "関東地震", "関東大震災"], name: "相模トラフ・関東南方", lat: 34.9, lon: 139.6, zoom: 7 },
+  { keywords: ["日向灘", "宮崎県沖"], name: "日向灘", lat: 31.8, lon: 132.0, zoom: 7 },
+  { keywords: ["南西諸島海溝", "琉球海溝", "沖縄本島近海", "奄美大島近海", "台湾付近"], name: "南西諸島海溝", lat: 27.0, lon: 128.2, zoom: 5 },
+  { keywords: ["日本海東縁", "日本海東縁部", "山形県沖", "秋田県沖", "新潟県沖", "北海道西方沖"], name: "日本海東縁部", lat: 39.8, lon: 138.8, zoom: 5 },
+  { keywords: ["能登半島", "石川県能登", "能登地方", "能登半島沖"], name: "能登半島周辺", lat: 37.35, lon: 136.9, zoom: 8 },
+  { keywords: ["宮城県沖", "福島県沖", "茨城県沖", "岩手県沖", "青森県東方沖"], name: "東北〜関東沖", lat: 37.8, lon: 142.0, zoom: 6 },
+  { keywords: ["東京湾", "千葉県東方沖", "茨城県南部", "千葉県北西部", "東京都", "神奈川県"], name: "首都圏周辺", lat: 35.55, lon: 139.8, zoom: 8 },
+  { keywords: ["伊豆諸島", "伊豆大島", "新島", "神津島", "八丈島", "鳥島近海"], name: "伊豆諸島周辺", lat: 33.8, lon: 139.5, zoom: 6 },
+  { keywords: ["紀伊水道", "和歌山県南方沖", "四国沖", "土佐湾", "豊後水道"], name: "紀伊水道〜四国沖", lat: 33.0, lon: 134.3, zoom: 7 },
+  { keywords: ["熊本地震", "熊本県", "阿蘇", "大分県中部", "鹿児島湾", "薩摩半島西方沖"], name: "九州内陸・周辺", lat: 32.3, lon: 130.9, zoom: 7 },
+  { keywords: ["長野県北部", "長野県中部", "岐阜県飛騨", "飛騨地方", "糸魚川静岡構造線"], name: "中部内陸", lat: 36.3, lon: 137.8, zoom: 7 },
+  { keywords: ["大阪府北部", "兵庫県南部", "京都府南部", "淡路島", "有馬高槻断層"], name: "近畿内陸", lat: 34.8, lon: 135.3, zoom: 8 },
+  { keywords: ["北海道", "札幌", "胆振", "石狩", "日高地方"], name: "北海道周辺", lat: 43.2, lon: 142.8, zoom: 6 },
+  { keywords: ["青森", "岩手", "宮城", "秋田", "山形", "福島"], name: "東北地方", lat: 39.2, lon: 140.8, zoom: 6 },
+  { keywords: ["新潟", "富山", "石川", "福井"], name: "北陸地方", lat: 37.0, lon: 137.2, zoom: 7 },
+  { keywords: ["静岡", "愛知", "三重", "和歌山", "高知", "徳島", "愛媛", "大分", "宮崎"], name: "太平洋側・南海トラフ想定域", lat: 33.2, lon: 134.5, zoom: 6 },
+  { keywords: ["沖縄", "奄美", "宮古島", "石垣島", "八重山"], name: "沖縄・南西諸島", lat: 25.7, lon: 127.8, zoom: 6 }
+];
 
 const PERIODS = {
   realtime: { label: "リアルタイム", hours: 1, majorOnlyDefault: false },
@@ -110,6 +135,7 @@ let currentPeriod = "realtime";
 async function init() {
   activeQuakes = SAMPLE_QUAKES;
   await loadEarthquakeData();
+  await loadAreaDictionary();
   await loadEarthquakeNews();
   document.getElementById("updatedAt").textContent = `データ更新 ${formatDateTime(dataUpdatedAt)}`;
 
@@ -135,6 +161,65 @@ async function init() {
   window.addEventListener("resize", () => map.invalidateSize());
 }
 
+
+async function loadAreaDictionary() {
+  areaDictionary = DEFAULT_AREA_DICTIONARY.map(normalizeAreaEntry).filter(Boolean);
+  try {
+    const response = await fetch("data/area-dictionary.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const payload = await response.json();
+    const entries = Array.isArray(payload) ? payload : payload.areas;
+    if (!Array.isArray(entries) || entries.length === 0) throw new Error("no area dictionary");
+    const normalized = entries.map(normalizeAreaEntry).filter(Boolean);
+    if (normalized.length) areaDictionary = normalized;
+  } catch (error) {
+    console.info("area-dictionary.json がないため、内蔵辞書でニュース地域ズームを行います。", error);
+  }
+  areaDictionary.sort((a, b) => b.priority - a.priority);
+}
+
+function normalizeAreaEntry(entry) {
+  if (!entry) return null;
+  const keywords = Array.isArray(entry.keywords)
+    ? entry.keywords.map(String).filter(Boolean)
+    : [entry.name, entry.keyword].map(v => v ? String(v) : "").filter(Boolean);
+  const lat = Number(entry.lat);
+  const lon = Number(entry.lon);
+  if (!keywords.length || !Number.isFinite(lat) || !Number.isFinite(lon)) return null;
+  const name = String(entry.name || keywords[0]);
+  const zoom = Number(entry.zoom || 7);
+  const priority = Number(entry.priority || Math.max(...keywords.map(k => k.length)));
+  return { ...entry, name, keywords, lat, lon, zoom, priority };
+}
+
+function findAreaTarget(item) {
+  const haystack = [item.title, item.area, item.summary, item.source].filter(Boolean).join(" ");
+  if (!haystack) return null;
+  return areaDictionary.find(entry => entry.keywords.some(keyword => haystack.includes(keyword))) || null;
+}
+
+function applyAreaDictionary(item) {
+  if (Number.isFinite(item.lat) && Number.isFinite(item.lon)) {
+    item.zoomable = true;
+    item.zoomSource = "exact";
+    return item;
+  }
+  const target = findAreaTarget(item);
+  if (!target) {
+    item.zoomable = false;
+    item.zoomSource = "none";
+    return item;
+  }
+  item.lat = target.lat;
+  item.lon = target.lon;
+  item.zoom = target.zoom;
+  item.area = item.area || target.name;
+  item.matchedArea = target.name;
+  item.zoomable = true;
+  item.zoomSource = "dictionary";
+  return item;
+}
+
 async function loadEarthquakeNews() {
   try {
     const response = await fetch("data/earthquake-news.json", { cache: "no-store" });
@@ -151,7 +236,7 @@ async function loadEarthquakeNews() {
 }
 
 function normalizeNewsItem(item) {
-  return {
+  const normalized = {
     title: String(item.title || ""),
     source: String(item.source || item.publisher || "地震関連"),
     time: item.time || item.published_at || item.pubDate || null,
@@ -162,8 +247,11 @@ function normalizeNewsItem(item) {
     lat: item.lat === null || item.lat === undefined || item.lat === "" ? null : Number(item.lat),
     lon: item.lon === null || item.lon === undefined || item.lon === "" ? null : Number(item.lon),
     zoom: item.zoom ? Number(item.zoom) : 7,
-    zoomable: Boolean(item.zoomable || (Number.isFinite(Number(item.lat)) && Number.isFinite(Number(item.lon))))
+    zoomable: Boolean(item.zoomable || (Number.isFinite(Number(item.lat)) && Number.isFinite(Number(item.lon)))),
+    matchedArea: item.matchedArea || "",
+    zoomSource: item.zoomSource || ""
   };
+  return applyAreaDictionary(normalized);
 }
 
 function buildNewsFromQuakes(quakes) {
@@ -374,18 +462,21 @@ function renderNewsList() {
 
   list.innerHTML = news.map((item, index) => {
     const canZoom = Number.isFinite(item.lat) && Number.isFinite(item.lon);
+    const isDictionaryZoom = canZoom && item.zoomSource === "dictionary";
     const time = item.time ? formatDateTime(item.time) : "日時不明";
     const source = escapeHtml(item.source || "地震関連");
     const title = escapeHtml(item.title);
     const summary = item.summary ? `<p>${escapeHtml(item.summary)}</p>` : "";
+    const matched = item.matchedArea ? `<p class="matched-area">推定エリア：${escapeHtml(item.matchedArea)}</p>` : "";
     const link = item.url ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">記事を開く</a>` : "";
-    const zoomBadge = canZoom ? `<span class="zoom-badge">地図へ移動</span>` : `<span class="zoom-badge disabled">リンクのみ</span>`;
+    const zoomBadge = canZoom ? `<span class="zoom-badge">${isDictionaryZoom ? "地域ズーム" : "地図へ移動"}</span>` : `<span class="zoom-badge disabled">リンクのみ</span>`;
 
     return `
       <div class="news-item ${canZoom ? "clickable" : ""}" data-news-index="${index}">
         <div class="news-meta"><span>${source}</span><span>${time}</span>${zoomBadge}</div>
         <strong>${title}</strong>
         ${summary}
+        ${matched}
         ${link}
       </div>
     `;
@@ -400,7 +491,7 @@ function renderNewsList() {
         lon: item.lon,
         zoom: item.zoom || 7,
         title: item.area || item.title,
-        detail: item.summary || item.title,
+        detail: item.matchedArea ? `${item.summary || item.title}（推定エリア：${item.matchedArea}）` : (item.summary || item.title),
         time: item.time,
         type: item.type || "news"
       });
