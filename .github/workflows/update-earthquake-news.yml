@@ -1,0 +1,35 @@
+name: Update earthquake news
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-earthquake-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Update earthquake news
+        run: |
+          python scripts/update_earthquake_news.py --pretty
+
+      - name: Commit updated news
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git pull --rebase origin main || true
+          git add data/earthquake-news.json
+          git commit -m "Update earthquake news" || echo "No changes to commit"
+          git push
