@@ -434,12 +434,32 @@ function getFeatureCenter(feature) {
 }
 
 function filterAdCarousel(category) {
-  document.querySelectorAll(".ad-slide").forEach(slide => {
-    const match = category === "all" || slide.dataset.adCategory === category;
+  const selected = category || "all";
+  const slides = Array.from(document.querySelectorAll(".ad-slide"));
+  let visibleCount = 0;
+
+  slides.forEach(slide => {
+    const slideCategory = slide.getAttribute("data-ad-category") || "";
+    const match = selected === "all" || slideCategory === selected;
+
+    // スマホブラウザでも確実に切り替わるように、class だけでなく hidden/style も併用する。
     slide.classList.toggle("hidden", !match);
+    slide.classList.toggle("is-filtered-out", !match);
+    slide.hidden = !match;
+    slide.setAttribute("aria-hidden", match ? "false" : "true");
+    slide.style.display = match ? "" : "none";
+
+    if (match) visibleCount += 1;
   });
+
   const carousel = document.getElementById("adCarousel");
-  if (carousel) carousel.scrollTo({ left: 0, behavior: "smooth" });
+  if (carousel) {
+    carousel.dataset.activeCategory = selected;
+    carousel.scrollTo({ left: 0, behavior: "smooth" });
+  }
+
+  const empty = document.getElementById("adEmptyMessage");
+  if (empty) empty.hidden = visibleCount !== 0;
 }
 
 async function loadAreaDictionary() {
@@ -595,13 +615,20 @@ function bindControls() {
   });
 
   document.querySelectorAll(".ad-tab").forEach(tab => {
-    tab.addEventListener("click", () => {
+    tab.addEventListener("click", event => {
+      event.preventDefault();
+      event.stopPropagation();
       const category = tab.dataset.adCategory || "all";
-      document.querySelectorAll(".ad-tab").forEach(t => t.classList.remove("active"));
+      document.querySelectorAll(".ad-tab").forEach(t => {
+        t.classList.remove("active");
+        t.setAttribute("aria-pressed", "false");
+      });
       tab.classList.add("active");
+      tab.setAttribute("aria-pressed", "true");
       filterAdCarousel(category);
     });
   });
+  filterAdCarousel("all");
 }
 
 function renderPlates() {
