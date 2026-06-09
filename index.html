@@ -88,45 +88,21 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
 .ad-desc{font-size:13px;color:#aebbd0;margin:6px 0}
 .price{color:#ffb6b6;font-weight:900}
 .notice{font-size:13px;color:#aebbd0;margin-top:12px}
+.action-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.action-btn{
+  appearance:none;border:1px solid rgba(125,211,252,.35);background:rgba(125,211,252,.12);
+  color:#dff7ff;border-radius:999px;padding:8px 12px;font-size:13px;font-weight:900;
+  text-decoration:none;line-height:1;cursor:pointer;
+}
+.action-btn.map{border-color:rgba(125,211,252,.45);background:rgba(56,189,248,.18)}
+.action-btn.article{border-color:rgba(255,210,26,.45);background:rgba(255,210,26,.14);color:#fff4b8}
+.action-btn:active{transform:translateY(1px)}
 @media(max-width:520px){
   .page{padding:18px 12px 70px}
   h1{font-size:31px}
   .card{border-radius:22px}
   #map{height:420px}
 }
-
-.action-row{
-  display:flex;
-  flex-wrap:wrap;
-  gap:8px;
-  margin-top:10px;
-}
-.action-btn{
-  appearance:none;
-  border:1px solid rgba(125,211,252,.35);
-  background:rgba(125,211,252,.12);
-  color:#dff7ff;
-  border-radius:999px;
-  padding:8px 12px;
-  font-size:13px;
-  font-weight:900;
-  text-decoration:none;
-  line-height:1;
-  cursor:pointer;
-}
-.action-btn.map{
-  border-color:rgba(125,211,252,.45);
-  background:rgba(56,189,248,.18);
-}
-.action-btn.article{
-  border-color:rgba(255,210,26,.45);
-  background:rgba(255,210,26,.14);
-  color:#fff4b8;
-}
-.action-btn:active{
-  transform:translateY(1px);
-}
-
 </style>
 </head>
 <body>
@@ -199,311 +175,39 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
     </div>
     <div class="ad-track" id="adTrack">
       <a class="ad-slide" data-adcat="food" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Flock110%2F311429%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/lock110/cabinet/rank01/311429-rank.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">非常食セット 7日分 10種28食</div>
-            <p class="ad-desc">主食・おかず・スープをまとめて確認</p>
-            <div class="price">価格目安：8,880円</div>
-          </div>
-        </div>
+        <div class="ad-head"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/lock110/cabinet/rank01/311429-rank.jpg?_ex=128x128" alt=""><div><div class="ad-title">非常食セット 7日分 10種28食</div><p class="ad-desc">主食・おかず・スープをまとめて確認</p><div class="price">価格目安：8,880円</div></div></div>
       </a>
       <a class="ad-slide" data-adcat="food" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Fbousaiyouhin-oshare%2F047%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/bousaiyouhin-oshare/cabinet/08019487/047-ss-50-002.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">バラエティー防災食セット</div>
-            <p class="ad-desc">パン・ご飯・保存水などをまとめて確認</p>
-            <div class="price">価格目安：8,900円</div>
-          </div>
-        </div>
-      </a>
-      <a class="ad-slide" data-adcat="food" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Fmonoroots%2F51set%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/monoroots/cabinet/11264874/11264877/12176245/7dayset_20250924_2.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">食器セット付 7日分 非常食セット</div>
-            <p class="ad-desc">2人用・保存水入り・食器付き</p>
-            <div class="price">価格目安：18,980円</div>
-          </div>
-        </div>
-      </a>
-      <a class="ad-slide" data-adcat="food" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Fsoukaidrink%2F4901306036839%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/soukaidrink/cabinet/839/4901306036839.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">カゴメ 野菜たっぷりスープ</div>
-            <p class="ad-desc">非常食に野菜・汁物を追加</p>
-            <div class="price">価格目安：4,839円</div>
-          </div>
-        </div>
-      </a>
-      <a class="ad-slide" data-adcat="food" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Faichi12%2F10012084%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/aichi12/cabinet/img_20/m-10012084-s.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">パンですよ！ 非常食パン缶詰</div>
-            <p class="ad-desc">ご飯系以外の主食備蓄</p>
-            <div class="price">価格目安：7,930円〜</div>
-          </div>
-        </div>
-      </a>
-      <a class="ad-slide" data-adcat="food" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-hachidai%2F10539856%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/auc-hachidai/cabinet/sozai/smn/imgrc0117456990.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">平田牧場 こどもカレー</div>
-            <p class="ad-desc">子ども向けレトルト非常食</p>
-            <div class="price">価格目安：2,916円〜</div>
-          </div>
-        </div>
-      </a>
-      <a class="ad-slide" data-adcat="food" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Fymx-shop%2Fymx1-059%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/ymx-shop/cabinet/04764783/08725634/ymx1-059_tmb-3_s.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">美味しい防災食 人気ベスト5 25食</div>
-            <p class="ad-desc">ハンバーグ・豚汁などのおかず系</p>
-            <div class="price">価格目安：11,178円</div>
-          </div>
-        </div>
-      </a>
-      <a class="ad-slide" data-adcat="food" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Faichi12%2F10007238%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/aichi12/cabinet/img_72/m-10007238-s.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">美味しい防災食 13種類おかずセット</div>
-            <p class="ad-desc">ご飯・パンに合わせる惣菜備蓄</p>
-            <div class="price">価格目安：7,980円〜</div>
-          </div>
-        </div>
+        <div class="ad-head"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/bousaiyouhin-oshare/cabinet/08019487/047-ss-50-002.jpg?_ex=128x128" alt=""><div><div class="ad-title">バラエティー防災食セット</div><p class="ad-desc">パン・ご飯・保存水などをまとめて確認</p><div class="price">価格目安：8,900円</div></div></div>
       </a>
       <a class="ad-slide" data-adcat="water" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Fnattokushop%2Fkg066034%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/nattokushop/cabinet/images/drink/kg066034.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">カゴメ 野菜一日これ一本 長期保存用</div>
-            <p class="ad-desc">非常時の野菜補給・保存飲料</p>
-            <div class="price">価格目安：5,299円</div>
-          </div>
-        </div>
-      </a>
-      <a class="ad-slide" data-adcat="water" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Fsaitamakoiwai%2F361249sa2307-24%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/saitamakoiwai/cabinet/pepusi024.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">ペプシ 生 BIG COLA 600ml 24本</div>
-            <p class="ad-desc">ローリングストック用の飲料</p>
-            <div class="price">価格目安：3,466円</div>
-          </div>
-        </div>
-      </a>
-      <a class="ad-slide" data-adcat="water" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Fsaitamakoiwai%2F300613sa2307-24%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/saitamakoiwai/cabinet/bosumirukutea024.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">ボス とろけるミルクティー 24本</div>
-            <p class="ad-desc">日常消費しながら備える飲料</p>
-            <div class="price">価格目安：3,699円</div>
-          </div>
-        </div>
-      </a>
-      <a class="ad-slide" data-adcat="water" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Fkimisara%2Fitem59%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/kimisara/cabinet/compass1688035836.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">やかんの麦茶 650ml 24本</div>
-            <p class="ad-desc">普段飲む麦茶の買い置き</p>
-            <div class="price">価格目安：3,680円〜</div>
-          </div>
-        </div>
+        <div class="ad-head"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/nattokushop/cabinet/images/drink/kg066034.jpg?_ex=128x128" alt=""><div><div class="ad-title">カゴメ 長期保存野菜ジュース</div><p class="ad-desc">非常時の野菜補給・保存飲料</p><div class="price">価格目安：5,299円</div></div></div>
       </a>
       <a class="ad-slide" data-adcat="power" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Fzian%2Fmobasyo_outlet%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/zian/cabinet/08066002/08975681/imgrc0115094090.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">モバイルバッテリー 20000mAh</div>
-            <p class="ad-desc">停電時のスマホ充電・情報収集</p>
-            <div class="price">価格目安：2,160円</div>
-          </div>
-        </div>
-      </a>
-      <a class="ad-slide" data-adcat="power" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Fanker%2Fa1751%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/anker/cabinet/images/ankersolix/a1751_normal.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">Anker 535 ポータブル電源</div>
-            <p class="ad-desc">自宅避難・停電時の非常用電源</p>
-            <div class="price">価格目安：64,900円</div>
-          </div>
-        </div>
-      </a>
-      <a class="ad-slide" data-adcat="power" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-luft%2F10000065%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/auc-luft/cabinet/03808614/jpq.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">ジャンプスターター 10400mAh</div>
-            <p class="ad-desc">車載用の非常用電源・スマホ充電</p>
-            <div class="price">価格目安：8,979円</div>
-          </div>
-        </div>
-      </a>
-      <a class="ad-slide" data-adcat="power" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Fmitsuyoshi%2Fef900is-yamaha%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/mitsuyoshi/cabinet/top/rkyan/0610-1/ef900is-yamaha-01.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">インバーター発電機 EF900iS</div>
-            <p class="ad-desc">長時間停電時の自家発電候補</p>
-            <div class="price">価格目安：89,800円</div>
-          </div>
-        </div>
+        <div class="ad-head"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/zian/cabinet/08066002/08975681/imgrc0115094090.jpg?_ex=128x128" alt=""><div><div class="ad-title">モバイルバッテリー 20000mAh</div><p class="ad-desc">停電時のスマホ充電・情報収集</p><div class="price">価格目安：2,160円</div></div></div>
       </a>
       <a class="ad-slide" data-adcat="toilet" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Fh2brothers%2Fportabletoilet01%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/h2brothers/cabinet/medical/portabletoilet01rr.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">簡易トイレ 非常用トイレ 凝固剤</div>
-            <p class="ad-desc">断水時のトイレ対策</p>
-            <div class="price">価格目安：890円〜</div>
-          </div>
-        </div>
-      </a>
-      <a class="ad-slide" data-adcat="toilet" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Fcolorfulbox%2F387674%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/colorfulbox/cabinet/maker_gowell1/387674.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">防災衛生6点セット ポーチタイプ</div>
-            <p class="ad-desc">携帯トイレ・マスク・タオルなど</p>
-            <div class="price">価格目安：770円</div>
-          </div>
-        </div>
-      </a>
-      <a class="ad-slide" data-adcat="toilet" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Fpeaceup%2F10008157%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/peaceup/cabinet/items-thumbnail2/10008157-01.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">10年保存 防災用ウェットティッシュ</div>
-            <p class="ad-desc">断水時・避難時の衛生用品</p>
-            <div class="price">価格目安：141円</div>
-          </div>
-        </div>
-      </a>
-      <a class="ad-slide" data-adcat="bag" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Fnayami-kaiketu%2Fhpu-004%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/nayami-kaiketu/cabinet/02887876/09813751/imgrc0110315101.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">2人用 防災リュック 寝袋付き</div>
-            <p class="ad-desc">避難時に持ち出す防災セット</p>
-            <div class="price">価格目安：27,800円</div>
-          </div>
-        </div>
+        <div class="ad-head"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/h2brothers/cabinet/medical/portabletoilet01rr.jpg?_ex=128x128" alt=""><div><div class="ad-title">簡易トイレ 非常用トイレ 凝固剤</div><p class="ad-desc">断水時のトイレ対策</p><div class="price">価格目安：890円〜</div></div></div>
       </a>
       <a class="ad-slide" data-adcat="light" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Ftorreya-shop%2F100000025%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/torreya-shop/cabinet/radio2/radiothumbnail.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">多機能防災ラジオ 5800mAh</div>
-            <p class="ad-desc">情報収集・ライト・スマホ充電</p>
-            <div class="price">価格目安：7,280円</div>
-          </div>
-        </div>
-      </a>
-      <a class="ad-slide" data-adcat="light" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Fmjmjstore%2Fmj-solarlantern%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/mjmjstore/cabinet/solarlantern/q00.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">ソーラーランタン 6000mAh</div>
-            <p class="ad-desc">停電時の明かり確保・スマホ充電</p>
-            <div class="price">価格目安：5,280円</div>
-          </div>
-        </div>
+        <div class="ad-head"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/torreya-shop/cabinet/radio2/radiothumbnail.jpg?_ex=128x128" alt=""><div><div class="ad-title">多機能防災ラジオ 5800mAh</div><p class="ad-desc">情報収集・ライト・スマホ充電</p><div class="price">価格目安：7,280円</div></div></div>
       </a>
       <a class="ad-slide" data-adcat="warm" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Fpatri%2Fad009%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/patri/cabinet/ad/ad009-a02.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">寝袋 シュラフ オールシーズン</div>
-            <p class="ad-desc">避難生活・車中泊の睡眠確保</p>
-            <div class="price">価格目安：1,779円〜</div>
-          </div>
-        </div>
-      </a>
-      <a class="ad-slide" data-adcat="warm" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Fecoride%2Fsabage-125-03%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/ecoride/cabinet/img3/sabage-125-03-1.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">アルミシート エマージェンシーシート</div>
-            <p class="ad-desc">持ち出し袋に入れやすい防寒用品</p>
-            <div class="price">価格目安：680円〜</div>
-          </div>
-        </div>
-      </a>
-      <a class="ad-slide" data-adcat="warm" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-chama-cha%2Fbousai-kairo50%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/auc-chama-cha/cabinet/07491396/bousai-kairo50-c3.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">7年保存 カイロ 50個</div>
-            <p class="ad-desc">冬場の停電・避難生活の防寒</p>
-            <div class="price">価格目安：4,300円</div>
-          </div>
-        </div>
+        <div class="ad-head"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/patri/cabinet/ad/ad009-a02.jpg?_ex=128x128" alt=""><div><div class="ad-title">寝袋 シュラフ オールシーズン</div><p class="ad-desc">避難生活・車中泊の睡眠確保</p><div class="price">価格目安：1,779円〜</div></div></div>
       </a>
       <a class="ad-slide" data-adcat="firstaid" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Fapplehonpo%2Frecf15%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/applehonpo/cabinet/pic/recf15_1.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">応急処置15点セット</div>
-            <p class="ad-desc">持ち出し袋に追加しやすい応急セット</p>
-            <div class="price">価格目安：2,980円</div>
-          </div>
-        </div>
-      </a>
-      <a class="ad-slide" data-adcat="firstaid" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fitem.rakuten.co.jp%2Ffirstaid%2F4902014065197%2F" rel="nofollow sponsored">
-        <div class="ad-head">
-          <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/firstaid/cabinet/04802522/5pla2-40-01.jpg?_ex=128x128" alt="">
-          <div>
-            <div class="ad-title">応急手当用品40点 救急箱セット</div>
-            <p class="ad-desc">家庭・オフィス向けの救急箱</p>
-            <div class="price">価格目安：8,980円</div>
-          </div>
-        </div>
+        <div class="ad-head"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/applehonpo/cabinet/pic/recf15_1.jpg?_ex=128x128" alt=""><div><div class="ad-title">応急処置15点セット</div><p class="ad-desc">持ち出し袋に追加しやすい応急セット</p><div class="price">価格目安：2,980円</div></div></div>
       </a>
     </div>
     <p class="notice">※PRを含みます。価格・在庫・キャンペーン内容は変わる可能性があります。</p>
   </section>
 
-  <section class="card">
-    <h2>リスクスコアの考え方</h2>
-    <p class="small">このサイトでは、直近の地震回数・最大マグニチュード・最大震度・M5以上の有無などをもとに、防災上の注意度を見やすく整理しています。</p>
-    <div class="list">
-      <div class="item"><b>地震回数</b><p>一定期間内に表示対象エリアで発生した地震の数です。回数が多いほど、直近の活動が多い目安になります。</p></div>
-      <div class="item"><b>最大M・最大震度</b><p>選択中の期間で確認された最大マグニチュードと最大震度を表示します。災害発生を予測するものではありません。</p></div>
-      <div class="item"><b>プレート/海溝表示</b><p>日本周辺の主なプレート境界・海溝を確認するための参考表示です。正確な境界線を保証するものではありません。</p></div>
-    </div>
-  </section>
+  <section class="card"><h2>リスクスコアの考え方</h2><p class="small">このサイトでは、直近の地震回数・最大マグニチュード・最大震度・M5以上の有無などをもとに、防災上の注意度を見やすく整理しています。</p></section>
+  <section class="card"><h2>このサイトについて</h2><p class="small">地震危険度マップは、日本周辺の公開地震情報・津波情報・地震関連ニュースを、スマホでも見やすい形で整理する防災情報サイトです。</p><p class="small">地震予知や危険地域の断定ではなく、「最近どこで地震が多いか」「備蓄や防災用品を見直すきっかけ」を作ることを目的としています。</p></section>
+  <section class="card"><h2>データについて</h2><p class="small">表示している地震情報は、公開されている地震関連データをもとに整理しています。データ取得のタイミングや元データの更新状況により、実際の最新発表と差が出る場合があります。</p><p class="small">津波警報・注意報、避難情報、緊急情報については、必ず気象庁・自治体・報道機関などの公式情報も確認してください。</p></section>
+  <section class="card"><h2>免責事項</h2><p class="small">このサイトは、地震の発生日・発生場所・規模・被害を予測または断定するものではありません。表示内容は防災意識を高めるための参考情報です。</p><p class="small">災害時は、気象庁・自治体・消防・警察・報道機関などの公式情報に従って行動してください。</p><p class="small">掲載している防災用品リンクにはPR・広告を含む場合があります。価格・在庫・キャンペーン内容は変わる可能性があるため、購入前に販売ページで最新情報を確認してください。</p></section>
 
-  <section class="card">
-    <h2>このサイトについて</h2>
-    <p class="small">地震危険度マップは、日本周辺の公開地震情報・津波情報・地震関連ニュースを、スマホでも見やすい形で整理する防災情報サイトです。</p>
-    <p class="small">地震予知や危険地域の断定ではなく、「最近どこで地震が多いか」「どの周辺情報を確認すべきか」「備蓄や防災用品を見直すきっかけ」を作ることを目的としています。</p>
-  </section>
-
-  <section class="card">
-    <h2>データについて</h2>
-    <p class="small">表示している地震情報は、公開されている地震関連データをもとに整理しています。データ取得のタイミングや元データの更新状況により、実際の最新発表と差が出る場合があります。</p>
-    <p class="small">津波警報・注意報、避難情報、緊急情報については、必ず気象庁・自治体・報道機関などの公式情報も確認してください。</p>
-  </section>
-
-  <section class="card">
-    <h2>免責事項</h2>
-    <p class="small">このサイトは、地震の発生日・発生場所・規模・被害を予測または断定するものではありません。表示内容は防災意識を高めるための参考情報です。</p>
-    <p class="small">本サイトの情報を利用したこと、または利用できなかったことにより発生した損害について、運営者は責任を負いかねます。災害時は、気象庁・自治体・消防・警察・報道機関などの公式情報に従って行動してください。</p>
-    <p class="small">掲載している防災用品リンクにはPR・広告を含む場合があります。価格・在庫・キャンペーン内容は変わる可能性があるため、購入前に販売ページで最新情報を確認してください。</p>
-  </section>
-
-  <footer class="small" style="text-align:center;padding:22px 8px 40px;color:#7f8da3;">
-    地震危険度マップ β版<br>公開情報をもとにした防災確認用サイトです。
-  </footer>
+  <footer class="small" style="text-align:center;padding:22px 8px 40px;color:#7f8da3;">地震危険度マップ β版<br>公開情報をもとにした防災確認用サイトです。</footer>
 </main>
 
 <script>
@@ -527,21 +231,23 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
   function fmtTime(s){const d=new Date(s); if(Number.isNaN(+d))return"--"; return `${String(d.getMonth()+1).padStart(2,"0")}/${String(d.getDate()).padStart(2,"0")} ${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;}
   async function fetchJson(url){const r=await fetch(url+"?cb="+Date.now(),{cache:"no-store"}); if(!r.ok)throw new Error(url+" "+r.status); return r.json();}
   async function firstJson(urls){let last; for(const u of urls){try{return await fetchJson(u)}catch(e){last=e}} throw last}
-  function inJapan(q){const lat=+q.lat,lon=+q.lon; return lat>=20&&lat<=46.8&&lon>=122&&lon<=154.5&&(+q.mag)>=0}
+  function magOf(q){return Number(q.mag ?? q.magnitude ?? 0)}
+  function intensityOf(q){return Number(q.intensity ?? q.maxScale ?? 0)}
+  function inJapan(q){const lat=+q.lat,lon=+q.lon; return lat>=20&&lat<=46.8&&lon>=122&&lon<=154.5&&magOf(q)>=0}
   function latestTime(){const ts=state.quakes.map(q=>+new Date(q.time)).filter(Boolean); return ts.length?Math.max(...ts):Date.now()}
   function filtered(){
     let arr=state.quakes.filter(inJapan);
-    if($("onlyM5").checked)arr=arr.filter(q=>+q.mag>=5);
+    if($("onlyM5").checked)arr=arr.filter(q=>magOf(q)>=5);
     const p=state.period;
-    let h=p==="week"?168:p==="month"?744:p==="year"?8760:p==="all"?Infinity:24;
+    let h=p==="week"?168:p==="month"?744:p==="year"?8760:p==="all"?Infinity:p==="realtime"?1:24;
     if(h!==Infinity){const min=latestTime()-h*3600000; arr=arr.filter(q=>+new Date(q.time)>=min)}
     if(!arr.length&&!$("onlyM5").checked)arr=state.quakes.filter(inJapan).slice(0,10);
     return arr;
   }
   function scrollToMap(){const el=$("map"); const y=el.getBoundingClientRect().top+window.pageYOffset-90; window.scrollTo({top:y,behavior:"smooth"}); setTimeout(()=>state.map&&state.map.invalidateSize(),350)}
-  function popup(q){if(!state.map||!state.L)return; state.L.popup().setLatLng([+q.lat,+q.lon]).setContent(`<b>${q.area}</b><br>${fmtTime(q.time)}<br>M${(+q.mag||0).toFixed(1)} / 深さ${q.depth??"-"}km`).openOn(state.map)}
-  function focus(q,move){$("focusTitle").textContent=q.area||"地震情報"; $("focusBody").textContent=`${fmtTime(q.time)} / M${(+q.mag||0).toFixed(1)} / 最大震度 ${q.intensityLabel??q.intensity??"-"} / 深さ ${q.depth??"-"}km`; if(move&&state.map){scrollToMap(); setTimeout(()=>{state.map.setView([+q.lat,+q.lon],+q.mag>=6?7:8); popup(q)},260)}}
-  function updateStats(arr){$("statCount").textContent=arr.length; $("statMaxM").textContent=arr.length?Math.max(...arr.map(q=>+q.mag||0)).toFixed(1):"-"; $("statMaxI").textContent=arr.length?Math.max(...arr.map(q=>+q.intensity||0)):"-"; $("statM5").textContent=arr.filter(q=>+q.mag>=5).length; $("riskSummary").textContent=arr.length?"総合リスク 通常":"総合リスク --";}
+  function popup(q){if(!state.map||!state.L)return; state.L.popup().setLatLng([+q.lat,+q.lon]).setContent(`<b>${q.area}</b><br>${fmtTime(q.time)}<br>M${magOf(q).toFixed(1)} / 深さ${q.depth??"-"}km`).openOn(state.map)}
+  function focus(q,move){$("focusTitle").textContent=q.area||"地震情報"; $("focusBody").textContent=`${fmtTime(q.time)} / M${magOf(q).toFixed(1)} / 最大震度 ${q.intensityLabel??q.intensity??"-"} / 深さ ${q.depth??"-"}km`; if(move&&state.map){scrollToMap(); setTimeout(()=>{state.map.setView([+q.lat,+q.lon],magOf(q)>=6?7:8); popup(q)},260)}}
+  function updateStats(arr){$("statCount").textContent=arr.length; $("statMaxM").textContent=arr.length?Math.max(...arr.map(q=>magOf(q))).toFixed(1):"-"; $("statMaxI").textContent=arr.length?Math.max(...arr.map(q=>intensityOf(q))):"-"; $("statM5").textContent=arr.filter(q=>magOf(q)>=5).length; $("riskSummary").textContent=arr.length?"総合リスク 通常":"総合リスク --";}
 
   function normalizeNews(payload){
     let arr=[];
@@ -550,7 +256,6 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
     else if(Array.isArray(payload?.items)) arr=payload.items;
     else if(Array.isArray(payload?.articles)) arr=payload.articles;
     else if(Array.isArray(payload?.entries)) arr=payload.entries;
-
     return arr.map(n=>{
       const title=n.title||n.headline||n.name||"地震関連ニュース";
       const url=n.url||n.link||n.href||"";
@@ -566,29 +271,18 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
   function renderNews(){
     const nbox=$("newsList");
     nbox.innerHTML="";
-
     if(!state.news.length){
       nbox.innerHTML=`<div class="item"><b>実ニュース取得待ち</b><p>現在、地震関連ニュースデータを取得できていません。GitHub Actions のニュース取得ワークフローが動くと、ここに実ニュースを表示します。</p></div>`;
       return;
     }
-
     state.news.slice(0,10).forEach(n=>{
       const card=document.createElement("div");
       card.className="item";
-
       const hasPoint=Number.isFinite(n.lat)&&Number.isFinite(n.lon)&&n.lat>=20&&n.lat<=46.8&&n.lon>=122&&n.lon<=154.5;
       const timeText=n.time ? " / "+fmtTime(n.time) : "";
       const summary=n.summary||n.area||"";
-
-      card.innerHTML=`
-        <b>${n.title}</b>
-        <p>${n.source}${timeText}</p>
-        ${summary?`<p>${summary}</p>`:""}
-        <div class="action-row"></div>
-      `;
-
+      card.innerHTML=`<b>${n.title}</b><p>${n.source}${timeText}</p>${summary?`<p>${summary}</p>`:""}<div class="action-row"></div>`;
       const row=card.querySelector(".action-row");
-
       if(hasPoint){
         const mapBtn=document.createElement("button");
         mapBtn.type="button";
@@ -599,15 +293,11 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
           scrollToMap();
           setTimeout(()=>{
             state.map.setView([n.lat,n.lon],8);
-            state.L.popup()
-              .setLatLng([n.lat,n.lon])
-              .setContent(`<b>${n.area||n.title}</b><br>${n.source}${n.time?"<br>"+fmtTime(n.time):""}${n.url?"<br><a href='${n.url}' target='_blank' rel='noopener noreferrer'>記事を読む</a>":""}`)
-              .openOn(state.map);
+            state.L.popup().setLatLng([n.lat,n.lon]).setContent(`<b>${n.area||n.title}</b><br>${n.source}${n.time?"<br>"+fmtTime(n.time):""}${n.url?"<br><a href='${n.url}' target='_blank' rel='noopener noreferrer'>記事を読む</a>":""}`).openOn(state.map);
           },260);
         };
         row.appendChild(mapBtn);
       }
-
       if(n.url){
         const articleBtn=document.createElement("a");
         articleBtn.className="action-btn article";
@@ -618,21 +308,24 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
         articleBtn.onclick=(ev)=>ev.stopPropagation();
         row.appendChild(articleBtn);
       }
-
-      if(!hasPoint && !n.url){
-        row.remove();
-      }
-
+      if(!hasPoint && !n.url) row.remove();
       nbox.appendChild(card);
     });
   }
 
   function renderLists(arr){
     const qbox=$("quakeList"); qbox.innerHTML="";
-    arr.slice(0,8).forEach(q=>{const b=document.createElement("button"); b.className="item"; b.innerHTML=`<b>${q.area}　M${(+q.mag||0).toFixed(1)}</b><p>${fmtTime(q.time)} / 最大震度 ${q.intensityLabel??q.intensity??"-"} / 深さ ${q.depth??"-"}km</p><div class="action-row"><span class="action-btn map">地図で見る</span></div>`; b.onclick=()=>focus(q,true); qbox.appendChild(b)});
-    if(!qbox.children.length)qbox.innerHTML=`<div class="item"><b>表示できる地震情報がありません</b><p>期間やM5以上のみの設定を変更してください。</p></div>`;
+    arr.slice(0,8).forEach(q=>{
+      const b=document.createElement("button");
+      b.className="item";
+      b.innerHTML=`<b>${q.area}　M${magOf(q).toFixed(1)}</b><p>${fmtTime(q.time)} / 最大震度 ${q.intensityLabel??q.intensity??"-"} / 深さ ${q.depth??"-"}km</p><div class="action-row"><span class="action-btn map">地図で見る</span></div>`;
+      b.onclick=()=>focus(q,true);
+      qbox.appendChild(b);
+    });
+    if(!qbox.children.length) qbox.innerHTML=`<div class="item"><b>表示できる地震情報がありません</b><p>期間やM5以上のみの設定を変更してください。</p></div>`;
     renderNews();
   }
+
   function initMap(L){
     $("map").innerHTML="";
     const bounds=L.latLngBounds([20,122],[46.8,154.5]);
@@ -651,7 +344,12 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
       addLabel("日本海溝",37.6,143.4); addLabel("千島海溝",43.0,148.0); addLabel("南海トラフ",32.0,135.2); addLabel("相模トラフ",34.6,139.9); addLabel("日本海東縁部",39.0,137.6);
     }
     if($("showQuakes").checked){
-      arr.forEach(q=>{const m=+q.mag||0,c=m>=6?"#ff4b4b":m>=5?"#ff9a2e":m>=4?"#ffd21a":"#7dd3fc"; const mk=L.circleMarker([+q.lat,+q.lon],{radius:Math.max(6,Math.min(18,4+m*2)),color:c,weight:2,fillColor:c,fillOpacity:.62}).addTo(state.layers.quake); mk.bindPopup(`<b>${q.area}</b><br>${fmtTime(q.time)}<br>M${m.toFixed(1)} / 深さ${q.depth??"-"}km`); mk.on("click",()=>{focus(q,false);popup(q)})});
+      arr.forEach(q=>{
+        const m=magOf(q),c=m>=6?"#ff4b4b":m>=5?"#ff9a2e":m>=4?"#ffd21a":"#7dd3fc";
+        const mk=L.circleMarker([+q.lat,+q.lon],{radius:Math.max(6,Math.min(18,4+m*2)),color:c,weight:2,fillColor:c,fillOpacity:.62}).addTo(state.layers.quake);
+        mk.bindPopup(`<b>${q.area}</b><br>${fmtTime(q.time)}<br>M${m.toFixed(1)} / 深さ${q.depth??"-"}km`);
+        mk.on("click",()=>{focus(q,false);popup(q)});
+      });
     }
     setTimeout(()=>state.map.invalidateSize(),100);
   }
@@ -664,7 +362,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
   async function main(){
     bind();
     const data=await firstJson(["data/latest-earthquakes.json","data/最新の地震情報.json"]);
-    state.quakes=(Array.isArray(data)?data:data.earthquakes||[]).filter(inJapan);
+    state.quakes=(Array.isArray(data)?data:(data.items||data.earthquakes||[])).filter(inJapan);
     $("updatedAt").textContent="データ更新 "+fmtTime(data.updated_at||data.fetched_at||state.quakes[0]?.time);
     try{
       const newsPayload=await firstJson(["data/earthquake-news.json","data/地震ニュース.json"]);
@@ -678,5 +376,6 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
 })();
 </script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token":"906f36822afe4132aee6d81b1c8296d4"}'></script><!-- End Cloudflare Web Analytics -->
+<script src="./earthquake-live-loader.js?v=1"></script>
 </body>
 </html>
