@@ -1,38 +1,35 @@
 name: Update earthquake data
 
 on:
-workflow_dispatch:
-schedule:
-- cron: "*/15 * * * *"
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
 
 permissions:
-contents: write
+  contents: write
 
 jobs:
-update-earthquakes:
-runs-on: ubuntu-latest
+  update-earthquakes:
+    runs-on: ubuntu-latest
 
-steps:
-  - uses: actions/checkout@v4
+    steps:
+      - uses: actions/checkout@v4
 
-  - name: Update earthquake data
-    run: |
-      python scripts/update_earthquake_data.py --pretty
-      python -m json.tool data/latest-earthquakes.json > /tmp/latest-earthquakes.json
+      - name: Update earthquake data
+        run: |
+          python scripts/update_earthquake_data.py --pretty
+          python -m json.tool data/latest-earthquakes.json > /tmp/latest-earthquakes.json
+          python -m json.tool data/earthquake-status.json > /tmp/earthquake-status.json
+          cat data/earthquake-status.json
 
-  - name: Build earthquake status JSON
-    run: |
-      python -c "import json; from datetime import datetime, timezone, timedelta; from pathlib import Path; JST=timezone(timedelta(hours=9)); src=Path('data/latest-earthquakes.json'); out=Path('data/earthquake-status.json'); data=json.loads(src.read_text(encoding='utf-8')); items=data.get('items', []); latest=items[0] if items else None; status={'status':'ok' if items else 'empty','fetched_at':data.get('fetched_at') or datetime.now(JST).isoformat(timespec='seconds'),'count':len(items),'latest':{'time':latest.get('time'),'area':latest.get('area'),'magnitude':latest.get('magnitude') or latest.get('mag'),'depth':latest.get('depth'),'maxScale':latest.get('maxScale'),'intensityLabel':latest.get('intensityLabel'),'domesticTsunami':latest.get('domesticTsunami')} if latest else None,'check':'確認用ステータスです。フルデータは data/latest-earthquakes.json を確認してください。'}; out.write_text(json.dumps(status, ensure_ascii=False, indent=2), encoding='utf-8'); print(json.dumps(status, ensure_ascii=False, indent=2))"
-      python -m json.tool data/earthquake-status.json > /tmp/earthquake-status.json
-
-  - name: Commit updated data
-    run: |
-      git config user.name "github-actions[bot]"
-      git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-      git add data/latest-earthquakes.json data/earthquake-status.json
-      if git diff --cached --quiet; then
-        echo "No changes to commit"
-      else
-        git commit -m "Update earthquake data"
-        git push
-      fi
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/latest-earthquakes.json data/earthquake-status.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update earthquake data"
+            git push
+          fi
