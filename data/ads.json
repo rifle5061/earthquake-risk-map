@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-10T00:00:00+09:00",
+  "updated_at": "2026-06-09T23:17:54.113Z",
   "items": [
     {
       "category": "food",
@@ -263,6 +263,17 @@
       "price": "価格目安：8,980円",
       "url": "https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00sbhk4.2bo11595.g00sbhk4.2bo122bf%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Ffirstaid%252F4902014065197%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Ffirstaid%252Fi%252F10000345%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283",
       "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/firstaid/cabinet/04802522/5pla2-40-01.jpg?_ex=64x64",
+      "pixel": "https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT"
+    },
+    {
+      "category": "water",
+      "label": "保存水・飲料",
+      "tag": "保存水・飲料",
+      "title": "ペプシ 生 BIG COLA 600ml ペットボトル 24本 【送料無料】 1ケース ペプシコーラ PEPSI 炭酸ジュース 炭酸飲料",
+      "description": "断水時の飲料・水分補給を確認",
+      "price": "価格目安：3466円",
+      "url": "https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00sc2q4.2bo112fe.g00sc2q4.2bo122de%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fsaitamakoiwai%252F361249sa2307-24%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fsaitamakoiwai%252Fi%252F10001498%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283",
+      "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/saitamakoiwai/cabinet/pepusi024.jpg?_ex=64x64",
       "pixel": "https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT"
     }
   ]
