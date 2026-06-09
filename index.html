@@ -55,7 +55,7 @@ label{white-space:nowrap;color:#c4cfdd}
 input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
 .plate-legend{margin:0 0 12px;color:#aab7c8;font-size:13px}
 #map{
-  width:100%;max-width:100%;height:420px;border-radius:20px;overflow:hidden;
+  width:100%;max-width:100%;height:500px;border-radius:20px;overflow:hidden;
   border:1px solid rgba(255,255,255,.12);background:#0b1324;
 }
 .map-fallback{display:grid;place-items:center;height:100%;color:#aebbd0;text-align:center;padding:20px}
@@ -92,7 +92,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
   .page{padding:18px 12px 70px}
   h1{font-size:31px}
   .card{border-radius:22px}
-  #map{height:420px}
+  #map{height:500px}
 }
 
 /* full ad section compatibility */
@@ -749,7 +749,7 @@ canvas,
   function initMap(L){
     $("map").innerHTML="";
     const bounds=L.latLngBounds([20,122],[46.8,154.5]);
-    const map=L.map("map",{maxBounds:bounds,maxBoundsViscosity:.85,minZoom:4,maxZoom:10}).setView([37.8,138.8],4);
+    const map=L.map("map",{maxBounds:bounds,maxBoundsViscosity:.85,minZoom:4,maxZoom:10}).setView([37.8,138.8],5);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap contributors",noWrap:true,bounds}).addTo(map);
     state.map=map; state.L=L; state.layers.quake=L.layerGroup().addTo(map); state.layers.plate=L.layerGroup().addTo(map);
   }
