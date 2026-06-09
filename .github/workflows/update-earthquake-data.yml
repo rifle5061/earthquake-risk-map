@@ -1,0 +1,36 @@
+name: Update earthquake data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *" # every 15 minutes
+
+permissions:
+  contents: write
+
+jobs:
+  update-earthquakes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update earthquake data
+        run: |
+          python scripts/update_earthquake_data.py --pretty
+          python -m json.tool data/latest-earthquakes.json > /tmp/latest-earthquakes.json
+          python -m json.tool data/earthquake-status.json > /tmp/earthquake-status.json
+          echo "----- earthquake status -----"
+          cat data/earthquake-status.json
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/latest-earthquakes.json data/earthquake-status.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update earthquake data"
+            git push
+          fi
