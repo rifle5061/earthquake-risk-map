@@ -1,555 +1,595 @@
 <!doctype html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>地震危険度マップ｜地震活動リスク可視化</title>
-  <meta name="description" content="日本周辺の地震活動、プレート境界、直近地震データから防災上の注意度を可視化する地震危険度マップです。地震予知ではありません。" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>地震危険度マップ β版</title>
+  <meta name="description" content="日本周辺の直近地震・津波情報・地震関連ニュースを地図で確認する防災情報サイトです。地震予知ではありません。">
   <link rel="preconnect" href="https://unpkg.com">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQMyW9xD+HmhlK0YzL3vMefTt2AtnT0=" crossorigin="" />
-  <link rel="stylesheet" href="style-20260609-1435.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <style>
+    *{box-sizing:border-box}
+    html,body{
+      margin:0;
+      padding:0;
+      width:100%;
+      max-width:100%;
+      overflow-x:hidden;
+      background:#07101f;
+      color:#eef6ff;
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","Yu Gothic",Meiryo,sans-serif;
+    }
+    body{line-height:1.55}
+    a{color:inherit}
+    .page{
+      width:min(100%,760px);
+      max-width:100%;
+      margin:0 auto;
+      padding:22px 14px 70px;
+      overflow-x:hidden;
+      background:
+        radial-gradient(circle at top right, rgba(46,81,170,.28), transparent 30%),
+        linear-gradient(180deg,#0b1428 0%,#07101f 55%,#050b15 100%);
+    }
+    .hero{padding:20px 8px 14px}
+    .eyebrow{letter-spacing:.18em;color:#39d5ff;font-size:12px;margin-bottom:6px}
+    h1{font-size:34px;line-height:1.08;margin:0 0 10px;font-weight:900}
+    .lead{color:#b8c4d6;font-size:17px;margin:0}
+    .card{
+      width:100%;
+      max-width:100%;
+      overflow:hidden;
+      border:1px solid rgba(120,170,230,.18);
+      background:rgba(14,24,45,.88);
+      border-radius:24px;
+      padding:22px 16px;
+      margin:18px 0;
+      box-shadow:0 12px 30px rgba(0,0,0,.25);
+    }
+    .card h2{font-size:24px;line-height:1.2;margin:0 0 10px}
+    .small{color:#aab7c8;font-size:14px}
+    .statusbox{
+      border:1px solid rgba(120,170,230,.18);
+      background:rgba(11,22,42,.72);
+      border-radius:18px;
+      padding:14px 16px;
+      margin-top:18px;
+    }
+    .statusbox b{font-size:18px}
+    .riskbar{
+      background:rgba(30,90,120,.35);
+      border:1px solid rgba(80,200,255,.22);
+      border-radius:999px;
+      padding:12px 16px;
+      margin:14px 0;
+      font-weight:800;
+      white-space:nowrap;
+    }
+    .scroll-row{
+      width:100%;
+      max-width:100%;
+      overflow-x:auto;
+      overflow-y:hidden;
+      -webkit-overflow-scrolling:touch;
+      display:flex;
+      gap:10px;
+      padding:0 0 8px;
+      scrollbar-width:none;
+    }
+    .scroll-row::-webkit-scrollbar{display:none}
+    .tab,.pill{
+      flex:0 0 auto;
+      appearance:none;
+      border:1px solid rgba(255,255,255,.12);
+      background:rgba(255,255,255,.06);
+      color:#dbe7f4;
+      border-radius:999px;
+      padding:10px 14px;
+      font-weight:800;
+      font-size:15px;
+      white-space:nowrap;
+    }
+    .tab.active,.pill.active{
+      background:#ffd21a;
+      color:#0d1828;
+      border-color:#ffd21a;
+    }
+    .checks{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px 14px;
+      padding:12px;
+      background:rgba(255,255,255,.04);
+      border:1px solid rgba(255,255,255,.1);
+      border-radius:18px;
+      margin:8px 0 16px;
+      max-width:100%;
+    }
+    label{white-space:nowrap;color:#c4cfdd}
+    input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
+    #map{
+      width:100%;
+      max-width:100%;
+      height:420px;
+      border-radius:20px;
+      overflow:hidden;
+      border:1px solid rgba(255,255,255,.12);
+      background:#0b1324;
+    }
+    .leaflet-container{background:#0b1324}
+    .leaflet-popup-content-wrapper{
+      background:rgba(8,18,32,.84);
+      color:#fff;
+      border:1px solid rgba(120,220,255,.32);
+      border-radius:14px;
+      box-shadow:0 8px 24px rgba(0,0,0,.35);
+      backdrop-filter:blur(4px);
+    }
+    .leaflet-popup-tip{background:rgba(8,18,32,.84)}
+    .leaflet-popup-content{
+      margin:10px 12px;
+      font-size:12px;
+      line-height:1.45;
+      max-width:170px;
+    }
+    .map-label{
+      color:#fff;
+      font-size:15px;
+      font-weight:900;
+      text-shadow:0 2px 6px rgba(0,0,0,.75),0 0 4px #000;
+      white-space:nowrap;
+    }
+    .focus{
+      background:linear-gradient(135deg,rgba(19,70,100,.65),rgba(36,37,89,.55));
+      border-color:rgba(80,200,255,.2);
+    }
+    .grid2{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:10px;
+      margin-top:12px;
+    }
+    .stat{
+      background:rgba(255,255,255,.055);
+      border:1px solid rgba(255,255,255,.1);
+      border-radius:16px;
+      padding:14px;
+      text-align:center;
+      min-width:0;
+    }
+    .stat strong{display:block;font-size:28px}
+    .list{display:grid;gap:10px}
+    .item{
+      display:block;
+      width:100%;
+      max-width:100%;
+      overflow:hidden;
+      text-decoration:none;
+      background:rgba(255,255,255,.045);
+      border:1px solid rgba(255,255,255,.1);
+      border-radius:16px;
+      padding:14px;
+    }
+    .item b{display:block;margin-bottom:4px}
+    .item p{margin:0;color:#aebbd0;font-size:14px;overflow-wrap:anywhere}
+    .ad-card{border-color:rgba(255,210,25,.28)}
+    .pr{display:inline-block;background:#ffd21a;color:#172033;border-radius:999px;padding:2px 9px;font-weight:900;font-size:12px;margin-bottom:8px}
+    .ad-track{
+      display:flex;
+      gap:14px;
+      width:100%;
+      max-width:100%;
+      overflow-x:auto;
+      overflow-y:hidden;
+      -webkit-overflow-scrolling:touch;
+      padding:12px 0 6px;
+      scroll-snap-type:x mandatory;
+    }
+    .ad-track::-webkit-scrollbar{height:5px}
+    .ad-track::-webkit-scrollbar-thumb{background:rgba(255,210,25,.35);border-radius:999px}
+    .ad-slide{
+      flex:0 0 86%;
+      max-width:86%;
+      scroll-snap-align:start;
+      border:1px solid rgba(255,210,25,.24);
+      border-radius:18px;
+      padding:14px;
+      background:rgba(255,255,255,.045);
+      overflow:hidden;
+    }
+    .ad-slide[hidden]{display:none!important}
+    .ad-head{display:flex;gap:12px;align-items:center;min-width:0}
+    .ad-head img{width:76px;height:76px;border-radius:14px;object-fit:cover;flex:0 0 auto}
+    .ad-title{
+      font-weight:900;
+      font-size:15px;
+      line-height:1.35;
+      display:-webkit-box;
+      -webkit-line-clamp:2;
+      -webkit-box-orient:vertical;
+      overflow:hidden;
+    }
+    .ad-desc{font-size:13px;color:#aebbd0;margin:6px 0}
+    .price{color:#ffb6b6;font-weight:900}
+    .notice{font-size:13px;color:#aebbd0;margin-top:12px}
+    .err{
+      color:#ffd6d6;
+      border:1px solid rgba(255,120,120,.3);
+      background:rgba(140,20,20,.18);
+      border-radius:14px;
+      padding:10px 12px;
+      margin-top:10px;
+      font-size:13px;
+      display:none;
+    }
+    @media(max-width:520px){
+      .page{padding:18px 12px 70px}
+      h1{font-size:31px}
+      .card{border-radius:22px;padding:20px 14px}
+      #map{height:420px}
+      .ad-slide{flex-basis:88%;max-width:88%}
+      .ad-head img{width:68px;height:68px}
+      .grid2{grid-template-columns:1fr 1fr}
+    }
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <div>
-      <p class="eyebrow">Earthquake Risk Map / Japan</p>
+  <main class="page">
+    <section class="hero">
+      <div class="eyebrow">EARTHQUAKE RISK MAP / JAPAN</div>
       <h1>地震危険度マップ</h1>
-      <p class="lead">日本周辺の直近地震・プレート境界・過去活動から、防災上の注意度を見える化します。</p>
-    </div>
-    <div class="header-badge">
-      <span>β版</span>
-      <strong id="updatedAt">更新確認中</strong>
-    </div>
-  </header>
-
-  <main class="layout">
-    <section class="map-panel">
-      <div class="panel-head">
-        <div>
-          <h2>日本地図</h2>
-          <p>期間・レイヤーを切り替えて、地震活動の見え方を変えられます。</p>
-        </div>
-        <div class="risk-pill" id="overallRiskPill">総合リスク --</div>
-      </div>
-
-      <div class="controls" aria-label="表示期間切替">
-        <button class="period-btn" type="button" data-period="realtime" onclick="window.applyPeriodFilter && window.applyPeriodFilter('realtime')" aria-pressed="false">リアルタイム</button>
-        <button class="period-btn" type="button" data-period="12h" onclick="window.applyPeriodFilter && window.applyPeriodFilter('12h')">12時間</button>
-        <button class="period-btn active" type="button" data-period="24h" onclick="window.applyPeriodFilter && window.applyPeriodFilter('24h')" aria-pressed="true">24時間</button>
-        <button class="period-btn" type="button" data-period="7d" onclick="window.applyPeriodFilter && window.applyPeriodFilter('7d')">1週間</button>
-        <button class="period-btn" type="button" data-period="1m" onclick="window.applyPeriodFilter && window.applyPeriodFilter('1m')">1ヶ月</button>
-        <button class="period-btn" type="button" data-period="3m" onclick="window.applyPeriodFilter && window.applyPeriodFilter('3m')">3ヶ月</button>
-        <button class="period-btn" type="button" data-period="1y" onclick="window.applyPeriodFilter && window.applyPeriodFilter('1y')">1年</button>
-        <button class="period-btn" type="button" data-period="all" onclick="window.applyPeriodFilter && window.applyPeriodFilter('all')">全て</button>
-      </div>
-
-      <div class="layer-controls" aria-label="レイヤー切替">
-        <label><input type="checkbox" id="toggleQuakes" checked> 震源</label>
-        <label><input type="checkbox" id="togglePlates" checked> プレート/海溝</label>
-        <label><input type="checkbox" id="toggleZones" checked> 危険度エリア</label>
-        <label><input type="checkbox" id="toggleTsunami" checked> 津波警報・注意報</label>
-        <label><input type="checkbox" id="toggleMajorOnly"> M5以上のみ</label>
-      </div>
-
-      <div id="map" aria-label="地震危険度マップ"></div>
-
-      <p class="notice">
-        ※このサイトは地震の発生日・場所・規模を断定するものではありません。公開データをもとに防災上の注意度を整理するβ版です。
-      </p>
+      <p class="lead">日本周辺の直近地震・津波情報・地震関連ニュースを地図で確認する防災情報サイトです。</p>
+      <div class="statusbox"><span class="small">β版</span><br><b id="updatedAt">データ更新 --</b></div>
     </section>
 
-    <aside class="side-panel">
-      <section class="card primary-card" id="selectedCard">
-        <p class="eyebrow">Selected Area</p>
-        <h2>エリアをクリック</h2>
-        <p>地図上のプレート・海溝エリア、または危険度エリアをクリックすると、リスクカードを表示します。</p>
-      </section>
+    <section class="card">
+      <h2>日本地図</h2>
+      <p class="small">期間・レイヤーを切り替えて、地震活動の見え方を変えられます。</p>
+      <div class="riskbar" id="riskSummary">総合リスク --</div>
 
-      <section class="card stats-card">
-        <h2>表示中の活動</h2>
-        <div class="stat-grid">
-          <div><span id="statCount">0</span><small>地震数</small></div>
-          <div><span id="statMaxM">-</span><small>最大M</small></div>
-          <div><span id="statMaxI">-</span><small>最大震度</small></div>
-          <div><span id="statMajor">0</span><small>M5以上</small></div>
-        </div>
-      </section>
+      <div class="scroll-row" id="periodTabs">
+        <button class="tab" data-period="realtime">リアルタイム</button>
+        <button class="tab active" data-period="24h">24時間</button>
+        <button class="tab" data-period="week">1週間</button>
+        <button class="tab" data-period="month">1ヶ月</button>
+        <button class="tab" data-period="year">1年</button>
+        <button class="tab" data-period="all">全て</button>
+      </div>
 
-      <section class="card tsunami-card" id="tsunamiCard">
-        <div class="card-title-row">
-          <h2>津波警報・注意報</h2>
-          <span class="mini-badge">沿岸部レイヤー</span>
-        </div>
-        <p class="notice">津波情報を読み込み中です。発表がある場合は沿岸部を色分け表示します。</p>
-      </section>
+      <div class="checks">
+        <label><input type="checkbox" id="showQuakes" checked> 震源</label>
+        <label><input type="checkbox" id="showPlates" checked> プレート/海溝</label>
+        <label><input type="checkbox" id="showRisk" checked> 危険度エリア</label>
+        <label><input type="checkbox" id="showTsunami" checked> 津波警報・注意報</label>
+        <label><input type="checkbox" id="onlyM5"> M5以上のみ</label>
+      </div>
 
-      <section class="card">
-        <h2>最新地震</h2>
-        <div id="quakeList" class="quake-list"></div>
-      </section>
+      <div id="map"></div>
+      <div id="mapError" class="err"></div>
+      <p class="notice">※このサイトは地震の発生日・場所・規模を断定するものではありません。公開データをもとに防災上の注意度を整理するβ版です。</p>
+    </section>
 
+    <section class="card focus">
+      <div class="eyebrow">SELECTED AREA</div>
+      <h2 id="focusTitle">エリアをクリック</h2>
+      <p id="focusBody" class="small">地図上の震源やニュースを選ぶと、ここに詳細を表示します。</p>
+      <div class="grid2">
+        <div class="stat"><strong id="statCount">0</strong><span class="small">地震数</span></div>
+        <div class="stat"><strong id="statMaxM">-</strong><span class="small">最大M</span></div>
+        <div class="stat"><strong id="statMaxI">-</strong><span class="small">最大震度</span></div>
+        <div class="stat"><strong id="statM5">0</strong><span class="small">M5以上</span></div>
+      </div>
+    </section>
 
-      <section class="card news-card">
-        <div class="card-title-row">
-          <h2>地震関連ニュース</h2>
-          <span class="mini-badge">クリックでズーム</span>
-        </div>
-        <p class="notice">位置情報があるニュース・地震情報は、クリックすると地図が該当地点へ移動します。位置情報がない一般ニュースはリンク表示のみです。</p>
-        <div id="newsList" class="news-list"></div>
-      </section>
+    <section class="card">
+      <h2>最新地震</h2>
+      <div id="quakeList" class="list"></div>
+    </section>
 
-      <section class="card ad-card">
-        <p class="ad-label">PR</p>
-        <div class="card-title-row">
-          <h2>防災用品の確認</h2>
-          <span class="mini-badge">横スクロール</span>
-        </div>
-        <p>地震・津波・停電・断水に備えて、必要な防災用品をカテゴリ別に確認できます。</p>
+    <section class="card">
+      <h2>地震関連ニュース</h2>
+      <p class="small">位置情報があるニュース・地震情報は、クリックすると地図が該当地点へ移動します。</p>
+      <div id="newsList" class="list"></div>
+    </section>
 
-        <div class="ad-category-tabs" aria-label="防災用品カテゴリ">
-          <button class="ad-tab active" type="button" data-ad-category="all" onclick="window.applyAdCategoryFilter && window.applyAdCategoryFilter('all')">すべて</button>
-          <button class="ad-tab" type="button" data-ad-category="food" onclick="window.applyAdCategoryFilter && window.applyAdCategoryFilter('food')">非常食</button>
-          <button class="ad-tab" type="button" data-ad-category="water" onclick="window.applyAdCategoryFilter && window.applyAdCategoryFilter('water')">保存水・飲料</button>
-          <button class="ad-tab" type="button" data-ad-category="power" onclick="window.applyAdCategoryFilter && window.applyAdCategoryFilter('power')">電源</button>
-          <button class="ad-tab" type="button" data-ad-category="toilet" onclick="window.applyAdCategoryFilter && window.applyAdCategoryFilter('toilet')">トイレ・衛生</button>
-          <button class="ad-tab" type="button" data-ad-category="carry" onclick="window.applyAdCategoryFilter && window.applyAdCategoryFilter('carry')">持ち出し袋</button>
-          <button class="ad-tab" type="button" data-ad-category="light" onclick="window.applyAdCategoryFilter && window.applyAdCategoryFilter('light')">ライト・ラジオ</button>
-          <button class="ad-tab" type="button" data-ad-category="shelter" onclick="window.applyAdCategoryFilter && window.applyAdCategoryFilter('shelter')">寝具・防寒</button>
-          <button class="ad-tab" type="button" data-ad-category="firstaid" onclick="window.applyAdCategoryFilter && window.applyAdCategoryFilter('firstaid')">救急</button>
-        </div>
+    <section class="card ad-card">
+      <span class="pr">PR</span>
+      <h2>防災用品の確認</h2>
+      <p class="small">地震・津波・停電・断水に備えて、必要な防災用品をカテゴリ別に確認できます。</p>
 
-        <div class="ad-carousel" id="adCarousel" aria-label="防災用品広告スライダー">
-          <article class="ad-slide" data-ad-category="food">
-            <div class="ad-slide-head"><strong>非常食</strong><span>7日分セット</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00qr6h4.2bo116ad.g00qr6h4.2bo12694%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Flock110%252F311429%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Flock110%252Fi%252F10121905%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/lock110/cabinet/rank01/311429-rank.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">非常食セット 7日分 ごはん・おかず・スープ 10種28食</span>
-                <span class="affiliate-desc">自宅避難用の7日分非常食セット</span>
-                <span class="affiliate-price">価格目安：8,880円</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="food">
-            <div class="ad-slide-head"><strong>非常食</strong><span>バラエティー</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00srf14.2bo11a50.g00srf14.2bo125e7%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fbousaiyouhin-oshare%252F047%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fbousaiyouhin-oshare%252Fi%252F10000065%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/bousaiyouhin-oshare/cabinet/08019487/047-ss-50-002.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">防災食バラエティーセット パン・ご飯・おにぎり・保存水</span>
-                <span class="affiliate-desc">主食や保存水をまとめて確認</span>
-                <span class="affiliate-price">価格目安：8,900円</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="food">
-            <div class="ad-slide-head"><strong>非常食</strong><span>家族向け</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00tyb94.2bo11901.g00tyb94.2bo121c6%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fmonoroots%252F51set%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fmonoroots%252Fi%252F10000488%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/monoroots/cabinet/11264874/11264877/12176245/7dayset_20250924_2.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">食器セット付 非常食セット 7日分 2人用 保存水入り</span>
-                <span class="affiliate-desc">複数人での自宅避難向け</span>
-                <span class="affiliate-price">価格目安：18,980円</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="food">
-            <div class="ad-slide-head"><strong>非常食</strong><span>おかず</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00rt8l4.2bo11246.g00rt8l4.2bo12655%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fymx-shop%252Fymx1-059%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fymx-shop%252Fi%252F10002751%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/ymx-shop/cabinet/04764783/08725634/ymx1-059_tmb-3_s.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">美味しい防災食 人気ベスト5 25食 おかず・惣菜系</span>
-                <span class="affiliate-desc">ご飯・パンに合わせるおかず系備蓄</span>
-                <span class="affiliate-price">価格目安：11,178円</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="food">
-            <div class="ad-slide-head"><strong>非常食</strong><span>子ども向け</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00quq94.2bo11b52.g00quq94.2bo12ee6%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fauc-hachidai%252F10539856%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fauc-hachidai%252Fi%252F10539856%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/auc-hachidai/cabinet/sozai/smn/imgrc0117456990.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">平田牧場 こどもカレー レトルト 子ども向け非常食</span>
-                <span class="affiliate-desc">子どもが食べやすい備蓄</span>
-                <span class="affiliate-price">価格目安：2,916円〜</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="food">
-            <div class="ad-slide-head"><strong>非常食</strong><span>パン缶詰</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00r56h4.2bo11228.g00r56h4.2bo125a2%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Faichi12%252F10012084%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Faichi12%252Fi%252F10028911%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/aichi12/cabinet/img_20/m-10012084-s.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">パンですよ！ 5年保存 缶詰パン 5種 15缶入り</span>
-                <span class="affiliate-desc">ご飯系以外の食べやすい主食</span>
-                <span class="affiliate-price">価格目安：7,930円〜</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="food">
-            <div class="ad-slide-head"><strong>非常食</strong><span>野菜スープ</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00rzxd4.2bo1115c.g00rzxd4.2bo12fc2%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fsoukaidrink%252F4901306036839%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fsoukaidrink%252Fi%252F10012418%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/soukaidrink/cabinet/839/4901306036839.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">カゴメ 野菜たっぷりスープ 4種×4袋入</span>
-                <span class="affiliate-desc">野菜・汁物の備え</span>
-                <span class="affiliate-price">価格目安：4,839円</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="water">
-            <div class="ad-slide-head"><strong>飲料</strong><span>500ml水</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00rxoq4.2bo1114e.g00rxoq4.2bo12a6d%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fenetkome%252F7245534%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fenetkome%252Fi%252F10027220%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/enetkome/cabinet/web02/7245534_a.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">天然水 ミネラルウォーター 500ml×48本</span>
-                <span class="affiliate-desc">持ち出しやすい飲料水</span>
-                <span class="affiliate-price">価格目安：2,670円</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="water">
-            <div class="ad-slide-head"><strong>飲料</strong><span>野菜ジュース</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00t9244.2bo1132f.g00t9244.2bo12485%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fnattokushop%252Fkg066034%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fnattokushop%252Fi%252F10006044%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/nattokushop/cabinet/images/drink/kg066034.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">カゴメ 野菜一日これ一本 長期保存用 190g×30本</span>
-                <span class="affiliate-desc">水だけでなく野菜不足対策も</span>
-                <span class="affiliate-price">価格目安：5,299円</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="water">
-            <div class="ad-slide-head"><strong>飲料</strong><span>麦茶</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00ucoh4.2bo11444.g00ucoh4.2bo1269a%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fkimisara%252Fitem59%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fkimisara%252Fi%252F10000063%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/kimisara/cabinet/compass1688035836.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">やかんの麦茶 650ml 1ケース24本入り</span>
-                <span class="affiliate-desc">普段飲む飲料をローリングストック</span>
-                <span class="affiliate-price">価格目安：3,680円〜</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="power">
-            <div class="ad-slide-head"><strong>電源</strong><span>モバイル</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00trg84.2bo11a5f.g00trg84.2bo12088%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fzian%252Fmobasyo_outlet%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fzian%252Fi%252F10000201%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/zian/cabinet/08066002/08975681/imgrc0115094090.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">20000mAh モバイルバッテリー ケーブル内蔵</span>
-                <span class="affiliate-desc">停電時のスマホ充電</span>
-                <span class="affiliate-price">価格目安：2,160円</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="power">
-            <div class="ad-slide-head"><strong>電源</strong><span>ポータブル</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00rr094.2bo1171a.g00rr094.2bo12088%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fanker%252Fa1751%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fanker%252Fi%252F10001045%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/anker/cabinet/images/ankersolix/a1751_normal.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">Anker 535 ポータブル電源 512Wh</span>
-                <span class="affiliate-desc">自宅避難・停電時の非常用電源</span>
-                <span class="affiliate-price">価格目安：64,900円</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="power">
-            <div class="ad-slide-head"><strong>車載</strong><span>ジャンプ</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00rxzk4.2bo112d7.g00rxzk4.2bo12dff%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fauc-luft%252F10000065%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fauc-luft%252Fi%252F10000065%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/auc-luft/cabinet/03808614/jpq.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">10400mAh ジャンプスターター兼モバイルバッテリー</span>
-                <span class="affiliate-desc">車載用の非常電源・スマホ充電</span>
-                <span class="affiliate-price">価格目安：8,979円</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="toilet">
-            <div class="ad-slide-head"><strong>衛生</strong><span>簡易トイレ</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00sk3q4.2bo11c2c.g00sk3q4.2bo12162%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fh2brothers%252Fportabletoilet01%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fh2brothers%252Fi%252F10001880%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/h2brothers/cabinet/medical/portabletoilet01rr.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">簡易トイレ 非常用トイレ 凝固剤 60〜600回 15年保存</span>
-                <span class="affiliate-desc">断水時のトイレ対策</span>
-                <span class="affiliate-price">価格目安：890円〜</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="toilet">
-            <div class="ad-slide-head"><strong>衛生</strong><span>折りたたみ</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00uki04.2bo11354.g00uki04.2bo120cf%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fdajie%252Fstoole%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fdajie%252Fi%252F10000000%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/dajie/cabinet/10598746/imgrc0112886277.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">スツーレ 簡易トイレ 折りたたみ 凝固剤付き</span>
-                <span class="affiliate-desc">座って使える非常用トイレ</span>
-                <span class="affiliate-price">価格目安：3,756円〜</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="toilet">
-            <div class="ad-slide-head"><strong>衛生</strong><span>ウェット</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00rk7o4.2bo11b33.g00rk7o4.2bo1207e%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fpeaceup%252F10008157%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fpeaceup%252Fi%252F10010304%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/peaceup/cabinet/items-thumbnail2/10008157-01.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">10年保存できる防災用ウェットティッシュ 20枚</span>
-                <span class="affiliate-desc">断水時の手拭き・衛生管理</span>
-                <span class="affiliate-price">価格目安：141円</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="toilet">
-            <div class="ad-slide-head"><strong>衛生</strong><span>ポーチ</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00s2jf4.2bo1122e.g00s2jf4.2bo12e60%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fcolorfulbox%252F387674%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fcolorfulbox%252Fi%252F10129395%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/colorfulbox/cabinet/maker_gowell1/387674.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">防災衛生6点セット ポーチタイプ</span>
-                <span class="affiliate-desc">携帯トイレ・マスク・タオルなど</span>
-                <span class="affiliate-price">価格目安：770円</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="carry">
-            <div class="ad-slide-head"><strong>持ち出し</strong><span>2人用</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00qd5c4.2bo11965.g00qd5c4.2bo129b1%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fnayami-kaiketu%252Fhpu-004%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fnayami-kaiketu%252Fi%252F10021192%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/nayami-kaiketu/cabinet/02887876/09813751/imgrc0110315101.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">防災セット 2人用 リュック＆シュラフ2個付き</span>
-                <span class="affiliate-desc">避難時に持ち出す防災リュック</span>
-                <span class="affiliate-price">価格目安：27,800円</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="light">
-            <div class="ad-slide-head"><strong>ライト</strong><span>防災ラジオ</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00scnq4.2bo11fd7.g00scnq4.2bo12c8b%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Ftorreya-shop%252F100000025%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Ftorreya-shop%252Fi%252F10000057%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/torreya-shop/cabinet/radio2/radiothumbnail.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">多機能防災ラジオ AM/FM・LEDライト・スマホ充電</span>
-                <span class="affiliate-desc">停電時の情報収集と明かり確保</span>
-                <span class="affiliate-price">価格目安：7,280円</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="light">
-            <div class="ad-slide-head"><strong>ライト</strong><span>ランタン</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00u02m4.2bo1184b.g00u02m4.2bo1244a%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fmjmjstore%252Fmj-solarlantern%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fmjmjstore%252Fi%252F10000111%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/mjmjstore/cabinet/solarlantern/q00.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">ソーラーランタン 6000mAh LED 2WAY充電</span>
-                <span class="affiliate-desc">停電時の照明・スマホ充電</span>
-                <span class="affiliate-price">価格目安：5,280円</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="shelter">
-            <div class="ad-slide-head"><strong>防寒</strong><span>寝袋</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00sbmi4.2bo112f7.g00sbmi4.2bo12dfb%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fpatri%252Fad009%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fpatri%252Fi%252F10001040%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/patri/cabinet/ad/ad009-a02.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">寝袋 シュラフ オールシーズン 洗える コンパクト</span>
-                <span class="affiliate-desc">避難生活・車中泊の防寒</span>
-                <span class="affiliate-price">価格目安：1,779円〜</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="shelter">
-            <div class="ad-slide-head"><strong>防寒</strong><span>アルミ</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00scad4.2bo113ae.g00scad4.2bo12c0f%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fecoride%252Fsabage-125-03%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fecoride%252Fi%252F10000989%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/ecoride/cabinet/img3/sabage-125-03-1.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">アルミシート エマージェンシーシート 静音タイプ</span>
-                <span class="affiliate-desc">持ち出し袋に入れやすい保温シート</span>
-                <span class="affiliate-price">価格目安：680円〜</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="firstaid">
-            <div class="ad-slide-head"><strong>救急</strong><span>応急処置</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00s2mu4.2bo111e9.g00s2mu4.2bo127a4%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fapplehonpo%252Frecf15%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fapplehonpo%252Fi%252F10001734%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/applehonpo/cabinet/pic/recf15_1.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">応急処置15点セット コンパクト非常持ち出し</span>
-                <span class="affiliate-desc">避難時の応急処置用品</span>
-                <span class="affiliate-price">価格目安：2,980円</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-          <article class="ad-slide" data-ad-category="firstaid">
-            <div class="ad-slide-head"><strong>救急</strong><span>救急箱</span></div>
-            <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00sbhk4.2bo11595.g00sbhk4.2bo122bf%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Ffirstaid%252F4902014065197%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Ffirstaid%252Fi%252F10000345%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
-              <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/firstaid/cabinet/04802522/5pla2-40-01.jpg?_ex=64x64" alt="" loading="lazy">
-              <span class="affiliate-body">
-                <span class="affiliate-title">応急手当用品40点セット プラスチック製救急箱</span>
-                <span class="affiliate-desc">家庭・オフィス向け救急箱</span>
-                <span class="affiliate-price">価格目安：8,980円</span>
-              </span>
-            </a>
-            <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
-          </article>
-        </div>
-        <p class="ad-empty-message" id="adEmptyMessage" hidden>このカテゴリの広告はまだありません。</p>
-        <p class="notice">※PRを含みます。価格・在庫・ランキング・キャンペーン内容は変わる可能性があります。購入前に販売ページで最新情報を確認してください。</p>
-      </section>
-    </aside>
+      <div class="scroll-row" id="adTabs">
+        <button class="pill active" data-adcat="all">すべて</button>
+        <button class="pill" data-adcat="food">非常食</button>
+        <button class="pill" data-adcat="water">保存水・飲料</button>
+        <button class="pill" data-adcat="power">電源</button>
+        <button class="pill" data-adcat="toilet">トイレ・衛生</button>
+        <button class="pill" data-adcat="light">ライト・ラジオ</button>
+        <button class="pill" data-adcat="warm">寝具・防寒</button>
+      </div>
+
+      <div class="ad-track" id="adTrack">
+        <a class="ad-slide" data-adcat="food" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00qr6h4.2bo116ad.g00qr6h4.2bo12694%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Flock110%252F311429%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Flock110%252Fi%252F10121905%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow">
+          <div class="ad-head"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/lock110/cabinet/rank01/311429-rank.jpg?_ex=128x128" alt=""><div><div class="ad-title">非常食セット 7日分 ごはん・おかず・スープ 10種28食</div><p class="ad-desc">自宅避難用の7日分非常食セット</p><div class="price">価格目安：8,880円</div></div></div>
+        </a>
+        <a class="ad-slide" data-adcat="toilet" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00sk3q4.2bo11c2c.g00sk3q4.2bo12162%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fh2brothers%252Fportabletoilet01%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fh2brothers%252Fi%252F10001880%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow">
+          <div class="ad-head"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/h2brothers/cabinet/medical/portabletoilet01rr.jpg?_ex=128x128" alt=""><div><div class="ad-title">簡易トイレ 非常用トイレ 凝固剤 60〜600回 15年保存</div><p class="ad-desc">断水時のトイレ対策</p><div class="price">価格目安：890円〜</div></div></div>
+        </a>
+        <a class="ad-slide" data-adcat="power" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00trg84.2bo11a5f.g00trg84.2bo12088%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fzian%252Fmobasyo_outlet%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fzian%252Fi%252F10000201%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow">
+          <div class="ad-head"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/zian/cabinet/08066002/08975681/imgrc0115094090.jpg?_ex=128x128" alt=""><div><div class="ad-title">モバイルバッテリー 20000mAh ケーブル内蔵</div><p class="ad-desc">停電時のスマホ充電・情報収集</p><div class="price">価格目安：2,160円</div></div></div>
+        </a>
+        <a class="ad-slide" data-adcat="light" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00scnq4.2bo11fd7.g00scnq4.2bo12c8b%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Ftorreya-shop%252F100000025%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Ftorreya-shop%252Fi%252F10000057%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow">
+          <div class="ad-head"><img src="https://thumbnail.image.rakuten.co.jp/@0_mall/torreya-shop/cabinet/radio2/radiothumbnail.jpg?_ex=128x128" alt=""><div><div class="ad-title">多機能防災ラジオ LEDライト・スマホ充電・手回し充電</div><p class="ad-desc">停電時・通信障害時の情報収集</p><div class="price">価格目安：7,280円</div></div></div>
+        </a>
+      </div>
+      <p class="notice">※PRを含みます。価格・在庫・キャンペーン内容は変わる可能性があります。購入前に販売ページで最新情報を確認してください。</p>
+    </section>
   </main>
 
-  <section class="lower-grid">
-    <article class="card">
-      <h2>リスクスコアの考え方</h2>
-      <ul class="clean-list">
-        <li>直近の地震回数・最大マグニチュード・最大震度</li>
-        <li>M5以上/M6以上の発生状況</li>
-        <li>プレート境界・海溝エリアとの位置関係</li>
-        <li>長期ハザード・沿岸/津波リスク</li>
-        <li>余震・群発活動の継続性</li>
-      </ul>
-    </article>
-    <article class="card">
-      <h2>防災行動レベル</h2>
-      <div class="level-row level-low"><strong>0〜39 通常</strong><span>家具固定・備蓄の確認</span></div>
-      <div class="level-row level-mid"><strong>40〜69 注意</strong><span>避難場所・連絡手段を確認</span></div>
-      <div class="level-row level-high"><strong>70〜100 高い</strong><span>停電・断水・津波避難も確認</span></div>
-    </article>
-  </section>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+  (() => {
+    "use strict";
 
-  <footer class="site-footer">
-    <p>地震危険度マップ β版｜予知ではなく、防災上の注意度を可視化するサイトです。</p>
-    <p class="footer-links">
-      <a href="disclaimer.html">免責事項</a>
-    </p>
-  </footer>
+    const $ = (id) => document.getElementById(id);
+    const state = { quakes: [], news: [], tsunami: null, period: "24h", layers: {} };
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-  <script src="app-20260609-1435.js"></script>
-
-<script>
-/* Hard ad category filter: works even if app.js cache/event binding fails */
-(function () {
-  const LABEL_TO_CATEGORY = {
-    "すべて": "all",
-    "非常食": "food",
-    "保存水・飲料": "water",
-    "保存水": "water",
-    "飲料": "water",
-    "電源": "power",
-    "トイレ・衛生": "toilet",
-    "トイレ": "toilet",
-    "衛生": "toilet",
-    "持ち出し袋": "carry",
-    "持ち出し": "carry",
-    "ライト・ラジオ": "light",
-    "ライト": "light",
-    "寝具・防寒": "shelter",
-    "防寒": "shelter",
-    "救急": "firstaid"
-  };
-
-  function getCategoryFromTab(tab) {
-    if (!tab) return "all";
-    const raw = tab.getAttribute("data-ad-category") || tab.getAttribute("data-category") || "";
-    if (raw) return raw;
-    const label = (tab.textContent || "").trim();
-    return LABEL_TO_CATEGORY[label] || "all";
-  }
-
-  function applyAdCategoryFilter(category) {
-    const selected = category || "all";
-    const carousel = document.getElementById("adCarousel") || document.querySelector(".ad-carousel");
-    const slides = Array.from(document.querySelectorAll(".ad-slide"));
-    let visibleCount = 0;
-
-    slides.forEach((slide) => {
-      const slideCategory = slide.getAttribute("data-ad-category") || slide.getAttribute("data-category") || "";
-      const match = selected === "all" || slideCategory === selected;
-
-      if (match) {
-        slide.hidden = false;
-        slide.classList.remove("hidden", "is-filtered-out", "ad-hidden-hard");
-        slide.removeAttribute("aria-hidden");
-        slide.style.setProperty("display", "block", "important");
-        visibleCount += 1;
-      } else {
-        slide.hidden = true;
-        slide.classList.add("hidden", "is-filtered-out", "ad-hidden-hard");
-        slide.setAttribute("aria-hidden", "true");
-        slide.style.setProperty("display", "none", "important");
+    function safeDate(s){ const d = new Date(s); return Number.isNaN(+d) ? null : d; }
+    function fmtTime(s){
+      const d = safeDate(s); if(!d) return "--";
+      return `${String(d.getMonth()+1).padStart(2,"0")}/${String(d.getDate()).padStart(2,"0")} ${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;
+    }
+    async function fetchJson(url){
+      const res = await fetch(url + (url.includes("?") ? "&" : "?") + "cb=" + Date.now(), {cache:"no-store"});
+      if(!res.ok) throw new Error(url + " " + res.status);
+      return await res.json();
+    }
+    async function firstJson(urls){
+      let last;
+      for(const url of urls){
+        try { return await fetchJson(url); } catch(e){ last = e; }
       }
-    });
-
-    document.querySelectorAll(".ad-category-tabs .ad-tab").forEach((tab) => {
-      const tabCategory = getCategoryFromTab(tab);
-      const active = tabCategory === selected;
-      tab.classList.toggle("active", active);
-      tab.setAttribute("aria-pressed", active ? "true" : "false");
-      // スマホの :hover 粘着対策。選択中以外は必ず通常色に戻す。
-      if (active) {
-        tab.style.setProperty("background", "#facc15", "important");
-        tab.style.setProperty("color", "#111827", "important");
-        tab.style.setProperty("border-color", "#facc15", "important");
-        tab.style.setProperty("font-weight", "800", "important");
-      } else {
-        tab.style.setProperty("background", "rgba(250,204,21,.07)", "important");
-        tab.style.setProperty("color", "var(--text)", "important");
-        tab.style.setProperty("border-color", "rgba(250,204,21,.35)", "important");
-        tab.style.setProperty("font-weight", "700", "important");
-      }
-    });
-
-    if (carousel) {
-      carousel.setAttribute("data-active-category", selected);
-      try { carousel.scrollTo({ left: 0, behavior: "instant" }); }
-      catch (e) { carousel.scrollLeft = 0; }
+      throw last;
     }
 
-    const empty = document.getElementById("adEmptyMessage");
-    if (empty) empty.hidden = visibleCount !== 0;
-  }
+    const japanBounds = L.latLngBounds([20,122],[46.8,154.5]);
+    const map = L.map("map", {
+      zoomControl:true,
+      worldCopyJump:false,
+      maxBounds:japanBounds,
+      maxBoundsViscosity:0.85,
+      minZoom:4,
+      maxZoom:10
+    }).setView([37.8,138.8], 4);
 
-  // expose for app.js and browser console
-  window.applyAdCategoryFilter = applyAdCategoryFilter;
-  window.filterAdCarousel = applyAdCategoryFilter;
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution:"&copy; OpenStreetMap contributors",
+      noWrap:true,
+      bounds:japanBounds
+    }).addTo(map);
 
-  function handleAdTabEvent(event) {
-    const tab = event.target.closest(".ad-category-tabs .ad-tab");
-    if (!tab) return;
-    event.preventDefault();
-    event.stopPropagation();
-    applyAdCategoryFilter(getCategoryFromTab(tab));
-  }
-  document.addEventListener("pointerdown", handleAdTabEvent, true);
-  document.addEventListener("click", handleAdTabEvent, true);
+    const quakeLayer = L.layerGroup().addTo(map);
+    const plateLayer = L.layerGroup().addTo(map);
+    const riskLayer = L.layerGroup().addTo(map);
+    const tsunamiLayer = L.layerGroup().addTo(map);
 
-  document.addEventListener("DOMContentLoaded", function () {
-    applyAdCategoryFilter("all");
-  });
+    function addPlateLabel(text, lat, lon){
+      L.marker([lat,lon], {interactive:false, icon:L.divIcon({className:"map-label", html:text, iconSize:[140,22]})}).addTo(plateLayer);
+    }
+    function renderStaticLayers(){
+      plateLayer.clearLayers(); riskLayer.clearLayers();
+      if($("showPlates").checked){
+        addPlateLabel("日本海溝", 37.6, 143.4);
+        addPlateLabel("千島海溝", 43.0, 148.0);
+        addPlateLabel("南海トラフ", 32.0, 135.2);
+        addPlateLabel("相模トラフ", 34.6, 139.9);
+        addPlateLabel("日本海東縁部", 39.0, 137.6);
+      }
+      if($("showRisk").checked){
+        const zones = [
+          [[32.2,130.0],[33.5,136.5],[34.8,139.0],[34.1,140.5]], "南海トラフ周辺"],
+          [[35.3,139.0],[36.8,141.4],[35.6,142.2],[34.2,140.2]], "関東沖"],
+          [[38.0,141.0],[41.0,144.0],[39.2,145.4],[36.8,142.8]], "東北沖"]
+        ];
+        zones.forEach(([pts,name]) => {
+          L.polygon(pts, {color:"#ffcf33", weight:2, fillColor:"#ffcf33", fillOpacity:.08}).bindPopup(`<b>${name}</b><br>過去活動・プレート境界から見た注意エリア`).addTo(riskLayer);
+        });
+      }
+    }
 
-  window.addEventListener("load", function () {
-    const active = document.querySelector(".ad-category-tabs .active");
-    applyAdCategoryFilter(getCategoryFromTab(active));
-  });
-})();
-</script>
+    function latestDataTime(quakes){
+      const times = quakes.map(q=>safeDate(q.time)).filter(Boolean).map(d=>+d);
+      return times.length ? new Date(Math.max(...times)) : new Date();
+    }
+    function filteredQuakes(){
+      const base = latestDataTime(state.quakes);
+      let hours = 24;
+      if(state.period === "realtime") hours = 24; // 空表示防止
+      if(state.period === "week") hours = 24*7;
+      if(state.period === "month") hours = 24*31;
+      if(state.period === "year") hours = 24*365;
+      if(state.period === "all") hours = Infinity;
+
+      let arr = state.quakes.filter(q => Number(q.lat) > -90 && Number(q.lon) > -180 && Number(q.mag) >= 0);
+      if($("onlyM5").checked) arr = arr.filter(q => Number(q.mag) >= 5);
+      if(hours !== Infinity){
+        const min = +base - hours*60*60*1000;
+        arr = arr.filter(q => {
+          const d = safeDate(q.time); return d && +d >= min;
+        });
+      }
+      if(arr.length === 0 && state.quakes.length && !$("onlyM5").checked){
+        arr = state.quakes.filter(q => Number(q.lat) > -90 && Number(q.lon) > -180 && Number(q.mag) >= 0).slice(0,10);
+      }
+      return arr;
+    }
+    function magColor(m){
+      if(m >= 6) return "#ff4b4b";
+      if(m >= 5) return "#ff9a2e";
+      if(m >= 4) return "#ffd21a";
+      return "#7dd3fc";
+    }
+    function renderQuakes(){
+      quakeLayer.clearLayers();
+      if(!$("showQuakes").checked) return;
+      const arr = filteredQuakes();
+      arr.forEach(q => {
+        const m = Number(q.mag)||0;
+        const marker = L.circleMarker([Number(q.lat), Number(q.lon)], {
+          radius: Math.max(6, Math.min(18, 4 + m*2)),
+          color: magColor(m),
+          weight:2,
+          fillColor: magColor(m),
+          fillOpacity:.62
+        }).addTo(quakeLayer);
+        marker.bindPopup(`<b>${q.area || "震源"}</b><br>${fmtTime(q.time)}<br>M${m.toFixed(1)} / 深さ${q.depth ?? "-"}km`);
+        marker.on("click", () => focusQuake(q, true));
+      });
+      updateStats(arr);
+      renderQuakeList(arr);
+    }
+    function updateStats(arr){
+      $("statCount").textContent = arr.length;
+      $("statMaxM").textContent = arr.length ? Math.max(...arr.map(q=>Number(q.mag)||0)).toFixed(1) : "-";
+      $("statMaxI").textContent = arr.length ? Math.max(...arr.map(q=>Number(q.intensity)||0)) : "-";
+      $("statM5").textContent = arr.filter(q=>Number(q.mag)>=5).length;
+      const maxM = arr.length ? Math.max(...arr.map(q=>Number(q.mag)||0)) : 0;
+      $("riskSummary").textContent = maxM >= 6 ? "総合リスク 高め" : maxM >= 5 ? "総合リスク 中程度" : arr.length ? "総合リスク 通常" : "総合リスク --";
+    }
+    function focusQuake(q, move){
+      $("focusTitle").textContent = q.area || "地震情報";
+      $("focusBody").textContent = `${fmtTime(q.time)} / M${Number(q.mag||0).toFixed(1)} / 最大震度 ${q.intensityLabel ?? q.intensity ?? "-"} / 深さ ${q.depth ?? "-"}km`;
+      if(move && Number(q.lat) > -90 && Number(q.lon) > -180){
+        map.setView([Number(q.lat), Number(q.lon)], Number(q.mag)>=6 ? 7 : 8);
+      }
+    }
+    function renderQuakeList(arr){
+      const box = $("quakeList");
+      box.innerHTML = "";
+      arr.slice(0,8).forEach(q => {
+        const a = document.createElement("a");
+        a.href = "javascript:void(0)";
+        a.className = "item";
+        a.innerHTML = `<b>${q.area || "地震情報"}　M${Number(q.mag||0).toFixed(1)}</b><p>${fmtTime(q.time)} / 最大震度 ${q.intensityLabel ?? q.intensity ?? "-"} / 深さ ${q.depth ?? "-"}km</p>`;
+        a.onclick = () => focusQuake(q, true);
+        box.appendChild(a);
+      });
+      if(!box.children.length) box.innerHTML = `<div class="item"><b>表示できる地震情報がありません</b><p>期間やM5以上のみの設定を変更してください。</p></div>`;
+    }
+    function normalizeNews(payload){
+      let arr = [];
+      if(Array.isArray(payload)) arr = payload;
+      else if(Array.isArray(payload?.news)) arr = payload.news;
+      else if(Array.isArray(payload?.items)) arr = payload.items;
+      return arr.map(n => ({
+        title:n.title || n.headline || "地震関連ニュース",
+        source:n.source || n.media || "ニュース",
+        time:n.time || n.published_at || n.date || "",
+        url:n.url || n.link || "",
+        summary:n.summary || n.description || "",
+        lat:Number(n.lat ?? n.latitude),
+        lon:Number(n.lon ?? n.longitude),
+        area:n.area || n.matchedArea || ""
+      }));
+    }
+    function buildNewsFromQuakes(quakes){
+      return quakes.slice(0,8).map(q => ({
+        title:`【地震情報】${q.area} M${Number(q.mag||0).toFixed(1)}`,
+        source:"地震情報",
+        time:q.time,
+        summary:`震源の深さ ${q.depth ?? "-"}km。クリックすると地図が震源付近へ移動します。`,
+        lat:Number(q.lat),
+        lon:Number(q.lon),
+        area:q.area
+      }));
+    }
+    function renderNews(){
+      const box = $("newsList");
+      box.innerHTML = "";
+      const list = state.news.length ? state.news.slice(0,10) : buildNewsFromQuakes(filteredQuakes());
+      list.forEach(n => {
+        const a = document.createElement(n.url ? "a" : "div");
+        a.className = "item";
+        if(n.url) a.href = n.url, a.target="_blank", a.rel="noopener noreferrer";
+        a.innerHTML = `<b>${n.title}</b><p>${n.source || ""} ${n.time ? " / " + fmtTime(n.time) : ""}</p><p>${n.summary || n.area || ""}</p>`;
+        if(Number.isFinite(n.lat) && Number.isFinite(n.lon) && n.lat > -90 && n.lon > -180){
+          a.href = "javascript:void(0)";
+          a.onclick = () => {
+            map.setView([n.lat,n.lon],8);
+            L.popup().setLatLng([n.lat,n.lon]).setContent(`<b>${n.area || n.title}</b><br>${fmtTime(n.time)}<br>ニュース/地震情報`).openOn(map);
+            $("focusTitle").textContent = n.area || n.title;
+            $("focusBody").textContent = n.summary || n.title;
+          };
+        }
+        box.appendChild(a);
+      });
+      if(!box.children.length) box.innerHTML = `<div class="item"><b>ニュースを読み込めませんでした</b><p>地震情報から自動生成するニュースもありません。</p></div>`;
+    }
+    function renderTsunami(){
+      tsunamiLayer.clearLayers();
+      if(!$("showTsunami").checked) return;
+      // latest-tsunami.json の形式が複数あり得るため、簡易的に注意情報だけ表示
+      const p = state.tsunami;
+      const arr = Array.isArray(p) ? p : (p?.areas || p?.alerts || p?.items || []);
+      arr.slice(0,30).forEach(t => {
+        const lat = Number(t.lat ?? t.latitude), lon = Number(t.lon ?? t.longitude);
+        if(Number.isFinite(lat) && Number.isFinite(lon)){
+          L.circleMarker([lat,lon], {radius:8,color:"#ff4b4b",fillColor:"#ff4b4b",fillOpacity:.55})
+            .bindPopup(`<b>${t.area || t.name || "津波情報"}</b><br>${t.kind || t.level || t.status || ""}`).addTo(tsunamiLayer);
+        }
+      });
+    }
+
+    async function loadAll(){
+      try{
+        const qPayload = await firstJson(["data/latest-earthquakes.json","data/最新の地震情報.json","data/最新地震情報.json"]);
+        state.quakes = (Array.isArray(qPayload) ? qPayload : qPayload.earthquakes || []).filter(q => Number(q.lat) > -90 && Number(q.lon) > -180);
+        $("updatedAt").textContent = "データ更新 " + fmtTime(qPayload.updated_at || qPayload.fetched_at || state.quakes[0]?.time);
+      }catch(e){
+        $("mapError").style.display = "block";
+        $("mapError").textContent = "地震データを読み込めません: " + e.message;
+      }
+      try{
+        const nPayload = await firstJson(["data/earthquake-news.json","data/地震ニュース.json"]);
+        state.news = normalizeNews(nPayload);
+      }catch(e){ state.news = []; }
+      try{
+        state.tsunami = await firstJson(["data/latest-tsunami.json","data/tsunami-alerts.json"]);
+      }catch(e){ state.tsunami = null; }
+
+      renderStaticLayers();
+      renderQuakes();
+      renderNews();
+      renderTsunami();
+      if(state.quakes[0]) focusQuake(state.quakes[0], false);
+    }
+
+    function refresh(){
+      renderStaticLayers();
+      renderQuakes();
+      renderNews();
+      renderTsunami();
+    }
+    $("periodTabs").addEventListener("click", ev => {
+      const b = ev.target.closest("[data-period]"); if(!b) return;
+      state.period = b.dataset.period;
+      document.querySelectorAll("#periodTabs .tab").forEach(x=>x.classList.toggle("active", x===b));
+      refresh();
+    });
+    ["showQuakes","showPlates","showRisk","showTsunami","onlyM5"].forEach(id => $(id).addEventListener("change", refresh));
+
+    $("adTabs").addEventListener("click", ev => {
+      const b = ev.target.closest("[data-adcat]"); if(!b) return;
+      const cat = b.dataset.adcat;
+      document.querySelectorAll("#adTabs .pill").forEach(x=>x.classList.toggle("active", x===b));
+      document.querySelectorAll(".ad-slide").forEach(slide => {
+        slide.hidden = !(cat === "all" || slide.dataset.adcat === cat);
+      });
+      $("adTrack").scrollLeft = 0;
+    });
+
+    loadAll();
+  })();
+  </script>
 
   <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "906f36822afe4132aee6d81b1c8296d4"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
