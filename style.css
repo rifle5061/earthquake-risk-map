@@ -773,3 +773,125 @@ h2 { margin-bottom: 10px; font-size: 18px; }
 .ad-slide[hidden] {
   display: none !important;
 }
+
+/* Mobile body horizontal scroll fix
+   ページ全体が横にスクロールするのを防ぎ、横スクロールはカテゴリタブと広告スライダー内だけに限定する。 */
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img,
+svg,
+canvas,
+video,
+iframe {
+  max-width: 100%;
+}
+
+.site-header,
+.layout,
+.map-panel,
+.side-panel,
+.card,
+.lower-grid,
+.site-footer,
+.ad-card,
+.ad-category-tabs,
+.ad-carousel,
+.ad-slide,
+.affiliate-card,
+.affiliate-body {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.ad-category-tabs,
+.ad-carousel,
+.controls {
+  overscroll-behavior-inline: contain;
+}
+
+.affiliate-title,
+.affiliate-desc,
+.affiliate-price,
+.ad-slide-head strong,
+.ad-slide-head span {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+@media (max-width: 720px) {
+  .site-header,
+  .layout,
+  .lower-grid,
+  .site-footer {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 14px;
+    padding-right: 14px;
+    overflow-x: hidden;
+  }
+
+  .map-panel,
+  .card,
+  .ad-card {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .ad-category-tabs {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 8px;
+  }
+
+  .ad-tab {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+
+  .ad-carousel {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 2px;
+  }
+
+  .ad-slide {
+    flex: 0 0 min(292px, calc(100vw - 58px));
+    width: min(292px, calc(100vw - 58px));
+    max-width: calc(100vw - 58px);
+  }
+
+  .affiliate-card {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .affiliate-card img {
+    width: 58px;
+    height: 58px;
+  }
+
+  .affiliate-body {
+    min-width: 0;
+  }
+
+  .leaflet-container,
+  #map {
+    max-width: 100%;
+  }
+}
