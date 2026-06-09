@@ -695,12 +695,22 @@ function renderQuakes() {
       fillOpacity: .78
     }).addTo(quakeLayer);
 
-    marker.bindPopup(`
-      <strong>${q.area}</strong><br>
-      ${formatDateTime(q.time)}<br>
-      M${q.mag.toFixed(1)} / 最大震度 ${q.intensityLabel || q.intensity}<br>
-      深さ ${q.depth}km
-    `);
+    marker.bindPopup(compactPopupHtml({
+      title: q.area,
+      time: q.time,
+      detail: `M${q.mag.toFixed(1)} / 深さ${q.depth}km`
+    }), compactPopupOptions());
+
+    marker.on("click", () => {
+      updateFocusCard({
+        lat: q.lat,
+        lon: q.lon,
+        title: q.area,
+        detail: `M${q.mag.toFixed(1)} / 最大震度 ${q.intensityLabel || q.intensity} / 深さ ${q.depth}km`,
+        time: q.time,
+        type: "earthquake"
+      }, "地図選択中");
+    });
   });
 }
 
@@ -739,6 +749,7 @@ function renderQuakeList() {
         zoom: q.mag >= 6 ? 7 : 8,
         title: q.area,
         detail: `M${q.mag.toFixed(1)} / 最大震度 ${q.intensityLabel || q.intensity} / 深さ ${q.depth}km`,
+        popupDetail: `M${q.mag.toFixed(1)} / 深さ${q.depth}km`,
         time: q.time,
         type: "earthquake"
       });
@@ -788,6 +799,7 @@ function renderNewsList() {
         zoom: item.zoom || 7,
         title: item.area || item.title,
         detail: item.matchedArea ? `${item.summary || item.title}（推定エリア：${item.matchedArea}）` : (item.summary || item.title),
+        popupDetail: item.matchedArea ? `推定：${item.matchedArea}` : "地震関連ニュース",
         time: item.time,
         type: item.type || "news"
       });
@@ -842,30 +854,40 @@ function renderSelectedPlate(line) {
   `;
 }
 
-function focusMapItem(item) {
-  if (!Number.isFinite(item.lat) || !Number.isFinite(item.lon)) return;
+function compactPopupOptions() {
+  return {
+    className: "compact-map-popup",
+    maxWidth: 190,
+    minWidth: 130,
+    autoPan: true,
+    keepInView: true,
+    closeButton: true
+  };
+}
 
-  const zoom = item.zoom || 7;
-  map.flyTo([item.lat, item.lon], zoom, { duration: 0.8 });
-  highlightLayer.clearLayers();
+function compactText(text, max = 42) {
+  const value = String(text || "").replace(/\s+/g, " ").trim();
+  if (value.length <= max) return value;
+  return `${value.slice(0, max)}…`;
+}
 
-  L.circleMarker([item.lat, item.lon], {
-    radius: 16,
-    color: "#ffffff",
-    weight: 2,
-    fillColor: "#facc15",
-    fillOpacity: 0.35,
-    opacity: 0.95
-  }).addTo(highlightLayer).bindPopup(`
-    <strong>${escapeHtml(item.title || "地震関連地点")}</strong><br>
-    ${item.time ? `${formatDateTime(item.time)}<br>` : ""}
-    ${escapeHtml(item.detail || "")}
-  `).openPopup();
+function compactPopupHtml(item) {
+  const title = compactText(item.title || "地震関連地点", 16);
+  const detail = compactText(item.popupDetail || item.detail || "", 36);
+  return `
+    <div class="mini-map-popup">
+      <strong>${escapeHtml(title)}</strong>
+      ${item.time ? `<span>${formatDateTime(item.time)}</span>` : ""}
+      ${detail ? `<small>${escapeHtml(detail)}</small>` : ""}
+    </div>
+  `;
+}
 
+function updateFocusCard(item, label = "地図移動済み") {
   document.getElementById("selectedCard").innerHTML = `
     <p class="eyebrow">Map Focus</p>
     <h2>${escapeHtml(item.title || "地震関連地点")}</h2>
-    <div class="risk-pill" style="display:inline-block;border-color:#facc15">地図移動済み</div>
+    <div class="risk-pill" style="display:inline-block;border-color:#facc15">${escapeHtml(label)}</div>
     <p style="margin-top:12px">${escapeHtml(item.detail || "位置情報がある項目をクリックしたため、地図を該当地点へ移動しました。")}</p>
     <ul class="clean-list">
       <li>種別：${escapeHtml(item.type || "news")}</li>
@@ -873,60 +895,28 @@ function focusMapItem(item) {
       <li>緯度：${Number(item.lat).toFixed(3)}</li>
       <li>経度：${Number(item.lon).toFixed(3)}</li>
     </ul>
-    <p class="notice">※ニュース表示は防災確認用です。地震の発生日を予測するものではありません。</p>
+    <p class="notice">※ニュース由来の位置は、記事内の地名・辞書から推定している場合があります。</p>
   `;
-
-  if (window.innerWidth <= 720) {
-    document.getElementById("map").scrollIntoView({ behavior: "smooth", block: "center" });
-  }
 }
 
-function escapeHtml(value) {
-  return String(value ?? "")
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#039;");
-}
+function focusMapItem(item) {
+  if (!Number.isFinite(item.lat) || !Number.isFinite(item.lon)) return;
 
-function calculateZoneRisk(zone, quakes) {
-  const nearby = quakes.filter(q => distanceKm(zone.center[0], zone.center[1], q.lat, q.lon) <= zone.radiusKm);
-  const countScore = Math.min(18, nearby.length * 4);
-  const majorScore = Math.min(20, nearby.filter(q => q.mag >= 5).length * 10 + nearby.filter(q => q.mag >= 6).length * 12);
-  const maxM = nearby.length ? Math.max(...nearby.map(q => q.mag)) : 0;
-  const maxIScore = nearby.length ? Math.min(14, Math.max(...nearby.map(q => q.intensity)) * 2) : 0;
-  const magScore = maxM >= 7 ? 20 : maxM >= 6 ? 14 : maxM >= 5 ? 9 : maxM >= 4 ? 5 : 0;
-  const longScore = zone.longTerm * .32;
-  const tsunamiScore = zone.tsunami ? 5 : 0;
-  return Math.min(100, Math.round(longScore + countScore + majorScore + maxIScore + magScore + tsunamiScore));
-}
+  const zoom = item.zoom || 7;
+  map.flyTo([item.lat, item.lon], zoom, { duration: 0.8 });
+  highlightLayer.clearLayers();
 
-function quakeRadius(q) {
-  if (q.mag >= 8) return 18;
-  if (q.mag >= 7) return 15;
-  if (q.mag >= 6) return 12;
-  if (q.mag >= 5) return 10;
-  return 5 + q.mag;
-}
+  const marker = L.circleMarker([item.lat, item.lon], {
+    radius: 15,
+    color: "#ffffff",
+    weight: 2,
+    fillColor: "#facc15",
+    fillOpacity: 0.32,
+    opacity: 0.95
+  }).addTo(highlightLayer);
 
-function quakeColor(q) {
-  if (q.intensity >= 6 || q.mag >= 7) return "#ef4444";
-  if (q.intensity >= 4 || q.mag >= 5) return "#f59e0b";
-  if (q.intensity >= 2) return "#45d6ff";
-  return "#2dd4bf";
-}
-
-function riskColor(score) {
-  if (score >= 70) return "#ef4444";
-  if (score >= 40) return "#f59e0b";
-  return "#2dd4bf";
-}
-
-function riskLabel(score) {
-  if (score >= 70) return "高い";
-  if (score >= 40) return "注意";
-  return "通常";
+  marker.bindPopup(compactPopupHtml(item), compactPopupOptions()).openPopup();
+  updateFocusCard(item);
 }
 
 function formatDateTime(iso) {
