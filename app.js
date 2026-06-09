@@ -211,9 +211,24 @@ async function init() {
   await loadTsunamiData();
   document.getElementById("updatedAt").textContent = `データ更新 ${formatDateTime(dataUpdatedAt)}`;
 
-  map = L.map("map", { zoomControl: true, preferCanvas: true }).setView([37.8, 138.5], 5);
+  // 日本周辺に表示範囲を制限しつつ、ズーム操作は可能にする。
+  // 世界の反対側まで横移動しないようにするための bounds で、拡大表示は止めない。
+  const japanBounds = L.latLngBounds(
+    [20.0, 120.0], // 南西：沖縄・南西諸島の外側まで含める
+    [46.8, 155.5]  // 北東：北海道・千島側の外側まで含める
+  );
+
+  map = L.map("map", {
+    zoomControl: true,
+    preferCanvas: true,
+    minZoom: 4,
+    maxZoom: 12,
+    maxBounds: japanBounds,
+    maxBoundsViscosity: 0.85
+  }).setView([37.8, 138.5], 5);
+
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 10,
+    maxZoom: 12,
     attribution: "&copy; OpenStreetMap contributors"
   }).addTo(map);
 
