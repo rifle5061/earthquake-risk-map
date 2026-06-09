@@ -4,9 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>地震危険度マップ β版</title>
-<meta name="description" content="日本周辺の直近地震・津波情報・地震関連ニュースを地図で確認する防災情報サイトです。地震予知ではありません。">
+<meta name="description" content="日本周辺の直近地震・津波情報・プレート/海溝を地図で確認する防災情報サイトです。地震予知ではありません。">
 <style>
 *{box-sizing:border-box;min-width:0}
+html{scroll-behavior:smooth}
 html,body{
   margin:0;padding:0;width:100%;max-width:100%;overflow-x:hidden;
   background:#07101f;color:#eef6ff;
@@ -87,7 +88,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
 .notice{font-size:13px;color:#aebbd0;margin-top:12px}
 
 .plate-line-glow{
-  filter:drop-shadow(0 0 6px rgba(56,213,255,.85));
+  filter:drop-shadow(0 0 7px rgba(255,210,26,.95));
 }
 .risk-zone-label{
   color:#fff7bf;
@@ -104,14 +105,14 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
   <section class="hero">
     <div class="eyebrow">EARTHQUAKE RISK MAP / JAPAN</div>
     <h1>地震危険度マップ</h1>
-    <p class="lead">日本周辺の直近地震・津波情報・地震関連ニュースを地図で確認する防災情報サイトです。</p>
+    <p class="lead">日本周辺の直近地震・津波情報・プレート/海溝を地図で確認する防災情報サイトです。</p>
     <div class="statusbox"><span class="small">β版</span><br><b id="updatedAt">データ更新 --</b></div>
     <div id="debugBox" class="debug" style="display:none;">診断：JS起動待ち</div>
   </section>
 
   <section class="card">
     <h2>日本地図</h2>
-    <p class="small">期間・レイヤーを切り替えて、地震活動の見え方を変えられます。</p>
+    <p class="small">期間・震源・プレート/海溝を切り替えて、地震活動の見え方を変えられます。</p>
     <div class="riskbar" id="riskSummary">総合リスク --</div>
     <div class="scroll-row" id="periodTabs">
       <button class="tab" data-period="realtime">リアルタイム</button>
@@ -124,10 +125,11 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
     <div class="checks">
       <label><input type="checkbox" id="showQuakes" checked> 震源</label>
       <label><input type="checkbox" id="showPlates" checked> プレート/海溝</label>
-      <label><input type="checkbox" id="showRisk" checked> 危険度エリア</label>
       <label><input type="checkbox" id="showTsunami" checked> 津波警報・注意報</label>
       <label><input type="checkbox" id="onlyM5"> M5以上のみ</label>
     </div>
+
+    <p class="small" style="margin:0 0 12px;">プレート線：<span style="color:#ff3b8f;font-weight:900;">日本海溝・千島海溝</span> / <span style="color:#ffb000;font-weight:900;">南海トラフ</span> / <span style="color:#ff5a36;font-weight:900;">相模トラフ</span> / <span style="color:#fff;font-weight:900;">日本海東縁部</span></p>
     <div id="map"><div class="map-fallback">地図を読み込み中です</div></div>
     <p class="notice">※このサイトは地震の発生日・場所・規模を断定するものではありません。公開データをもとに防災上の注意度を整理するβ版です。</p>
   </section>
@@ -174,6 +176,66 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
     </div>
     <p class="notice">※PRを含みます。価格・在庫・キャンペーン内容は変わる可能性があります。</p>
   </section>
+
+  <section class="card">
+    <h2>リスクスコアの考え方</h2>
+    <p class="small">
+      このサイトでは、直近の地震回数・最大マグニチュード・最大震度・M5以上の有無などをもとに、防災上の注意度を見やすく整理しています。
+    </p>
+    <div class="list">
+      <div class="item">
+        <b>地震回数</b>
+        <p>一定期間内に表示対象エリアで発生した地震の数です。回数が多いほど、直近の活動が多い目安になります。</p>
+      </div>
+      <div class="item">
+        <b>最大M・最大震度</b>
+        <p>選択中の期間で確認された最大マグニチュードと最大震度を表示します。災害発生を予測するものではありません。</p>
+      </div>
+      <div class="item">
+        <b>プレート/海溝表示</b>
+        <p>日本周辺の主なプレート境界・海溝を確認するための参考表示です。正確な境界線を保証するものではありません。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>このサイトについて</h2>
+    <p class="small">
+      地震危険度マップは、日本周辺の公開地震情報・津波情報・地震関連ニュースを、スマホでも見やすい形で整理する防災情報サイトです。
+    </p>
+    <p class="small">
+      地震予知や危険地域の断定ではなく、「最近どこで地震が多いか」「どの周辺情報を確認すべきか」「備蓄や防災用品を見直すきっかけ」を作ることを目的としています。
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>データについて</h2>
+    <p class="small">
+      表示している地震情報は、公開されている地震関連データをもとに整理しています。データ取得のタイミングや元データの更新状況により、実際の最新発表と差が出る場合があります。
+    </p>
+    <p class="small">
+      津波警報・注意報、避難情報、緊急情報については、必ず気象庁・自治体・報道機関などの公式情報も確認してください。
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>免責事項</h2>
+    <p class="small">
+      このサイトは、地震の発生日・発生場所・規模・被害を予測または断定するものではありません。表示内容は防災意識を高めるための参考情報です。
+    </p>
+    <p class="small">
+      本サイトの情報を利用したこと、または利用できなかったことにより発生した損害について、運営者は責任を負いかねます。災害時は、気象庁・自治体・消防・警察・報道機関などの公式情報に従って行動してください。
+    </p>
+    <p class="small">
+      掲載している防災用品リンクにはPR・広告を含む場合があります。価格・在庫・キャンペーン内容は変わる可能性があるため、購入前に販売ページで最新情報を確認してください。
+    </p>
+  </section>
+
+  <footer class="small" style="text-align:center;padding:22px 8px 40px;color:#7f8da3;">
+    地震危険度マップ β版<br>
+    公開情報をもとにした防災確認用サイトです。
+  </footer>
+
 </main>
 
 <script>
@@ -233,10 +295,30 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
     $("statM5").textContent = arr.filter(q=>+q.mag>=5).length;
     $("riskSummary").textContent = arr.length ? "総合リスク 通常" : "総合リスク --";
   }
+  function scrollToMap(){
+    const el = $("map");
+    if(!el) return;
+    const y = el.getBoundingClientRect().top + window.pageYOffset - 90;
+    window.scrollTo({top:y, behavior:"smooth"});
+    setTimeout(()=>{ if(state.map) state.map.invalidateSize(); }, 350);
+  }
+  function popupQuake(q){
+    if(!state.map || !state.L || !(+q.lat) || !(+q.lon)) return;
+    state.L.popup()
+      .setLatLng([+q.lat, +q.lon])
+      .setContent(`<b>${q.area || "震源"}</b><br>${fmtTime(q.time)}<br>M${(+q.mag||0).toFixed(1)} / 深さ${q.depth ?? "-"}km`)
+      .openOn(state.map);
+  }
   function focus(q, move){
     $("focusTitle").textContent = q.area || "地震情報";
     $("focusBody").textContent = `${fmtTime(q.time)} / M${(+q.mag||0).toFixed(1)} / 最大震度 ${q.intensityLabel ?? q.intensity ?? "-"} / 深さ ${q.depth ?? "-"}km`;
-    if(move && state.map) state.map.setView([+q.lat,+q.lon], +q.mag>=6?7:8);
+    if(move && state.map){
+      scrollToMap();
+      setTimeout(()=>{
+        state.map.setView([+q.lat,+q.lon], +q.mag>=6?7:8);
+        popupQuake(q);
+      }, 260);
+    }
   }
   function renderLists(arr){
     const qbox=$("quakeList"); qbox.innerHTML="";
@@ -260,41 +342,29 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
     const map = L.map(el,{maxBounds:bounds,maxBoundsViscosity:.85,minZoom:4,maxZoom:10}).setView([37.8,138.8],4);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap contributors",noWrap:true,bounds}).addTo(map);
     state.map=map; state.L=L;
-    state.layers.quake=L.layerGroup().addTo(map); state.layers.plate=L.layerGroup().addTo(map); state.layers.risk=L.layerGroup().addTo(map);
+    state.layers.quake=L.layerGroup().addTo(map); state.layers.plate=L.layerGroup().addTo(map);
   }
-  function addLabel(text,lat,lon){const L=state.L; L.marker([lat,lon],{interactive:false,icon:L.divIcon({className:"map-label",html:text,iconSize:[150,24]})}).addTo(state.layers.plate);}
-  function addRiskLabel(text,lat,lon){const L=state.L; L.marker([lat,lon],{interactive:false,icon:L.divIcon({className:"risk-zone-label",html:text,iconSize:[170,22]})}).addTo(state.layers.risk);}
+  function addLabel(text,lat,lon){const L=state.L; L.marker([lat,lon],{interactive:false,icon:L.divIcon({className:"map-label",html:text,iconSize:[150,24]})}).addTo(state.layers.plate);})}).addTo(state.layers.risk);}
   function renderMap(arr){
     if(!state.map) return;
     const L=state.L;
     Object.values(state.layers).forEach(l=>l.clearLayers());
     if($("showPlates").checked){
-      const plateStyle = {color:"#38d5ff",weight:5,opacity:.9,dashArray:"10 8",className:"plate-line-glow"};
-      const trenchStyle = {color:"#ffd21a",weight:5,opacity:.95,dashArray:"14 7"};
+      const plateStyle = {color:"#ff3b8f",weight:5,opacity:.95,dashArray:"10 8",className:"plate-line-glow"};
+      const trenchStyle = {color:"#ffb000",weight:6,opacity:.98,dashArray:"14 7",className:"plate-line-glow"};
       L.polyline([[44.8,149.5],[43.0,148.2],[41.4,146.2],[39.7,144.8],[37.6,143.8],[35.5,142.7]], plateStyle).bindPopup("<b>千島海溝〜日本海溝</b><br>太平洋側の主要なプレート境界").addTo(state.layers.plate);
       L.polyline([[34.8,139.8],[34.0,138.5],[33.2,137.0],[32.5,135.2],[31.8,133.2],[31.2,131.3]], trenchStyle).bindPopup("<b>南海トラフ</b><br>防災上よく確認される海溝型地震の想定エリア").addTo(state.layers.plate);
-      L.polyline([[35.7,139.6],[35.0,140.1],[34.5,140.5],[34.0,141.0]], {color:"#ff9f43",weight:4,opacity:.9,dashArray:"8 6"}).bindPopup("<b>相模トラフ</b>").addTo(state.layers.plate);
-      L.polyline([[44.3,141.2],[41.5,138.8],[39.0,137.5],[37.5,137.2],[35.8,136.8]], {color:"#9ae6ff",weight:4,opacity:.85,dashArray:"7 6"}).bindPopup("<b>日本海東縁部</b>").addTo(state.layers.plate);
+      L.polyline([[35.7,139.6],[35.0,140.1],[34.5,140.5],[34.0,141.0]], {color:"#ff5a36",weight:5,opacity:.95,dashArray:"8 6",className:"plate-line-glow"}).bindPopup("<b>相模トラフ</b>").addTo(state.layers.plate);
+      L.polyline([[44.3,141.2],[41.5,138.8],[39.0,137.5],[37.5,137.2],[35.8,136.8]], {color:"#ffffff",weight:4,opacity:.95,dashArray:"7 6"}).bindPopup("<b>日本海東縁部</b>").addTo(state.layers.plate);
       addLabel("日本海溝",37.6,143.4); addLabel("千島海溝",43.0,148.0); addLabel("南海トラフ",32.0,135.2); addLabel("相模トラフ",34.6,139.9); addLabel("日本海東縁部",39.0,137.6);
     }
-    if($("showRisk").checked){
-      const zones = [
-        {name:"南海トラフ注意エリア", pts:[[30.7,130.4],[31.8,132.0],[33.1,135.2],[34.0,138.3],[33.6,140.4],[31.8,137.8],[30.3,134.0]], color:"#ffd21a", label:[31.9,135.0]},
-        {name:"日本海溝・東北沖注意エリア", pts:[[35.5,141.2],[37.0,142.2],[39.4,143.7],[41.2,144.8],[40.5,146.0],[38.0,144.8],[35.8,143.0]], color:"#ff7a45", label:[38.5,143.6]},
-        {name:"千島海溝注意エリア", pts:[[41.5,145.3],[43.4,146.7],[45.3,149.0],[44.5,151.0],[42.2,148.8],[40.9,146.4]], color:"#ff4d6d", label:[43.2,148.0]},
-        {name:"首都圏・相模トラフ注意エリア", pts:[[34.1,138.7],[35.5,139.2],[35.8,140.5],[34.6,141.0],[33.8,140.0]], color:"#ff9f43", label:[34.8,140.0]}
-      ];
-      zones.forEach(z=>{
-        L.polygon(z.pts,{color:z.color,weight:3,fillColor:z.color,fillOpacity:.18,opacity:.95}).bindPopup("<b>"+z.name+"</b><br>過去活動・プレート境界・沿岸リスクをもとにした確認用エリア").addTo(state.layers.risk);
-        addRiskLabel(z.name,z.label[0],z.label[1]);
-      });
-    }
+
     if($("showQuakes").checked){
       arr.forEach(q=>{
         const m=+q.mag||0, c=m>=6?"#ff4b4b":m>=5?"#ff9a2e":m>=4?"#ffd21a":"#7dd3fc";
         const mk=L.circleMarker([+q.lat,+q.lon],{radius:Math.max(6,Math.min(18,4+m*2)),color:c,weight:2,fillColor:c,fillOpacity:.62}).addTo(state.layers.quake);
         mk.bindPopup(`<b>${q.area}</b><br>${fmtTime(q.time)}<br>M${m.toFixed(1)} / 深さ${q.depth ?? "-"}km`);
-        mk.on("click",()=>focus(q,true));
+        mk.on("click",()=>{ focus(q,false); popupQuake(q); });
       });
     }
     setTimeout(()=>state.map.invalidateSize(),100);
@@ -303,7 +373,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
 
   function bindControls(){
     $("periodTabs").addEventListener("click",e=>{const b=e.target.closest("[data-period]"); if(!b)return; state.period=b.dataset.period; document.querySelectorAll("#periodTabs .tab").forEach(x=>x.classList.toggle("active",x===b)); refresh();});
-    ["showQuakes","showPlates","showRisk","showTsunami","onlyM5"].forEach(id=>$(id).addEventListener("change",refresh));
+    ["showQuakes","showPlates","showTsunami","onlyM5"].forEach(id=>$(id).addEventListener("change",refresh));
     $("adTabs").addEventListener("click",e=>{const b=e.target.closest("[data-adcat]"); if(!b)return; const cat=b.dataset.adcat; document.querySelectorAll("#adTabs .pill").forEach(x=>x.classList.toggle("active",x===b)); document.querySelectorAll(".ad-slide").forEach(s=>s.hidden=!(cat==="all"||s.dataset.adcat===cat)); $("adTrack").scrollLeft=0;});
   }
 
