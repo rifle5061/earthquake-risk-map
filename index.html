@@ -94,6 +94,39 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
   .card{border-radius:22px}
   #map{height:420px}
 }
+
+.action-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:10px;
+}
+.action-btn{
+  appearance:none;
+  border:1px solid rgba(125,211,252,.35);
+  background:rgba(125,211,252,.12);
+  color:#dff7ff;
+  border-radius:999px;
+  padding:8px 12px;
+  font-size:13px;
+  font-weight:900;
+  text-decoration:none;
+  line-height:1;
+  cursor:pointer;
+}
+.action-btn.map{
+  border-color:rgba(125,211,252,.45);
+  background:rgba(56,189,248,.18);
+}
+.action-btn.article{
+  border-color:rgba(255,210,26,.45);
+  background:rgba(255,210,26,.14);
+  color:#fff4b8;
+}
+.action-btn:active{
+  transform:translateY(1px);
+}
+
 </style>
 </head>
 <body>
@@ -148,7 +181,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
   </section>
 
   <section class="card"><h2>最新地震</h2><div id="quakeList" class="list"></div></section>
-  <section class="card"><h2>地震関連ニュース</h2><p class="small">最新地震とは別枠で、取得できた実ニュースを表示します。位置情報があるニュースは地図へ移動し、位置情報がないニュースは記事リンクを開きます。</p><div id="newsList" class="list"></div></section>
+  <section class="card"><h2>地震関連ニュース</h2><p class="small">最新地震とは別枠で、取得できた実ニュースを表示します。位置情報があるニュースは「地図で見る」、記事URLがあるニュースは「記事を読む」から確認できます。</p><div id="newsList" class="list"></div></section>
 
   <section class="card ad-card">
     <span class="pr">PR</span><h2>防災用品の確認</h2>
@@ -283,26 +316,51 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
       card.className="item";
 
       const hasPoint=Number.isFinite(n.lat)&&Number.isFinite(n.lon)&&n.lat>=20&&n.lat<=46.8&&n.lon>=122&&n.lon<=154.5;
-      const safeTitle=n.title;
       const timeText=n.time ? " / "+fmtTime(n.time) : "";
       const summary=n.summary||n.area||"";
 
-      card.innerHTML=`<b>${safeTitle}</b><p>${n.source}${timeText}</p>${summary?`<p>${summary}</p>`:""}<p style="margin-top:8px;color:#7dd3fc;font-weight:800;">${hasPoint?"地図で見る":"記事を開く"} →</p>`;
+      card.innerHTML=`
+        <b>${n.title}</b>
+        <p>${n.source}${timeText}</p>
+        ${summary?`<p>${summary}</p>`:""}
+        <div class="action-row"></div>
+      `;
 
-      card.onclick=()=>{
-        if(hasPoint && state.map){
+      const row=card.querySelector(".action-row");
+
+      if(hasPoint){
+        const mapBtn=document.createElement("button");
+        mapBtn.type="button";
+        mapBtn.className="action-btn map";
+        mapBtn.textContent="地図で見る";
+        mapBtn.onclick=(ev)=>{
+          ev.stopPropagation();
           scrollToMap();
           setTimeout(()=>{
             state.map.setView([n.lat,n.lon],8);
             state.L.popup()
               .setLatLng([n.lat,n.lon])
-              .setContent(`<b>${n.area||n.title}</b><br>${n.source}${n.time?"<br>"+fmtTime(n.time):""}${n.url?"<br><a href='${n.url}' target='_blank' rel='noopener noreferrer'>記事を開く</a>":""}`)
+              .setContent(`<b>${n.area||n.title}</b><br>${n.source}${n.time?"<br>"+fmtTime(n.time):""}${n.url?"<br><a href='${n.url}' target='_blank' rel='noopener noreferrer'>記事を読む</a>":""}`)
               .openOn(state.map);
           },260);
-        }else if(n.url){
-          window.open(n.url,"_blank","noopener,noreferrer");
-        }
-      };
+        };
+        row.appendChild(mapBtn);
+      }
+
+      if(n.url){
+        const articleBtn=document.createElement("a");
+        articleBtn.className="action-btn article";
+        articleBtn.textContent="記事を読む";
+        articleBtn.href=n.url;
+        articleBtn.target="_blank";
+        articleBtn.rel="noopener noreferrer";
+        articleBtn.onclick=(ev)=>ev.stopPropagation();
+        row.appendChild(articleBtn);
+      }
+
+      if(!hasPoint && !n.url){
+        row.remove();
+      }
 
       nbox.appendChild(card);
     });
@@ -310,7 +368,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
 
   function renderLists(arr){
     const qbox=$("quakeList"); qbox.innerHTML="";
-    arr.slice(0,8).forEach(q=>{const b=document.createElement("button"); b.className="item"; b.innerHTML=`<b>${q.area}　M${(+q.mag||0).toFixed(1)}</b><p>${fmtTime(q.time)} / 最大震度 ${q.intensityLabel??q.intensity??"-"} / 深さ ${q.depth??"-"}km</p><p style="margin-top:6px;color:#7dd3fc;font-weight:800;">地図で見る →</p>`; b.onclick=()=>focus(q,true); qbox.appendChild(b)});
+    arr.slice(0,8).forEach(q=>{const b=document.createElement("button"); b.className="item"; b.innerHTML=`<b>${q.area}　M${(+q.mag||0).toFixed(1)}</b><p>${fmtTime(q.time)} / 最大震度 ${q.intensityLabel??q.intensity??"-"} / 深さ ${q.depth??"-"}km</p><div class="action-row"><span class="action-btn map">地図で見る</span></div>`; b.onclick=()=>focus(q,true); qbox.appendChild(b)});
     if(!qbox.children.length)qbox.innerHTML=`<div class="item"><b>表示できる地震情報がありません</b><p>期間やM5以上のみの設定を変更してください。</p></div>`;
     renderNews();
   }
