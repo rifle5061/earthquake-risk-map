@@ -548,6 +548,18 @@ h2 { margin-bottom: 10px; font-size: 18px; }
   border-color: #facc15;
   font-weight: 800;
 }
+
+.ad-empty-message {
+  display: block;
+  color: var(--muted);
+  font-size: 13px;
+  padding: 14px;
+  border: 1px dashed rgba(250,204,21,.35);
+  border-radius: 14px;
+  background: rgba(250,204,21,.05);
+}
+.ad-empty-message[hidden] { display: none !important; }
+
 .ad-carousel {
   display: flex;
   gap: 12px;
@@ -565,7 +577,9 @@ h2 { margin-bottom: 10px; font-size: 18px; }
   background: rgba(250,204,21,.05);
   padding: 10px;
 }
-.ad-slide.hidden { display: none; }
+.ad-slide.hidden,
+.ad-slide.is-filtered-out,
+.ad-slide[hidden] { display: none !important; }
 .ad-slide-head {
   display: flex;
   justify-content: space-between;
