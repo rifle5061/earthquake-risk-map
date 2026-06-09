@@ -1,0 +1,10 @@
+{
+  "source": "P2P地震情報/気象庁",
+  "endpoint": "http://example.invalid/history?codes=552&limit=20",
+  "fetched_at": "2026-06-09T09:49:36+09:00",
+  "updated_at": null,
+  "active": false,
+  "alerts": [],
+  "error": "API取得に失敗しました: <urlopen error [Errno -3] Temporary failure in name resolution>",
+  "note": "取得失敗時は安全側として発表なし表示にします。公式情報を確認してください。"
+}
