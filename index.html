@@ -7,7 +7,7 @@
   <meta name="description" content="日本周辺の地震活動、プレート境界、直近地震データから防災上の注意度を可視化する地震危険度マップです。地震予知ではありません。" />
   <link rel="preconnect" href="https://unpkg.com">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQMyW9xD+HmhlK0YzL3vMefTt2AtnT0=" crossorigin="" />
-  <link rel="stylesheet" href="style.css?v=japan-bounds-zoom-1" />
+  <link rel="stylesheet" href="style.css?v=display-control-fix-1" />
 </head>
 <body>
   <header class="site-header">
@@ -33,14 +33,14 @@
       </div>
 
       <div class="controls" aria-label="表示期間切替">
-        <button class="period-btn active" data-period="realtime">リアルタイム</button>
-        <button class="period-btn" data-period="12h">12時間</button>
-        <button class="period-btn" data-period="24h">24時間</button>
-        <button class="period-btn" data-period="7d">1週間</button>
-        <button class="period-btn" data-period="1m">1ヶ月</button>
-        <button class="period-btn" data-period="3m">3ヶ月</button>
-        <button class="period-btn" data-period="1y">1年</button>
-        <button class="period-btn" data-period="all">全て</button>
+        <button class="period-btn" type="button" data-period="realtime" onclick="window.applyPeriodFilter && window.applyPeriodFilter('realtime')" aria-pressed="false">リアルタイム</button>
+        <button class="period-btn" type="button" data-period="12h" onclick="window.applyPeriodFilter && window.applyPeriodFilter('12h')">12時間</button>
+        <button class="period-btn active" type="button" data-period="24h" onclick="window.applyPeriodFilter && window.applyPeriodFilter('24h')" aria-pressed="true">24時間</button>
+        <button class="period-btn" type="button" data-period="7d" onclick="window.applyPeriodFilter && window.applyPeriodFilter('7d')">1週間</button>
+        <button class="period-btn" type="button" data-period="1m" onclick="window.applyPeriodFilter && window.applyPeriodFilter('1m')">1ヶ月</button>
+        <button class="period-btn" type="button" data-period="3m" onclick="window.applyPeriodFilter && window.applyPeriodFilter('3m')">3ヶ月</button>
+        <button class="period-btn" type="button" data-period="1y" onclick="window.applyPeriodFilter && window.applyPeriodFilter('1y')">1年</button>
+        <button class="period-btn" type="button" data-period="all" onclick="window.applyPeriodFilter && window.applyPeriodFilter('all')">全て</button>
       </div>
 
       <div class="layer-controls" aria-label="レイヤー切替">
@@ -441,7 +441,7 @@
   </footer>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-  <script src="app.js?v=japan-bounds-zoom-1"></script>
+  <script src="app.js?v=display-control-fix-1"></script>
 
 <script>
 /* Hard ad category filter: works even if app.js cache/event binding fails */

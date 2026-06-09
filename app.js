@@ -200,13 +200,14 @@ let plateLayer = L.layerGroup();
 let zoneLayer = L.layerGroup();
 let highlightLayer = L.layerGroup();
 let tsunamiLayer = L.layerGroup();
-let currentPeriod = "realtime";
+let currentPeriod = "24h";
 
 async function init() {
   activeQuakes = SAMPLE_QUAKES;
   await loadEarthquakeData();
   await loadAreaDictionary();
   await loadEarthquakeNews();
+  if (!activeNews.length) activeNews = buildNewsFromQuakes(activeQuakes);
   await loadTsunamiZones();
   await loadTsunamiData();
   document.getElementById("updatedAt").textContent = `データ更新 ${formatDateTime(dataUpdatedAt)}`;
@@ -482,6 +483,20 @@ function filterAdCarousel(category) {
   if (empty) empty.hidden = visibleCount !== 0;
 }
 
+async function fetchJsonFromCandidates(paths) {
+  let lastError = null;
+  for (const path of paths) {
+    try {
+      const response = await fetch(path, { cache: "no-store" });
+      if (!response.ok) throw new Error(`${path} HTTP ${response.status}`);
+      return await response.json();
+    } catch (error) {
+      lastError = error;
+    }
+  }
+  throw lastError || new Error("no candidate json loaded");
+}
+
 async function loadAreaDictionary() {
   areaDictionary = DEFAULT_AREA_DICTIONARY.map(normalizeAreaEntry).filter(Boolean);
   try {
@@ -542,9 +557,10 @@ function applyAreaDictionary(item) {
 
 async function loadEarthquakeNews() {
   try {
-    const response = await fetch("data/earthquake-news.json", { cache: "no-store" });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const payload = await response.json();
+    const payload = await fetchJsonFromCandidates([
+      "data/earthquake-news.json",
+      "data/地震ニュース.json"
+    ]);
     const news = Array.isArray(payload) ? payload : payload.news;
     if (!Array.isArray(news) || news.length === 0) throw new Error("no news data");
 
@@ -595,9 +611,11 @@ function buildNewsFromQuakes(quakes) {
 
 async function loadEarthquakeData() {
   try {
-    const response = await fetch("data/latest-earthquakes.json", { cache: "no-store" });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const payload = await response.json();
+    const payload = await fetchJsonFromCandidates([
+      "data/latest-earthquakes.json",
+      "data/最新の地震情報.json",
+      "data/最新地震情報.json"
+    ]);
     const quakes = Array.isArray(payload) ? payload : payload.earthquakes;
     if (!Array.isArray(quakes) || quakes.length === 0) throw new Error("no earthquake data");
 
@@ -619,15 +637,29 @@ async function loadEarthquakeData() {
   }
 }
 
+function applyPeriodFilter(period, shouldUpdate = true) {
+  const selected = period || "24h";
+  currentPeriod = selected;
+
+  document.querySelectorAll(".period-btn").forEach(btn => {
+    const active = btn.dataset.period === selected;
+    btn.classList.toggle("active", active);
+    btn.setAttribute("aria-pressed", active ? "true" : "false");
+  });
+
+  if (shouldUpdate) updateView();
+}
+
 function bindControls() {
   document.querySelectorAll(".period-btn").forEach(btn => {
-    btn.addEventListener("click", () => {
-      document.querySelectorAll(".period-btn").forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-      currentPeriod = btn.dataset.period;
-      updateView();
+    btn.addEventListener("click", event => {
+      event.preventDefault();
+      event.stopPropagation();
+      applyPeriodFilter(btn.dataset.period || "24h");
     });
   });
+  window.applyPeriodFilter = applyPeriodFilter;
+  applyPeriodFilter(currentPeriod, false);
 
   ["toggleQuakes", "togglePlates", "toggleZones", "toggleTsunami", "toggleMajorOnly"].forEach(id => {
     const el = document.getElementById(id);
@@ -717,9 +749,21 @@ function updateView() {
 }
 
 function getFilteredQuakes() {
-  const period = PERIODS[currentPeriod];
+  const period = PERIODS[currentPeriod] || PERIODS["24h"];
   const majorOnly = document.getElementById("toggleMajorOnly")?.checked;
-  return activeQuakes.filter(q => {
+  const sorted = activeQuakes
+    .filter(q => Number.isFinite(q.lat) && Number.isFinite(q.lon))
+    .sort((a, b) => new Date(b.time) - new Date(a.time));
+
+  // 「リアルタイム」は、データ取得時点の最新地震を表示するモード。
+  // 自動更新間隔やAPI側の配信間隔で1時間以内の地震が0件になると地図が空になるため、最新10件を出す。
+  if (currentPeriod === "realtime") {
+    return sorted
+      .filter(q => !majorOnly || q.mag >= 5)
+      .slice(0, 10);
+  }
+
+  return sorted.filter(q => {
     if (currentPeriod !== "all") {
       const diffHours = (baseTime - new Date(q.time)) / 36e5;
       if (diffHours < 0 || diffHours > period.hours) return false;
@@ -727,7 +771,7 @@ function getFilteredQuakes() {
     if (currentPeriod === "all" && !q.majorHistorical && q.mag < 5) return false;
     if (majorOnly && q.mag < 5) return false;
     return true;
-  }).sort((a, b) => new Date(b.time) - new Date(a.time));
+  });
 }
 
 function renderQuakes() {
