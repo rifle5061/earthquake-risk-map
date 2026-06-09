@@ -7,7 +7,7 @@
   <meta name="description" content="日本周辺の地震活動、プレート境界、直近地震データから防災上の注意度を可視化する地震危険度マップです。地震予知ではありません。" />
   <link rel="preconnect" href="https://unpkg.com">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQMyW9xD+HmhlK0YzL3vMefTt2AtnT0=" crossorigin="" />
-  <link rel="stylesheet" href="style.css?v=ad-filter-fix-1" />
+  <link rel="stylesheet" href="style.css?v=ad-filter-hardfix-1" />
 </head>
 <body>
   <header class="site-header">
@@ -441,6 +441,102 @@
   </footer>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-  <script src="app.js?v=ad-filter-fix-1"></script>
+  <script src="app.js?v=ad-filter-hardfix-1"></script>
+
+<script>
+/* Hard ad category filter: works even if app.js cache/event binding fails */
+(function () {
+  const LABEL_TO_CATEGORY = {
+    "すべて": "all",
+    "非常食": "food",
+    "保存水・飲料": "water",
+    "保存水": "water",
+    "飲料": "water",
+    "電源": "power",
+    "トイレ・衛生": "toilet",
+    "トイレ": "toilet",
+    "衛生": "toilet",
+    "持ち出し袋": "carry",
+    "持ち出し": "carry",
+    "ライト・ラジオ": "light",
+    "ライト": "light",
+    "寝具・防寒": "shelter",
+    "防寒": "shelter",
+    "救急": "firstaid"
+  };
+
+  function getCategoryFromTab(tab) {
+    if (!tab) return "all";
+    const raw = tab.getAttribute("data-ad-category") || tab.getAttribute("data-category") || "";
+    if (raw) return raw;
+    const label = (tab.textContent || "").trim();
+    return LABEL_TO_CATEGORY[label] || "all";
+  }
+
+  function applyAdCategoryFilter(category) {
+    const selected = category || "all";
+    const carousel = document.getElementById("adCarousel") || document.querySelector(".ad-carousel");
+    const slides = Array.from(document.querySelectorAll(".ad-slide"));
+    let visibleCount = 0;
+
+    slides.forEach((slide) => {
+      const slideCategory = slide.getAttribute("data-ad-category") || slide.getAttribute("data-category") || "";
+      const match = selected === "all" || slideCategory === selected;
+
+      if (match) {
+        slide.hidden = false;
+        slide.classList.remove("hidden", "is-filtered-out", "ad-hidden-hard");
+        slide.removeAttribute("aria-hidden");
+        slide.style.setProperty("display", "block", "important");
+        visibleCount += 1;
+      } else {
+        slide.hidden = true;
+        slide.classList.add("hidden", "is-filtered-out", "ad-hidden-hard");
+        slide.setAttribute("aria-hidden", "true");
+        slide.style.setProperty("display", "none", "important");
+      }
+    });
+
+    document.querySelectorAll(".ad-tab, [data-ad-category]").forEach((tab) => {
+      if (!tab.closest(".ad-category-tabs")) return;
+      const tabCategory = getCategoryFromTab(tab);
+      const active = tabCategory === selected;
+      tab.classList.toggle("active", active);
+      tab.setAttribute("aria-pressed", active ? "true" : "false");
+    });
+
+    if (carousel) {
+      carousel.setAttribute("data-active-category", selected);
+      try { carousel.scrollTo({ left: 0, behavior: "instant" }); }
+      catch (e) { carousel.scrollLeft = 0; }
+    }
+
+    const empty = document.getElementById("adEmptyMessage");
+    if (empty) empty.hidden = visibleCount !== 0;
+  }
+
+  // expose for app.js and browser console
+  window.applyAdCategoryFilter = applyAdCategoryFilter;
+  window.filterAdCarousel = applyAdCategoryFilter;
+
+  document.addEventListener("click", function (event) {
+    const tab = event.target.closest(".ad-tab, [data-ad-category]");
+    if (!tab || !tab.closest(".ad-category-tabs")) return;
+    event.preventDefault();
+    event.stopPropagation();
+    applyAdCategoryFilter(getCategoryFromTab(tab));
+  }, true);
+
+  document.addEventListener("DOMContentLoaded", function () {
+    applyAdCategoryFilter("all");
+  });
+
+  window.addEventListener("load", function () {
+    const active = document.querySelector(".ad-category-tabs .active");
+    applyAdCategoryFilter(getCategoryFromTab(active));
+  });
+})();
+</script>
+
 </body>
 </html>

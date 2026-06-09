@@ -439,23 +439,28 @@ function filterAdCarousel(category) {
   let visibleCount = 0;
 
   slides.forEach(slide => {
-    const slideCategory = slide.getAttribute("data-ad-category") || "";
+    const slideCategory = slide.getAttribute("data-ad-category") || slide.getAttribute("data-category") || "";
     const match = selected === "all" || slideCategory === selected;
 
-    // スマホブラウザでも確実に切り替わるように、class だけでなく hidden/style も併用する。
-    slide.classList.toggle("hidden", !match);
-    slide.classList.toggle("is-filtered-out", !match);
-    slide.hidden = !match;
-    slide.setAttribute("aria-hidden", match ? "false" : "true");
-    slide.style.display = match ? "" : "none";
-
-    if (match) visibleCount += 1;
+    if (match) {
+      slide.hidden = false;
+      slide.classList.remove("hidden", "is-filtered-out", "ad-hidden-hard");
+      slide.removeAttribute("aria-hidden");
+      slide.style.setProperty("display", "block", "important");
+      visibleCount += 1;
+    } else {
+      slide.hidden = true;
+      slide.classList.add("hidden", "is-filtered-out", "ad-hidden-hard");
+      slide.setAttribute("aria-hidden", "true");
+      slide.style.setProperty("display", "none", "important");
+    }
   });
 
   const carousel = document.getElementById("adCarousel");
   if (carousel) {
     carousel.dataset.activeCategory = selected;
-    carousel.scrollTo({ left: 0, behavior: "smooth" });
+    try { carousel.scrollTo({ left: 0, behavior: "instant" }); }
+    catch (e) { carousel.scrollLeft = 0; }
   }
 
   const empty = document.getElementById("adEmptyMessage");

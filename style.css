@@ -759,3 +759,12 @@ h2 { margin-bottom: 10px; font-size: 18px; }
     font-size: 10.5px;
   }
 }
+
+
+/* Hard category filter fallback */
+.ad-slide.ad-hidden-hard,
+.ad-slide.hidden,
+.ad-slide.is-filtered-out,
+.ad-slide[hidden] {
+  display: none !important;
+}
