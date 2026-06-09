@@ -94,6 +94,70 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
   .card{border-radius:22px}
   #map{height:420px}
 }
+
+/* full ad section compatibility */
+.ad-slide-head{
+  display:flex;
+  justify-content:space-between;
+  gap:8px;
+  margin-bottom:10px;
+  color:#fff;
+}
+.ad-slide-head span{
+  color:#ffd21a;
+  font-size:13px;
+  font-weight:800;
+}
+.affiliate-card{
+  display:flex;
+  gap:12px;
+  align-items:center;
+  text-decoration:none;
+  color:#eef6ff;
+  min-width:0;
+}
+.affiliate-card img:not(.a8-pixel){
+  width:64px;
+  height:64px;
+  border-radius:14px;
+  object-fit:cover;
+  flex:0 0 auto;
+  background:#12213b;
+}
+.affiliate-body{
+  display:block;
+  min-width:0;
+}
+.affiliate-title{
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+  font-weight:900;
+  font-size:15px;
+  line-height:1.35;
+}
+.affiliate-desc{
+  display:block;
+  font-size:13px;
+  color:#aebbd0;
+  margin-top:5px;
+}
+.affiliate-price{
+  display:block;
+  color:#ffb6b6;
+  font-weight:900;
+  font-size:13px;
+  margin-top:4px;
+}
+.a8-pixel{
+  position:absolute;
+  width:1px;
+  height:1px;
+  opacity:0;
+  pointer-events:none;
+}
+
 </style>
 </head>
 <body>
@@ -158,20 +222,20 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
         </div>
         <p>地震・津波・停電・断水に備えて、必要な防災用品をカテゴリ別に確認できます。</p>
 
-        <div class="ad-category-tabs" aria-label="防災用品カテゴリ">
-          <button class="ad-tab active" type="button" data-ad-category="all">すべて</button>
-          <button class="ad-tab " type="button" data-ad-category="food">非常食</button>
-          <button class="ad-tab " type="button" data-ad-category="water">保存水・飲料</button>
-          <button class="ad-tab " type="button" data-ad-category="power">電源</button>
-          <button class="ad-tab " type="button" data-ad-category="toilet">トイレ・衛生</button>
-          <button class="ad-tab " type="button" data-ad-category="carry">持ち出し袋</button>
-          <button class="ad-tab " type="button" data-ad-category="light">ライト・ラジオ</button>
-          <button class="ad-tab " type="button" data-ad-category="shelter">寝具・防寒</button>
-          <button class="ad-tab " type="button" data-ad-category="firstaid">救急</button>
+        <div class="scroll-row" id="adTabs" aria-label="防災用品カテゴリ">
+          <button class="pill active" type="button" data-adcat="all">すべて</button>
+          <button class="pill " type="button" data-adcat="food">非常食</button>
+          <button class="pill " type="button" data-adcat="water">保存水・飲料</button>
+          <button class="pill " type="button" data-adcat="power">電源</button>
+          <button class="pill " type="button" data-adcat="toilet">トイレ・衛生</button>
+          <button class="pill " type="button" data-adcat="carry">持ち出し袋</button>
+          <button class="pill " type="button" data-adcat="light">ライト・ラジオ</button>
+          <button class="pill " type="button" data-adcat="shelter">寝具・防寒</button>
+          <button class="pill " type="button" data-adcat="firstaid">救急</button>
         </div>
 
-        <div class="ad-carousel" id="adCarousel" aria-label="防災用品広告スライダー">
-          <article class="ad-slide" data-ad-category="food">
+        <div class="ad-track" id="adTrack" aria-label="防災用品広告スライダー">
+          <article class="ad-slide" data-adcat="food">
             <div class="ad-slide-head"><strong>非常食</strong><span>7日分セット</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00qr6h4.2bo116ad.g00qr6h4.2bo12694%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Flock110%252F311429%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Flock110%252Fi%252F10121905%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/lock110/cabinet/rank01/311429-rank.jpg?_ex=64x64" alt="" loading="lazy">
@@ -183,7 +247,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="food">
+          <article class="ad-slide" data-adcat="food">
             <div class="ad-slide-head"><strong>非常食</strong><span>バラエティー</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00srf14.2bo11a50.g00srf14.2bo125e7%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fbousaiyouhin-oshare%252F047%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fbousaiyouhin-oshare%252Fi%252F10000065%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/bousaiyouhin-oshare/cabinet/08019487/047-ss-50-002.jpg?_ex=64x64" alt="" loading="lazy">
@@ -195,7 +259,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="food">
+          <article class="ad-slide" data-adcat="food">
             <div class="ad-slide-head"><strong>非常食</strong><span>家族向け</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00tyb94.2bo11901.g00tyb94.2bo121c6%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fmonoroots%252F51set%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fmonoroots%252Fi%252F10000488%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/monoroots/cabinet/11264874/11264877/12176245/7dayset_20250924_2.jpg?_ex=64x64" alt="" loading="lazy">
@@ -207,7 +271,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="food">
+          <article class="ad-slide" data-adcat="food">
             <div class="ad-slide-head"><strong>非常食</strong><span>おかず</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00rt8l4.2bo11246.g00rt8l4.2bo12655%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fymx-shop%252Fymx1-059%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fymx-shop%252Fi%252F10002751%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/ymx-shop/cabinet/04764783/08725634/ymx1-059_tmb-3_s.jpg?_ex=64x64" alt="" loading="lazy">
@@ -219,7 +283,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="food">
+          <article class="ad-slide" data-adcat="food">
             <div class="ad-slide-head"><strong>非常食</strong><span>子ども向け</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00quq94.2bo11b52.g00quq94.2bo12ee6%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fauc-hachidai%252F10539856%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fauc-hachidai%252Fi%252F10539856%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/auc-hachidai/cabinet/sozai/smn/imgrc0117456990.jpg?_ex=64x64" alt="" loading="lazy">
@@ -231,7 +295,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="food">
+          <article class="ad-slide" data-adcat="food">
             <div class="ad-slide-head"><strong>非常食</strong><span>パン缶詰</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00r56h4.2bo11228.g00r56h4.2bo125a2%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Faichi12%252F10012084%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Faichi12%252Fi%252F10028911%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/aichi12/cabinet/img_20/m-10012084-s.jpg?_ex=64x64" alt="" loading="lazy">
@@ -243,7 +307,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="food">
+          <article class="ad-slide" data-adcat="food">
             <div class="ad-slide-head"><strong>非常食</strong><span>野菜スープ</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00rzxd4.2bo1115c.g00rzxd4.2bo12fc2%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fsoukaidrink%252F4901306036839%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fsoukaidrink%252Fi%252F10012418%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/soukaidrink/cabinet/839/4901306036839.jpg?_ex=64x64" alt="" loading="lazy">
@@ -255,7 +319,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="water">
+          <article class="ad-slide" data-adcat="water">
             <div class="ad-slide-head"><strong>飲料</strong><span>500ml水</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00rxoq4.2bo1114e.g00rxoq4.2bo12a6d%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fenetkome%252F7245534%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fenetkome%252Fi%252F10027220%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/enetkome/cabinet/web02/7245534_a.jpg?_ex=64x64" alt="" loading="lazy">
@@ -267,7 +331,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="water">
+          <article class="ad-slide" data-adcat="water">
             <div class="ad-slide-head"><strong>飲料</strong><span>野菜ジュース</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00t9244.2bo1132f.g00t9244.2bo12485%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fnattokushop%252Fkg066034%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fnattokushop%252Fi%252F10006044%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/nattokushop/cabinet/images/drink/kg066034.jpg?_ex=64x64" alt="" loading="lazy">
@@ -279,7 +343,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="water">
+          <article class="ad-slide" data-adcat="water">
             <div class="ad-slide-head"><strong>飲料</strong><span>麦茶</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00ucoh4.2bo11444.g00ucoh4.2bo1269a%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fkimisara%252Fitem59%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fkimisara%252Fi%252F10000063%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/kimisara/cabinet/compass1688035836.jpg?_ex=64x64" alt="" loading="lazy">
@@ -291,7 +355,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="power">
+          <article class="ad-slide" data-adcat="power">
             <div class="ad-slide-head"><strong>電源</strong><span>モバイル</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00trg84.2bo11a5f.g00trg84.2bo12088%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fzian%252Fmobasyo_outlet%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fzian%252Fi%252F10000201%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/zian/cabinet/08066002/08975681/imgrc0115094090.jpg?_ex=64x64" alt="" loading="lazy">
@@ -303,7 +367,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="power">
+          <article class="ad-slide" data-adcat="power">
             <div class="ad-slide-head"><strong>電源</strong><span>ポータブル</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00rr094.2bo1171a.g00rr094.2bo12088%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fanker%252Fa1751%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fanker%252Fi%252F10001045%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/anker/cabinet/images/ankersolix/a1751_normal.jpg?_ex=64x64" alt="" loading="lazy">
@@ -315,7 +379,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="power">
+          <article class="ad-slide" data-adcat="power">
             <div class="ad-slide-head"><strong>車載</strong><span>ジャンプ</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00rxzk4.2bo112d7.g00rxzk4.2bo12dff%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fauc-luft%252F10000065%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fauc-luft%252Fi%252F10000065%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/auc-luft/cabinet/03808614/jpq.jpg?_ex=64x64" alt="" loading="lazy">
@@ -327,7 +391,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="toilet">
+          <article class="ad-slide" data-adcat="toilet">
             <div class="ad-slide-head"><strong>衛生</strong><span>簡易トイレ</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00sk3q4.2bo11c2c.g00sk3q4.2bo12162%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fh2brothers%252Fportabletoilet01%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fh2brothers%252Fi%252F10001880%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/h2brothers/cabinet/medical/portabletoilet01rr.jpg?_ex=64x64" alt="" loading="lazy">
@@ -339,7 +403,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="toilet">
+          <article class="ad-slide" data-adcat="toilet">
             <div class="ad-slide-head"><strong>衛生</strong><span>折りたたみ</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00uki04.2bo11354.g00uki04.2bo120cf%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fdajie%252Fstoole%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fdajie%252Fi%252F10000000%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/dajie/cabinet/10598746/imgrc0112886277.jpg?_ex=64x64" alt="" loading="lazy">
@@ -351,7 +415,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="toilet">
+          <article class="ad-slide" data-adcat="toilet">
             <div class="ad-slide-head"><strong>衛生</strong><span>ウェット</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00rk7o4.2bo11b33.g00rk7o4.2bo1207e%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fpeaceup%252F10008157%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fpeaceup%252Fi%252F10010304%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/peaceup/cabinet/items-thumbnail2/10008157-01.jpg?_ex=64x64" alt="" loading="lazy">
@@ -363,7 +427,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="toilet">
+          <article class="ad-slide" data-adcat="toilet">
             <div class="ad-slide-head"><strong>衛生</strong><span>ポーチ</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00s2jf4.2bo1122e.g00s2jf4.2bo12e60%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fcolorfulbox%252F387674%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fcolorfulbox%252Fi%252F10129395%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/colorfulbox/cabinet/maker_gowell1/387674.jpg?_ex=64x64" alt="" loading="lazy">
@@ -375,7 +439,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="carry">
+          <article class="ad-slide" data-adcat="carry">
             <div class="ad-slide-head"><strong>持ち出し</strong><span>2人用</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00qd5c4.2bo11965.g00qd5c4.2bo129b1%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fnayami-kaiketu%252Fhpu-004%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fnayami-kaiketu%252Fi%252F10021192%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/nayami-kaiketu/cabinet/02887876/09813751/imgrc0110315101.jpg?_ex=64x64" alt="" loading="lazy">
@@ -387,7 +451,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="light">
+          <article class="ad-slide" data-adcat="light">
             <div class="ad-slide-head"><strong>ライト</strong><span>防災ラジオ</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00scnq4.2bo11fd7.g00scnq4.2bo12c8b%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Ftorreya-shop%252F100000025%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Ftorreya-shop%252Fi%252F10000057%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/torreya-shop/cabinet/radio2/radiothumbnail.jpg?_ex=64x64" alt="" loading="lazy">
@@ -399,7 +463,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="light">
+          <article class="ad-slide" data-adcat="light">
             <div class="ad-slide-head"><strong>ライト</strong><span>ランタン</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00u02m4.2bo1184b.g00u02m4.2bo1244a%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fmjmjstore%252Fmj-solarlantern%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fmjmjstore%252Fi%252F10000111%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/mjmjstore/cabinet/solarlantern/q00.jpg?_ex=64x64" alt="" loading="lazy">
@@ -411,7 +475,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="shelter">
+          <article class="ad-slide" data-adcat="shelter">
             <div class="ad-slide-head"><strong>防寒</strong><span>寝袋</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00sbmi4.2bo112f7.g00sbmi4.2bo12dfb%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fpatri%252Fad009%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fpatri%252Fi%252F10001040%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/patri/cabinet/ad/ad009-a02.jpg?_ex=64x64" alt="" loading="lazy">
@@ -423,7 +487,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="shelter">
+          <article class="ad-slide" data-adcat="shelter">
             <div class="ad-slide-head"><strong>防寒</strong><span>アルミ</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00scad4.2bo113ae.g00scad4.2bo12c0f%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fecoride%252Fsabage-125-03%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fecoride%252Fi%252F10000989%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/ecoride/cabinet/img3/sabage-125-03-1.jpg?_ex=64x64" alt="" loading="lazy">
@@ -435,7 +499,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="firstaid">
+          <article class="ad-slide" data-adcat="firstaid">
             <div class="ad-slide-head"><strong>救急</strong><span>応急処置</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00s2mu4.2bo111e9.g00s2mu4.2bo127a4%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fapplehonpo%252Frecf15%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fapplehonpo%252Fi%252F10001734%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/applehonpo/cabinet/pic/recf15_1.jpg?_ex=64x64" alt="" loading="lazy">
@@ -447,7 +511,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
             </a>
             <img class="a8-pixel" src="https://www11.a8.net/0.gif?a8mat=3BBRXR+6AU716+2HOM+BWGDT" alt="" width="1" height="1">
           </article>
-          <article class="ad-slide" data-ad-category="firstaid">
+          <article class="ad-slide" data-adcat="firstaid">
             <div class="ad-slide-head"><strong>救急</strong><span>救急箱</span></div>
             <a class="affiliate-card" href="https://rpx.a8.net/svt/ejp?a8mat=3BBRXR+6AU716+2HOM+BWGDT&amp;rakuten=y&amp;a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00sbhk4.2bo11595.g00sbhk4.2bo122bf%2Fa20042399224_3BBRXR_6AU716_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Ffirstaid%252F4902014065197%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Ffirstaid%252Fi%252F10000345%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283" rel="nofollow" target="_blank">
               <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/firstaid/cabinet/04802522/5pla2-40-01.jpg?_ex=64x64" alt="" loading="lazy">
@@ -628,7 +692,18 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
   function bind(){
     $("periodTabs").addEventListener("click",e=>{const b=e.target.closest("[data-period]"); if(!b)return; state.period=b.dataset.period; document.querySelectorAll("#periodTabs .tab").forEach(x=>x.classList.toggle("active",x===b)); refresh()});
     ["showQuakes","showPlates","showTsunami","onlyM5"].forEach(id=>$(id).addEventListener("change",refresh));
-    $("adTabs").addEventListener("click",e=>{const b=e.target.closest("[data-adcat]"); if(!b)return; const cat=b.dataset.adcat; document.querySelectorAll("#adTabs .pill").forEach(x=>x.classList.toggle("active",x===b)); document.querySelectorAll(".ad-slide").forEach(s=>s.hidden=!(cat==="all"||s.dataset.adcat===cat)); $("adTrack").scrollLeft=0});
+    const adTabsEl=$("adTabs");
+    if(adTabsEl){
+      adTabsEl.addEventListener("click",e=>{
+        const b=e.target.closest("[data-adcat]");
+        if(!b)return;
+        const cat=b.dataset.adcat;
+        document.querySelectorAll("#adTabs .pill").forEach(x=>x.classList.toggle("active",x===b));
+        document.querySelectorAll(".ad-slide").forEach(s=>s.hidden=!(cat==="all"||s.dataset.adcat===cat));
+        const track=$("adTrack");
+        if(track) track.scrollLeft=0;
+      });
+    }
   }
   async function main(){
     bind();
