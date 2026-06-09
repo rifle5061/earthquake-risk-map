@@ -1,7 +1,15 @@
 {
-  "status": "not_updated_yet",
-  "fetched_at": null,
-  "count": 0,
-  "latest": null,
-  "check": "Actions実行後にここが更新されます。"
+  "status": "ok",
+  "fetched_at": "2026-06-10T00:28:20+09:00",
+  "count": 100,
+  "latest": {
+    "time": "2026/06/09 22:15:00",
+    "area": "茨城県北部",
+    "magnitude": 2.4,
+    "depth": 10,
+    "maxScale": 10,
+    "intensityLabel": "1",
+    "domesticTsunami": "None"
+  },
+  "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
 }
