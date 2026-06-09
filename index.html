@@ -158,6 +158,86 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
   pointer-events:none;
 }
 
+
+/* mobile horizontal scroll fix */
+html,
+body{
+  width:100% !important;
+  max-width:100% !important;
+  overflow-x:hidden !important;
+}
+body{
+  position:relative;
+}
+.page,
+main,
+.layout,
+.map-panel,
+.side-panel,
+.card,
+section,
+header,
+footer{
+  max-width:100% !important;
+  min-width:0 !important;
+}
+.page{
+  width:100% !important;
+}
+img,
+iframe,
+canvas,
+#map,
+.leaflet-container{
+  max-width:100% !important;
+}
+.controls,
+.layer-controls,
+.scroll-row,
+.ad-category-tabs,
+.ad-carousel,
+.ad-track{
+  max-width:100% !important;
+  overflow-x:auto !important;
+  overflow-y:hidden !important;
+}
+.ad-slide{
+  min-width:0 !important;
+}
+.affiliate-card,
+.ad-head,
+.ad-slide-head,
+.affiliate-body{
+  min-width:0 !important;
+}
+.affiliate-title,
+.affiliate-desc,
+.affiliate-price,
+.ad-title,
+.ad-desc,
+.price{
+  overflow-wrap:anywhere;
+  word-break:break-word;
+}
+@media(max-width:760px){
+  .layout{
+    display:block !important;
+    grid-template-columns:1fr !important;
+    width:100% !important;
+    max-width:100% !important;
+  }
+  .map-panel,
+  .side-panel,
+  .card{
+    width:100% !important;
+    max-width:100% !important;
+  }
+  .panel-head,
+  .card-title-row{
+    max-width:100% !important;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -718,6 +798,14 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
     }
     const L=await loadLeaflet(); initMap(L); refresh(); if(state.quakes[0])focus(state.quakes[0],false);
   }
+
+  // horizontal scroll guard
+  try{
+    document.documentElement.scrollLeft = 0;
+    document.body.scrollLeft = 0;
+    window.scrollTo(0, window.scrollY || 0);
+  }catch(e){}
+
   main();
 })();
 </script>
