@@ -3,6 +3,8 @@ let baseTime = new Date("2026-06-09T12:00:00+09:00"); // サンプルデータ�
 let activeQuakes = [];
 let activeNews = [];
 let areaDictionary = [];
+let latestTsunami = { active: false, alerts: [], updated_at: null, source: "未取得" };
+let tsunamiZoneGeoJson = null;
 
 
 const DEFAULT_AREA_DICTIONARY = [
@@ -27,6 +29,73 @@ const DEFAULT_AREA_DICTIONARY = [
   { keywords: ["静岡", "愛知", "三重", "和歌山", "高知", "徳島", "愛媛", "大分", "宮崎"], name: "太平洋側・南海トラフ想定域", lat: 33.2, lon: 134.5, zoom: 6 },
   { keywords: ["沖縄", "奄美", "宮古島", "石垣島", "八重山"], name: "沖縄・南西諸島", lat: 25.7, lon: 127.8, zoom: 6 }
 ];
+
+const DEFAULT_TSUNAMI_ZONES = {
+  type: "FeatureCollection",
+  features: [
+    {
+      type: "Feature",
+      properties: { id: "hokkaido_pacific_east", name: "北海道太平洋沿岸東部", keywords: ["北海道太平洋沿岸東部", "釧路", "根室", "十勝", "北海道東方沖"] },
+      geometry: { type: "LineString", coordinates: [[145.8,43.4],[145.2,43.1],[144.3,42.9],[143.3,42.5],[142.4,42.1]] }
+    },
+    {
+      type: "Feature",
+      properties: { id: "hokkaido_pacific_west", name: "北海道太平洋沿岸西部", keywords: ["北海道太平洋沿岸西部", "日高", "胆振", "渡島"] },
+      geometry: { type: "LineString", coordinates: [[142.4,42.1],[141.5,42.3],[140.8,41.9],[140.3,41.6]] }
+    },
+    {
+      type: "Feature",
+      properties: { id: "tohoku_pacific", name: "東北太平洋沿岸", keywords: ["青森県太平洋沿岸", "岩手県", "宮城県", "福島県", "三陸", "宮城県沖", "福島県沖"] },
+      geometry: { type: "LineString", coordinates: [[141.4,41.2],[141.8,40.4],[141.9,39.6],[141.7,38.7],[141.4,37.8],[141.0,37.0]] }
+    },
+    {
+      type: "Feature",
+      properties: { id: "kanto_pacific", name: "関東太平洋沿岸", keywords: ["茨城県", "千葉県九十九里", "千葉県内房", "東京湾", "伊豆諸島", "茨城県沖", "千葉県東方沖"] },
+      geometry: { type: "LineString", coordinates: [[140.8,36.8],[140.7,36.0],[140.3,35.4],[139.9,35.1],[139.6,34.7],[139.3,34.0]] }
+    },
+    {
+      type: "Feature",
+      properties: { id: "tokai", name: "東海沿岸", keywords: ["相模湾", "静岡県", "愛知県外海", "伊勢湾", "東海", "駿河湾"] },
+      geometry: { type: "LineString", coordinates: [[139.2,35.1],[138.8,35.0],[138.4,34.8],[137.7,34.6],[137.0,34.7],[136.5,34.6]] }
+    },
+    {
+      type: "Feature",
+      properties: { id: "kii_shikoku", name: "紀伊半島〜四国沿岸", keywords: ["三重県南部", "和歌山県", "徳島県", "高知県", "愛媛県宇和海沿岸", "紀伊水道", "四国沖"] },
+      geometry: { type: "LineString", coordinates: [[136.5,34.3],[136.0,33.8],[135.4,33.5],[134.6,33.5],[133.5,33.3],[132.8,32.9],[132.4,32.7]] }
+    },
+    {
+      type: "Feature",
+      properties: { id: "kyushu_pacific", name: "九州太平洋沿岸", keywords: ["大分県瀬戸内海沿岸", "大分県豊後水道沿岸", "宮崎県", "鹿児島県東部", "日向灘", "種子島", "屋久島"] },
+      geometry: { type: "LineString", coordinates: [[132.2,32.7],[131.8,32.2],[131.6,31.8],[131.2,31.4],[130.8,31.0],[130.4,30.5]] }
+    },
+    {
+      type: "Feature",
+      properties: { id: "ryukyu", name: "奄美・沖縄・先島諸島", keywords: ["奄美群島", "沖縄本島地方", "宮古島", "八重山", "大東島", "南西諸島", "沖縄", "台湾付近"] },
+      geometry: { type: "LineString", coordinates: [[130.0,28.3],[128.5,27.0],[127.7,26.2],[125.3,24.8],[123.8,24.3]] }
+    },
+    {
+      type: "Feature",
+      properties: { id: "hokuriku_noto", name: "北陸・能登沿岸", keywords: ["新潟県上中下越", "佐渡", "富山県", "石川県能登", "石川県加賀", "福井県", "能登半島"] },
+      geometry: { type: "LineString", coordinates: [[139.2,38.3],[138.4,37.9],[137.5,37.4],[136.7,37.2],[136.0,36.6],[135.7,35.8]] }
+    },
+    {
+      type: "Feature",
+      properties: { id: "japan_sea_north", name: "日本海北部沿岸", keywords: ["北海道日本海沿岸", "青森県日本海沿岸", "秋田県", "山形県", "日本海東縁"] },
+      geometry: { type: "LineString", coordinates: [[141.0,45.1],[140.5,43.8],[140.2,42.6],[140.1,41.2],[139.8,40.2],[139.7,39.0],[139.4,38.5]] }
+    },
+    {
+      type: "Feature",
+      properties: { id: "sanin_kyushu_west", name: "山陰〜九州西岸", keywords: ["京都府", "兵庫県北部", "鳥取県", "島根県", "山口県日本海沿岸", "福岡県日本海沿岸", "佐賀県北部", "長崎県西方", "熊本県天草灘沿岸", "鹿児島県西部"] },
+      geometry: { type: "LineString", coordinates: [[135.6,35.7],[134.2,35.6],[132.9,35.5],[131.7,34.6],[130.4,33.8],[129.6,33.2],[129.3,32.6],[130.0,31.5]] }
+    },
+    {
+      type: "Feature",
+      properties: { id: "seto_inland", name: "瀬戸内海沿岸", keywords: ["瀬戸内海沿岸", "大阪府", "兵庫県瀬戸内海沿岸", "岡山県", "広島県", "山口県瀬戸内海沿岸", "香川県", "愛媛県瀬戸内海沿岸"] },
+      geometry: { type: "LineString", coordinates: [[135.2,34.5],[134.4,34.3],[133.5,34.3],[132.5,34.1],[131.7,33.9]] }
+    }
+  ]
+};
+
 
 const PERIODS = {
   realtime: { label: "リアルタイム", hours: 1, majorOnlyDefault: false },
@@ -130,6 +199,7 @@ let quakeLayer = L.layerGroup();
 let plateLayer = L.layerGroup();
 let zoneLayer = L.layerGroup();
 let highlightLayer = L.layerGroup();
+let tsunamiLayer = L.layerGroup();
 let currentPeriod = "realtime";
 
 async function init() {
@@ -137,6 +207,8 @@ async function init() {
   await loadEarthquakeData();
   await loadAreaDictionary();
   await loadEarthquakeNews();
+  await loadTsunamiZones();
+  await loadTsunamiData();
   document.getElementById("updatedAt").textContent = `データ更新 ${formatDateTime(dataUpdatedAt)}`;
 
   map = L.map("map", { zoomControl: true, preferCanvas: true }).setView([37.8, 138.5], 5);
@@ -149,6 +221,7 @@ async function init() {
   plateLayer.addTo(map);
   zoneLayer.addTo(map);
   highlightLayer.addTo(map);
+  tsunamiLayer.addTo(map);
 
   renderPlates();
   renderZones();
@@ -161,6 +234,213 @@ async function init() {
   window.addEventListener("resize", () => map.invalidateSize());
 }
 
+
+async function loadTsunamiZones() {
+  tsunamiZoneGeoJson = DEFAULT_TSUNAMI_ZONES;
+  try {
+    const response = await fetch("data/tsunami-zones.geojson", { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const payload = await response.json();
+    if (payload && payload.type === "FeatureCollection" && Array.isArray(payload.features)) {
+      tsunamiZoneGeoJson = payload;
+    }
+  } catch (error) {
+    console.info("tsunami-zones.geojson がないため、内蔵の概略沿岸データを使います。", error);
+  }
+}
+
+async function loadTsunamiData() {
+  latestTsunami = { active: false, alerts: [], updated_at: null, source: "未取得" };
+  try {
+    const response = await fetch("data/latest-tsunami.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const payload = await response.json();
+    const alerts = Array.isArray(payload.alerts) ? payload.alerts.map(normalizeTsunamiAlert).filter(Boolean) : [];
+    latestTsunami = {
+      ...payload,
+      active: Boolean(payload.active || alerts.some(a => ["major", "warning", "advisory"].includes(a.level))),
+      alerts,
+      updated_at: payload.updated_at || payload.fetched_at || null,
+      source: payload.source || "津波情報"
+    };
+  } catch (error) {
+    console.info("latest-tsunami.json がないため、津波表示は発表なしで表示します。", error);
+  }
+}
+
+function normalizeTsunamiAlert(alert) {
+  if (!alert) return null;
+  const area = String(alert.area || alert.name || alert.forecast_area || "").trim();
+  if (!area) return null;
+  const status = String(alert.status || alert.kind || alert.category || alert.name || "").trim();
+  const level = normalizeTsunamiLevel(alert.level || status);
+  return {
+    ...alert,
+    area,
+    status: status || tsunamiLevelLabel(level),
+    level,
+    height: alert.height || alert.max_height || alert.maxHeight || "不明",
+    arrival: alert.arrival || alert.arrival_time || alert.firstHeightArrivalTime || "不明",
+    issued_at: alert.issued_at || alert.time || latestTsunami.updated_at || "",
+    lat: alert.lat === undefined || alert.lat === null || alert.lat === "" ? null : Number(alert.lat),
+    lon: alert.lon === undefined || alert.lon === null || alert.lon === "" ? null : Number(alert.lon),
+    zoom: alert.zoom ? Number(alert.zoom) : 7,
+    keywords: Array.isArray(alert.keywords) ? alert.keywords.map(String) : [area]
+  };
+}
+
+function normalizeTsunamiLevel(value) {
+  const text = String(value || "");
+  if (text.includes("大津波") || text === "major") return "major";
+  if (text.includes("津波警報") || text === "warning") return "warning";
+  if (text.includes("津波注意報") || text === "advisory") return "advisory";
+  if (text.includes("若干") || text.includes("津波予報") || text === "forecast") return "forecast";
+  if (text.includes("解除") || text.includes("なし") || text === "none" || text === "cleared") return "none";
+  return "none";
+}
+
+function tsunamiLevelLabel(level) {
+  return {
+    major: "大津波警報",
+    warning: "津波警報",
+    advisory: "津波注意報",
+    forecast: "津波予報",
+    none: "発表なし"
+  }[level] || "発表なし";
+}
+
+function tsunamiColor(level) {
+  return {
+    major: "#a855f7",
+    warning: "#ef4444",
+    advisory: "#facc15",
+    forecast: "#38bdf8",
+    none: "#64748b"
+  }[level] || "#64748b";
+}
+
+function findTsunamiAlertForFeature(feature) {
+  const props = feature.properties || {};
+  const keywords = Array.isArray(props.keywords) ? props.keywords.map(String) : [String(props.name || "")];
+  return latestTsunami.alerts.find(alert => {
+    const alertWords = [alert.area, alert.status, ...(alert.keywords || [])].filter(Boolean).join(" ");
+    return keywords.some(k => alertWords.includes(k)) || keywords.some(k => alert.area.includes(k)) || alert.area.includes(props.name || "");
+  }) || null;
+}
+
+function renderTsunamiLayer() {
+  tsunamiLayer.clearLayers();
+  if (!tsunamiZoneGeoJson || !Array.isArray(tsunamiZoneGeoJson.features)) return;
+
+  tsunamiZoneGeoJson.features.forEach(feature => {
+    const alert = findTsunamiAlertForFeature(feature);
+    if (!alert || !["major", "warning", "advisory", "forecast"].includes(alert.level)) return;
+    const color = tsunamiColor(alert.level);
+    const layer = L.geoJSON(feature, {
+      style: {
+        color,
+        weight: alert.level === "major" ? 12 : alert.level === "warning" ? 10 : 8,
+        opacity: alert.level === "forecast" ? 0.75 : 0.95,
+        lineCap: "round",
+        lineJoin: "round"
+      }
+    }).addTo(tsunamiLayer);
+
+    layer.bindPopup(`
+      <strong>${escapeHtml(alert.area)}</strong><br>
+      ${escapeHtml(tsunamiLevelLabel(alert.level))}<br>
+      予想高さ：${escapeHtml(alert.height || "不明")}<br>
+      到達予想：${escapeHtml(alert.arrival || "不明")}
+    `);
+    layer.on("click", () => renderSelectedTsunami(alert, feature));
+  });
+}
+
+function renderTsunamiCard() {
+  const card = document.getElementById("tsunamiCard");
+  if (!card) return;
+  const activeAlerts = latestTsunami.alerts.filter(a => ["major", "warning", "advisory", "forecast"].includes(a.level));
+  const strongest = activeAlerts.find(a => a.level === "major") || activeAlerts.find(a => a.level === "warning") || activeAlerts.find(a => a.level === "advisory") || activeAlerts.find(a => a.level === "forecast");
+  const statusClass = strongest ? strongest.level : "none";
+  const statusText = strongest ? tsunamiLevelLabel(strongest.level) : "発表なし";
+
+  if (!activeAlerts.length) {
+    card.innerHTML = `
+      <div class="card-title-row">
+        <h2>津波警報・注意報</h2>
+        <span class="tsunami-status none">${statusText}</span>
+      </div>
+      <p class="notice">現在、表示対象の津波警報・注意報はありません。発表時は沿岸部を色分け表示します。</p>
+      <div class="tsunami-legend"><span><i class="major"></i>大津波警報</span><span><i class="warning"></i>津波警報</span><span><i class="advisory"></i>津波注意報</span></div>
+    `;
+    return;
+  }
+
+  card.innerHTML = `
+    <div class="card-title-row">
+      <h2>津波警報・注意報</h2>
+      <span class="tsunami-status ${statusClass}">${statusText}</span>
+    </div>
+    <p class="notice">発表中の沿岸部を地図上に色分け表示しています。詳細は必ず気象庁・自治体の公式情報を確認してください。</p>
+    <div class="tsunami-list">
+      ${activeAlerts.slice(0, 8).map((alert, index) => `
+        <div class="tsunami-item" data-tsunami-index="${index}">
+          <strong>${escapeHtml(alert.area)} / ${escapeHtml(tsunamiLevelLabel(alert.level))}</strong>
+          <span>予想高さ：${escapeHtml(alert.height || "不明")}　到達予想：${escapeHtml(alert.arrival || "不明")}</span>
+        </div>
+      `).join("")}
+    </div>
+    <div class="tsunami-legend"><span><i class="major"></i>大津波警報</span><span><i class="warning"></i>津波警報</span><span><i class="advisory"></i>津波注意報</span></div>
+  `;
+
+  card.querySelectorAll("[data-tsunami-index]").forEach(el => {
+    el.addEventListener("click", () => {
+      const alert = activeAlerts[Number(el.dataset.tsunamiIndex)];
+      const feature = tsunamiZoneGeoJson.features.find(f => findTsunamiAlertForFeature(f) === alert);
+      renderSelectedTsunami(alert, feature);
+    });
+  });
+}
+
+function renderSelectedTsunami(alert, feature) {
+  const center = getFeatureCenter(feature) || [alert.lat, alert.lon];
+  if (center && Number.isFinite(center[0]) && Number.isFinite(center[1])) {
+    map.flyTo([center[0], center[1]], alert.zoom || 7, { duration: 0.8 });
+  }
+  document.getElementById("selectedCard").innerHTML = `
+    <p class="eyebrow">Tsunami Information</p>
+    <h2>${escapeHtml(alert.area)}</h2>
+    <div class="tsunami-status ${escapeHtml(alert.level)}">${escapeHtml(tsunamiLevelLabel(alert.level))}</div>
+    <ul class="clean-list" style="margin-top:12px">
+      <li>予想高さ：${escapeHtml(alert.height || "不明")}</li>
+      <li>到達予想：${escapeHtml(alert.arrival || "不明")}</li>
+      <li>情報源：${escapeHtml(latestTsunami.source || "津波情報")}</li>
+      ${latestTsunami.updated_at ? `<li>更新：${formatDateTime(latestTsunami.updated_at)}</li>` : ""}
+    </ul>
+    <p class="notice">※避難判断は必ず気象庁・自治体・防災機関の公式情報を確認してください。</p>
+  `;
+}
+
+function getFeatureCenter(feature) {
+  if (!feature || !feature.geometry) return null;
+  let coords = [];
+  const g = feature.geometry;
+  if (g.type === "LineString") coords = g.coordinates || [];
+  if (g.type === "MultiLineString") coords = (g.coordinates || []).flat();
+  if (g.type === "Polygon") coords = (g.coordinates || []).flat();
+  if (!coords.length) return null;
+  const avg = coords.reduce((acc, c) => [acc[0] + Number(c[1]), acc[1] + Number(c[0])], [0, 0]);
+  return [avg[0] / coords.length, avg[1] / coords.length];
+}
+
+function filterAdCarousel(category) {
+  document.querySelectorAll(".ad-slide").forEach(slide => {
+    const match = category === "all" || slide.dataset.adCategory === category;
+    slide.classList.toggle("hidden", !match);
+  });
+  const carousel = document.getElementById("adCarousel");
+  if (carousel) carousel.scrollTo({ left: 0, behavior: "smooth" });
+}
 
 async function loadAreaDictionary() {
   areaDictionary = DEFAULT_AREA_DICTIONARY.map(normalizeAreaEntry).filter(Boolean);
@@ -309,8 +589,18 @@ function bindControls() {
     });
   });
 
-  ["toggleQuakes", "togglePlates", "toggleZones", "toggleMajorOnly"].forEach(id => {
-    document.getElementById(id).addEventListener("change", updateView);
+  ["toggleQuakes", "togglePlates", "toggleZones", "toggleTsunami", "toggleMajorOnly"].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.addEventListener("change", updateView);
+  });
+
+  document.querySelectorAll(".ad-tab").forEach(tab => {
+    tab.addEventListener("click", () => {
+      const category = tab.dataset.adCategory || "all";
+      document.querySelectorAll(".ad-tab").forEach(t => t.classList.remove("active"));
+      tab.classList.add("active");
+      filterAdCarousel(category);
+    });
   });
 }
 
@@ -356,6 +646,7 @@ function updateView() {
   const showQuakes = document.getElementById("toggleQuakes").checked;
   const showPlates = document.getElementById("togglePlates").checked;
   const showZones = document.getElementById("toggleZones").checked;
+  const showTsunami = document.getElementById("toggleTsunami")?.checked ?? true;
 
   if (showPlates && !map.hasLayer(plateLayer)) map.addLayer(plateLayer);
   if (!showPlates && map.hasLayer(plateLayer)) map.removeLayer(plateLayer);
@@ -363,13 +654,18 @@ function updateView() {
   if (showZones && !map.hasLayer(zoneLayer)) map.addLayer(zoneLayer);
   if (!showZones && map.hasLayer(zoneLayer)) map.removeLayer(zoneLayer);
 
+  if (showTsunami && !map.hasLayer(tsunamiLayer)) map.addLayer(tsunamiLayer);
+  if (!showTsunami && map.hasLayer(tsunamiLayer)) map.removeLayer(tsunamiLayer);
+
   quakeLayer.clearLayers();
   if (showQuakes) renderQuakes();
 
   renderZones();
+  renderTsunamiLayer();
   renderStats();
   renderQuakeList();
   renderNewsList();
+  renderTsunamiCard();
   renderOverallRisk();
 }
 
