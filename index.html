@@ -148,7 +148,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
   </section>
 
   <section class="card"><h2>最新地震</h2><div id="quakeList" class="list"></div></section>
-  <section class="card"><h2>地震関連ニュース</h2><p class="small">位置情報があるニュース・地震情報は、クリックすると地図が該当地点へ移動します。</p><div id="newsList" class="list"></div></section>
+  <section class="card"><h2>地震関連ニュース</h2><p class="small">最新地震とは別枠で、取得できた実ニュースを表示します。位置情報があるニュースは地図へ移動し、位置情報がないニュースは記事リンクを開きます。</p><div id="newsList" class="list"></div></section>
 
   <section class="card ad-card">
     <span class="pr">PR</span><h2>防災用品の確認</h2>
@@ -215,7 +215,7 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
 <script>
 (function(){
   "use strict";
-  const state={quakes:[],period:"24h",map:null,L:null,layers:{}};
+  const state={quakes:[],news:[],period:"24h",map:null,L:null,layers:{}};
   const $=id=>document.getElementById(id);
   function showErr(msg){const b=$("debugBox"); if(b){b.style.display="block"; b.textContent=msg;}}
   window.addEventListener("error",e=>showErr("JSエラー: "+e.message));
@@ -248,12 +248,71 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
   function popup(q){if(!state.map||!state.L)return; state.L.popup().setLatLng([+q.lat,+q.lon]).setContent(`<b>${q.area}</b><br>${fmtTime(q.time)}<br>M${(+q.mag||0).toFixed(1)} / 深さ${q.depth??"-"}km`).openOn(state.map)}
   function focus(q,move){$("focusTitle").textContent=q.area||"地震情報"; $("focusBody").textContent=`${fmtTime(q.time)} / M${(+q.mag||0).toFixed(1)} / 最大震度 ${q.intensityLabel??q.intensity??"-"} / 深さ ${q.depth??"-"}km`; if(move&&state.map){scrollToMap(); setTimeout(()=>{state.map.setView([+q.lat,+q.lon],+q.mag>=6?7:8); popup(q)},260)}}
   function updateStats(arr){$("statCount").textContent=arr.length; $("statMaxM").textContent=arr.length?Math.max(...arr.map(q=>+q.mag||0)).toFixed(1):"-"; $("statMaxI").textContent=arr.length?Math.max(...arr.map(q=>+q.intensity||0)):"-"; $("statM5").textContent=arr.filter(q=>+q.mag>=5).length; $("riskSummary").textContent=arr.length?"総合リスク 通常":"総合リスク --";}
+
+  function normalizeNews(payload){
+    let arr=[];
+    if(Array.isArray(payload)) arr=payload;
+    else if(Array.isArray(payload?.news)) arr=payload.news;
+    else if(Array.isArray(payload?.items)) arr=payload.items;
+    else if(Array.isArray(payload?.articles)) arr=payload.articles;
+    else if(Array.isArray(payload?.entries)) arr=payload.entries;
+
+    return arr.map(n=>{
+      const title=n.title||n.headline||n.name||"地震関連ニュース";
+      const url=n.url||n.link||n.href||"";
+      const source=n.source||n.media||n.site||n.publisher||"ニュース";
+      const time=n.time||n.published_at||n.publishedAt||n.date||n.pubDate||"";
+      const summary=n.summary||n.description||n.snippet||n.body||"";
+      const lat=Number(n.lat??n.latitude);
+      const lon=Number(n.lon??n.lng??n.longitude);
+      return {title,url,source,time,summary,area:n.area||n.matchedArea||n.location||"",lat,lon};
+    }).filter(n=>n.title && !/^【地震情報】/.test(n.title));
+  }
+
+  function renderNews(){
+    const nbox=$("newsList");
+    nbox.innerHTML="";
+
+    if(!state.news.length){
+      nbox.innerHTML=`<div class="item"><b>実ニュース取得待ち</b><p>現在、地震関連ニュースデータを取得できていません。GitHub Actions のニュース取得ワークフローが動くと、ここに実ニュースを表示します。</p></div>`;
+      return;
+    }
+
+    state.news.slice(0,10).forEach(n=>{
+      const card=document.createElement("div");
+      card.className="item";
+
+      const hasPoint=Number.isFinite(n.lat)&&Number.isFinite(n.lon)&&n.lat>=20&&n.lat<=46.8&&n.lon>=122&&n.lon<=154.5;
+      const safeTitle=n.title;
+      const timeText=n.time ? " / "+fmtTime(n.time) : "";
+      const summary=n.summary||n.area||"";
+
+      card.innerHTML=`<b>${safeTitle}</b><p>${n.source}${timeText}</p>${summary?`<p>${summary}</p>`:""}<p style="margin-top:8px;color:#7dd3fc;font-weight:800;">${hasPoint?"地図で見る":"記事を開く"} →</p>`;
+
+      card.onclick=()=>{
+        if(hasPoint && state.map){
+          scrollToMap();
+          setTimeout(()=>{
+            state.map.setView([n.lat,n.lon],8);
+            state.L.popup()
+              .setLatLng([n.lat,n.lon])
+              .setContent(`<b>${n.area||n.title}</b><br>${n.source}${n.time?"<br>"+fmtTime(n.time):""}${n.url?"<br><a href='${n.url}' target='_blank' rel='noopener noreferrer'>記事を開く</a>":""}`)
+              .openOn(state.map);
+          },260);
+        }else if(n.url){
+          window.open(n.url,"_blank","noopener,noreferrer");
+        }
+      };
+
+      nbox.appendChild(card);
+    });
+  }
+
   function renderLists(arr){
     const qbox=$("quakeList"); qbox.innerHTML="";
-    arr.slice(0,8).forEach(q=>{const b=document.createElement("button"); b.className="item"; b.innerHTML=`<b>${q.area}　M${(+q.mag||0).toFixed(1)}</b><p>${fmtTime(q.time)} / 最大震度 ${q.intensityLabel??q.intensity??"-"} / 深さ ${q.depth??"-"}km</p>`; b.onclick=()=>focus(q,true); qbox.appendChild(b)});
+    arr.slice(0,8).forEach(q=>{const b=document.createElement("button"); b.className="item"; b.innerHTML=`<b>${q.area}　M${(+q.mag||0).toFixed(1)}</b><p>${fmtTime(q.time)} / 最大震度 ${q.intensityLabel??q.intensity??"-"} / 深さ ${q.depth??"-"}km</p><p style="margin-top:6px;color:#7dd3fc;font-weight:800;">地図で見る →</p>`; b.onclick=()=>focus(q,true); qbox.appendChild(b)});
     if(!qbox.children.length)qbox.innerHTML=`<div class="item"><b>表示できる地震情報がありません</b><p>期間やM5以上のみの設定を変更してください。</p></div>`;
-    const nbox=$("newsList"); nbox.innerHTML="";
-    arr.slice(0,8).forEach(q=>{const b=document.createElement("button"); b.className="item"; b.innerHTML=`<b>【地震情報】${q.area} M${(+q.mag||0).toFixed(1)}</b><p>${fmtTime(q.time)}</p><p>クリックすると地図が震源付近へ移動します。</p>`; b.onclick=()=>focus(q,true); nbox.appendChild(b)});
+    renderNews();
   }
   function initMap(L){
     $("map").innerHTML="";
@@ -288,6 +347,12 @@ input[type="checkbox"]{transform:scale(1.15);accent-color:#0c8cff}
     const data=await firstJson(["data/latest-earthquakes.json","data/最新の地震情報.json"]);
     state.quakes=(Array.isArray(data)?data:data.earthquakes||[]).filter(inJapan);
     $("updatedAt").textContent="データ更新 "+fmtTime(data.updated_at||data.fetched_at||state.quakes[0]?.time);
+    try{
+      const newsPayload=await firstJson(["data/earthquake-news.json","data/地震ニュース.json"]);
+      state.news=normalizeNews(newsPayload);
+    }catch(e){
+      state.news=[];
+    }
     const L=await loadLeaflet(); initMap(L); refresh(); if(state.quakes[0])focus(state.quakes[0],false);
   }
   main();
