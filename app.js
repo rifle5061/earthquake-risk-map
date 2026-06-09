@@ -625,15 +625,29 @@ async function loadEarthquakeData() {
       lat: Number(q.lat),
       lon: Number(q.lon),
       depth: Number(q.depth ?? 0),
-      intensity: Number(q.intensity ?? 0)
-    })).filter(q => Number.isFinite(q.lat) && Number.isFinite(q.lon) && Number.isFinite(q.mag));
+      intensity: Number(q.intensity ?? 0),
+      intensityLabel: q.intensityLabel ?? q.maxScale ?? q.intensity ?? "-",
+      area: q.area || q.hypocenter || q.name || "震源地不明"
+    })).filter(q =>
+      Number.isFinite(q.lat) && Number.isFinite(q.lon) &&
+      q.lat >= 20 && q.lat <= 47 && q.lon >= 120 && q.lon <= 156 &&
+      Number.isFinite(q.mag) && q.mag >= 0
+    );
+
+    if (!activeQuakes.length) throw new Error("no valid earthquake coordinates");
 
     dataUpdatedAt = payload.updated_at || payload.fetched_at || activeQuakes[0]?.time || dataUpdatedAt;
-    baseTime = new Date();
-    console.info(`loaded earthquake API data: ${activeQuakes.length} items`);
+    // 端末時刻やテストデータの年ズレで全件非表示にならないよう、データ内の最新時刻を基準にする。
+    const latestTime = activeQuakes
+      .map(q => new Date(q.time))
+      .filter(d => !Number.isNaN(d.getTime()))
+      .sort((a, b) => b - a)[0];
+    baseTime = latestTime || new Date(dataUpdatedAt) || new Date();
+    console.info(`loaded earthquake API data: ${activeQuakes.length} valid items`, { baseTime });
   } catch (error) {
     console.warn("latest-earthquakes.json を読み込めないため、サンプルデータで表示します。", error);
     activeQuakes = SAMPLE_QUAKES;
+    baseTime = new Date(SAMPLE_QUAKES[0].time);
   }
 }
 
@@ -722,9 +736,9 @@ function renderZones() {
 }
 
 function updateView() {
-  const showQuakes = document.getElementById("toggleQuakes").checked;
-  const showPlates = document.getElementById("togglePlates").checked;
-  const showZones = document.getElementById("toggleZones").checked;
+  const showQuakes = document.getElementById("toggleQuakes")?.checked ?? true;
+  const showPlates = document.getElementById("togglePlates")?.checked ?? true;
+  const showZones = document.getElementById("toggleZones")?.checked ?? true;
   const showTsunami = document.getElementById("toggleTsunami")?.checked ?? true;
 
   if (showPlates && !map.hasLayer(plateLayer)) map.addLayer(plateLayer);
@@ -752,26 +766,37 @@ function getFilteredQuakes() {
   const period = PERIODS[currentPeriod] || PERIODS["24h"];
   const majorOnly = document.getElementById("toggleMajorOnly")?.checked;
   const sorted = activeQuakes
-    .filter(q => Number.isFinite(q.lat) && Number.isFinite(q.lon))
+    .filter(q =>
+      Number.isFinite(q.lat) && Number.isFinite(q.lon) &&
+      q.lat >= 20 && q.lat <= 47 && q.lon >= 120 && q.lon <= 156
+    )
     .sort((a, b) => new Date(b.time) - new Date(a.time));
 
+  let filtered;
+
   // 「リアルタイム」は、データ取得時点の最新地震を表示するモード。
-  // 自動更新間隔やAPI側の配信間隔で1時間以内の地震が0件になると地図が空になるため、最新10件を出す。
+  // API更新間隔や端末時刻差で1時間以内が0件にならないよう、最新10件を出す。
   if (currentPeriod === "realtime") {
-    return sorted
-      .filter(q => !majorOnly || q.mag >= 5)
-      .slice(0, 10);
+    filtered = sorted.slice(0, 10);
+  } else if (currentPeriod === "all") {
+    filtered = sorted;
+  } else {
+    filtered = sorted.filter(q => {
+      const quakeTime = new Date(q.time);
+      if (Number.isNaN(quakeTime.getTime())) return false;
+      const diffHours = (baseTime - quakeTime) / 36e5;
+      return diffHours >= -1 && diffHours <= period.hours;
+    });
   }
 
-  return sorted.filter(q => {
-    if (currentPeriod !== "all") {
-      const diffHours = (baseTime - new Date(q.time)) / 36e5;
-      if (diffHours < 0 || diffHours > period.hours) return false;
-    }
-    if (currentPeriod === "all" && !q.majorHistorical && q.mag < 5) return false;
-    if (majorOnly && q.mag < 5) return false;
-    return true;
-  });
+  if (majorOnly) filtered = filtered.filter(q => q.mag >= 5);
+
+  // 期間フィルターで空になった場合でも、地図が真っ白にならないよう最新10件を表示する。
+  if (!filtered.length && !majorOnly && sorted.length) {
+    filtered = sorted.slice(0, 10);
+  }
+
+  return filtered;
 }
 
 function renderQuakes() {
