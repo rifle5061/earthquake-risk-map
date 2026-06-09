@@ -4,7 +4,7 @@
 基本方針:
 - data/latest-earthquakes.json があれば、位置情報つきの「地震情報ニュース」を作る
 - Google News RSSから地震・防災関連ニュースのリンクを取得する
-- 一般ニュースは現時点ではlat/lonなし。後で地域名辞書を追加してズーム対応する
+- 一般ニュースは地域名辞書で可能な範囲だけlat/lonを付与してズーム対応する
 """
 from __future__ import annotations
 
@@ -22,6 +22,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 LATEST_QUAKES_PATH = ROOT / "data" / "latest-earthquakes.json"
 OUT_PATH = ROOT / "data" / "earthquake-news.json"
+AREA_DICT_PATH = ROOT / "data" / "area-dictionary.json"
 JST = timezone(timedelta(hours=9))
 
 KEYWORDS = [
@@ -85,9 +86,78 @@ def load_latest_quakes(limit: int = 8) -> list[dict[str, Any]]:
             "lon": lon,
             "zoom": 7 if mag >= 6 else 8,
             "zoomable": True,
+            "zoomSource": "exact",
         })
     return items
 
+
+
+def load_area_dictionary() -> list[dict[str, Any]]:
+    if not AREA_DICT_PATH.exists():
+        return []
+    try:
+        payload = json.loads(AREA_DICT_PATH.read_text(encoding="utf-8"))
+    except Exception as exc:
+        print(f"WARN: area-dictionary.json read failed: {exc}", file=sys.stderr)
+        return []
+
+    entries = payload.get("areas", payload if isinstance(payload, list) else [])
+    if not isinstance(entries, list):
+        return []
+
+    normalized: list[dict[str, Any]] = []
+    for entry in entries:
+        if not isinstance(entry, dict):
+            continue
+        keywords = entry.get("keywords") or [entry.get("name")]
+        if not isinstance(keywords, list):
+            keywords = [str(keywords)]
+        try:
+            lat = float(entry.get("lat"))
+            lon = float(entry.get("lon"))
+        except Exception:
+            continue
+        keywords = [str(k) for k in keywords if k]
+        if not keywords:
+            continue
+        priority = float(entry.get("priority") or max(len(k) for k in keywords))
+        normalized.append({
+            "name": str(entry.get("name") or keywords[0]),
+            "keywords": keywords,
+            "lat": lat,
+            "lon": lon,
+            "zoom": int(entry.get("zoom") or 7),
+            "priority": priority,
+        })
+    normalized.sort(key=lambda x: x["priority"], reverse=True)
+    return normalized
+
+
+def apply_area_dictionary(item: dict[str, Any], dictionary: list[dict[str, Any]]) -> dict[str, Any]:
+    if item.get("lat") is not None and item.get("lon") is not None:
+        item["zoomable"] = True
+        item["zoomSource"] = "exact"
+        return item
+
+    haystack = " ".join(str(item.get(k) or "") for k in ["title", "area", "summary", "source"])
+    for area in dictionary:
+        if any(keyword in haystack for keyword in area["keywords"]):
+            item["lat"] = area["lat"]
+            item["lon"] = area["lon"]
+            item["zoom"] = area["zoom"]
+            item["area"] = item.get("area") or area["name"]
+            item["matchedArea"] = area["name"]
+            item["zoomable"] = True
+            item["zoomSource"] = "dictionary"
+            if item.get("summary"):
+                item["summary"] = str(item["summary"]).replace("位置情報辞書を追加するまではリンク表示のみです。", "地域名辞書により推定エリアへズームできます。")
+            else:
+                item["summary"] = "地域名辞書により推定エリアへズームできます。"
+            return item
+
+    item["zoomable"] = False
+    item["zoomSource"] = "none"
+    return item
 
 def fetch_google_news(limit: int = 8) -> list[dict[str, Any]]:
     query = " OR ".join(KEYWORDS)
@@ -136,7 +206,7 @@ def fetch_google_news(limit: int = 8) -> list[dict[str, Any]]:
             "url": link,
             "type": "news",
             "area": "",
-            "summary": "一般ニュースです。位置情報辞書を追加するまではリンク表示のみです。",
+            "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
             "lat": None,
             "lon": None,
             "zoom": 6,
@@ -167,13 +237,17 @@ def main() -> int:
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
+    dictionary = load_area_dictionary()
+
     items = load_latest_quakes(limit=8)
     if not args.no_rss:
         items.extend(fetch_google_news(limit=8))
 
+    items = [apply_area_dictionary(item, dictionary) for item in items]
+
     payload = {
         "updated_at": now_iso(),
-        "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは後で地域名辞書によりズーム対応予定。",
+        "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
         "news": dedupe(items)[:16],
     }
 
