@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>広告管理ページ｜地震危険度マップ</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#07101f;color:#eef6ff;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","Yu Gothic",Meiryo,sans-serif;line-height:1.6}
+.page{width:min(100%,920px);margin:0 auto;padding:18px 12px 80px;background:linear-gradient(180deg,#0b1428,#07101f)}
+h1{font-size:28px;margin:0 0 8px}
+h2{font-size:20px;margin:0 0 10px}
+p{color:#aab7c8}
+.card{background:rgba(14,24,45,.9);border:1px solid rgba(120,170,230,.2);border-radius:22px;padding:16px;margin:14px 0;box-shadow:0 10px 26px rgba(0,0,0,.24)}
+label{display:block;font-weight:800;margin:10px 0 6px}
+textarea,input,select{width:100%;border-radius:14px;border:1px solid rgba(255,255,255,.16);background:#0b1324;color:#eef6ff;padding:12px;font-size:15px}
+textarea{min-height:180px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+button,.btn{appearance:none;border:0;border-radius:999px;background:#ffd21a;color:#152033;font-weight:900;padding:11px 15px;text-decoration:none;cursor:pointer}
+button.secondary{background:rgba(255,255,255,.1);color:#eef6ff;border:1px solid rgba(255,255,255,.16)}
+button.danger{background:#ff5a5a;color:#fff}
+.preview{display:flex;gap:12px;align-items:center;border:1px solid rgba(255,210,25,.25);border-radius:18px;padding:14px;background:rgba(255,255,255,.045);margin-top:12px}
+.preview img{width:72px;height:72px;object-fit:cover;border-radius:14px;background:#12213b}
+.preview b{display:block}
+.preview span{display:block;color:#aab7c8;font-size:14px}
+.list{display:grid;gap:10px}
+.item{border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:12px;background:rgba(255,255,255,.04)}
+.item-head{display:flex;justify-content:space-between;gap:8px}
+.badge{display:inline-block;border-radius:999px;background:#183b5a;color:#aee8ff;font-size:12px;font-weight:900;padding:3px 8px}
+.small{font-size:13px;color:#aab7c8}
+.warn{border-color:rgba(255,210,25,.4);background:rgba(255,210,25,.08)}
+.ok{border-color:rgba(60,220,130,.35);background:rgba(60,220,130,.08)}
+pre{white-space:pre-wrap;word-break:break-all;background:#050b15;border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:12px;max-height:260px;overflow:auto}
+@media(max-width:640px){.row{grid-template-columns:1fr}.preview{align-items:flex-start}.preview img{width:60px;height:60px}}
+</style>
+</head>
+<body>
+<main class="page">
+  <h1>広告管理ページ</h1>
+  <p>楽天/A8の商品リンクHTMLを貼り付けると、画像・リンク・商品名を読み取り、カテゴリ分けして <b>data/ads.json</b> を作れます。</p>
+
+  <section class="card warn">
+    <h2>使い方</h2>
+    <p>このページは静的サイト用です。自動でGitHubへ書き込みはしません。追加後に <b>ads.jsonをダウンロード</b> して、GitHubの <b>data/ads.json</b> に上書きアップロードするとサイトへ反映されます。</p>
+  </section>
+
+  <section class="card">
+    <h2>1. 楽天/A8 HTMLを貼る</h2>
+    <label for="rawHtml">商品リンクHTML</label>
+    <textarea id="rawHtml" placeholder="A8や楽天の商品リンクHTMLをここに貼り付け"></textarea>
+    <div class="btns">
+      <button type="button" id="parseBtn">HTMLを読み取る</button>
+      <button type="button" class="secondary" id="clearBtn">入力クリア</button>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>2. 内容確認・カテゴリ選択</h2>
+    <div class="row">
+      <div>
+        <label for="category">カテゴリ</label>
+        <select id="category">
+          <option value="auto">自動判定</option>
+          <option value="food">非常食</option>
+          <option value="water">保存水・飲料</option>
+          <option value="power">電源</option>
+          <option value="toilet">トイレ・衛生</option>
+          <option value="carry">持ち出し袋</option>
+          <option value="light">ライト・ラジオ</option>
+          <option value="shelter">寝具・防寒</option>
+          <option value="firstaid">救急</option>
+        </select>
+      </div>
+      <div>
+        <label for="tag">タグ/小見出し</label>
+        <input id="tag" placeholder="例：7日分セット / モバイル充電 / 簡易トイレ">
+      </div>
+    </div>
+
+    <label for="title">商品名</label>
+    <input id="title">
+
+    <label for="desc">説明文</label>
+    <input id="desc" placeholder="例：停電時のスマホ充電・情報収集">
+
+    <div class="row">
+      <div>
+        <label for="price">価格目安</label>
+        <input id="price" placeholder="例：価格目安：8,880円">
+      </div>
+      <div>
+        <label for="label">カテゴリ表示名</label>
+        <input id="label" placeholder="例：非常食">
+      </div>
+    </div>
+
+    <label for="url">広告リンクURL</label>
+    <input id="url">
+
+    <label for="image">画像URL</label>
+    <input id="image">
+
+    <label for="pixel">1x1トラッキング画像URL 任意</label>
+    <input id="pixel">
+
+    <div class="preview" id="previewBox">
+      <img id="previewImg" alt="">
+      <div>
+        <b id="previewTitle">まだ読み取っていません</b>
+        <span id="previewDesc">HTMLを貼って「HTMLを読み取る」を押してください。</span>
+        <span id="previewPrice"></span>
+      </div>
+    </div>
+
+    <div class="btns">
+      <button type="button" id="addBtn">広告リストに追加</button>
+    </div>
+  </section>
+
+  <section class="card ok">
+    <h2>3. ads.jsonを書き出し</h2>
+    <p>現在の広告数：<b id="count">0</b> 件</p>
+    <div class="btns">
+      <button type="button" id="loadDefaultBtn" class="secondary">現在の ads.json を読み込み</button>
+      <button type="button" id="downloadBtn">ads.jsonをダウンロード</button>
+      <button type="button" id="copyBtn" class="secondary">JSONをコピー</button>
+      <button type="button" id="resetBtn" class="danger">管理ページ内リストを空にする</button>
+    </div>
+    <p class="small">ダウンロードした ads.json を GitHub の <b>data/ads.json</b> にアップロードすると、公開サイト側の広告が更新されます。</p>
+  </section>
+
+  <section class="card">
+    <h2>現在の広告リスト</h2>
+    <div id="adList" class="list"></div>
+  </section>
+
+  <section class="card">
+    <h2>JSONプレビュー</h2>
+    <pre id="jsonPreview"></pre>
+  </section>
+</main>
+
+<script>
+(function(){
+  "use strict";
+  const $=id=>document.getElementById(id);
+  const CAT_LABELS={
+    food:"非常食",
+    water:"保存水・飲料",
+    power:"電源",
+    toilet:"トイレ・衛生",
+    carry:"持ち出し袋",
+    light:"ライト・ラジオ",
+    shelter:"寝具・防寒",
+    firstaid:"救急"
+  };
+  const KEYWORDS=[
+    ["toilet",["トイレ","簡易トイレ","携帯トイレ","凝固剤","衛生","ウェットティッシュ","マスク"]],
+    ["power",["モバイルバッテリー","ポータブル電源","発電機","ジャンプスターター","充電","電源","バッテリー"]],
+    ["light",["ラジオ","ライト","ランタン","懐中電灯","照明","ソーラーランタン"]],
+    ["shelter",["寝袋","シュラフ","防寒","アルミシート","ブランケット","カイロ","ポンチョ"]],
+    ["firstaid",["救急","応急","ファーストエイド","救急箱","手当"]],
+    ["carry",["リュック","防災セット","持ち出し","避難セット","防災バッグ"]],
+    ["water",["保存水","水 ","水　","ミネラルウォーター","飲料","ドリンク","麦茶","ジュース","野菜一日","ペットボトル"]],
+    ["food",["非常食","保存食","防災食","アルファ米","ごはん","パン","カレー","おかず","スープ","おにぎり","お菓子","クッキー"]]
+  ];
+  let ads=JSON.parse(localStorage.getItem("eq_ads_admin_items")||"[]");
+
+  function cleanText(s){return String(s||"").replace(/\s+/g," ").trim();}
+  function inferCategory(text){
+    const t=cleanText(text);
+    for(const [cat,keys] of KEYWORDS){
+      if(keys.some(k=>t.includes(k))) return cat;
+    }
+    return "food";
+  }
+  function inferTag(cat,title){
+    const t=title||"";
+    if(t.includes("7日")) return "7日分セット";
+    if(t.includes("モバイルバッテリー")) return "スマホ充電";
+    if(t.includes("発電機")) return "非常用電源";
+    if(t.includes("トイレ")) return "断水対策";
+    if(t.includes("ラジオ")) return "情報収集";
+    if(t.includes("ランタン")) return "停電対策";
+    if(t.includes("寝袋")) return "避難生活";
+    if(t.includes("救急")) return "応急処置";
+    return CAT_LABELS[cat]||"確認";
+  }
+  function inferDesc(cat,title){
+    const map={
+      food:"非常時の食料備蓄を確認",
+      water:"断水時の飲料・水分補給を確認",
+      power:"停電時の電源・スマホ充電を確認",
+      toilet:"断水時のトイレ・衛生対策",
+      carry:"避難時に持ち出す防災用品",
+      light:"停電時の明かり・情報収集",
+      shelter:"避難生活や車中泊の防寒対策",
+      firstaid:"災害時や避難時の応急処置用品"
+    };
+    return map[cat]||"防災用品を確認";
+  }
+  function extractPrice(text){
+    const m=cleanText(text).match(/(?:価格|税込|円)[^0-9]{0,10}([0-9,]+円(?:〜|~)?)/) || cleanText(text).match(/([0-9,]+円(?:〜|~)?)/);
+    return m ? "価格目安："+m[1].replace("~","〜") : "";
+  }
+  function parseRawHtml(){
+    const raw=$("rawHtml").value;
+    const doc=new DOMParser().parseFromString(raw,"text/html");
+    const text=cleanText(doc.body.innerText||raw);
+
+    const links=[...doc.querySelectorAll("a[href]")];
+    const urlEl=links.find(a=>/rpx\.a8|rakuten|hb\.afl/i.test(a.getAttribute("href")||"")) || links[0];
+
+    const imgs=[...doc.querySelectorAll("img[src]")];
+    const imgEl=imgs.find(img=>{
+      const src=img.getAttribute("src")||"";
+      const w=Number(img.getAttribute("width")||img.width||0);
+      const h=Number(img.getAttribute("height")||img.height||0);
+      return !/0\.gif|1x1|a8\.net/i.test(src) && !(w===1&&h===1);
+    });
+    const pixelEl=imgs.find(img=>{
+      const src=img.getAttribute("src")||"";
+      const w=Number(img.getAttribute("width")||img.width||0);
+      const h=Number(img.getAttribute("height")||img.height||0);
+      return /0\.gif|a8\.net/i.test(src) || (w===1&&h===1);
+    });
+
+    let title=text;
+    title=title.replace(/価格[^ ]* [0-9,]+円.*/,"").trim();
+    if(title.length>68) title=title.slice(0,68);
+
+    const autoCat=inferCategory(text);
+    const selected=$("category").value;
+    const cat=selected==="auto"?autoCat:selected;
+
+    $("category").value=cat;
+    $("label").value=CAT_LABELS[cat]||"防災用品";
+    $("title").value=title||"防災用品";
+    $("tag").value=inferTag(cat,title);
+    $("desc").value=inferDesc(cat,title);
+    $("price").value=extractPrice(text);
+    $("url").value=urlEl ? urlEl.getAttribute("href") : "";
+    $("image").value=imgEl ? imgEl.getAttribute("src") : "";
+    $("pixel").value=pixelEl ? pixelEl.getAttribute("src") : "";
+    updatePreview();
+  }
+  function currentForm(){
+    let cat=$("category").value;
+    if(cat==="auto") cat=inferCategory($("title").value+" "+$("desc").value);
+    return {
+      category:cat,
+      label:$("label").value||CAT_LABELS[cat]||"防災用品",
+      tag:$("tag").value||inferTag(cat,$("title").value),
+      title:$("title").value||"防災用品",
+      description:$("desc").value||inferDesc(cat,$("title").value),
+      price:$("price").value||"価格は販売ページで確認",
+      url:$("url").value,
+      image:$("image").value,
+      pixel:$("pixel").value
+    };
+  }
+  function updatePreview(){
+    const ad=currentForm();
+    $("previewImg").src=ad.image||"";
+    $("previewTitle").textContent=ad.title;
+    $("previewDesc").textContent=(ad.label||"")+" / "+ad.description;
+    $("previewPrice").textContent=ad.price;
+  }
+  function save(){
+    localStorage.setItem("eq_ads_admin_items",JSON.stringify(ads));
+    render();
+  }
+  function render(){
+    $("count").textContent=ads.length;
+    $("jsonPreview").textContent=JSON.stringify({updated_at:new Date().toISOString(),items:ads},null,2);
+    $("adList").innerHTML=ads.map((ad,i)=>`
+      <div class="item">
+        <div class="item-head">
+          <div><span class="badge">${CAT_LABELS[ad.category]||ad.category}</span> <b>${escapeHtml(ad.title)}</b></div>
+          <button type="button" class="danger" data-del="${i}">削除</button>
+        </div>
+        <p class="small">${escapeHtml(ad.description||"")} / ${escapeHtml(ad.price||"")}</p>
+      </div>
+    `).join("") || `<p class="small">まだ広告がありません。「現在のads.jsonを読み込み」またはHTMLを貼って追加してください。</p>`;
+  }
+  function escapeHtml(s){return String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+  function downloadJson(){
+    const blob=new Blob([JSON.stringify({updated_at:new Date().toISOString(),items:ads},null,2)],{type:"application/json"});
+    const a=document.createElement("a");
+    a.href=URL.createObjectURL(blob);
+    a.download="ads.json";
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+  }
+  async function loadDefault(){
+    try{
+      const r=await fetch("data/ads.json?cb="+Date.now(),{cache:"no-store"});
+      if(!r.ok) throw new Error("ads.jsonが見つかりません");
+      const payload=await r.json();
+      ads=Array.isArray(payload)?payload:(payload.items||payload.ads||[]);
+      save();
+      alert("現在のads.jsonを読み込みました。");
+    }catch(e){
+      alert("まだ data/ads.json が無いか、読み込めません。先に同梱の ads.json をアップロードしてください。");
+    }
+  }
+
+  $("parseBtn").onclick=parseRawHtml;
+  $("clearBtn").onclick=()=>{$("rawHtml").value="";};
+  ["category","tag","title","desc","price","label","url","image","pixel"].forEach(id=>$(id).addEventListener("input",updatePreview));
+  $("addBtn").onclick=()=>{
+    const ad=currentForm();
+    if(!ad.url){alert("広告リンクURLがありません。");return;}
+    ads.push(ad);
+    save();
+    alert("広告リストに追加しました。ads.jsonを書き出してアップロードしてください。");
+  };
+  $("downloadBtn").onclick=downloadJson;
+  $("copyBtn").onclick=async()=>{await navigator.clipboard.writeText($("jsonPreview").textContent); alert("JSONをコピーしました。");};
+  $("resetBtn").onclick=()=>{if(confirm("管理ページ内の広告リストを空にしますか？")){ads=[];save();}};
+  $("loadDefaultBtn").onclick=loadDefault;
+  $("adList").addEventListener("click",e=>{
+    const b=e.target.closest("[data-del]");
+    if(!b)return;
+    const i=Number(b.dataset.del);
+    ads.splice(i,1);
+    save();
+  });
+  render();
+})();
+</script>
+</body>
+</html>

@@ -768,6 +768,68 @@ canvas,
     }
     setTimeout(()=>state.map.invalidateSize(),100);
   }
+
+  const AD_CATEGORY_LABELS={
+    food:"非常食",
+    water:"保存水・飲料",
+    power:"電源",
+    toilet:"トイレ・衛生",
+    carry:"持ち出し袋",
+    light:"ライト・ラジオ",
+    shelter:"寝具・防寒",
+    firstaid:"救急"
+  };
+  function escHtml(v){
+    return String(v??"").replace(/[&<>"']/g,s=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[s]));
+  }
+  function escAttr(v){
+    return escHtml(v).replace(/`/g,"&#96;");
+  }
+  function normalizeAdList(payload){
+    if(Array.isArray(payload)) return payload;
+    if(Array.isArray(payload?.items)) return payload.items;
+    if(Array.isArray(payload?.ads)) return payload.ads;
+    return [];
+  }
+  function renderAdSlide(ad){
+    const cat=ad.category||ad.cat||"food";
+    const label=ad.label||AD_CATEGORY_LABELS[cat]||"防災用品";
+    const tag=ad.tag||ad.badge||"確認";
+    const title=ad.title||"防災用品";
+    const desc=ad.description||ad.desc||"防災用品を確認";
+    const price=ad.price||"価格は販売ページで確認";
+    const url=ad.url||ad.href||"#";
+    const img=ad.image||ad.img||"";
+    const pixel=ad.pixel||"";
+    const imgHtml=img?`<img src="${escAttr(img)}" alt="" loading="lazy">`:"";
+    const pixelHtml=pixel?`<img class="a8-pixel" src="${escAttr(pixel)}" alt="" width="1" height="1">`:"";
+    return `<article class="ad-slide" data-adcat="${escAttr(cat)}">
+            <div class="ad-slide-head"><strong>${escHtml(label)}</strong><span>${escHtml(tag)}</span></div>
+            <a class="affiliate-card" href="${escAttr(url)}" rel="nofollow sponsored noopener" target="_blank">
+              ${imgHtml}
+              <span class="affiliate-body">
+                <span class="affiliate-title">${escHtml(title)}</span>
+                <span class="affiliate-desc">${escHtml(desc)}</span>
+                <span class="affiliate-price">${escHtml(price)}</span>
+              </span>
+            </a>
+            ${pixelHtml}
+          </article>`;
+  }
+  async function loadAdsFromJson(){
+    const track=$("adTrack");
+    if(!track) return;
+    try{
+      const payload=await fetchJson("data/ads.json");
+      const list=normalizeAdList(payload).filter(ad=>ad && (ad.url||ad.href) && (ad.title||ad.description));
+      if(!list.length) return;
+      track.innerHTML=list.map(renderAdSlide).join("");
+    }catch(e){
+      // data/ads.json が未設置でも、HTML内の既存広告をそのまま表示する
+    }
+  }
+
+
   function refresh(){const arr=filtered(); updateStats(arr); renderLists(arr); renderMap(arr)}
   function bind(){
     $("periodTabs").addEventListener("click",e=>{const b=e.target.closest("[data-period]"); if(!b)return; state.period=b.dataset.period; document.querySelectorAll("#periodTabs .tab").forEach(x=>x.classList.toggle("active",x===b)); refresh()});
@@ -787,6 +849,7 @@ canvas,
   }
   async function main(){
     bind();
+    await loadAdsFromJson();
     const data=await firstJson(["data/latest-earthquakes.json","data/最新の地震情報.json"]);
     state.quakes=(Array.isArray(data)?data:(data.items||data.earthquakes||[])).filter(inJapan);
     $("updatedAt").textContent="データ更新 "+fmtTime(data.updated_at||data.fetched_at||state.quakes[0]?.time);
