@@ -301,6 +301,63 @@ canvas,
   margin-bottom:4px;
 }
 
+
+/* nearby evacuation places */
+.shelter-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:10px;
+}
+.shelter-btn{
+  appearance:none;
+  border:1px solid rgba(255,210,26,.42);
+  background:rgba(255,210,26,.14);
+  color:#fff4b8;
+  border-radius:999px;
+  padding:9px 12px;
+  font-size:13px;
+  font-weight:900;
+  cursor:pointer;
+}
+.shelter-list{
+  display:grid;
+  gap:8px;
+  margin-top:10px;
+}
+.shelter-item{
+  border:1px solid rgba(255,255,255,.12);
+  background:rgba(255,255,255,.045);
+  border-radius:14px;
+  padding:10px 11px;
+  cursor:pointer;
+}
+.shelter-item b{
+  display:block;
+  margin-bottom:3px;
+}
+.shelter-item p{
+  margin:0;
+  color:#aebbd0;
+  font-size:13px;
+}
+.shelter-badge{
+  display:inline-block;
+  border-radius:999px;
+  padding:2px 8px;
+  margin-right:5px;
+  background:rgba(125,211,252,.16);
+  border:1px solid rgba(125,211,252,.24);
+  color:#dff7ff;
+  font-size:12px;
+  font-weight:900;
+}
+.shelter-badge.tsunami{
+  background:rgba(255,90,90,.13);
+  border-color:rgba(255,90,90,.28);
+  color:#ffd3d3;
+}
+
 </style>
 </head>
 <body>
@@ -364,7 +421,8 @@ canvas,
     <h2>現在地から確認</h2>
     <div id="currentLocationInfo" class="current-location-panel">
       <b>現在地未取得</b>
-      <p class="small">「現在地を表示」を押すと、現在地を地図上に表示します。近くの避難場所表示は次段階で追加予定です。</p>
+      <p class="small">「現在地を表示」を押すと、現在地付近と近くの指定緊急避難場所を地図上に表示します。</p>
+      <div id="shelterList" class="shelter-list"></div>
     </div>
   </section>
 
@@ -773,13 +831,137 @@ canvas,
   function setupCurrentLocation(){
     const btn=$("currentLocationBtn");
     const info=$("currentLocationInfo");
+    const shelterList=$("shelterList");
     if(!btn || !info) return;
 
     let currentMarker=null;
     let currentCircle=null;
+    let shelterLayer=null;
+    let lastPosition=null;
+    let lastShelters=[];
 
     function setInfo(title, body){
-      info.innerHTML=`<b>${title}</b><p class="small">${body}</p>`;
+      const listHtml=shelterList?shelterList.outerHTML:'<div id="shelterList" class="shelter-list"></div>';
+      info.innerHTML=`<b>${title}</b><p class="small">${body}</p>${listHtml}`;
+    }
+    function getShelterListEl(){
+      return $("shelterList");
+    }
+    function tileXY(lat, lon, z){
+      const latRad=lat*Math.PI/180;
+      const n=Math.pow(2,z);
+      return {
+        x:Math.floor((lon+180)/360*n),
+        y:Math.floor((1-Math.log(Math.tan(latRad)+1/Math.cos(latRad))/Math.PI)/2*n)
+      };
+    }
+    function distanceKm(lat1,lon1,lat2,lon2){
+      const R=6371;
+      const dLat=(lat2-lat1)*Math.PI/180;
+      const dLon=(lon2-lon1)*Math.PI/180;
+      const a=Math.sin(dLat/2)**2+Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLon/2)**2;
+      return R*2*Math.atan2(Math.sqrt(a),Math.sqrt(1-a));
+    }
+    function prop(p,names){
+      for(const n of names){
+        if(p && p[n] !== undefined && p[n] !== null && p[n] !== "") return p[n];
+      }
+      return "";
+    }
+    async function fetchTile(url){
+      try{
+        const r=await fetch(url,{cache:"force-cache"});
+        if(!r.ok) return null;
+        return await r.json();
+      }catch(e){
+        return null;
+      }
+    }
+    async function loadShelters(lat, lon){
+      const z=14;
+      const center=tileXY(lat,lon,z);
+      const defs=[
+        {type:"earthquake",label:"地震対応",tile:"skhb04",color:"#ffd21a"},
+        {type:"tsunami",label:"津波対応",tile:"skhb05",color:"#ff5a5a"}
+      ];
+      const promises=[];
+      for(const def of defs){
+        for(let dx=-2; dx<=2; dx++){
+          for(let dy=-2; dy<=2; dy++){
+            const x=center.x+dx, y=center.y+dy;
+            const url=`https://cyberjapandata.gsi.go.jp/xyz/${def.tile}/${z}/${x}/${y}.geojson`;
+            promises.push(fetchTile(url).then(g=>({def,g})));
+          }
+        }
+      }
+      const results=await Promise.all(promises);
+      const map=new Map();
+      for(const {def,g} of results){
+        const features=g?.features||[];
+        for(const f of features){
+          const coords=f.geometry?.coordinates;
+          if(!coords || coords.length<2) continue;
+          const slon=Number(coords[0]), slat=Number(coords[1]);
+          if(!Number.isFinite(slat)||!Number.isFinite(slon)) continue;
+          const p=f.properties||{};
+          const name=prop(p,["name","facility_name_ja","Name","名称"])||"指定緊急避難場所";
+          const address=prop(p,["address","address_ja","住所"])||"";
+          const remarks=prop(p,["remarks","備考"])||"";
+          const key=`${name}|${slat.toFixed(6)}|${slon.toFixed(6)}`;
+          const d=distanceKm(lat,lon,slat,slon);
+          if(d>20) continue;
+          const existing=map.get(key)||{name,address,remarks,lat:slat,lon:slon,distance:d,types:[]};
+          if(!existing.types.some(t=>t.type===def.type)) existing.types.push(def);
+          existing.distance=Math.min(existing.distance,d);
+          map.set(key,existing);
+        }
+      }
+      return [...map.values()].sort((a,b)=>a.distance-b.distance).slice(0,12);
+    }
+    function renderShelters(shelters){
+      const list=getShelterListEl();
+      if(!list) return;
+      list.innerHTML="";
+      if(shelterLayer) shelterLayer.clearLayers();
+      if(!shelterLayer && state.map && state.L) shelterLayer=state.L.layerGroup().addTo(state.map);
+      if(!shelters.length){
+        list.innerHTML=`<div class="shelter-item"><b>近くの避難場所データを取得できませんでした</b><p>現在地周辺で公開データが見つからない、または通信状況により取得できない可能性があります。自治体の公式情報も確認してください。</p></div>`;
+        return;
+      }
+      shelters.forEach((s,i)=>{
+        const badges=s.types.map(t=>`<span class="shelter-badge ${t.type==='tsunami'?'tsunami':''}">${t.label}</span>`).join("");
+        const item=document.createElement("div");
+        item.className="shelter-item";
+        item.innerHTML=`<b>${i+1}. ${s.name}</b><p>${badges}</p><p>現在地から約${s.distance.toFixed(1)}km${s.address?" / "+s.address:""}</p>`;
+        item.onclick=()=>{
+          state.map.setView([s.lat,s.lon],15);
+          state.L.popup().setLatLng([s.lat,s.lon]).setContent(`<b>${s.name}</b><br>${badges}<br>現在地から約${s.distance.toFixed(1)}km${s.address?"<br>"+s.address:""}${s.remarks?"<br>"+s.remarks:""}<br><br>※必ず自治体の公式情報も確認してください。`).openOn(state.map);
+        };
+        list.appendChild(item);
+
+        if(shelterLayer){
+          const hasTsunami=s.types.some(t=>t.type==="tsunami");
+          const c=hasTsunami?"#ff5a5a":"#ffd21a";
+          const mk=state.L.circleMarker([s.lat,s.lon],{
+            radius:8,
+            color:c,
+            weight:2,
+            fillColor:c,
+            fillOpacity:.72
+          }).addTo(shelterLayer);
+          mk.bindPopup(`<b>${s.name}</b><br>${badges}<br>現在地から約${s.distance.toFixed(1)}km${s.address?"<br>"+s.address:""}<br><br>※自治体の公式情報も確認してください。`);
+        }
+      });
+    }
+    async function searchNearbyShelters(lat, lon){
+      const list=getShelterListEl();
+      if(list) list.innerHTML=`<div class="shelter-item"><b>近くの避難場所を取得中…</b><p>地震対応・津波対応の指定緊急避難場所を確認しています。</p></div>`;
+      try{
+        lastShelters=await loadShelters(lat,lon);
+        renderShelters(lastShelters);
+      }catch(e){
+        if(list) list.innerHTML=`<div class="shelter-item"><b>避難場所を取得できませんでした</b><p>通信状況または公開データの取得制限により表示できません。自治体の公式情報を確認してください。</p></div>`;
+      }
     }
 
     btn.addEventListener("click",()=>{
@@ -799,13 +981,14 @@ canvas,
       navigator.geolocation.getCurrentPosition(pos=>{
         const lat=pos.coords.latitude;
         const lon=pos.coords.longitude;
+        lastPosition={lat,lon};
         const accuracy=Math.round(pos.coords.accuracy || 0);
         const L=state.L;
 
         if(currentMarker) currentMarker.remove();
         if(currentCircle) currentCircle.remove();
 
-        currentMarker=L.marker([lat,lon]).addTo(state.map).bindPopup(`<b>現在地付近</b><br>誤差目安：約${accuracy}m<br>※正確な避難場所は自治体情報を確認してください。`);
+        currentMarker=L.marker([lat,lon]).addTo(state.map).bindPopup(`<b>現在地付近</b><br>誤差目安：約${accuracy}m<br>近くの避難場所を表示します。`);
         currentCircle=L.circle([lat,lon],{
           radius:Math.max(accuracy,80),
           color:"#7dd3fc",
@@ -814,12 +997,13 @@ canvas,
           fillOpacity:.12
         }).addTo(state.map);
 
-        state.map.setView([lat,lon],12);
+        state.map.setView([lat,lon],13);
         currentMarker.openPopup();
 
-        setInfo("現在地を表示しました", `地図上に現在地付近を表示しています。誤差目安：約${accuracy}m。近くの避難場所表示は次段階で追加予定です。災害時は自治体・気象庁などの公式情報を確認してください。`);
+        setInfo("現在地を表示しました", `現在地付近と、近くの指定緊急避難場所を表示します。誤差目安：約${accuracy}m。災害時は自治体・気象庁などの公式情報を必ず確認してください。`);
         btn.disabled=false;
         btn.textContent="現在地を再取得";
+        searchNearbyShelters(lat,lon);
       },err=>{
         let msg="位置情報を取得できませんでした。";
         if(err.code===1) msg="位置情報の許可がされませんでした。ブラウザやスマホの位置情報設定を確認してください。";
@@ -835,7 +1019,6 @@ canvas,
       });
     });
   }
-
 
   function normalizeTsunami(payload){
     if(!payload) return {status:"unknown", items:[]};
