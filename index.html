@@ -262,6 +262,45 @@ canvas,
   color:#7f8da3;
 }
 
+
+/* current location button */
+.location-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin:10px 0 14px;
+}
+.location-btn{
+  appearance:none;
+  border:1px solid rgba(125,211,252,.35);
+  background:rgba(125,211,252,.13);
+  color:#dff7ff;
+  border-radius:999px;
+  padding:10px 14px;
+  font-size:14px;
+  font-weight:900;
+  cursor:pointer;
+}
+.location-btn:active{
+  transform:translateY(1px);
+}
+.location-note{
+  font-size:12px;
+  color:#7f8da3;
+  margin:0;
+}
+.current-location-panel{
+  margin-top:10px;
+  border:1px solid rgba(125,211,252,.22);
+  background:rgba(125,211,252,.08);
+  border-radius:16px;
+  padding:12px;
+}
+.current-location-panel b{
+  display:block;
+  margin-bottom:4px;
+}
+
 </style>
 </head>
 <body>
@@ -299,6 +338,12 @@ canvas,
       <span style="color:#fff;font-weight:900;">日本海東縁部</span>
     </p>
     <div id="map"><div class="map-fallback">地図を読み込み中です</div></div>
+
+    <div class="location-actions">
+      <button type="button" class="location-btn" id="currentLocationBtn">現在地を表示</button>
+      <p class="location-note">※位置情報は端末内で地図表示に使うだけで、サイト側には保存しません。</p>
+    </div>
+
     <p class="notice">※このサイトは地震の発生日・場所・規模を断定するものではありません。公開データをもとに防災上の注意度を整理するβ版です。</p>
   </section>
 
@@ -311,6 +356,15 @@ canvas,
       <div class="stat"><strong id="statMaxM">-</strong><span class="small">最大M</span></div>
       <div class="stat"><strong id="statMaxI">-</strong><span class="small">最大震度</span></div>
       <div class="stat"><strong id="statM5">0</strong><span class="small">M5以上</span></div>
+    </div>
+  </section>
+
+
+  <section class="card" id="currentLocationCard">
+    <h2>現在地から確認</h2>
+    <div id="currentLocationInfo" class="current-location-panel">
+      <b>現在地未取得</b>
+      <p class="small">「現在地を表示」を押すと、現在地を地図上に表示します。近くの避難場所表示は次段階で追加予定です。</p>
     </div>
   </section>
 
@@ -715,6 +769,74 @@ canvas,
   function updateStats(arr){$("statCount").textContent=arr.length; $("statMaxM").textContent=arr.length?Math.max(...arr.map(q=>magOf(q))).toFixed(1):"-"; $("statMaxI").textContent=arr.length?arr.reduce((a,b)=>intensityOf(a)>=intensityOf(b)?a:b).intensityLabel??Math.max(...arr.map(q=>intensityOf(q))):"-"; $("statM5").textContent=arr.filter(q=>magOf(q)>=5).length; $("riskSummary").textContent=arr.length?"総合リスク 通常":"総合リスク --";}
 
 
+
+  function setupCurrentLocation(){
+    const btn=$("currentLocationBtn");
+    const info=$("currentLocationInfo");
+    if(!btn || !info) return;
+
+    let currentMarker=null;
+    let currentCircle=null;
+
+    function setInfo(title, body){
+      info.innerHTML=`<b>${title}</b><p class="small">${body}</p>`;
+    }
+
+    btn.addEventListener("click",()=>{
+      if(!navigator.geolocation){
+        setInfo("現在地を取得できません", "この端末またはブラウザは位置情報に対応していません。");
+        return;
+      }
+      if(!state.map || !state.L){
+        setInfo("地図を読み込み中", "地図の読み込みが終わってからもう一度押してください。");
+        return;
+      }
+
+      btn.disabled=true;
+      btn.textContent="現在地を取得中…";
+      setInfo("現在地を取得中", "スマホの位置情報許可が表示されたら、許可を選んでください。");
+
+      navigator.geolocation.getCurrentPosition(pos=>{
+        const lat=pos.coords.latitude;
+        const lon=pos.coords.longitude;
+        const accuracy=Math.round(pos.coords.accuracy || 0);
+        const L=state.L;
+
+        if(currentMarker) currentMarker.remove();
+        if(currentCircle) currentCircle.remove();
+
+        currentMarker=L.marker([lat,lon]).addTo(state.map).bindPopup(`<b>現在地付近</b><br>誤差目安：約${accuracy}m<br>※正確な避難場所は自治体情報を確認してください。`);
+        currentCircle=L.circle([lat,lon],{
+          radius:Math.max(accuracy,80),
+          color:"#7dd3fc",
+          weight:2,
+          fillColor:"#7dd3fc",
+          fillOpacity:.12
+        }).addTo(state.map);
+
+        state.map.setView([lat,lon],12);
+        currentMarker.openPopup();
+
+        setInfo("現在地を表示しました", `地図上に現在地付近を表示しています。誤差目安：約${accuracy}m。近くの避難場所表示は次段階で追加予定です。災害時は自治体・気象庁などの公式情報を確認してください。`);
+        btn.disabled=false;
+        btn.textContent="現在地を再取得";
+      },err=>{
+        let msg="位置情報を取得できませんでした。";
+        if(err.code===1) msg="位置情報の許可がされませんでした。ブラウザやスマホの位置情報設定を確認してください。";
+        if(err.code===2) msg="現在地を特定できませんでした。屋外や通信状態の良い場所で再度試してください。";
+        if(err.code===3) msg="現在地取得がタイムアウトしました。もう一度試してください。";
+        setInfo("現在地を取得できません", msg);
+        btn.disabled=false;
+        btn.textContent="現在地を表示";
+      },{
+        enableHighAccuracy:true,
+        timeout:12000,
+        maximumAge:60000
+      });
+    });
+  }
+
+
   function normalizeTsunami(payload){
     if(!payload) return {status:"unknown", items:[]};
     const items = Array.isArray(payload) ? payload : (payload.items || payload.warnings || payload.areas || []);
@@ -932,7 +1054,7 @@ canvas,
       state.news=[];
     }
     await loadTsunamiSafe();
-    const L=await loadLeaflet(); initMap(L); refresh(); if(state.quakes[0])focus(state.quakes[0],false);
+    const L=await loadLeaflet(); initMap(L); setupCurrentLocation(); refresh(); if(state.quakes[0])focus(state.quakes[0],false);
   }
 
   // horizontal scroll guard
