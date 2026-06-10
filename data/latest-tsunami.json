@@ -1,5 +1,10 @@
 {
-  "status": "none",
-  "updated_at": "",
-  "items": []
+  "source": "P2P地震情報/気象庁",
+  "endpoint": "https://api.p2pquake.net/v2/history?codes=552&limit=20",
+  "fetched_at": "2026-06-10T20:05:59+09:00",
+  "updated_at": null,
+  "latest_report_id": null,
+  "active": false,
+  "alerts": [],
+  "note": "津波警報・注意報・予報がある場合のみalertsに表示対象が入ります。避難判断は必ず気象庁・自治体の公式情報を確認してください。"
 }
