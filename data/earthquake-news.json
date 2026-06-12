@@ -1,22 +1,7 @@
 {
-  "updated_at": "2026-06-12T20:51:41+09:00",
+  "updated_at": "2026-06-13T03:32:38+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
-    {
-      "title": "2026年 大地震は増えている？南海トラフ地震や巨大地震との関係は - 読売新聞",
-      "source": "読売新聞",
-      "time": "2026-06-09T06:07:23+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE50M3NLZUxQYzlzTWtMOFJhY3BnaV95WWNfTWZpTmRKVFRubl9CX21JS0dFYVNtOFJNREZ0dFMyRWRyU2RhUGFELTMxYjB2WUxzMWVEcmFsbHVyWWRidENVVTJ3?oc=5",
-      "type": "news",
-      "area": "南海トラフ",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.8,
-      "lon": 136.2,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "南海トラフ",
-      "zoomSource": "dictionary"
-    },
     {
       "title": "茨城から沖縄に一時津波注意報 フィリピン大地震で最大３０センチ―気象庁 - 時事ドットコム",
       "source": "時事ドットコム",
@@ -30,6 +15,21 @@
       "zoom": 6,
       "zoomable": true,
       "matchedArea": "沖縄・南西諸島",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "2026年 大地震は増えている？南海トラフ地震や巨大地震との関係は - 読売新聞",
+      "source": "読売新聞",
+      "time": "2026-06-09T06:07:23+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE50M3NLZUxQYzlzTWtMOFJhY3BnaV95WWNfTWZpTmRKVFRubl9CX21JS0dFYVNtOFJNREZ0dFMyRWRyU2RhUGFELTMxYjB2WUxzMWVEcmFsbHVyWWRidENVVTJ3?oc=5",
+      "type": "news",
+      "area": "南海トラフ",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.8,
+      "lon": 136.2,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "南海トラフ",
       "zoomSource": "dictionary"
     },
     {
@@ -76,10 +76,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "【フィリピン・ミンダナオ島沖地震】地震で2万人以上が避難、緊急支援チームが活動開始 - Peace Winds Japan",
-      "source": "Peace Winds Japan",
-      "time": "2026-06-11T11:32:58+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFByRm9kRjFJckFtMnhqQ1ZzQ05nazhDc2dpWXgzZ1RaTzF3a2RmNDh4NXhTMGRrNzRnck5PX0F0dEpqbTFDZTIzenhhczVyY1JDX0gzdG02bGFncGt6cU9FVURqY2ZTRXdR?oc=5",
+      "title": "津波注意報すべて解除 - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-06-08T16:52:57+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pbDh5M0s2UTcwdEpwY0xxZ2hnUWlIcElWWGFpSTBySFFRYzJ4alB2bHpJZjhQbWRYRVRJN254b0d4RHQtWE54NFl1LXMzT2xBU19Ma1lsUkl2c1A0TDdR?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -105,10 +105,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "津波注意報すべて解除 - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-06-08T16:52:57+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pbDh5M0s2UTcwdEpwY0xxZ2hnUWlIcElWWGFpSTBySFFRYzJ4alB2bHpJZjhQbWRYRVRJN254b0d4RHQtWE54NFl1LXMzT2xBU19Ma1lsUkl2c1A0TDdR?oc=5",
+      "title": "【津波注意報】関東地方、伊豆・小笠原諸島など 09:05時点 - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-06-08T09:05:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFByQnl5TFFnTzJvc0pZV2M4SHIyVDdQeHNIeHNKZk9DMzE1TmVtRHpuYWJLYXNoTTc0eEE2N2xPWS1WVTdtZTBNS1hoY3U1cGtVU2tHRzBHaw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
