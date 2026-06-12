@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-06-12T06:30:00+09:00",
+  "fetched_at": "2026-06-12T20:52:21+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/06/11 23:22:00",
-    "area": "宮城県沖",
-    "magnitude": 4.2,
-    "depth": 40,
+    "time": "2026/06/12 15:40:00",
+    "area": "福島県沖",
+    "magnitude": 4.1,
+    "depth": 60,
     "maxScale": 20,
     "intensityLabel": "2",
     "domesticTsunami": "None"
