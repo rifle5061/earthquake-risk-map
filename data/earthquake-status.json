@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-06-13T19:09:26+09:00",
+  "fetched_at": "2026-06-14T05:49:53+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/06/13 04:49:00",
-    "area": "宮城県沖",
-    "magnitude": 4.4,
-    "depth": 70,
-    "maxScale": 30,
-    "intensityLabel": "3",
+    "time": "2026/06/13 22:51:00",
+    "area": "西表島付近",
+    "magnitude": 2.9,
+    "depth": 10,
+    "maxScale": 10,
+    "intensityLabel": "1",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
