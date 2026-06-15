@@ -1,22 +1,7 @@
 {
-  "updated_at": "2026-06-16T01:22:46+09:00",
+  "updated_at": "2026-06-16T08:17:29+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
-    {
-      "title": "【地震】宮城県内で震度3 宮城県沖を震源とする最大震度3の地震が発生 津波の心配なし - khb東日本放送",
-      "source": "khb東日本放送",
-      "time": "2026-06-13T04:53:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBpeG5zNlBWQW92c1J4UTZTNjR5bWQ5RGlSQXp3TXJiVFFqR2I0WERkQnN5eV9TM0RpelFtY0dLRjdrNlRjdHNqSWk0VENFb2s?oc=5",
-      "type": "news",
-      "area": "東北〜関東沖",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 37.8,
-      "lon": 142.0,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "東北〜関東沖",
-      "zoomSource": "dictionary"
-    },
     {
       "title": "宮城県で最大震度3の地震 宮城県・涌谷町 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
@@ -91,6 +76,20 @@
       "zoomable": true,
       "matchedArea": "沖縄・南西諸島",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "大規模な災害に備え在宅避難の検討も - khb東日本放送",
+      "source": "khb東日本放送",
+      "time": "2026-06-12T18:20:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBxQnA5dTNReGdXcjUxc0hqbldEaXhCb3JaZ3ZKTFk0REhtWXY5dk5HLVlGXzRtc09MRHZjM1VINm5SVld4TWFLTHdySlNmRHc?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "住民参加の避難計画を/仁比氏 耐震化負担軽減訴え/参院災害特委 | しんぶん赤旗 - jcp.or.jp",
