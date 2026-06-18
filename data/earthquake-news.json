@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-18T06:25:01+09:00",
+  "updated_at": "2026-06-19T05:43:03+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -59,10 +59,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "【地震】栃木県内で震度4 茨城県南部を震源とする最大震度5弱の地震が発生 津波の心配なし－NEWS - tochigi-tv.jp",
-      "source": "tochigi-tv.jp",
-      "time": "2026-06-16T19:46:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55TE9iX3JXelo0WnBDbXF4MFJwR0tJSlY3eDRpWWdoSktOQU5QS0JTY0wxblBNUFZYRzAwQU4yMW5GamxYQ3Y0d0hOamlSQ1ptMzByVlV5bnRVamVZalQw?oc=5",
+      "title": "【地震】愛知県・岐阜県内で震度2 茨城県南部を震源とする最大震度5弱の地震が発生 津波の心配なし - nagoyatv.com",
+      "source": "nagoyatv.com",
+      "time": "2026-06-16T19:53:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1EU2F5YndVdGlqTFlqS003Q2M5VWZvM01RbVpGVl8xZVplWUVEVlhBcmJoQTlPNEdoUjl0dlVIOEI1cUtJcVVabm1XX3l1RWlQeHfSAWRBVV95cUxObWp0VVB6TjdqTVdqbERyNk1Jbm1TeHgxdWNoeGc4MERYMlVaNEF0Zy1pbTA5QUdNYjFQMWp6SWdxTEpZclhUeF9NV0RkMWtWcVBpMzRQUEIxdjZLUWdIUlRoU015?oc=5",
       "type": "news",
       "area": "首都圏周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -74,25 +74,39 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "震度5弱 茨城県南部 2026年06月16日19:46ごろ 地震詳細 | TBS NEWS DIG - TBS NEWS DIG",
+      "title": "和歌山県で最大震度1の地震 和歌山県・和歌山市 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
-      "time": "2026-06-16T19:46:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOeGdBSG1zNkp5bkFfVXpCU1I5bUVBMzFoazZqNEFOaUY4alJBZEstVE11TXhRZFhvRlBHNlNvZTIzeGd4M2hDcnNuWDZVZzhWYzQxcWU1TGRuNlNoRnVsb09UMHppVDE3TkVHdUpYOWR4eUc4cDYtSGNLXzN5ZzFOMFZB?oc=5",
+      "time": "2026-06-18T11:18:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE03RXNVRTI1dUhRdkFCXzlWT084VGRTdnd4NE9aV1pZRlduMHpLQjROWk9XYjYxZE5QODYwa2VpWmtNZ0JsMkF0VzZGVDM5cVdRT2MxTk9fSQ?oc=5",
       "type": "news",
-      "area": "首都圏周辺",
+      "area": "太平洋側・南海トラフ想定域",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 35.55,
-      "lon": 139.8,
-      "zoom": 8,
+      "lat": 33.2,
+      "lon": 134.5,
+      "zoom": 6,
       "zoomable": true,
-      "matchedArea": "首都圏周辺",
+      "matchedArea": "太平洋側・南海トラフ想定域",
       "zoomSource": "dictionary"
     },
     {
-      "title": "【地震情報】宮城 涌谷町で震度3 津波の心配なし - NHKニュース",
+      "title": "16日夜 群馬 埼玉で震度5弱の地震 今後1週間程度は注意を - NHKニュース",
       "source": "NHKニュース",
-      "time": "2026-06-13T04:53:14+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ra1FuZE5teUF3VnNxVVUxNUgwX3BMWWVWeFg0cjRjLTdSNHEtdmdqVTQ5Z3JXOGhHdDNXLTNsUTVVMi1vS0RUV19wb0E5UFg4QUhIOFVJQlpoazg0eGFn?oc=5",
+      "time": "2026-06-17T05:18:23+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9OajN4OFlKMldieTlSajgyZ1pBT3c3cFI2N2xKeWg3bFkxZVgwVWloTExua09ZT0FFY3cwdWQ2Y0dEMHJVa2E1bDdyUTJxRjFTb1RqSUczV01PQ2FiYnR3?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "宮城周辺、未知の大津波か 800年前、弥生時代も？（共同通信） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-06-13T14:33:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fZmdIN2R4YmhrdmszUG0wSXpTTWZkUGp0TnlBRmdVd2xSR1pGMEpkeG1oZi1mNmtJSzFuRndTelJMWEF6OTFzd1hSckNVczJueU94X1g3Vlg5TkE4QzFLaVp3anhTSU1nUDFZaWhKZFZ4Yk50bmZBcDB2WlRoT3c?oc=5",
       "type": "news",
       "area": "東北地方",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -102,20 +116,6 @@
       "zoomable": true,
       "matchedArea": "東北地方",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "群馬県、埼玉県で最大震度5弱の強い地震 群馬県・太田市、千代田町、埼玉県・加須市、本庄市、埼玉美里町 - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-06-16T19:49:13+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UQUh3NW94VTU2amxZbVgweUdfckNpcUVxUDg1TW1JdDY2dzB4eGpTeEo5UHJoOS1TZ0VuOTFDTnQ0aHlISTREcy1nT3ZCTGh2TTM1NGpldUNaUGFuWXgtMUJFSGN4RmFVWkdqRDJlbkk3dnpIMGtEakQ5SndRNjA?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     }
   ]
 }
