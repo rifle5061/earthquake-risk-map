@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-06-18T20:58:05+09:00",
+  "fetched_at": "2026-06-19T21:31:46+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/06/18 13:06:00",
-    "area": "長野県北部",
-    "magnitude": 2.1,
-    "depth": 10,
+    "time": "2026/06/19 20:17:00",
+    "area": "紀伊水道",
+    "magnitude": 3.0,
+    "depth": 40,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
