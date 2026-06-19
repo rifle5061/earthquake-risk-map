@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T21:33:50+09:00",
+  "updated_at": "2026-06-20T04:16:24+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -88,20 +88,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "【大雨警報】名護市が5カ所に避難所開設 東村全域に「高齢者等避難」発令 - 琉球新報デジタル",
-      "source": "琉球新報デジタル",
-      "time": "2026-06-15T17:10:20+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE81aG1CbXVLWGFBaEJOZE8tbS1VYWpWUkFvNmNPdnlNbHh0Ry05cFJsZTEya1ZpY0o1WEI3UFppQ3R0RkVISWk4d1VKODE2UmMxNS1qeVRlMkVDblU?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "ペット同伴避難所を指定しました - town.oiso.kanagawa.jp",
       "source": "town.oiso.kanagawa.jp",
       "time": "2026-06-19T11:07:05+09:00",
@@ -114,6 +100,21 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
+    },
+    {
+      "title": "【大雨警報】沖縄県内各地で避難所設置（一覧あり） 早めの行動を！ - 琉球新報デジタル",
+      "source": "琉球新報デジタル",
+      "time": "2026-06-15T17:10:20+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE81aG1CbXVLWGFBaEJOZE8tbS1VYWpWUkFvNmNPdnlNbHh0Ry05cFJsZTEya1ZpY0o1WEI3UFppQ3R0RkVISWk4d1VKODE2UmMxNS1qeVRlMkVDblU?oc=5",
+      "type": "news",
+      "area": "沖縄・南西諸島",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 25.7,
+      "lon": 127.8,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "沖縄・南西諸島",
+      "zoomSource": "dictionary"
     }
   ]
 }
