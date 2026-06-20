@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T07:39:01+09:00",
+  "updated_at": "2026-06-20T19:15:28+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -31,6 +31,50 @@
       "zoomSource": "none"
     },
     {
+      "title": "【地震】茨城県南部を震源とする最大震度5弱の地震が発生 津波の心配なし - ABA青森朝日放送",
+      "source": "ABA青森朝日放送",
+      "time": "2026-06-16T19:51:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9jVHBPajlUMml1TkFqWXg1c0tiWWs4OE9mMUF6Zjk4OUFjVS13ZTY2ejN4Y2poVmpnUm5PRkFRNWlSZnVvdnBQQUU0UDhuT2gwb1hQSnB0MXE?oc=5",
+      "type": "news",
+      "area": "首都圏周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 35.55,
+      "lon": 139.8,
+      "zoom": 8,
+      "zoomable": true,
+      "matchedArea": "首都圏周辺",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "令和8年度氷見市防災行政無線整備事業実施設計業務委託プロポーザルの実施について - city.himi.toyama.jp",
+      "source": "city.himi.toyama.jp",
+      "time": "2026-06-17T16:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE42cWE4cVdZMTBaNWswQWdyUmlFTENMQ0w4QUwxU2ItZTd4V2VMTzVVM0NtVDlpSkdMYWdNQ3k2ZVNHYXRYRDk0MmU0dzNrME9DR2pxemNMaEJaZTZ1em5CanN2OEhiSGNqaDhfTmExd0xBV2c?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "小松市令和6年能登半島地震復興支援補助金制度について／小松市ホームページ - city.komatsu.lg.jp",
+      "source": "city.komatsu.lg.jp",
+      "time": "2026-06-17T16:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1VWVRBdEx0X2lMZnpPdk4xWm94Um00dzVlSjV0VDBRMldiTG5SN0hZdzM1dUVRaVBfQXM3Y2d0OHZld3VPaHR0ZVNTTnpDRjBBTHhNOURrLWhyTHNFRzF6NkJHZHdjN0V4UC1RSlNFamNNY2M?oc=5",
+      "type": "news",
+      "area": "能登半島周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 37.35,
+      "lon": 136.9,
+      "zoom": 8,
+      "zoomable": true,
+      "matchedArea": "能登半島周辺",
+      "zoomSource": "dictionary"
+    },
+    {
       "title": "関東で震度5弱 専門家「地震繰り返す地域、半日は注意を」呼びかけ（朝日新聞） - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
       "time": "2026-06-16T20:48:50+09:00",
@@ -59,10 +103,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "日本列島が東へ移動 地球外核に反射した地震波で―東日本大震災のＭ９直後・米仏チーム - 時事ドットコム",
-      "source": "時事ドットコム",
-      "time": "2026-06-19T03:05:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01ejk3Y0pRYkdtZVhsSzlhWXJic0QyWE5YUTc1T2Y2b3ltZXRlUlRKcXFoSHFmS0pOQnpIZm1lTTQyby1Ha19HbHpnbVFySXNxSnNwNFhXcjU0T3hocVpET3pEdw?oc=5",
+      "title": "家庭と地域の防災力向上のために！消防職員が各戸啓発を実施します！ - city.nagoya.jp",
+      "source": "city.nagoya.jp",
+      "time": "2026-06-16T16:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE10VGJMVDFobU5wNHVlTWFiTUtWbnlWNTRzaXFuM3R4d0lKSm5TOVVpRTF6TXFTSnVWNTlpV1RTbW5rNlpBX2pOMy0zMnlOMWYzWkhrTThPMk1JcndjbUdNNnVIUHF0N2xoMWNrNE44TDU5dVlrcmtTdmxR?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -71,49 +115,6 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
-    },
-    {
-      "title": "群馬・太田市などで震度5弱の地震 人的、住宅の被害は確認されず 16日午後8時半現在 - 上毛新聞電子版",
-      "source": "上毛新聞電子版",
-      "time": "2026-06-16T22:01:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE15RmZwNTFwNDUyQTZERnJINlhha0FoWjRONHp5MEV2dGlvX1A2WjVqZlRsdHVLQmRTLS15RUZ3b0NOR1NtUGxKVDAtdDZvb2Nrb0RIRzc4bGY?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "ペット同伴避難所を指定しました - town.oiso.kanagawa.jp",
-      "source": "town.oiso.kanagawa.jp",
-      "time": "2026-06-19T11:07:05+09:00",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcDE5UUI3RmplRUhZQ0s3R3g2UmNqRUsxVFNQTGowWTlURlBUQzF4NWdSLVYxY0gybHNnZUVfME1fVXYxV2MxQl9yZUgxNERjd1Z4OVlSUnFLWlFTdV9qUGVkYURPaHdCSjBMOGdobi1OQ0FtVzRIOGZxNmluaktNWDdJRDlxeDhLOHpaM0E1Y0owdC15SnJuWm5qSFJvSmJvQmRMLW10Q2xrRTR1blk1c0hTUURHSUNRcHFGMmZB?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "【大雨警報】沖縄県内各地で避難所設置（一覧あり） 早めの行動を！ - 琉球新報デジタル",
-      "source": "琉球新報デジタル",
-      "time": "2026-06-15T17:10:20+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE81aG1CbXVLWGFBaEJOZE8tbS1VYWpWUkFvNmNPdnlNbHh0Ry05cFJsZTEya1ZpY0o1WEI3UFppQ3R0RkVISWk4d1VKODE2UmMxNS1qeVRlMkVDblU?oc=5",
-      "type": "news",
-      "area": "沖縄・南西諸島",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 25.7,
-      "lon": 127.8,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "沖縄・南西諸島",
-      "zoomSource": "dictionary"
     }
   ]
 }
