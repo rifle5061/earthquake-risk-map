@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-06-21T19:46:45+09:00",
-  "count": 98,
+  "fetched_at": "2026-06-22T01:57:14+09:00",
+  "count": 94,
   "latest": {
-    "time": "2026/06/21 04:57:00",
-    "area": "茨城県南部",
-    "magnitude": 3.1,
-    "depth": 50,
+    "time": "2026/06/21 22:07:00",
+    "area": "石川県能登地方",
+    "magnitude": 2.7,
+    "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
