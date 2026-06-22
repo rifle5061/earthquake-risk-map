@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-06-23T07:00:38+09:00",
+  "fetched_at": "2026-06-23T08:42:46+09:00",
   "count": 94,
   "latest": {
-    "time": "2026/06/23 04:27:00",
-    "area": "奄美大島近海",
-    "magnitude": 3.5,
-    "depth": 20,
-    "maxScale": 10,
-    "intensityLabel": "1",
+    "time": "2026/06/23 07:20:00",
+    "area": "宮古島近海",
+    "magnitude": 4.3,
+    "depth": 50,
+    "maxScale": 20,
+    "intensityLabel": "2",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
