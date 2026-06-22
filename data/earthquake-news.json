@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T05:54:55+09:00",
+  "updated_at": "2026-06-23T08:49:47+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -59,20 +59,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "ペット同伴避難所を指定しました - town.oiso.kanagawa.jp",
-      "source": "town.oiso.kanagawa.jp",
-      "time": "2026-06-19T11:07:05+09:00",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcDE5UUI3RmplRUhZQ0s3R3g2UmNqRUsxVFNQTGowWTlURlBUQzF4NWdSLVYxY0gybHNnZUVfME1fVXYxV2MxQl9yZUgxNERjd1Z4OVlSUnFLWlFTdV9qUGVkYURPaHdCSjBMOGdobi1OQ0FtVzRIOGZxNmluaktNWDdJRDlxeDhLOHpaM0E1Y0owdC15SnJuWm5qSFJvSmJvQmRMLW10Q2xrRTR1blk1c0hTUURHSUNRcHFGMmZB?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "日本列島が東へ移動 地球外核に反射した地震波で―東日本大震災のＭ９直後・米仏チーム - 時事ドットコム",
       "source": "時事ドットコム",
       "time": "2026-06-19T03:05:00+09:00",
@@ -87,25 +73,38 @@
       "zoomSource": "none"
     },
     {
-      "title": "【大雨警報】沖縄県内各地で避難所設置（一覧あり） 早めの行動を！ - 琉球新報デジタル",
-      "source": "琉球新報デジタル",
-      "time": "2026-06-15T17:10:20+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE81aG1CbXVLWGFBaEJOZE8tbS1VYWpWUkFvNmNPdnlNbHh0Ry05cFJsZTEya1ZpY0o1WEI3UFppQ3R0RkVISWk4d1VKODE2UmMxNS1qeVRlMkVDblU?oc=5",
+      "title": "小呂島と警固断層連動地震 福岡、久留米など12市町で最大震度7、死者3300人 福岡県が初の被害想定 - 西日本新聞me",
+      "source": "西日本新聞me",
+      "time": "2026-06-22T11:24:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE02ZzJpenJRQjM4WFZJMktxSHFNZDdQaVhCMW1GNW12VURQYWxnQmdqNlprV0RvdXJOU1JBQ2FXOElOQkEyMVU1WE96amgyQ3dXcDZub3Nn?oc=5",
       "type": "news",
-      "area": "沖縄・南西諸島",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 25.7,
-      "lon": 127.8,
+      "lat": null,
+      "lon": null,
       "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "沖縄・南西諸島",
-      "zoomSource": "dictionary"
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "焼山地区に避難指示／十和田市｜速報｜Web東奥 - 東奥日報社",
       "source": "東奥日報社",
       "time": "2026-06-19T11:17:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1qOTRGMUgzbFZtNXlvdmV0aHJpbWx0TWNDX2pJc2hFTzJiN1ByOWlTTVhuMDZFM2Fuc2l4QUROODhiaXd5Vl9OWnV5VDlqYUt4SVlyazBXT1I?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "大阪府、兵庫県で最大震度1の地震 大阪府・能勢町、兵庫県・三田市 - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-06-22T05:08:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1TTWdObUxJQjkzSnZjb1cwVzlGTndHbUtiQjVFOVNEVnUwUmZFcUJQc1dnT3dzdnUtWVBodmhiSzY5TldmVlg2UzczaDBuY1prMzdFTVY2bw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
