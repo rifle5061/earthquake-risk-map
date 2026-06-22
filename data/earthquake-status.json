@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-06-22T07:00:00+09:00",
-  "count": 92,
+  "fetched_at": "2026-06-23T01:15:16+09:00",
+  "count": 93,
   "latest": {
-    "time": "2026/06/22 05:05:00",
-    "area": "兵庫県南東部",
-    "magnitude": 2.7,
-    "depth": 10,
+    "time": "2026/06/22 16:38:00",
+    "area": "釧路沖",
+    "magnitude": 3.0,
+    "depth": 50,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
