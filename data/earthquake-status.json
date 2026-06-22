@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-06-23T01:15:16+09:00",
-  "count": 93,
+  "fetched_at": "2026-06-23T04:53:46+09:00",
+  "count": 94,
   "latest": {
-    "time": "2026/06/22 16:38:00",
-    "area": "釧路沖",
-    "magnitude": 3.0,
-    "depth": 50,
+    "time": "2026/06/23 04:27:00",
+    "area": "奄美大島近海",
+    "magnitude": 3.5,
+    "depth": 20,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"

@@ -1,10 +1,28 @@
 {
   "source": "P2P地震情報 JSON API v2 / 履歴コード551",
   "endpoint": "https://api.p2pquake.net/v2/history?codes=551&limit=100&offset=0",
-  "fetched_at": "2026-06-23T01:17:13+09:00",
-  "updated_at": "2026/06/22 16:38:00",
-  "count": 93,
+  "fetched_at": "2026-06-23T04:53:46+09:00",
+  "updated_at": "2026/06/23 04:27:00",
+  "count": 94,
   "items": [
+    {
+      "id": "6a398d72e88ee598246bedde",
+      "code": 551,
+      "time": "2026/06/23 04:27:00",
+      "received_at": "2026/06/23 04:30:58.565",
+      "area": "奄美大島近海",
+      "lat": 28.5,
+      "lon": 129.7,
+      "magnitude": 3.5,
+      "mag": 3.5,
+      "depth": 20,
+      "maxScale": 10,
+      "intensityLabel": "1",
+      "domesticTsunami": "None",
+      "foreignTsunami": "Unknown",
+      "source": "P2P地震情報",
+      "map": true
+    },
     {
       "id": "6a38e708e88ee598246beddd",
       "code": 551,
