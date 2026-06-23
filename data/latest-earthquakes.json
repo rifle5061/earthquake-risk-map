@@ -1,9 +1,9 @@
 {
   "source": "P2P地震情報 JSON API v2 / 履歴コード551",
   "endpoint": "https://api.p2pquake.net/v2/history?codes=551&limit=100&offset=0",
-  "fetched_at": "2026-06-23T16:03:16+09:00",
+  "fetched_at": "2026-06-23T19:02:32+09:00",
   "updated_at": "2026/06/23 11:49:00",
-  "count": 92,
+  "count": 91,
   "items": [
     {
       "id": "6a39f4f2e88ee598246bede0",
@@ -1636,24 +1636,6 @@
       "magnitude": 4.4,
       "mag": 4.4,
       "depth": 160,
-      "maxScale": 10,
-      "intensityLabel": "1",
-      "domesticTsunami": "None",
-      "foreignTsunami": "Unknown",
-      "source": "P2P地震情報",
-      "map": true
-    },
-    {
-      "id": "6a1fadcfe88ee598246bed81",
-      "code": 551,
-      "time": "2026/06/03 13:27:00",
-      "received_at": "2026/06/03 13:30:07.134",
-      "area": "神奈川県西部",
-      "lat": 35.2,
-      "lon": 139.0,
-      "magnitude": 2.9,
-      "mag": 2.9,
-      "depth": 10,
       "maxScale": 10,
       "intensityLabel": "1",
       "domesticTsunami": "None",
