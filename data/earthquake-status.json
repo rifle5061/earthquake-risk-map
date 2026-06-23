@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-06-23T21:47:02+09:00",
-  "count": 91,
+  "fetched_at": "2026-06-24T00:46:36+09:00",
+  "count": 92,
   "latest": {
-    "time": "2026/06/23 11:49:00",
-    "area": "和歌山県北部",
-    "magnitude": 2.3,
-    "depth": 10,
+    "time": "2026/06/23 22:34:00",
+    "area": "トカラ列島近海",
+    "magnitude": 2.8,
+    "depth": 30,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
