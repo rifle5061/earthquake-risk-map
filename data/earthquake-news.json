@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T19:46:05+09:00",
+  "updated_at": "2026-06-23T22:42:39+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -7,20 +7,6 @@
       "source": "TBS NEWS DIG",
       "time": "2026-06-17T06:35:31+09:00",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1XNzRLWEdGbFJoOGRHeUhCTnIyMWdsNlBuZkRza3Rzdkt2a2o3WnBENUNZUGdPcHJKdUhyRmJpRUZuUDhpcnVWMjN4YXRhR0JPYjRJRHU0bw?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "関東で震度5弱 専門家「地震繰り返す地域、半日は注意を」呼びかけ（朝日新聞） - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-06-16T20:48:50+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WVGpKSS1ucTAwQ1JMSmRtTEdZRmQxSWdaQVVyWkhaZzU0Yks1dS1GWjVlNDA3YkJBVWwta1ZrZWlZZkwzWWNXRmI3UjJkd19MSkwtN0VQMGpaWFkzZXAxRnozM1cxZExLNXhHT2VVemVueUI1cjd5ZGhFVjJuM1k?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -49,6 +35,20 @@
       "source": "ウェザーニュース",
       "time": "2026-06-19T16:11:27+09:00",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9JOENlSHpaZXpGTkgxdmQ3eFM0RDMzVUVPTjhuUS16V01sSzlDREdhQnJSZDc4UHpyMllnZXk5a2hJdUVmWnBaX0ZzTmdVNl91YWVvcQ?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "「最大震度7、死者2400人」福岡県が被害想定を公表 小呂島近海と警固断層の連動地震 津波発生も想定されるも「調査中」 - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-06-22T12:14:02+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zNE9aZTdDVXZkbkFTVi1hUFMyMGhfbkxQSDhKLUU0SVFOR3BXZ3FuOFZKQmdieFptY1BEeEZlMndkUkhqbXNJc1F4OVlUNl9kSWl0ODN6TW55X1BmRlRrbTRtR004M3NSbkdnZldLVl84a3FLcGNFXzhvVWlxLVU?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -101,10 +101,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "大阪府、兵庫県で最大震度1の地震 大阪府・能勢町、兵庫県・三田市 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-06-22T05:08:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1TTWdObUxJQjkzSnZjb1cwVzlGTndHbUtiQjVFOVNEVnUwUmZFcUJQc1dnT3dzdnUtWVBodmhiSzY5TldmVlg2UzczaDBuY1prMzdFTVY2bw?oc=5",
+      "title": "焼山地区に避難指示／十和田市｜速報｜Web東奥 - 東奥日報社",
+      "source": "東奥日報社",
+      "time": "2026-06-19T11:17:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1qOTRGMUgzbFZtNXlvdmV0aHJpbWx0TWNDX2pJc2hFTzJiN1ByOWlTTVhuMDZFM2Fuc2l4QUROODhiaXd5Vl9OWnV5VDlqYUt4SVlyazBXT1I?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
