@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-06-23T10:48:12+09:00",
-  "count": 93,
+  "fetched_at": "2026-06-23T15:05:48+09:00",
+  "count": 92,
   "latest": {
-    "time": "2026/06/23 07:20:00",
-    "area": "宮古島近海",
-    "magnitude": 4.3,
-    "depth": 50,
-    "maxScale": 20,
-    "intensityLabel": "2",
+    "time": "2026/06/23 11:49:00",
+    "area": "和歌山県北部",
+    "magnitude": 2.3,
+    "depth": 10,
+    "maxScale": 10,
+    "intensityLabel": "1",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
