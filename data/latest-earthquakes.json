@@ -1,10 +1,28 @@
 {
   "source": "P2P地震情報 JSON API v2 / 履歴コード551",
   "endpoint": "https://api.p2pquake.net/v2/history?codes=551&limit=100&offset=0",
-  "fetched_at": "2026-06-24T05:01:51+09:00",
-  "updated_at": "2026/06/24 00:49:00",
-  "count": 93,
+  "fetched_at": "2026-06-24T05:23:24+09:00",
+  "updated_at": "2026/06/24 05:17:00",
+  "count": 94,
   "items": [
+    {
+      "id": "6a3aea72e88ee598246bede3",
+      "code": 551,
+      "time": "2026/06/24 05:17:00",
+      "received_at": "2026/06/24 05:20:02.376",
+      "area": "福岡県福岡地方",
+      "lat": 33.6,
+      "lon": 130.4,
+      "magnitude": 2.7,
+      "mag": 2.7,
+      "depth": 20,
+      "maxScale": 10,
+      "intensityLabel": "1",
+      "domesticTsunami": "None",
+      "foreignTsunami": "Unknown",
+      "source": "P2P地震情報",
+      "map": true
+    },
     {
       "id": "6a3aab98e88ee598246bede2",
       "code": 551,
