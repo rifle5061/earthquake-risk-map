@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T03:21:09+09:00",
+  "updated_at": "2026-06-24T05:32:33+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -17,52 +17,25 @@
       "zoomSource": "none"
     },
     {
-      "title": "16日夜 群馬 埼玉で震度5弱の地震 今後1週間程度は注意を - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-06-17T05:18:23+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9OajN4OFlKMldieTlSajgyZ1pBT3c3cFI2N2xKeWg3bFkxZVgwVWloTExua09ZT0FFY3cwdWQ2Y0dEMHJVa2E1bDdyUTJxRjFTb1RqSUczV01PQ2FiYnR3?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "「最大震度7、死者2400人」福岡県が被害想定を公表 小呂島近海と警固断層の連動地震 津波発生も想定されるも「調査中」 - Yahoo!ニュース",
+      "title": "フィリピン大地震で海底2m隆起 魚や貝の大量死も ミンダナオ島南部の海岸はサンゴ礁“むき出し” 能登半島地震と同様の現象 - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
-      "time": "2026-06-22T12:14:02+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zNE9aZTdDVXZkbkFTVi1hUFMyMGhfbkxQSDhKLUU0SVFOR3BXZ3FuOFZKQmdieFptY1BEeEZlMndkUkhqbXNJc1F4OVlUNl9kSWl0ODN6TW55X1BmRlRrbTRtR004M3NSbkdnZldLVl84a3FLcGNFXzhvVWlxLVU?oc=5",
+      "time": "2026-06-22T20:02:18+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53Tm1McDJ1YWVTVVlGU2phQmNURVpFbXphZnNFTXBhRUotU0xLNTFGY2VDWkJLM2RxZktkTmx1X2hib0FRY25nWlpncnhLOEVwZWw0cU5KSGFOa2FzUy04R29zVXV4dDh2VjdoeFBqakV4S3JIN0F3eWJvOFdac2M?oc=5",
       "type": "news",
-      "area": "",
+      "area": "能登半島周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "lat": 37.35,
+      "lon": 136.9,
+      "zoom": 8,
+      "zoomable": true,
+      "matchedArea": "能登半島周辺",
+      "zoomSource": "dictionary"
     },
     {
       "title": "日本列島が東へ移動 地球外核に反射した地震波で―東日本大震災のＭ９直後・米仏チーム - 時事ドットコム",
       "source": "時事ドットコム",
       "time": "2026-06-19T03:05:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01ejk3Y0pRYkdtZVhsSzlhWXJic0QyWE5YUTc1T2Y2b3ltZXRlUlRKcXFoSHFmS0pOQnpIZm1lTTQyby1Ha19HbHpnbVFySXNxSnNwNFhXcjU0T3hocVpET3pEdw?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "焼山地区に避難指示／十和田市｜速報｜Web東奥 - 東奥日報社",
-      "source": "東奥日報社",
-      "time": "2026-06-19T11:17:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1qOTRGMUgzbFZtNXlvdmV0aHJpbWx0TWNDX2pJc2hFTzJiN1ByOWlTTVhuMDZFM2Fuc2l4QUROODhiaXd5Vl9OWnV5VDlqYUt4SVlyazBXT1I?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -87,6 +60,20 @@
       "zoomSource": "none"
     },
     {
+      "title": "焼山地区に避難指示／十和田市｜速報｜Web東奥 - 東奥日報社",
+      "source": "東奥日報社",
+      "time": "2026-06-19T11:17:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1qOTRGMUgzbFZtNXlvdmV0aHJpbWx0TWNDX2pJc2hFTzJiN1ByOWlTTVhuMDZFM2Fuc2l4QUROODhiaXd5Vl9OWnV5VDlqYUt4SVlyazBXT1I?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "（6月23日）避難所を開きます - town.togitsu.nagasaki.jp",
       "source": "town.togitsu.nagasaki.jp",
       "time": "2026-06-23T18:39:29+09:00",
@@ -101,18 +88,34 @@
       "zoomSource": "none"
     },
     {
-      "title": "福岡県が「小呂島近海断層帯」震源の地震被害想定、死者は最大３３００人…建物被害は最大１３万９０００棟と推計 - 読売新聞",
-      "source": "読売新聞",
-      "time": "2026-06-22T14:50:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9NWWVLVGs5UE8zNlZEb0hDQzZiWkhDbmxYS0hLYWx2NXQ1M0c3b1dqRFNXcGctb01HaUlOeUZYZjAzMWNNUV83TjhDQkN6RVRkbWtRZkhXS3FqdmxvZXdJUGtFV01wdGx4WEJFRkU5UU5XQQ?oc=5",
+      "title": "【活動報告】能登半島復興支援企画「出張輪島朝市」＠第110回日本選手権 - jaaf.or.jp",
+      "source": "jaaf.or.jp",
+      "time": "2026-06-23T13:03:30+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1fSmJrOXlPa0RMOHRZMlZkbFp3dTJ6NWMtRFM2Q3dFTVBZSUU0RXR0c0xicDR6YkRqY0gtcWtreUhDTDlweDE0Tkd5T09La0hyamFFcA?oc=5",
       "type": "news",
-      "area": "",
+      "area": "能登半島周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "lat": 37.35,
+      "lon": 136.9,
+      "zoom": 8,
+      "zoomable": true,
+      "matchedArea": "能登半島周辺",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "能登半島地震の影響は…富山湾を調査 しんかい６５００（2026年6月23日掲載）｜KNB NEWS NNN - 日テレNEWS NNN",
+      "source": "日テレNEWS NNN",
+      "time": "2026-06-23T19:50:01+09:00",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdkNCanRNX1NJX0k0c1lJYVVkMDh3eEI0OEV3MFVvX2dMNTUxaDhWOEROb0VLS3RZNVNGWVlmdUMxcC1oWFprU1JJaHRLLU16amVYN0tCclhLSzdSeEZ4cjlJNnMyZHlKek93SFlJYzVocVpGTm00Qlh1X2JfV1pzWllNSDk4RlU?oc=5",
+      "type": "news",
+      "area": "能登半島周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 37.35,
+      "lon": 136.9,
+      "zoom": 8,
+      "zoomable": true,
+      "matchedArea": "能登半島周辺",
+      "zoomSource": "dictionary"
     }
   ]
 }
