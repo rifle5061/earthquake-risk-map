@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-24T05:32:33+09:00",
+  "updated_at": "2026-06-24T07:10:24+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
-      "title": "群馬県や埼玉県で最大震度5弱 津波の心配なし 群馬県内で2人けが 気象庁は今後1週間程度、同規模の地震に注意呼びかけ - TBS NEWS DIG",
+      "title": "福岡県で最大震度1の地震 福岡県・春日市 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
-      "time": "2026-06-17T06:35:31+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1XNzRLWEdGbFJoOGRHeUhCTnIyMWdsNlBuZkRza3Rzdkt2a2o3WnBENUNZUGdPcHJKdUhyRmJpRUZuUDhpcnVWMjN4YXRhR0JPYjRJRHU0bw?oc=5",
+      "time": "2026-06-24T05:20:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBleU5JaFFUeUVTX3lyckRXdEtZbmNfSmhjanAyclQ5b0VZT25sdzhyVkFGQ2dpMmtOU0NFdGU4Z1BmREJuOWNFOVdjcDk4WFQ2V2VMYjRfZw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -88,25 +88,24 @@
       "zoomSource": "none"
     },
     {
+      "title": "福岡県が「小呂島近海断層帯」震源の地震被害想定、死者は最大３３００人…建物被害は最大１３万９０００棟と推計 - 読売新聞",
+      "source": "読売新聞",
+      "time": "2026-06-22T14:50:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9NWWVLVGs5UE8zNlZEb0hDQzZiWkhDbmxYS0hLYWx2NXQ1M0c3b1dqRFNXcGctb01HaUlOeUZYZjAzMWNNUV83TjhDQkN6RVRkbWtRZkhXS3FqdmxvZXdJUGtFV01wdGx4WEJFRkU5UU5XQQ?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "【活動報告】能登半島復興支援企画「出張輪島朝市」＠第110回日本選手権 - jaaf.or.jp",
       "source": "jaaf.or.jp",
       "time": "2026-06-23T13:03:30+09:00",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1fSmJrOXlPa0RMOHRZMlZkbFp3dTJ6NWMtRFM2Q3dFTVBZSUU0RXR0c0xicDR6YkRqY0gtcWtreUhDTDlweDE0Tkd5T09La0hyamFFcA?oc=5",
-      "type": "news",
-      "area": "能登半島周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 37.35,
-      "lon": 136.9,
-      "zoom": 8,
-      "zoomable": true,
-      "matchedArea": "能登半島周辺",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "能登半島地震の影響は…富山湾を調査 しんかい６５００（2026年6月23日掲載）｜KNB NEWS NNN - 日テレNEWS NNN",
-      "source": "日テレNEWS NNN",
-      "time": "2026-06-23T19:50:01+09:00",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdkNCanRNX1NJX0k0c1lJYVVkMDh3eEI0OEV3MFVvX2dMNTUxaDhWOEROb0VLS3RZNVNGWVlmdUMxcC1oWFprU1JJaHRLLU16amVYN0tCclhLSzdSeEZ4cjlJNnMyZHlKek93SFlJYzVocVpGTm00Qlh1X2JfV1pzWllNSDk4RlU?oc=5",
       "type": "news",
       "area": "能登半島周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
