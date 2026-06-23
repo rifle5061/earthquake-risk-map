@@ -1,10 +1,28 @@
 {
   "source": "P2P地震情報 JSON API v2 / 履歴コード551",
   "endpoint": "https://api.p2pquake.net/v2/history?codes=551&limit=100&offset=0",
-  "fetched_at": "2026-06-24T00:46:36+09:00",
-  "updated_at": "2026/06/23 22:34:00",
-  "count": 92,
+  "fetched_at": "2026-06-24T00:53:55+09:00",
+  "updated_at": "2026/06/24 00:49:00",
+  "count": 93,
   "items": [
+    {
+      "id": "6a3aab98e88ee598246bede2",
+      "code": 551,
+      "time": "2026/06/24 00:49:00",
+      "received_at": "2026/06/24 00:51:52.554",
+      "area": "京都府南部",
+      "lat": 35.2,
+      "lon": 135.3,
+      "magnitude": 2.8,
+      "mag": 2.8,
+      "depth": 10,
+      "maxScale": 10,
+      "intensityLabel": "1",
+      "domesticTsunami": "None",
+      "foreignTsunami": "Unknown",
+      "source": "P2P地震情報",
+      "map": true
+    },
     {
       "id": "6a3a8c0be88ee598246bede1",
       "code": 551,
