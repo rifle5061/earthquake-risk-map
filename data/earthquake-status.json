@@ -1,15 +1,15 @@
 {
   "status": "ok",
-  "fetched_at": "2026-06-25T06:45:31+09:00",
-  "count": 96,
+  "fetched_at": "2026-06-25T08:02:22+09:00",
+  "count": 100,
   "latest": {
-    "time": "2026/06/24 16:46:00",
-    "area": "根室地方南部",
-    "magnitude": 3.6,
-    "depth": 90,
-    "maxScale": 10,
-    "intensityLabel": "1",
-    "domesticTsunami": "None"
+    "time": "2026/06/25 07:30:00",
+    "area": "岩手県沖",
+    "magnitude": 6.9,
+    "depth": 50,
+    "maxScale": 60,
+    "intensityLabel": "6強",
+    "domesticTsunami": "NonEffective"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
 }
