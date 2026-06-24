@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-06-24T13:36:31+09:00",
-  "count": 97,
+  "fetched_at": "2026-06-24T17:04:34+09:00",
+  "count": 96,
   "latest": {
-    "time": "2026/06/24 13:31:00",
-    "area": "福島県会津",
-    "magnitude": 3.7,
-    "depth": 10,
-    "maxScale": 30,
-    "intensityLabel": "3",
+    "time": "2026/06/24 16:46:00",
+    "area": "根室地方南部",
+    "magnitude": 3.6,
+    "depth": 90,
+    "maxScale": 10,
+    "intensityLabel": "1",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
