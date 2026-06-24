@@ -1,10 +1,28 @@
 {
   "source": "P2P地震情報 JSON API v2 / 履歴コード551",
   "endpoint": "https://api.p2pquake.net/v2/history?codes=551&limit=100&offset=0",
-  "fetched_at": "2026-06-24T10:26:27+09:00",
-  "updated_at": "2026/06/24 08:01:00",
-  "count": 93,
+  "fetched_at": "2026-06-24T12:27:26+09:00",
+  "updated_at": "2026/06/24 10:50:00",
+  "count": 94,
   "items": [
+    {
+      "id": "6a3b3887e88ee598246bede5",
+      "code": 551,
+      "time": "2026/06/24 10:50:00",
+      "received_at": "2026/06/24 10:53:11.549",
+      "area": "新島・神津島近海",
+      "lat": 34.2,
+      "lon": 139.2,
+      "magnitude": 2.4,
+      "mag": 2.4,
+      "depth": 10,
+      "maxScale": 10,
+      "intensityLabel": "1",
+      "domesticTsunami": "None",
+      "foreignTsunami": "Unknown",
+      "source": "P2P地震情報",
+      "map": true
+    },
     {
       "id": "6a3b10e9e88ee598246bede4",
       "code": 551,
