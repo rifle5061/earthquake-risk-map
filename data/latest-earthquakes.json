@@ -1,9 +1,9 @@
 {
   "source": "P2P地震情報 JSON API v2 / 履歴コード551",
   "endpoint": "https://api.p2pquake.net/v2/history?codes=551&limit=100&offset=0",
-  "fetched_at": "2026-06-24T09:11:26+09:00",
+  "fetched_at": "2026-06-24T10:26:27+09:00",
   "updated_at": "2026/06/24 08:01:00",
-  "count": 94,
+  "count": 93,
   "items": [
     {
       "id": "6a3b10e9e88ee598246bede4",
@@ -1675,24 +1675,6 @@
       "maxScale": 30,
       "intensityLabel": "3",
       "domesticTsunami": "Checking",
-      "foreignTsunami": "Unknown",
-      "source": "P2P地震情報",
-      "map": true
-    },
-    {
-      "id": "6a20967ae88ee598246bed83",
-      "code": 551,
-      "time": "2026/06/04 06:00:00",
-      "received_at": "2026/06/04 06:02:50.923",
-      "area": "三宅島近海",
-      "lat": 34.1,
-      "lon": 139.4,
-      "magnitude": 3.1,
-      "mag": 3.1,
-      "depth": 20,
-      "maxScale": 10,
-      "intensityLabel": "1",
-      "domesticTsunami": "None",
       "foreignTsunami": "Unknown",
       "source": "P2P地震情報",
       "map": true
