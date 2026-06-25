@@ -1,15 +1,15 @@
 {
   "status": "ok",
-  "fetched_at": "2026-06-25T08:02:22+09:00",
+  "fetched_at": "2026-06-25T10:26:42+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/06/25 07:30:00",
+    "time": "2026/06/25 10:11:00",
     "area": "岩手県沖",
-    "magnitude": 6.9,
+    "magnitude": 4.0,
     "depth": 50,
-    "maxScale": 60,
-    "intensityLabel": "6強",
-    "domesticTsunami": "NonEffective"
+    "maxScale": 20,
+    "intensityLabel": "2",
+    "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
 }
