@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T07:20:07+09:00",
+  "updated_at": "2026-06-26T08:52:05+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -33,35 +33,6 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "青森で震度6強、三陸はるか沖地震と関連か 「再来に警戒」と専門家 - 朝日新聞",
-      "source": "朝日新聞",
-      "time": "2026-06-25T12:00:43+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9WV09Ca2dBTzRza281Sl9HODRRclBnc0hDY0Y4MFpfaUVBclFJOHRIMEFNVlhzX0tadThYdFl1cXFuR2U0MnA4YVVPczB3dnBFU2dkRlRIQXNTeUdZbDdwSXZMN3BRVTA?oc=5",
-      "type": "news",
-      "area": "東北地方",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 39.2,
-      "lon": 140.8,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "東北地方",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "「周辺の広い範囲で地震活動が活発」東北大学遠田晋次教授 - khb東日本放送",
-      "source": "khb東日本放送",
-      "time": "2026-06-25T18:10:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1XLUthZ3pHVm9UMVJBQmtyZGFkSmpJRHY1dUhGa0tZYlRKVXBSLTMydGY5QUVPWU1wdDdDa2k2Nkc0Q0gzejl3N3I2enN6WnM?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "南米ヴェネズエラで強い地震が2度発生　マグニチュード7超 - BBC",
       "source": "BBC",
       "time": "2026-06-25T17:13:16+09:00",
@@ -74,6 +45,21 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
+    },
+    {
+      "title": "青森で震度6強、岩手と計11人負傷 後発地震注意情報は発表せず - 朝日新聞",
+      "source": "朝日新聞",
+      "time": "2026-06-25T07:51:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBiTlFxZWNVSGtGTmhfQTBqSXVfZEtyU01EQ3VyQXZYdEFnRWdVaEo2OGdIaTFVVW1WQXpLQndFb24yckJ6Um5sdVF2eDB0ZTg3OEJNaUFrZ0hUbkhDUk1wbzZaamNDQzg?oc=5",
+      "type": "news",
+      "area": "東北地方",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 39.2,
+      "lon": 140.8,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "東北地方",
+      "zoomSource": "dictionary"
     },
     {
       "title": "青森で震度６強 １１人重軽傷、後発地震注意情報なし - 時事ドットコム",
@@ -104,6 +90,20 @@
       "zoomable": true,
       "matchedArea": "東北地方",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "世界で大地震が複数発生、関連はあるのか？ - CNN",
+      "source": "CNN",
+      "time": "2026-06-25T14:15:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5CcHlveVBjZ21fQWZBakZndVhUVHFlWjRrc0xGM3lXajMtaHQ0T2pnMC05MjRyM09GaEc3VW1LNFlaUUJkU254a2pVRS05LTJSY1hN?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "【地震情報】青森県で震度6強 「後発地震注意情報」発表せず - NHKニュース",
