@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T05:54:34+09:00",
+  "updated_at": "2026-06-26T07:20:07+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -48,6 +48,20 @@
       "zoomSource": "dictionary"
     },
     {
+      "title": "「周辺の広い範囲で地震活動が活発」東北大学遠田晋次教授 - khb東日本放送",
+      "source": "khb東日本放送",
+      "time": "2026-06-25T18:10:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1XLUthZ3pHVm9UMVJBQmtyZGFkSmpJRHY1dUhGa0tZYlRKVXBSLTMydGY5QUVPWU1wdDdDa2k2Nkc0Q0gzejl3N3I2enN6WnM?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "南米ヴェネズエラで強い地震が2度発生　マグニチュード7超 - BBC",
       "source": "BBC",
       "time": "2026-06-25T17:13:16+09:00",
@@ -60,21 +74,6 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
-    },
-    {
-      "title": "青森県で最大震度6強の強い地震 青森県・階上町 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-06-25T07:45:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBpRXF1SU1KZWlXTzhzd1EwSFpYbFpUZXM5WmdjcF9MNzZuX3lqTG9XM19QcXpXYTh4UHo3ZlE0b3ItemE2N2FhWVNnWVVTQ2Vfc1hIU3FHOA?oc=5",
-      "type": "news",
-      "area": "東北地方",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 39.2,
-      "lon": 140.8,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "東北地方",
-      "zoomSource": "dictionary"
     },
     {
       "title": "青森で震度６強 １１人重軽傷、後発地震注意情報なし - 時事ドットコム",
@@ -92,10 +91,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "【地震情報】青森県で震度6強 「後発地震注意情報」発表せず - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-06-25T07:32:51+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1lVTNXTTFtcmhYQnNPOXl5a0JYSTF3QmZJeXA2dllCQWtwc05mTDBFeTlBOWxpZUhEQWk3WjlKNmZIVzYzdERicTRnd0NTMktlcU9OdHdFX2VYdVd4V2hv?oc=5",
+      "title": "青森県で最大震度6強の強い地震 青森県・階上町 - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-06-25T07:45:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBpRXF1SU1KZWlXTzhzd1EwSFpYbFpUZXM5WmdjcF9MNzZuX3lqTG9XM19QcXpXYTh4UHo3ZlE0b3ItemE2N2FhWVNnWVVTQ2Vfc1hIU3FHOA?oc=5",
       "type": "news",
       "area": "東北地方",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -107,10 +106,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "震度6強の被害、想定とギャップ？最大震度の青森の町を記者が歩くと（朝日新聞） - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-06-25T19:30:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xV2twei1tMFAwMHZFenZad2tfcEJNcDIzdWgtSXN3Y3lPeGZzcGFUbUd2V2xneU5heGZYUXR2bzU0RHdvUDNuLVJqd0wyTkZVbkZudXFObU4zcUtOdjJMTDdYM1J6YlVDcWpjdnpZOWNrQlFCUUlFa3ZpeXBIOWM?oc=5",
+      "title": "【地震情報】青森県で震度6強 「後発地震注意情報」発表せず - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-06-25T07:32:51+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1lVTNXTTFtcmhYQnNPOXl5a0JYSTF3QmZJeXA2dllCQWtwc05mTDBFeTlBOWxpZUhEQWk3WjlKNmZIVzYzdERicTRnd0NTMktlcU9OdHdFX2VYdVd4V2hv?oc=5",
       "type": "news",
       "area": "東北地方",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
