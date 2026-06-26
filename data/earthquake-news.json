@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T06:17:10+09:00",
+  "updated_at": "2026-06-27T07:44:24+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -15,21 +15,6 @@
       "zoom": 6,
       "zoomable": true,
       "matchedArea": "東北〜関東沖",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "南海トラフ沿いのプレート境界の固着状態に地域差 東大、海保など - Science Portal",
-      "source": "Science Portal",
-      "time": "2026-06-26T19:30:24+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ia2JUYk5uTGd2Zl9Cazl5cVd2eHpkcVJQOG9LYklMVTRKQ1JXYXloTm1ibEMyZUo1c0t0LWVwcHpiOEZzNFlScE5na0ctanAyVXE4UjJXV1I4UFNlU09SWG5YQVV3dw?oc=5",
-      "type": "news",
-      "area": "南海トラフ",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.8,
-      "lon": 136.2,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "南海トラフ",
       "zoomSource": "dictionary"
     },
     {
@@ -92,10 +77,25 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "南米ヴェネズエラで強い地震が2度発生　マグニチュード7超 - BBC",
-      "source": "BBC",
-      "time": "2026-06-25T17:13:16+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZOFVubFFVaTIydlRqWm14QmNnYWEycjh0ckVxdnlKSzFFZGhDNWRDRWd1ODZuZ3oyVnJLUkJRdGdqa2ZpcjlVd2dQME1SbjFQWTVFRGI2U3FteHJHX3g00gFkQVVfeXFMT3NvbHhpRDJLNXZnQk1HZENIaGp4MDZlalpZVklIUmpPU2pURWJrYnBkVi13X2NXWHpnSkNjOFAyYU1rRGU3ZUk0cDVFSGlQdHpvdHprTWtZZjFBSmFNakNHb09hWQ?oc=5",
+      "title": "南海トラフ沿いのプレート境界の固着状態に地域差 東大、海保など - Science Portal",
+      "source": "Science Portal",
+      "time": "2026-06-26T19:30:24+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ia2JUYk5uTGd2Zl9Cazl5cVd2eHpkcVJQOG9LYklMVTRKQ1JXYXloTm1ibEMyZUo1c0t0LWVwcHpiOEZzNFlScE5na0ctanAyVXE4UjJXV1I4UFNlU09SWG5YQVV3dw?oc=5",
+      "type": "news",
+      "area": "南海トラフ",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.8,
+      "lon": 136.2,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "南海トラフ",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "防災情報サイト - city.hita.oita.jp",
+      "source": "city.hita.oita.jp",
+      "time": "2026-06-26T18:23:51+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE51RnVTNi1rMFFFRVhicWhyNlViT3hMeUljMlZwQ0J1SG05bHJhV2xiVE9NdUFQZDIyU2VsTUJvZExUTEVYbi1xZ2ZfZDlOeXdqejF3Wg?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -106,10 +106,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "震源付近は「地震の巣」 専門家「海溝型に近い」 山梨震度6弱 - 毎日新聞",
-      "source": "毎日新聞",
-      "time": "2026-06-26T23:29:54+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9EWllPeHVaQTUzMEZWbG5makxCSDhjZ3Rxb1VZZDQ2Y0poOHhHSHZNdVQ0bEdJRmZsVzY0MW5PamxNcFBERkR4VDFBcEtmdkljbFhZNnR5Zk5VMEhsQlRGUGE4YmltVFNE?oc=5",
+      "title": "南米ヴェネズエラで強い地震が2度発生　マグニチュード7超 - BBC",
+      "source": "BBC",
+      "time": "2026-06-25T17:13:16+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZOFVubFFVaTIydlRqWm14QmNnYWEycjh0ckVxdnlKSzFFZGhDNWRDRWd1ODZuZ3oyVnJLUkJRdGdqa2ZpcjlVd2dQME1SbjFQWTVFRGI2U3FteHJHX3g00gFkQVVfeXFMT3NvbHhpRDJLNXZnQk1HZENIaGp4MDZlalpZVklIUmpPU2pURWJrYnBkVi13X2NXWHpnSkNjOFAyYU1rRGU3ZUk0cDVFSGlQdHpvdHprTWtZZjFBSmFNakNHb09hWQ?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
