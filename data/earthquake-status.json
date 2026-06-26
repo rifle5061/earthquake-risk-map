@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-06-27T02:15:38+09:00",
+  "fetched_at": "2026-06-27T04:18:03+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/06/27 00:33:00",
-    "area": "山梨県東部・富士五湖",
-    "magnitude": 2.4,
-    "depth": 20,
+    "time": "2026/06/27 03:59:00",
+    "area": "千葉県北西部",
+    "magnitude": 3.8,
+    "depth": 70,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
