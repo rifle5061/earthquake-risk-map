@@ -1,11 +1,11 @@
 {
   "status": "ok",
-  "fetched_at": "2026-06-27T15:29:28+09:00",
+  "fetched_at": "2026-06-27T18:13:43+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/06/27 11:51:00",
+    "time": "2026/06/27 16:57:00",
     "area": "山梨県東部・富士五湖",
-    "magnitude": 2.7,
+    "magnitude": 2.1,
     "depth": 20,
     "maxScale": 10,
     "intensityLabel": "1",
