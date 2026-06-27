@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T04:52:11+09:00",
+  "updated_at": "2026-06-28T06:01:22+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -76,10 +76,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "防災情報サイト - city.hita.oita.jp",
-      "source": "city.hita.oita.jp",
-      "time": "2026-06-27T11:35:31+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE51RnVTNi1rMFFFRVhicWhyNlViT3hMeUljMlZwQ0J1SG05bHJhV2xiVE9NdUFQZDIyU2VsTUJvZExUTEVYbi1xZ2ZfZDlOeXdqejF3Wg?oc=5",
+      "title": "南米ヴェネズエラで強い地震が2度発生　マグニチュード7超 - BBC",
+      "source": "BBC",
+      "time": "2026-06-25T17:13:16+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZOFVubFFVaTIydlRqWm14QmNnYWEycjh0ckVxdnlKSzFFZGhDNWRDRWd1ODZuZ3oyVnJLUkJRdGdqa2ZpcjlVd2dQME1SbjFQWTVFRGI2U3FteHJHX3g00gFkQVVfeXFMT3NvbHhpRDJLNXZnQk1HZENIaGp4MDZlalpZVklIUmpPU2pURWJrYnBkVi13X2NXWHpnSkNjOFAyYU1rRGU3ZUk0cDVFSGlQdHpvdHprTWtZZjFBSmFNakNHb09hWQ?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -90,10 +90,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "南米ヴェネズエラで強い地震が2度発生　マグニチュード7超 - BBC",
-      "source": "BBC",
-      "time": "2026-06-25T17:13:16+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZOFVubFFVaTIydlRqWm14QmNnYWEycjh0ckVxdnlKSzFFZGhDNWRDRWd1ODZuZ3oyVnJLUkJRdGdqa2ZpcjlVd2dQME1SbjFQWTVFRGI2U3FteHJHX3g00gFkQVVfeXFMT3NvbHhpRDJLNXZnQk1HZENIaGp4MDZlalpZVklIUmpPU2pURWJrYnBkVi13X2NXWHpnSkNjOFAyYU1rRGU3ZUk0cDVFSGlQdHpvdHprTWtZZjFBSmFNakNHb09hWQ?oc=5",
+      "title": "ベネズエラ地震 緊急募金 - 日本ユニセフ協会",
+      "source": "日本ユニセフ協会",
+      "time": "2026-06-24T16:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44TUVhR1ZDQUQxQmYzSEdFVzdOcDBObVVlV1N5SlFKX3UwQXloSFFFbWNhM1c1RzNWQlhWMWxOdk1reGlPNW4zV0xrVHZHSWZFMzNISg?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
