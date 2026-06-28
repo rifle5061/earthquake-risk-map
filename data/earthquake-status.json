@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-06-28T23:15:24+09:00",
+  "fetched_at": "2026-06-29T00:48:30+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/06/28 14:39:00",
-    "area": "岩手県沖",
-    "magnitude": 4.1,
-    "depth": 40,
+    "time": "2026/06/29 00:19:00",
+    "area": "茨城県南部",
+    "magnitude": 3.2,
+    "depth": 50,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
