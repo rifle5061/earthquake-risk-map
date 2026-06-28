@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-06-29T00:48:30+09:00",
+  "fetched_at": "2026-06-29T03:17:20+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/06/29 00:19:00",
-    "area": "茨城県南部",
-    "magnitude": 3.2,
-    "depth": 50,
+    "time": "2026/06/29 02:06:00",
+    "area": "熊本県熊本地方",
+    "magnitude": 1.8,
+    "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
