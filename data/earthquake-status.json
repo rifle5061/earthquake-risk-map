@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-06-29T07:10:14+09:00",
+  "fetched_at": "2026-06-29T08:18:02+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/06/29 02:06:00",
-    "area": "熊本県熊本地方",
-    "magnitude": 1.8,
-    "depth": 10,
+    "time": "2026/06/29 08:11:00",
+    "area": "岩手県沖",
+    "magnitude": 3.9,
+    "depth": 50,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
