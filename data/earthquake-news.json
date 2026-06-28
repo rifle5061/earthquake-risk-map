@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T17:26:42+09:00",
+  "updated_at": "2026-06-28T19:40:29+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -105,18 +105,19 @@
       "zoomSource": "none"
     },
     {
-      "title": "ベネズエラ、地震の死者１４００人超 ７２時間経過も捜索続く - 時事ドットコム",
-      "source": "時事ドットコム",
-      "time": "2026-06-28T07:17:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9WaHFfeTExRzAzcW9kcVhqTTNBT0lKd0FIQWJic0tpc3p4TGQ3LWQ2SlE2OU1paW1DMFFsNFNjQ3BJUC1ybFk4N2RuWUM0c1BlYkpVSm5JajI4Qk1nbHhhdzZ6MA?oc=5",
+      "title": "愛知県が南海トラフ地震の「津波浸水想定」を更新 田原の津波高は20.2メートルで県内最大 - 東愛知新聞",
+      "source": "東愛知新聞",
+      "time": "2026-06-28T18:26:05+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9QV0oxbjJGZ190WjY3bFRNVnRuRTE4YncwdWROTGR2U0h1bGVEa2xtZlZ4c1hQcFllOW9LTVdDUjVfdExKaGx0NkVSTXFvLUFtNnk0RHZ6UTZKQnZs?oc=5",
       "type": "news",
-      "area": "",
+      "area": "南海トラフ",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
+      "lat": 32.8,
+      "lon": 136.2,
       "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "zoomable": true,
+      "matchedArea": "南海トラフ",
+      "zoomSource": "dictionary"
     }
   ]
 }
