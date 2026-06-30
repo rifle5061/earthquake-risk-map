@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-01T00:09:35+09:00",
+  "fetched_at": "2026-07-01T02:15:37+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/01 00:02:00",
-    "area": "房総半島南方沖",
-    "magnitude": 4.1,
-    "depth": 60,
+    "time": "2026/07/01 01:31:00",
+    "area": "石川県能登地方",
+    "magnitude": 2.5,
+    "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
