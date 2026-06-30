@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-06-30T21:23:29+09:00",
+  "fetched_at": "2026-07-01T00:09:35+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/06/30 13:59:00",
-    "area": "宮古島近海",
-    "magnitude": 4.3,
-    "depth": 50,
+    "time": "2026/07/01 00:02:00",
+    "area": "房総半島南方沖",
+    "magnitude": 4.1,
+    "depth": 60,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
