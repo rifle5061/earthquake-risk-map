@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T20:29:31+09:00",
+  "updated_at": "2026-06-30T22:24:55+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -46,21 +46,6 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "岩手県沖M7.2で最大震度6強 昨年末から東北の沖で強い地震続く - ウェザーニュース",
-      "source": "ウェザーニュース",
-      "time": "2026-06-25T10:34:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE16YnplR1JxNUh0RXk5c05ZVlB5SFBJdjNPTXA2RHpBT29YbGZrdENaaEc3dDBxUEQ2bmlmbXBMU0FmSUs4emtFSkVIbE5Yc1pkTm1XUw?oc=5",
-      "type": "news",
-      "area": "東北〜関東沖",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 37.8,
-      "lon": 142.0,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "東北〜関東沖",
-      "zoomSource": "dictionary"
-    },
-    {
       "title": "青森で震度6強、三陸はるか沖地震と関連か 「再来に警戒」と専門家 - 朝日新聞",
       "source": "朝日新聞",
       "time": "2026-06-25T12:00:43+09:00",
@@ -73,6 +58,35 @@
       "zoom": 6,
       "zoomable": true,
       "matchedArea": "東北地方",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "南米ヴェネズエラで強い地震が2度発生　マグニチュード7超 - BBC",
+      "source": "BBC",
+      "time": "2026-06-25T17:13:16+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZOFVubFFVaTIydlRqWm14QmNnYWEycjh0ckVxdnlKSzFFZGhDNWRDRWd1ODZuZ3oyVnJLUkJRdGdqa2ZpcjlVd2dQME1SbjFQWTVFRGI2U3FteHJHX3g00gFkQVVfeXFMT3NvbHhpRDJLNXZnQk1HZENIaGp4MDZlalpZVklIUmpPU2pURWJrYnBkVi13X2NXWHpnSkNjOFAyYU1rRGU3ZUk0cDVFSGlQdHpvdHprTWtZZjFBSmFNakNHb09hWQ?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "岩手県沖M7.2で最大震度6強 昨年末から東北の沖で強い地震続く - ウェザーニュース",
+      "source": "ウェザーニュース",
+      "time": "2026-06-25T10:34:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE16YnplR1JxNUh0RXk5c05ZVlB5SFBJdjNPTXA2RHpBT29YbGZrdENaaEc3dDBxUEQ2bmlmbXBMU0FmSUs4emtFSkVIbE5Yc1pkTm1XUw?oc=5",
+      "type": "news",
+      "area": "東北〜関東沖",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 37.8,
+      "lon": 142.0,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "東北〜関東沖",
       "zoomSource": "dictionary"
     },
     {
@@ -90,32 +104,19 @@
       "zoomSource": "none"
     },
     {
-      "title": "南米ヴェネズエラで強い地震が2度発生　マグニチュード7超 - BBC",
-      "source": "BBC",
-      "time": "2026-06-25T17:13:16+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZOFVubFFVaTIydlRqWm14QmNnYWEycjh0ckVxdnlKSzFFZGhDNWRDRWd1ODZuZ3oyVnJLUkJRdGdqa2ZpcjlVd2dQME1SbjFQWTVFRGI2U3FteHJHX3g00gFkQVVfeXFMT3NvbHhpRDJLNXZnQk1HZENIaGp4MDZlalpZVklIUmpPU2pURWJrYnBkVi13X2NXWHpnSkNjOFAyYU1rRGU3ZUk0cDVFSGlQdHpvdHprTWtZZjFBSmFNakNHb09hWQ?oc=5",
+      "title": "愛知県が南海トラフ地震の「津波浸水想定」を更新 田原の津波高は20.2メートルで県内最大 - 東愛知新聞",
+      "source": "東愛知新聞",
+      "time": "2026-06-27T00:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9QV0oxbjJGZ190WjY3bFRNVnRuRTE4YncwdWROTGR2U0h1bGVEa2xtZlZ4c1hQcFllOW9LTVdDUjVfdExKaGx0NkVSTXFvLUFtNnk0RHZ6UTZKQnZs?oc=5",
       "type": "news",
-      "area": "",
+      "area": "南海トラフ",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
+      "lat": 32.8,
+      "lon": 136.2,
       "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "ベネズエラ地震、発生７２時間過ぎ１１歳救出：時事ドットコム - 時事ドットコム",
-      "source": "時事ドットコム",
-      "time": "2026-06-28T19:49:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1IT0Ffa1dhMFZhN0lzYmhaV29sZXZBRkRnSUpETHhhOURzaklqZnlxTk5tYVhHUHBqekY2NXlZb1h2WmVOMXFjcVdRU2NPMjNKVzBkMVpPcVA0eUFuakgwdGpudw?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "zoomable": true,
+      "matchedArea": "南海トラフ",
+      "zoomSource": "dictionary"
     }
   ]
 }
