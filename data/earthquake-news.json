@@ -1,7 +1,22 @@
 {
-  "updated_at": "2026-07-01T03:22:01+09:00",
+  "updated_at": "2026-07-01T05:28:47+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
+    {
+      "title": "青森県で最大震度6強の地震 青森県・階上町 - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-06-25T07:35:41+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5NVU9iMFdPcVgzSGhEQjYwX1Q1ZWM1UERDSHM3cVJEYVA5cmt2ZV9fSzdadFZ1VHI2QWpYS29wODBlOTByclVMWFJBY2RRU0dm?oc=5",
+      "type": "news",
+      "area": "東北地方",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 39.2,
+      "lon": 140.8,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "東北地方",
+      "zoomSource": "dictionary"
+    },
     {
       "title": "山梨県東部・富士五湖を震源とする地震についての会見 - 首相官邸",
       "source": "首相官邸",
@@ -101,21 +116,6 @@
       "zoom": 6,
       "zoomable": true,
       "matchedArea": "北海道周辺",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "岩手県沖M7.2で最大震度6強 昨年末から東北の沖で強い地震続く - ウェザーニュース",
-      "source": "ウェザーニュース",
-      "time": "2026-06-25T10:34:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE16YnplR1JxNUh0RXk5c05ZVlB5SFBJdjNPTXA2RHpBT29YbGZrdENaaEc3dDBxUEQ2bmlmbXBMU0FmSUs4emtFSkVIbE5Yc1pkTm1XUw?oc=5",
-      "type": "news",
-      "area": "東北〜関東沖",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 37.8,
-      "lon": 142.0,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "東北〜関東沖",
       "zoomSource": "dictionary"
     }
   ]
