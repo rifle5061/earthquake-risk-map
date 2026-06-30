@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-01T04:18:24+09:00",
+  "fetched_at": "2026-07-01T06:13:39+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/01 01:31:00",
-    "area": "石川県能登地方",
-    "magnitude": 2.5,
-    "depth": 10,
+    "time": "2026/07/01 05:55:00",
+    "area": "奄美大島近海",
+    "magnitude": 3.4,
+    "depth": 20,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
