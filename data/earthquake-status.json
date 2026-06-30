@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-06-30T08:41:00+09:00",
+  "fetched_at": "2026-06-30T10:49:37+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/06/30 05:24:00",
-    "area": "宮崎県北部平野部",
-    "magnitude": 2.7,
-    "depth": 10,
-    "maxScale": 10,
-    "intensityLabel": "1",
+    "time": "2026/06/30 10:29:00",
+    "area": "紀伊水道",
+    "magnitude": 3.9,
+    "depth": 50,
+    "maxScale": 20,
+    "intensityLabel": "2",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
