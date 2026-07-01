@@ -1,22 +1,7 @@
 {
-  "updated_at": "2026-07-01T08:20:17+09:00",
+  "updated_at": "2026-07-01T10:39:33+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
-    {
-      "title": "青森県で最大震度6強の地震 青森県・階上町 - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-06-25T07:35:41+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5NVU9iMFdPcVgzSGhEQjYwX1Q1ZWM1UERDSHM3cVJEYVA5cmt2ZV9fSzdadFZ1VHI2QWpYS29wODBlOTByclVMWFJBY2RRU0dm?oc=5",
-      "type": "news",
-      "area": "東北地方",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 39.2,
-      "lon": 140.8,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "東北地方",
-      "zoomSource": "dictionary"
-    },
     {
       "title": "山梨県東部・富士五湖を震源とする地震についての会見 - 首相官邸",
       "source": "首相官邸",
@@ -44,6 +29,21 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
+    },
+    {
+      "title": "【地震】宮崎県内で震度1 宮崎県北部平野部を震源とする最大震度1の地震が発生 津波の心配なし｜ニュース - UMKテレビ宮崎",
+      "source": "UMKテレビ宮崎",
+      "time": "2026-06-30T05:26:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ZRWQ3T1c0OVJZd1N0S2tzYU9rR1VaYjhwTEZpa3VUY0cyeXdWRjBHMU1pVEEwVjd0cDluOEdJZ0NwRDFHdkNPTUdFSUpncDN0Q3cxVlVLWUFTdFJvM2dZ?oc=5",
+      "type": "news",
+      "area": "太平洋側・南海トラフ想定域",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 33.2,
+      "lon": 134.5,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "太平洋側・南海トラフ想定域",
+      "zoomSource": "dictionary"
     },
     {
       "title": "南海トラフ沿いのプレート境界の固着状態に地域差 東大、海保など - Science Portal",
@@ -76,6 +76,21 @@
       "zoomSource": "dictionary"
     },
     {
+      "title": "南海トラフ巨大地震との関連は？日本列島で相次ぐ地震 最後の噴火から300年以上が経過する富士山… 専門家に聞く - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-06-29T18:50:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5zbWk5TGxCdUFaalE4WVA0b2hkaW0tSmFIUEtlU1FuazkyMTA2MExjSWw1ZkFubGl6N3BGaThkZXRRQ0c3eElCSE5vOE5Yb20tZFNLMTJkYw?oc=5",
+      "type": "news",
+      "area": "南海トラフ",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.8,
+      "lon": 136.2,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "南海トラフ",
+      "zoomSource": "dictionary"
+    },
+    {
       "title": "南米ヴェネズエラ地震、死者増える　余震200回以上 - BBC",
       "source": "BBC",
       "time": "2026-06-27T11:58:18+09:00",
@@ -103,20 +118,6 @@
       "zoomable": true,
       "matchedArea": "東北〜関東沖",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "茨城県、千葉県で最大震度4のやや強い地震 茨城県・茨城鹿嶋市、潮来市、稲敷市、神栖市、千葉県・東金市 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-06-26T12:58:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1lUWRUNmVTNy1pV3Q3N3A3Skw4UnBOSWRwMnJoYkFBUjZQa3JTdzdQZExJRjBnNkl1N05NQmhtVm1GT1JWUlNNaEhqN1FRaW44blJuczl0VQ?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     }
   ]
 }
