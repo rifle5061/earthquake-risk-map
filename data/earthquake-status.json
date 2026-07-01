@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-01T20:30:57+09:00",
+  "fetched_at": "2026-07-01T22:54:05+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/01 19:57:00",
-    "area": "宮崎県北部平野部",
-    "magnitude": 2.7,
-    "depth": 10,
+    "time": "2026/07/01 22:23:00",
+    "area": "大隅半島東方沖",
+    "magnitude": 3.1,
+    "depth": 30,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
