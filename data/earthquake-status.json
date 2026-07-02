@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-02T14:42:52+09:00",
+  "fetched_at": "2026-07-02T17:38:19+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/02 13:48:00",
-    "area": "青森県東方沖",
-    "magnitude": 4.5,
-    "depth": 40,
+    "time": "2026/07/02 16:17:00",
+    "area": "千葉県北東部",
+    "magnitude": 3.8,
+    "depth": 50,
     "maxScale": 20,
     "intensityLabel": "2",
     "domesticTsunami": "None"
