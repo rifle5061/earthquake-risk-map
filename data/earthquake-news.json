@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T18:25:49+09:00",
+  "updated_at": "2026-07-02T20:52:27+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -7,6 +7,20 @@
       "source": "首相官邸",
       "time": "2026-06-27T00:17:25+09:00",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5RZG10M3RZcDFXNTd3dldFWFBvcU5FNXFPVUVXOEExOHVZT3dfQzQ2ZWlLWnpjdXVtUXR5RVR5Zm1XcHJUMjZ0dXFxTXBWRnhUYmlSOWtnTjZIOEpWODd3LXFJRVlIVWhVQTZJbmNHdw?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "品川区防災地図（防災地図と各ハザードマップ） - city.shinagawa.tokyo.jp",
+      "source": "city.shinagawa.tokyo.jp",
+      "time": "2026-06-30T16:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQ3ZvdnViekhVcmEyT1U0Ym9fZHYtd293OHBpb0doc0dEX3pkM1d0SElodUFVR05IZzZGYzh0alYzYkZUYk80ZkFuWFRzbTQ0ZFJ6NjJja01Ubi05TFhnazIzNHR4MnNLN2cteUFnMjlFZ1BHRHVyVEJlaUJ1b1o1d3BNdE5mUQ?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -94,20 +108,6 @@
       "source": "朝日新聞",
       "time": "2026-06-26T17:00:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZUy1rWTVoQ21RbkZ1SElMWGJfNUlaanVVQjktd1BoRWc1ckFjcGtnQlBHVHF0b0lLWW1fWENTNU9iSjF3SHNJYVF0WExMQ0F4NFJZSEptVUUxWl9YQ3hiTndObHZ6eEU?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "「フィリピン海プレート衝突に起因」 山梨県東部の地震―政府調査委 - 時事ドットコム",
-      "source": "時事ドットコム",
-      "time": "2026-06-28T00:03:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBZY3A4VFZsNlZQbWJ3dXBDY3VRYlNUdl9rLTdnRWlDQmpaNGh0SVM5LVpEVk5lVkVucElVOXdGN0RoT3BRWjdObUcxaEp3aURhX2VpZDMwRlFtODZ3UHp0TTF1NA?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
