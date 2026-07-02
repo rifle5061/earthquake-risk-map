@@ -1,11 +1,11 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-03T06:43:45+09:00",
+  "fetched_at": "2026-07-03T07:47:56+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/03 05:30:00",
-    "area": "根室半島南東沖",
-    "magnitude": 3.3,
+    "time": "2026/07/03 07:05:00",
+    "area": "岩手県沖",
+    "magnitude": 3.9,
     "depth": 50,
     "maxScale": 10,
     "intensityLabel": "1",

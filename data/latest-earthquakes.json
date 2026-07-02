@@ -1,10 +1,28 @@
 {
   "source": "P2P地震情報 JSON API v2 / 履歴コード551",
   "endpoint": "https://api.p2pquake.net/v2/history?codes=551&limit=100&offset=0",
-  "fetched_at": "2026-07-03T06:45:30+09:00",
-  "updated_at": "2026/07/03 05:30:00",
+  "fetched_at": "2026-07-03T07:47:56+09:00",
+  "updated_at": "2026/07/03 07:05:00",
   "count": 100,
   "items": [
+    {
+      "id": "6a46e14ce88ee598246bee62",
+      "code": 551,
+      "time": "2026/07/03 07:05:00",
+      "received_at": "2026/07/03 07:08:12.686",
+      "area": "岩手県沖",
+      "lat": 40.4,
+      "lon": 142.2,
+      "magnitude": 3.9,
+      "mag": 3.9,
+      "depth": 50,
+      "maxScale": 10,
+      "intensityLabel": "1",
+      "domesticTsunami": "None",
+      "foreignTsunami": "Unknown",
+      "source": "P2P地震情報",
+      "map": true
+    },
     {
       "id": "6a46cb15e88ee598246bee61",
       "code": 551,
@@ -1784,24 +1802,6 @@
       "intensityLabel": "1",
       "domesticTsunami": "None",
       "foreignTsunami": "Unknown",
-      "source": "P2P地震情報",
-      "map": true
-    },
-    {
-      "id": "6a3c64bee88ee598246bedfa",
-      "code": 551,
-      "time": "2026/06/25 07:04:00",
-      "received_at": "2026/06/25 08:14:06.138",
-      "area": "ベネズエラ沿岸",
-      "lat": 10.4,
-      "lon": -68.4,
-      "magnitude": 7.1,
-      "mag": 7.1,
-      "depth": -1,
-      "maxScale": -1,
-      "intensityLabel": "不明",
-      "domesticTsunami": "None",
-      "foreignTsunami": "Potential",
       "source": "P2P地震情報",
       "map": true
     }
