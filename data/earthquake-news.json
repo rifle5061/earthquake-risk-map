@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T05:23:27+09:00",
+  "updated_at": "2026-07-02T10:31:56+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -76,20 +76,6 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "南米ヴェネズエラ地震、死者増える　余震200回以上 - BBC",
-      "source": "BBC",
-      "time": "2026-06-27T11:58:18+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1EdWstX3h5Q0Rva29OV0tlU3BBblp6MGhFQ19jbTB3d1dSVGJyNFZJRllWLUczaFVRQmtHWG91dG42UHJuN1REUWdtRFZjYkxKbmRjUi01bGgtM2ZFZnhR0gFkQVVfeXFMUC0wTjNveS1rNXRETHBWUFQzM0VNUmN3MmJGbmptUDBuZ3FsWkhvRVk2ckdHbnJiaHhjVG1HVUtIQnU3WDc3OUNYbTdmR0ZEc2N2MkRqUGc1YkJDc21vQUg2T3Y2Wg?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "岩手県沖M7.2で最大震度6強 昨年末から東北の沖で強い地震続く - ウェザーニュース",
       "source": "ウェザーニュース",
       "time": "2026-06-25T10:34:00+09:00",
@@ -103,6 +89,20 @@
       "zoomable": true,
       "matchedArea": "東北〜関東沖",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "南米ヴェネズエラで強い地震が2度発生　マグニチュード7超 - BBC",
+      "source": "BBC",
+      "time": "2026-06-25T17:13:16+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZOFVubFFVaTIydlRqWm14QmNnYWEycjh0ckVxdnlKSzFFZGhDNWRDRWd1ODZuZ3oyVnJLUkJRdGdqa2ZpcjlVd2dQME1SbjFQWTVFRGI2U3FteHJHX3g00gFkQVVfeXFMT3NvbHhpRDJLNXZnQk1HZENIaGp4MDZlalpZVklIUmpPU2pURWJrYnBkVi13X2NXWHpnSkNjOFAyYU1rRGU3ZUk0cDVFSGlQdHpvdHprTWtZZjFBSmFNakNHb09hWQ?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "山梨県で最大震度6弱の地震 山梨・東京・神奈川・静岡で17人が軽傷（27日午前6時時点）総務省消防庁 - TBS NEWS DIG",
