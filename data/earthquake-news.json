@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T14:13:32+09:00",
+  "updated_at": "2026-07-03T17:34:13+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -60,20 +60,6 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "南米ヴェネズエラ地震、死者増える　余震200回以上 - BBC",
-      "source": "BBC",
-      "time": "2026-06-27T11:58:18+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1EdWstX3h5Q0Rva29OV0tlU3BBblp6MGhFQ19jbTB3d1dSVGJyNFZJRllWLUczaFVRQmtHWG91dG42UHJuN1REUWdtRFZjYkxKbmRjUi01bGgtM2ZFZnhR0gFkQVVfeXFMUC0wTjNveS1rNXRETHBWUFQzM0VNUmN3MmJGbmptUDBuZ3FsWkhvRVk2ckdHbnJiaHhjVG1HVUtIQnU3WDc3OUNYbTdmR0ZEc2N2MkRqUGc1YkJDc21vQUg2T3Y2Wg?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "山梨県で最大震度6弱の地震 山梨・東京・神奈川・静岡で17人が軽傷（27日午前6時時点）総務省消防庁 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
       "time": "2026-06-27T08:41:21+09:00",
@@ -89,10 +75,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "震度6繰り返しても建物は耐える？傷み蓄積し「大きな被害に」の怖さ - 朝日新聞",
-      "source": "朝日新聞",
-      "time": "2026-06-26T17:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZUy1rWTVoQ21RbkZ1SElMWGJfNUlaanVVQjktd1BoRWc1ckFjcGtnQlBHVHF0b0lLWW1fWENTNU9iSjF3SHNJYVF0WExMQ0F4NFJZSEptVUUxWl9YQ3hiTndObHZ6eEU?oc=5",
+      "title": "南米ヴェネズエラ地震、死者増える　余震200回以上 - BBC",
+      "source": "BBC",
+      "time": "2026-06-27T11:58:18+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1EdWstX3h5Q0Rva29OV0tlU3BBblp6MGhFQ19jbTB3d1dSVGJyNFZJRllWLUczaFVRQmtHWG91dG42UHJuN1REUWdtRFZjYkxKbmRjUi01bGgtM2ZFZnhR0gFkQVVfeXFMUC0wTjNveS1rNXRETHBWUFQzM0VNUmN3MmJGbmptUDBuZ3FsWkhvRVk2ckdHbnJiaHhjVG1HVUtIQnU3WDc3OUNYbTdmR0ZEc2N2MkRqUGc1YkJDc21vQUg2T3Y2Wg?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -115,6 +101,21 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
+    },
+    {
+      "title": "山梨県で最大震度6弱 “1週間程度は同程度の地震に注意” | NHKニュース | 地震、山梨県、神奈川県 - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-06-26T22:31:36+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5jZHBLRy1oSVpDVlRWbVFUYjdMeEdjZlp2NXhsall6bHJuUXlld1FOY2dOYWQ1bXpURzBaN0d0YVV4Y2d6dElaTVB5N19BcFM2Yk4zck1Wbk41cElPcFlB?oc=5",
+      "type": "news",
+      "area": "首都圏周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 35.55,
+      "lon": 139.8,
+      "zoom": 8,
+      "zoomable": true,
+      "matchedArea": "首都圏周辺",
+      "zoomSource": "dictionary"
     }
   ]
 }
