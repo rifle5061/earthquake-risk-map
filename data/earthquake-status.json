@@ -1,15 +1,15 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-03T13:07:44+09:00",
+  "fetched_at": "2026-07-03T16:35:19+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/03 13:05:00",
-    "area": "不明",
-    "magnitude": -1.0,
-    "depth": -1,
-    "maxScale": 30,
-    "intensityLabel": "3",
-    "domesticTsunami": "Checking"
+    "time": "2026/07/03 14:03:00",
+    "area": "福島県沖",
+    "magnitude": 3.6,
+    "depth": 50,
+    "maxScale": 10,
+    "intensityLabel": "1",
+    "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
 }
