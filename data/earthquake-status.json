@@ -1,11 +1,11 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-04T02:50:15+09:00",
+  "fetched_at": "2026-07-04T04:19:03+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/03 23:37:00",
-    "area": "岩手県沖",
-    "magnitude": 3.8,
+    "time": "2026/07/04 02:48:00",
+    "area": "千葉県北東部",
+    "magnitude": 2.8,
     "depth": 40,
     "maxScale": 10,
     "intensityLabel": "1",
