@@ -1,22 +1,7 @@
 {
-  "updated_at": "2026-07-04T03:46:57+09:00",
+  "updated_at": "2026-07-04T05:13:04+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
-    {
-      "title": "【第2回、第3回募集中！】令和8年度徳島県地域防災推進員養成研修（防災士養成研修）短期講座の受講者募集について - 徳島県ホームページ",
-      "source": "徳島県ホームページ",
-      "time": "2026-07-01T16:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAxX2QtMVItVXpOSnZNTFlNQTdreFBCX2xIN25RUFR0Z0otdzJMMThjeGViMW1fSHhFX19JU1hfa1ZxVTZSRGh5anhKQmdCZjhTSWh2NEhSWTl2Skg1VXFlX19vOHlIMHRrMFUxczJJSWFva3VvWlVjQ2Z3?oc=5",
-      "type": "news",
-      "area": "太平洋側・南海トラフ想定域",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 33.2,
-      "lon": 134.5,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "太平洋側・南海トラフ想定域",
-      "zoomSource": "dictionary"
-    },
     {
       "title": "2026年ベネズエラ地震救援金｜国内災害義援金・海外救援金へのご寄付｜寄付する - 日本赤十字社",
       "source": "日本赤十字社",
@@ -36,20 +21,6 @@
       "source": "city.shinagawa.tokyo.jp",
       "time": "2026-06-30T16:00:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQ3ZvdnViekhVcmEyT1U0Ym9fZHYtd293OHBpb0doc0dEX3pkM1d0SElodUFVR05IZzZGYzh0alYzYkZUYk80ZkFuWFRzbTQ0ZFJ6NjJja01Ubi05TFhnazIzNHR4MnNLN2cteUFnMjlFZ1BHRHVyVEJlaUJ1b1o1d3BNdE5mUQ?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "弾道ミサイルが落下する可能性がある場合の避難行動については、こちらをご覧ください - bousai.metro.tokyo.lg.jp",
-      "source": "bousai.metro.tokyo.lg.jp",
-      "time": "2026-06-29T16:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPR0VOa0FwcDJwWUlQWUZRV1hDTGV6MXNfUDhKbXM0OWtRR2RhN2drWU5XQ3ZjZnFfUkcwMk9WQzNEd1h4dHB1bEhyU08wQWpPZFZySjNIUjZWR1gwbGN5azNBZm5zTTRDb2p3Qk1ubUc0cjc0WmtZMk50bWUyT1k1SG1ia08zaEU?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -89,20 +60,6 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "山梨での地震「活動が続いている」 地震調査委員会が臨時会合 警戒呼びかけ - テレ朝NEWS",
-      "source": "テレ朝NEWS",
-      "time": "2026-06-27T23:02:42+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5nRXpiLXRXU0JLNVBvNHF5TFJjWGd4VWhUbUJKenRIMTZLUTFzQmtUeng5S2QwaXVudkp3UmFXdF9iUzJEcjR4QW1UQzEwSGU2LXNHM3FwSk5JRWxTSm5SV2Fhbm9HMDczcHNEaXNmVWhyQQ?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "超巨大地震は傾き緩やかなプレート境界で起きる? 東大が解明（毎日新聞） - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
       "time": "2026-07-02T03:00:22+09:00",
@@ -115,6 +72,49 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
+    },
+    {
+      "title": "山梨で震度６弱 ４都県で１７人けが、富士山に変化なし―気象庁 - 時事ドットコム",
+      "source": "時事ドットコム",
+      "time": "2026-06-27T10:01:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9sWUphdVlOdi14bUhvMHd0S1JvWEVNU09WbXVBNEVSWFAydms0N3laam1kSl9KcGxNUWdoZ0NmV2kydF85b21kbDdJdzlBbGV6S19Jc0dBVE9UMUZGNXpiNkowbw?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "山梨 震度6弱1週間 専門家“富士山の火山活動に変化見られず” - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-07-03T05:46:50+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5zVUF5ZS1jVmxOVzJ3UEtVc3huZG1EX1FlcVp1emVaRHZHV2pyMFdScm83dDMxaDNqODhra2ZCcjNrQW5iVlRtaUJOTEpBTFZNaHpuajhOMzZzOEdjdGJJ?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "【地震】宮城県内で震度3 岩手県沖を震源とする最大震度4の地震が発生 津波の心配なし - khb東日本放送",
+      "source": "khb東日本放送",
+      "time": "2026-07-01T21:12:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90dWlYLWJnbUJPWWNfZ0h4SVh6a2F4S2RIbDRVOUdxbkc2V0FrcXVQcC1nNE5sVWZNSkd3WVlvLUNMYVhSUVEyRlZYMXg3dmc?oc=5",
+      "type": "news",
+      "area": "東北〜関東沖",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 37.8,
+      "lon": 142.0,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "東北〜関東沖",
+      "zoomSource": "dictionary"
     }
   ]
 }
