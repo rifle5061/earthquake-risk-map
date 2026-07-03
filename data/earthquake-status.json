@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-04T06:44:54+09:00",
+  "fetched_at": "2026-07-04T07:45:22+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/04 02:48:00",
-    "area": "千葉県北東部",
-    "magnitude": 2.8,
-    "depth": 40,
+    "time": "2026/07/04 07:25:00",
+    "area": "日向灘",
+    "magnitude": 3.1,
+    "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
