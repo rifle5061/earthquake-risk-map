@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T20:30:56+09:00",
+  "updated_at": "2026-07-03T22:59:41+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -45,18 +45,18 @@
       "zoomSource": "none"
     },
     {
-      "title": "山梨県で最大震度6弱の地震 山梨・東京・神奈川・静岡で17人が軽傷（27日午前6時時点）総務省消防庁 - TBS NEWS DIG",
+      "title": "南海トラフ巨大地震との関連は？日本列島で相次ぐ地震 最後の噴火から300年以上が経過する富士山… 専門家に聞く - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
-      "time": "2026-06-27T08:41:21+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBheC0zY0ktcFBJd21NUENhY2JZanFvQ0EtV19paDN0NXN3ZTFQY0F4NW1nSWxudVRjSGhWU01BanV2bWFBVHBKbTk2aXViSkJCLUhiUXY2Zw?oc=5",
+      "time": "2026-06-29T18:50:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5zbWk5TGxCdUFaalE4WVA0b2hkaW0tSmFIUEtlU1FuazkyMTA2MExjSWw1ZkFubGl6N3BGaThkZXRRQ0c3eElCSE5vOE5Yb20tZFNLMTJkYw?oc=5",
       "type": "news",
-      "area": "太平洋側・南海トラフ想定域",
+      "area": "南海トラフ",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 33.2,
-      "lon": 134.5,
+      "lat": 32.8,
+      "lon": 136.2,
       "zoom": 6,
       "zoomable": true,
-      "matchedArea": "太平洋側・南海トラフ想定域",
+      "matchedArea": "南海トラフ",
       "zoomSource": "dictionary"
     },
     {
@@ -74,25 +74,24 @@
       "zoomSource": "none"
     },
     {
-      "title": "山梨県で最大震度6弱 “1週間程度は同程度の地震に注意” | NHKニュース | 地震、山梨県、神奈川県 - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-06-26T22:31:36+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5jZHBLRy1oSVpDVlRWbVFUYjdMeEdjZlp2NXhsall6bHJuUXlld1FOY2dOYWQ1bXpURzBaN0d0YVV4Y2d6dElaTVB5N19BcFM2Yk4zck1Wbk41cElPcFlB?oc=5",
-      "type": "news",
-      "area": "首都圏周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 35.55,
-      "lon": 139.8,
-      "zoom": 8,
-      "zoomable": true,
-      "matchedArea": "首都圏周辺",
-      "zoomSource": "dictionary"
-    },
-    {
       "title": "超巨大地震は傾き緩やかなプレート境界で起きる? 東大が解明（毎日新聞） - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
       "time": "2026-07-02T03:00:22+09:00",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GbXZ0X3FqNkF5T3RHSk5MTHhPY095VUJXYVA3UjF6TjhROXpmUzY3SzR1TktxTktZamVpNU9NMXd6Uk4xcEVWZUI0XzFzQlBqdVdwV0pselo2WHpiMGZTU05IR2hKMUloZGJEZzhILTlQOVZUU21mT1ZpdWI2bDQ?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "山梨で震度６弱、訪日客ら避難所で不安な一夜…「地震初めてで何をすればいいのかわからなかった」 - 読売新聞",
+      "source": "読売新聞",
+      "time": "2026-06-27T14:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5SaDVscnl0OHU0UGJOUzFVYXIxaWF5ZDB6UkJZSmYxRWI5Mzd4UVlxZVpCaDhVLW1LRkJPX1NRSkVYOTVVWXNQYmNxRTZ3czB0eVRMam9FNnFueXdWSjZKT1paMkQtZw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
