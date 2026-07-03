@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T10:09:38+09:00",
+  "updated_at": "2026-07-03T14:13:32+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -103,19 +103,18 @@
       "zoomSource": "none"
     },
     {
-      "title": "山梨県で最大震度6弱 “1週間程度は同程度の地震に注意” | NHKニュース | 地震、山梨県、神奈川県 - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-06-26T22:31:36+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5jZHBLRy1oSVpDVlRWbVFUYjdMeEdjZlp2NXhsall6bHJuUXlld1FOY2dOYWQ1bXpURzBaN0d0YVV4Y2d6dElaTVB5N19BcFM2Yk4zck1Wbk41cElPcFlB?oc=5",
+      "title": "超巨大地震は傾き緩やかなプレート境界で起きる? 東大が解明（毎日新聞） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-07-02T03:00:22+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GbXZ0X3FqNkF5T3RHSk5MTHhPY095VUJXYVA3UjF6TjhROXpmUzY3SzR1TktxTktZamVpNU9NMXd6Uk4xcEVWZUI0XzFzQlBqdVdwV0pselo2WHpiMGZTU05IR2hKMUloZGJEZzhILTlQOVZUU21mT1ZpdWI2bDQ?oc=5",
       "type": "news",
-      "area": "首都圏周辺",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 35.55,
-      "lon": 139.8,
-      "zoom": 8,
-      "zoomable": true,
-      "matchedArea": "首都圏周辺",
-      "zoomSource": "dictionary"
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     }
   ]
 }
