@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-03T23:40:31+09:00",
+  "fetched_at": "2026-07-04T01:13:32+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/03 18:32:00",
-    "area": "山梨県東部・富士五湖",
-    "magnitude": 2.5,
-    "depth": 20,
+    "time": "2026/07/03 23:37:00",
+    "area": "岩手県沖",
+    "magnitude": 3.8,
+    "depth": 40,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
