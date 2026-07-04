@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T17:09:57+09:00",
+  "updated_at": "2026-07-04T19:32:28+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -17,6 +17,21 @@
       "zoomSource": "none"
     },
     {
+      "title": "首都直下地震の危険地域ランキング 新たな被害想定でわかったこと - 読売新聞",
+      "source": "読売新聞",
+      "time": "2026-06-30T06:09:45+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5GUzhHZjdTYThHaE5MeGZubGNleWJxTU4wSDVWLTRfQ1h6OFdaLXVoN2V5WGJNSk05SDBXRHNwNENnLXZ5dEhDU2FRU0dySUpVeTB1ZDBZNDA2S0JFa2tfSGJ3?oc=5",
+      "type": "news",
+      "area": "相模トラフ・関東南方",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 34.9,
+      "lon": 139.6,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "相模トラフ・関東南方",
+      "zoomSource": "dictionary"
+    },
+    {
       "title": "南海トラフ巨大地震との関連は？日本列島で相次ぐ地震 最後の噴火から300年以上が経過する富士山… 専門家に聞く - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
       "time": "2026-06-29T18:50:00+09:00",
@@ -32,25 +47,24 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "「過去100年でも例はない」頻発する青森県から岩手県北部でのマグニチュード7クラスの地震 “三陸はるか沖地震級”の地震発生確率は「30年以内に90％程度以上」 専門家「十分ひずみがたまっている、最後の割れ残りがあるのでは」（ＡＴＶ青森テレビ） - Yahoo!ニュース",
+      "title": "超巨大地震は傾き緩やかなプレート境界で起きる? 東大が解明（毎日新聞） - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
-      "time": "2026-07-04T14:25:24+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5MNTJOd0ZtQ2M2aERxRWlsVUZvYUpuUnJZR3FyUlNTWXlkd2YtYmZzT3JyM2s4Sk1CcEo3dS04clZIcTRZcHV6UmVidDB4aDAtZlJPRlhZMk5LOV9NeG50dEJScGgzc2dqbENEWF94ODktOEo3VF94RjZoa1BKWEU?oc=5",
+      "time": "2026-07-02T03:00:22+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GbXZ0X3FqNkF5T3RHSk5MTHhPY095VUJXYVA3UjF6TjhROXpmUzY3SzR1TktxTktZamVpNU9NMXd6Uk4xcEVWZUI0XzFzQlBqdVdwV0pselo2WHpiMGZTU05IR2hKMUloZGJEZzhILTlQOVZUU21mT1ZpdWI2bDQ?oc=5",
       "type": "news",
-      "area": "東北地方",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 39.2,
-      "lon": 140.8,
+      "lat": null,
+      "lon": null,
       "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "東北地方",
-      "zoomSource": "dictionary"
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
-      "title": "「フィリピン海プレート衝突に起因」 山梨県東部の地震―政府調査委 - 時事ドットコム",
+      "title": "ベネズエラ地震、発生７２時間過ぎ１１歳救出：時事ドットコム - 時事ドットコム",
       "source": "時事ドットコム",
-      "time": "2026-06-28T00:03:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBZY3A4VFZsNlZQbWJ3dXBDY3VRYlNUdl9rLTdnRWlDQmpaNGh0SVM5LVpEVk5lVkVucElVOXdGN0RoT3BRWjdObUcxaEp3aURhX2VpZDMwRlFtODZ3UHp0TTF1NA?oc=5",
+      "time": "2026-06-28T19:49:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1IT0Ffa1dhMFZhN0lzYmhaV29sZXZBRkRnSUpETHhhOURzaklqZnlxTk5tYVhHUHBqekY2NXlZb1h2WmVOMXFjcVdRU2NPMjNKVzBkMVpPcVA0eUFuakgwdGpudw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -94,20 +108,6 @@
       "source": "NHKニュース",
       "time": "2026-07-03T05:46:50+09:00",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5zVUF5ZS1jVmxOVzJ3UEtVc3huZG1EX1FlcVp1emVaRHZHV2pyMFdScm83dDMxaDNqODhra2ZCcjNrQW5iVlRtaUJOTEpBTFZNaHpuajhOMzZzOEdjdGJJ?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "山梨“最大震度6弱”けが1都3県で19人に 大きな揺れ…外壁落ちる“瞬間映像” - テレ朝NEWS",
-      "source": "テレ朝NEWS",
-      "time": "2026-06-27T17:29:05+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE04SlAyS1BKX2pLbGRoNGhtVXY3akM3QnhTXy1iNzk3SXRmcVJ4dkh5TXZsNTdCU0ZNZEJCLWJOVmhzMGt1TWEzRjBrNkRBUWtfZ0ZUSzNSOWJOcURhbDlScXpNaVVZcVBkYVFaX2lnb3dvdw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
