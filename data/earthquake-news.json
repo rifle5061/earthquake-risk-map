@@ -1,22 +1,7 @@
 {
-  "updated_at": "2026-07-05T06:27:22+09:00",
+  "updated_at": "2026-07-05T07:29:09+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
-    {
-      "title": "令和8年度 東京都・江戸川区合同総合防災訓練の実施について - bousai.metro.tokyo.lg.jp",
-      "source": "bousai.metro.tokyo.lg.jp",
-      "time": "2026-06-30T16:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZFB2b2QwTWYzZHJZUFN5STdmQWI0UFY4VmNuZzJBTGRMd1ZFOE81XzBNM2VwckctUFdHOXh5OUw5dFFONHhGRkF4czkySnZ3c3JWbldURHRLU2lpal8xZklsTjZwV0ljYXZ4QVA3dlR5YTNSWFV6MS0tMFEyOXJ1NXl6S3NmbTA?oc=5",
-      "type": "news",
-      "area": "首都圏周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 35.55,
-      "lon": 139.8,
-      "zoom": 8,
-      "zoomable": true,
-      "matchedArea": "首都圏周辺",
-      "zoomSource": "dictionary"
-    },
     {
       "title": "2026年ベネズエラ地震救援金｜国内災害義援金・海外救援金へのご寄付｜寄付する - 日本赤十字社",
       "source": "日本赤十字社",
@@ -118,6 +103,20 @@
       "zoomable": true,
       "matchedArea": "東北〜関東沖",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "山梨 震度6弱1週間 専門家“富士山の火山活動に変化見られず” - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-07-03T05:46:50+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5zVUF5ZS1jVmxOVzJ3UEtVc3huZG1EX1FlcVp1emVaRHZHV2pyMFdScm83dDMxaDNqODhra2ZCcjNrQW5iVlRtaUJOTEpBTFZNaHpuajhOMzZzOEdjdGJJ?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     }
   ]
 }
