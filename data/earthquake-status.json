@@ -1,11 +1,11 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-05T16:48:31+09:00",
+  "fetched_at": "2026-07-05T19:10:35+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/05 02:06:00",
-    "area": "石川県能登地方",
-    "magnitude": 2.5,
+    "time": "2026/07/05 18:30:00",
+    "area": "福島県会津",
+    "magnitude": 1.7,
     "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
