@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-06T10:23:17+09:00",
+  "fetched_at": "2026-07-06T14:54:27+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/06 02:55:00",
-    "area": "福島県沖",
-    "magnitude": 3.7,
-    "depth": 50,
-    "maxScale": 20,
-    "intensityLabel": "2",
+    "time": "2026/07/06 12:28:00",
+    "area": "奄美大島近海",
+    "magnitude": 3.5,
+    "depth": 10,
+    "maxScale": 10,
+    "intensityLabel": "1",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
