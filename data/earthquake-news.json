@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T20:24:14+09:00",
+  "updated_at": "2026-07-07T22:33:14+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -90,10 +90,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "ベネズエラ地震の死者３３００人超 対応遅れ、政府は批判聞き入れず - 時事ドットコム",
+      "title": "ベネズエラ地震、政府機能不全で被害拡大 救助遅れ、重機不足 - 時事ドットコム",
       "source": "時事ドットコム",
-      "time": "2026-07-06T08:47:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBIenYyZWN5YXdVWWwtSWdwWXFjNUxvQ2VKY1pjb241NWxMRGxfanR3LXhCMWU4SHNRc1ZiTXFEajlrYjFvVFhUYk1BUnVwSmxpM0JaUzlpUUhSMnhFOVpIY25hNA?oc=5",
+      "time": "2026-07-02T20:51:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE51VEpSQVIybjBZY0VScURGWUpvZVZRQ3lpVlNWS1lBRkQyYVMxbWJYdmtvZHVWakpoV3V0OHhPalk0M2lTWmxVaXlOQm1VQkdXWFFyTWxzbGdic1Z1c282Q19pcw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -104,19 +104,18 @@
       "zoomSource": "none"
     },
     {
-      "title": "青森県、岩手県で最大震度3の地震 青森県・八戸市、三沢市、五戸町、青森南部町、階上町、岩手県・普代村 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-06-30T23:06:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE11S2NQTHBoVF8tOEpTOFN4b0sxeS11N3JyWXBSOEstN1pEY1ZJNXZfd1VrZk1tNVFGc1RvRk81dC1adFRNTjY0WV9hUVRCZVVKUjVPOC1mZw?oc=5",
+      "title": "ベネズエラ地震の死者3535人、被災から1週間余り 1.8万人家失う - Reuters",
+      "source": "Reuters",
+      "time": "2026-07-07T07:19:43+09:00",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdWZPaWNMUnFhNmxkZFhsc1lodGhnYW4zX3Fnb25BSzd6c3BUcGJndmVRdS1HTWVoQUZsd2hoSWRrZjFfUDNCeG0wdGdpdUJ1S3F4TnNKVVg4MmliMDE2a3N2VHpwSVpRYjFTLUxqcjZSbUJtZGoyQk5fWjE0QXVoZg?oc=5",
       "type": "news",
-      "area": "東北地方",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 39.2,
-      "lon": 140.8,
+      "lat": null,
+      "lon": null,
       "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "東北地方",
-      "zoomSource": "dictionary"
+      "zoomable": false,
+      "zoomSource": "none"
     }
   ]
 }
