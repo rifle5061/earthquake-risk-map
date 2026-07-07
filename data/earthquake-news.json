@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T13:32:33+09:00",
+  "updated_at": "2026-07-07T17:22:19+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -62,20 +62,6 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "ベネズエラ地震の死者３３００人超 対応遅れ、政府は批判聞き入れず - 時事ドットコム",
-      "source": "時事ドットコム",
-      "time": "2026-07-06T08:47:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBIenYyZWN5YXdVWWwtSWdwWXFjNUxvQ2VKY1pjb241NWxMRGxfanR3LXhCMWU4SHNRc1ZiTXFEajlrYjFvVFhUYk1BUnVwSmxpM0JaUzlpUUhSMnhFOVpIY25hNA?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "ベネズエラ地震、住民が倒壊した建物を素手で捜索 政府の重機はガス欠で動かず(1/2) - CNN.co.jp",
       "source": "CNN.co.jp",
       "time": "2026-07-02T11:07:00+09:00",
@@ -94,6 +80,20 @@
       "source": "metro.tokyo.lg.jp",
       "time": "2026-07-03T17:02:55+09:00",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE94TnBSZkQwVjRZV0lTNXliSFNxcGxiY1gwZVFCSEhQOUMzbk50NDRBNjRGWWdLZGFLNVpobXVBa0dveU11SjQwMXNvLUw0RVJHeklQM1k2aDBqM0RXLVhlY0VYRktpUk9XaHh4OTVDUVR4N0Va?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "ベネズエラ地震の死者３３００人超 対応遅れ、政府は批判聞き入れず - 時事ドットコム",
+      "source": "時事ドットコム",
+      "time": "2026-07-06T08:47:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBIenYyZWN5YXdVWWwtSWdwWXFjNUxvQ2VKY1pjb241NWxMRGxfanR3LXhCMWU4SHNRc1ZiTXFEajlrYjFvVFhUYk1BUnVwSmxpM0JaUzlpUUhSMnhFOVpIY25hNA?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
