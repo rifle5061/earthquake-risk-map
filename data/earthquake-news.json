@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T06:05:44+09:00",
+  "updated_at": "2026-07-09T07:32:18+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -105,19 +105,18 @@
       "zoomSource": "none"
     },
     {
-      "title": "【津波予報】被害の心配なし 沖縄本島地方、宮古島・八重山地方 13:14時点（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-07-03T13:17:12+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LVnVUYlJPUTd5Z3RkeWtNSW5sQ3J5bXpKUGlaYjNWVE9vYkxOR0xFblNJLVQtUUN3bjRrT2N0SmdHTExzVmtqYVNVTFYxMGsxbDFQM1Rpb3BqZ211OVJndDRqYjU3MmpMVV9RNThBdmVhU3QxaTE3aXZ2NFh0NEk?oc=5",
+      "title": "【7/4更新】ベネズエラ地震義援金募金活動のご報告と今後の募金箱設置について - オリックス・バファローズ",
+      "source": "オリックス・バファローズ",
+      "time": "2026-07-04T16:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zMjFTTzMxaWZrUTl4VVhXZlZXTFY2RmdxNXJjOGliQnZOV3ZYUEpCYVNmQ2xoUEljbUdGSU9lb0RmTG1jWFM5by1wS0RHUzBDYm82RFJ1Qm0zcmc3eFZTQUdWZ2NtbDNM?oc=5",
       "type": "news",
-      "area": "沖縄・南西諸島",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 25.7,
-      "lon": 127.8,
+      "lat": null,
+      "lon": null,
       "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "沖縄・南西諸島",
-      "zoomSource": "dictionary"
+      "zoomable": false,
+      "zoomSource": "none"
     }
   ]
 }
