@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-08T10:03:01+09:00",
+  "fetched_at": "2026-07-08T13:31:23+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/07 06:16:00",
-    "area": "島根県西部",
-    "magnitude": 3.2,
-    "depth": 10,
+    "time": "2026/07/08 13:25:00",
+    "area": "千葉県北東部",
+    "magnitude": 3.0,
+    "depth": 50,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
