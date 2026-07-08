@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T13:44:35+09:00",
+  "updated_at": "2026-07-08T16:27:39+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -47,35 +47,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "少女の左手見えた、ベネズエラ地震「二重の悲劇」現場から記者が報告 - 朝日新聞",
-      "source": "朝日新聞",
-      "time": "2026-07-08T04:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEbDVNbjBMd3JQb05MSV80Y3p0OGlVXzJaMHdMS0FXelRPcFRTOGp3aVYzVzNPLVVmQnVGbGNMZG1mNy1ldVZQbEhERjROekU2eTg0OEpkNXVGckpCY2ZfQ0FGaEpYT0E?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "〈防災――身を守る行動〉 相次ぐ三陸沖地震 全国どこでも注意 備え万全に - seikyoonline.com",
-      "source": "seikyoonline.com",
-      "time": "2026-07-05T09:31:53+09:00",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYXFSSWxJd2JVem9kcjhMY1BDa3BxTlFHY1JzM21HOHgxS1dZaEZBS1NKTEgxX2lyUHlMakNQUGZaSS1Cek9DSFRpS2RERk5WWUlOaFVPdDhvVW9CNWFJT3hwNWkxZm9kbEN4NzJuQ0lrNmRiQnBOM191UVlORlIxQTBSc2gtRkYyRG1TWHVMLWd2R3NocWhFYkhmX3JrUGN5UDhfcWRVSmp0dE84OGVxU25tRE1iQQ?oc=5",
-      "type": "news",
-      "area": "日本海溝・東北沖",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 38.6,
-      "lon": 143.0,
-      "zoom": 5,
-      "zoomable": true,
-      "matchedArea": "日本海溝・東北沖",
-      "zoomSource": "dictionary"
-    },
-    {
       "title": "ベネズエラ地震の死者3535人、被災から1週間余り 1.8万人家失う - ロイター",
       "source": "ロイター",
       "time": "2026-07-07T07:19:43+09:00",
@@ -104,6 +75,20 @@
       "zoomSource": "none"
     },
     {
+      "title": "少女の左手見えた、ベネズエラ地震「二重の悲劇」現場から記者が報告 - 朝日新聞",
+      "source": "朝日新聞",
+      "time": "2026-07-08T04:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEbDVNbjBMd3JQb05MSV80Y3p0OGlVXzJaMHdMS0FXelRPcFRTOGp3aVYzVzNPLVVmQnVGbGNMZG1mNy1ldVZQbEhERjROekU2eTg0OEpkNXVGckpCY2ZfQ0FGaEpYT0E?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "ベネズエラ地震、政府機能不全で被害拡大 救助遅れ、重機不足 - 時事ドットコム",
       "source": "時事ドットコム",
       "time": "2026-07-02T20:51:00+09:00",
@@ -116,6 +101,21 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
+    },
+    {
+      "title": "震度1 奄美大島近海 2026年07月06日12:28ごろ 地震詳細 | 名古屋・愛知・岐阜・三重のニュース【CBC news】 | CBC web - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-07-06T12:28:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOOG9mNGVfWW52dDNvQzRUSlo1eFRheTFXMzA2Q0dFTFhpY3llalpZU2RfTUZLWGlOQnlUYkNWNUNoM0lFVlp2aklNbzdaNTM3UWQ0eHFaTXlySk00b1YwM0xkRjRSS1JsTkJ1Q0ZiMkdoWlFaRTRKVzcyV0prd3RVMS0yR3cxdUE?oc=5",
+      "type": "news",
+      "area": "南西諸島海溝",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 27.0,
+      "lon": 128.2,
+      "zoom": 5,
+      "zoomable": true,
+      "matchedArea": "南西諸島海溝",
+      "zoomSource": "dictionary"
     }
   ]
 }
