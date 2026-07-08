@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T20:46:44+09:00",
+  "updated_at": "2026-07-08T23:01:17+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -15,21 +15,6 @@
       "zoom": 8,
       "zoomable": true,
       "matchedArea": "首都圏周辺",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "青森県、岩手県で最大震度4のやや強い地震 青森県・八戸市、青森南部町、岩手県・普代村、盛岡市、二戸市 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-07-01T21:12:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBnLVlKTVVJV3dZa1dvNjZxQVl0MlhHb2FvVTFzc2JLNS1tVmV2Q1pqNVZjcWZGckJzSWdScHlGRkZnb09QWnVjN3k1YjJXa3YzOXk5RlRySQ?oc=5",
-      "type": "news",
-      "area": "東北地方",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 39.2,
-      "lon": 140.8,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "東北地方",
       "zoomSource": "dictionary"
     },
     {
@@ -59,6 +44,21 @@
       "zoom": 6,
       "zoomable": true,
       "matchedArea": "東北地方",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "震度1 奄美大島近海 2026年07月06日12:28ごろ 地震詳細 | 名古屋・愛知・岐阜・三重のニュース【CBC news】 | CBC web - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-07-06T12:28:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOOG9mNGVfWW52dDNvQzRUSlo1eFRheTFXMzA2Q0dFTFhpY3llalpZU2RfTUZLWGlOQnlUYkNWNUNoM0lFVlp2aklNbzdaNTM3UWQ0eHFaTXlySk00b1YwM0xkRjRSS1JsTkJ1Q0ZiMkdoWlFaRTRKVzcyV0prd3RVMS0yR3cxdUE?oc=5",
+      "type": "news",
+      "area": "南西諸島海溝",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 27.0,
+      "lon": 128.2,
+      "zoom": 5,
+      "zoomable": true,
+      "matchedArea": "南西諸島海溝",
       "zoomSource": "dictionary"
     },
     {
@@ -104,18 +104,18 @@
       "zoomSource": "none"
     },
     {
-      "title": "震度1 奄美大島近海 2026年07月06日12:28ごろ 地震詳細 | 名古屋・愛知・岐阜・三重のニュース【CBC news】 | CBC web - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-07-06T12:28:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOOG9mNGVfWW52dDNvQzRUSlo1eFRheTFXMzA2Q0dFTFhpY3llalpZU2RfTUZLWGlOQnlUYkNWNUNoM0lFVlp2aklNbzdaNTM3UWQ0eHFaTXlySk00b1YwM0xkRjRSS1JsTkJ1Q0ZiMkdoWlFaRTRKVzcyV0prd3RVMS0yR3cxdUE?oc=5",
+      "title": "青森県、岩手県で最大震度3の地震 青森県・八戸市、おいらせ町、青森南部町、階上町、岩手県・軽米町 - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-07-06T20:33:16+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nSDc4VzRzMWN5cjBmT3lXRTg3aEJzS0drR0NnU3RRY0JEVkdjU2xxMjhIVEM3c2dJbE5aVjV0LW84dXFPclJoRTNUbkVtUkVrYkdWd1NZSUd4Q1YxdzFNejZwdm9MMURORkxJMTRMUWVyMjZQcm94SXVpUUhDb0U?oc=5",
       "type": "news",
-      "area": "南西諸島海溝",
+      "area": "東北地方",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 27.0,
-      "lon": 128.2,
-      "zoom": 5,
+      "lat": 39.2,
+      "lon": 140.8,
+      "zoom": 6,
       "zoomable": true,
-      "matchedArea": "南西諸島海溝",
+      "matchedArea": "東北地方",
       "zoomSource": "dictionary"
     }
   ]
