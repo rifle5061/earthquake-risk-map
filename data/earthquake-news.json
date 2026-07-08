@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T04:47:13+09:00",
+  "updated_at": "2026-07-09T06:05:44+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -15,21 +15,6 @@
       "zoom": 8,
       "zoomable": true,
       "matchedArea": "首都圏周辺",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "震度1 奄美大島近海 2026年07月06日12:28ごろ 地震詳細 | 名古屋・愛知・岐阜・三重のニュース【CBC news】 | CBC web - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-07-06T12:28:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOOG9mNGVfWW52dDNvQzRUSlo1eFRheTFXMzA2Q0dFTFhpY3llalpZU2RfTUZLWGlOQnlUYkNWNUNoM0lFVlp2aklNbzdaNTM3UWQ0eHFaTXlySk00b1YwM0xkRjRSS1JsTkJ1Q0ZiMkdoWlFaRTRKVzcyV0prd3RVMS0yR3cxdUE?oc=5",
-      "type": "news",
-      "area": "南西諸島海溝",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 27.0,
-      "lon": 128.2,
-      "zoom": 5,
-      "zoomable": true,
-      "matchedArea": "南西諸島海溝",
       "zoomSource": "dictionary"
     },
     {
@@ -60,6 +45,21 @@
       "zoom": 6,
       "zoomable": true,
       "matchedArea": "東北地方",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "震度1 岐阜県飛騨地方 2026年07月06日15:20ごろ 地震詳細 | 名古屋・愛知・岐阜・三重のニュース【CBC news】 | CBC web - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-07-06T15:28:34+09:00",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNYi1mSW1MUzNUVjVVbS1Nakw3a2hKLWdmeTRnTlByUkRsNVhZbFlLVEluZGE2c3RySHNNMjVUZDFqSlE1eU1LRlBDeDJoLTk1OVRkUFZ6VDlobXNISXNkdHdaQ3lEeFo0a0lubmljTGxKTHhRRWdzS3R5XzhlVUZXNXhJM3ZxZjQ?oc=5",
+      "type": "news",
+      "area": "中部内陸",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 36.3,
+      "lon": 137.8,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "中部内陸",
       "zoomSource": "dictionary"
     },
     {
@@ -105,18 +105,19 @@
       "zoomSource": "none"
     },
     {
-      "title": "山梨 震度6弱1週間 専門家“富士山の火山活動に変化見られず” - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-07-03T05:46:50+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5zVUF5ZS1jVmxOVzJ3UEtVc3huZG1EX1FlcVp1emVaRHZHV2pyMFdScm83dDMxaDNqODhra2ZCcjNrQW5iVlRtaUJOTEpBTFZNaHpuajhOMzZzOEdjdGJJ?oc=5",
+      "title": "【津波予報】被害の心配なし 沖縄本島地方、宮古島・八重山地方 13:14時点（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-07-03T13:17:12+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LVnVUYlJPUTd5Z3RkeWtNSW5sQ3J5bXpKUGlaYjNWVE9vYkxOR0xFblNJLVQtUUN3bjRrT2N0SmdHTExzVmtqYVNVTFYxMGsxbDFQM1Rpb3BqZ211OVJndDRqYjU3MmpMVV9RNThBdmVhU3QxaTE3aXZ2NFh0NEk?oc=5",
       "type": "news",
-      "area": "",
+      "area": "沖縄・南西諸島",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
+      "lat": 25.7,
+      "lon": 127.8,
       "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "zoomable": true,
+      "matchedArea": "沖縄・南西諸島",
+      "zoomSource": "dictionary"
     }
   ]
 }
