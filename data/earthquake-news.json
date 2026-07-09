@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T20:25:32+09:00",
+  "updated_at": "2026-07-09T23:04:40+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -47,21 +47,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "震度1 岐阜県飛騨地方 2026年07月06日15:20ごろ 地震詳細 | 名古屋・愛知・岐阜・三重のニュース【CBC news】 | CBC web - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-07-06T15:20:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNYi1mSW1MUzNUVjVVbS1Nakw3a2hKLWdmeTRnTlByUkRsNVhZbFlLVEluZGE2c3RySHNNMjVUZDFqSlE1eU1LRlBDeDJoLTk1OVRkUFZ6VDlobXNISXNkdHdaQ3lEeFo0a0lubmljTGxKTHhRRWdzS3R5XzhlVUZXNXhJM3ZxZjQ?oc=5",
-      "type": "news",
-      "area": "中部内陸",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 36.3,
-      "lon": 137.8,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "中部内陸",
-      "zoomSource": "dictionary"
-    },
-    {
       "title": "青森県、岩手県で最大震度3の地震 青森県・八戸市、おいらせ町、青森南部町、階上町、岩手県・軽米町 - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
       "time": "2026-07-06T20:33:16+09:00",
@@ -103,6 +88,21 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
+    },
+    {
+      "title": "「能登半島に似た地形」 瀬戸内海で新たな海底活断層見つかる M7クラスの地震引き起こす恐れも 日本列島で相次ぐ地震 瀬戸内海の津波リスクとは - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-07-04T10:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5iZTVXRl8zQWJDYjUzNzJzZ0JVcERhbUVpZms3LWpPcUV4d2xDUW12YzlUdnlKMktReXFCMnBicjlBa1l5OWpuQmd0QXEtVnhkR0F2N0pCYw?oc=5",
+      "type": "news",
+      "area": "能登半島周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 37.35,
+      "lon": 136.9,
+      "zoom": 8,
+      "zoomable": true,
+      "matchedArea": "能登半島周辺",
+      "zoomSource": "dictionary"
     },
     {
       "title": "少女の左手見えた、ベネズエラ地震「二重の悲劇」現場から記者が報告 - 朝日新聞",
