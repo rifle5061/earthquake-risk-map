@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-10T00:47:51+09:00",
+  "fetched_at": "2026-07-10T02:54:04+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/09 21:59:00",
-    "area": "和歌山県南方沖",
-    "magnitude": 4.7,
-    "depth": 10,
-    "maxScale": 30,
-    "intensityLabel": "3",
+    "time": "2026/07/10 01:22:00",
+    "area": "宮古島北西沖",
+    "magnitude": 4.5,
+    "depth": 90,
+    "maxScale": 20,
+    "intensityLabel": "2",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
