@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-09T08:48:01+09:00",
+  "fetched_at": "2026-07-09T11:49:33+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/08 23:33:00",
-    "area": "岩手県沖",
-    "magnitude": 3.5,
-    "depth": 40,
+    "time": "2026/07/09 10:22:00",
+    "area": "トカラ列島近海",
+    "magnitude": 2.4,
+    "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
