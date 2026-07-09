@@ -1,11 +1,11 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-09T11:49:33+09:00",
+  "fetched_at": "2026-07-09T15:42:27+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/09 10:22:00",
-    "area": "トカラ列島近海",
-    "magnitude": 2.4,
+    "time": "2026/07/09 14:05:00",
+    "area": "神奈川県西部",
+    "magnitude": 2.3,
     "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
