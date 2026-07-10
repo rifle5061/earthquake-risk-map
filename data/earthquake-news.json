@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T00:55:31+09:00",
+  "updated_at": "2026-07-11T02:47:00+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -63,23 +63,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "和歌山県南方沖で震度３の地震 | 地震情報 | 防災情報 | くらし - 南日本新聞",
-      "source": "南日本新聞",
-      "time": "2026-07-09T21:59:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QbVlkbWVhNmpfVWVQRkIwVnRLcmxidXF3U0pfTVpZc0R4dFM2VmRIMUZtUXlkaC04QzhnTGJWbHBla3VSNGVaMENCMmxjei00czltRmVPWE5IUUxrNUdoVFBPSVJuMTV4UW1ULS10LVQ4aktSWnRRMUNiTQ?oc=5",
-      "type": "news",
-      "area": "紀伊水道〜四国沖",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 33.0,
-      "lon": 134.3,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "紀伊水道〜四国沖",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "ベネズエラ地震死者3811人に、暫定大統領は凍結資金解放要求 - ロイター",
-      "source": "ロイター",
+      "title": "ベネズエラ地震死者3811人に、暫定大統領は凍結資金解放要求 - Reuters",
+      "source": "Reuters",
       "time": "2026-07-09T11:18:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSXBuSTRDQjZGZzRHTWtEUmt1WC1qOEM4VTVHT0hGMkJYVjE0NW5aTHlCTjl3UTZ3RFZCR2Y1N24xTVhDdVRXakVMYUhFM01yUVo3MGJQbGNaNTVzbk5rWU15b2tKSG1fLVh1MG45c3JOYXhWN1p6cUJEWUg2S3pyUW5hcHFmSFZr?oc=5",
       "type": "news",
@@ -110,6 +95,20 @@
       "source": "時事ドットコム",
       "time": "2026-07-06T08:47:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBIenYyZWN5YXdVWWwtSWdwWXFjNUxvQ2VKY1pjb241NWxMRGxfanR3LXhCMWU4SHNRc1ZiTXFEajlrYjFvVFhUYk1BUnVwSmxpM0JaUzlpUUhSMnhFOVpIY25hNA?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "マチャド投手・エスピノーザ投手によるベネズエラ地震義援金募金活動実施のお知らせ - オリックス・バファローズ",
+      "source": "オリックス・バファローズ",
+      "time": "2026-07-05T18:00:58+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1weEh3S3JRYmE2eE84YjVRQktZZ0hEMWFyeXlvVnIyTTVjZEdSVTZMbTVlMGNYbkdlMk5YN3JsZ1RyNWlFLXdVbFJ2WUN4ZndEcS1NZVBDbE42ZkZUN2ZFcGVCbDdUSlN1?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
