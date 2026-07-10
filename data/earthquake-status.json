@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-10T11:52:09+09:00",
+  "fetched_at": "2026-07-10T15:43:39+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/10 01:22:00",
-    "area": "宮古島北西沖",
-    "magnitude": 4.5,
-    "depth": 90,
+    "time": "2026/07/10 15:16:00",
+    "area": "島根県東部",
+    "magnitude": 3.4,
+    "depth": 10,
     "maxScale": 20,
     "intensityLabel": "2",
     "domesticTsunami": "None"
