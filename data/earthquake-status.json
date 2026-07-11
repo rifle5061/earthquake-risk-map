@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-11T10:08:03+09:00",
+  "fetched_at": "2026-07-11T13:27:39+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/11 05:40:00",
-    "area": "岩手県沖",
-    "magnitude": 3.5,
-    "depth": 50,
-    "maxScale": 10,
-    "intensityLabel": "1",
+    "time": "2026/07/11 12:42:00",
+    "area": "新潟県中越地方",
+    "magnitude": 3.3,
+    "depth": 0,
+    "maxScale": 20,
+    "intensityLabel": "2",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
