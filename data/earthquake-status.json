@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-12T09:10:33+09:00",
+  "fetched_at": "2026-07-12T12:56:56+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/11 12:42:00",
-    "area": "新潟県中越地方",
-    "magnitude": 3.3,
-    "depth": 0,
-    "maxScale": 20,
-    "intensityLabel": "2",
+    "time": "2026/07/12 11:39:00",
+    "area": "釧路地方中南部",
+    "magnitude": 3.7,
+    "depth": 100,
+    "maxScale": 10,
+    "intensityLabel": "1",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
