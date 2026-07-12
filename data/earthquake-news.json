@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-07-12T23:54:18+09:00",
+  "updated_at": "2026-07-13T00:58:06+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
+    {
+      "title": "避難所及び避難場所 - city.miyako.iwate.jp",
+      "source": "city.miyako.iwate.jp",
+      "time": "2026-07-07T16:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ESC1xWEdkNGpFZHFjSndVV2xfWjlJUlItS013OExyOFNReVJPOUdRWnJNdzZud1YyUURCWkJ6Rzh1QUlmWXhSS25LbEdsbDlJcVF3ZDlmS1ZyUjBQQTRzckg4V2V5QXRZVENJSFVRMzlyZDdLTFF4ZEVtSmJlUQ?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
     {
       "title": "週刊地震情報 2026.7.12 和歌山県南方沖でM4.7 南海トラフ巨大地震と異なるタイプ - ウェザーニュース",
       "source": "ウェザーニュース",
@@ -95,20 +109,6 @@
       "source": "オリックス・バファローズ",
       "time": "2026-07-09T15:03:44+09:00",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yY2pEckhZbW42WFZaVjF3Vk1hZFd5ZW1wQXN1R0RmOW0wMU9QcTVMVHJPUW1oS2pOZWN0NzFKWW1rdzJzSy1SR1Q5RG9QTlV5UTRWMXAzY1Exdms5cmdvY3hJMExCTFNL?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "ベネズエラ地震の死者3300人超に、対応遅れに不満高まる - Reuters",
-      "source": "Reuters",
-      "time": "2026-07-06T09:11:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBySWxDX0lyNkpPSnlfS3NtQ0JfZUJhTGRZRkdnRzAzcm5BcGNaX1A4Si1MMzBqWDFfZEN0NXh4NlkyMkNNZDJXY3ItUDBnb0c3M0tIUFBSOGFPNE51aWFRVjlFY0dxQWdCbXhUbm5ZdEtWRXlZOG1IUQ?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
