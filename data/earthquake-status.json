@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-12T23:14:02+09:00",
+  "fetched_at": "2026-07-13T00:17:56+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/12 11:39:00",
-    "area": "釧路地方中南部",
-    "magnitude": 3.7,
-    "depth": 100,
+    "time": "2026/07/12 23:13:00",
+    "area": "十勝地方北部",
+    "magnitude": 3.3,
+    "depth": 0,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
