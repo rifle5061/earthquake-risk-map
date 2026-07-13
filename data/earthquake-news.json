@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-07-13T08:52:04+09:00",
+  "updated_at": "2026-07-13T12:38:07+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
+    {
+      "title": "避難所及び避難場所 - city.miyako.iwate.jp",
+      "source": "city.miyako.iwate.jp",
+      "time": "2026-07-07T16:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ESC1xWEdkNGpFZHFjSndVV2xfWjlJUlItS013OExyOFNReVJPOUdRWnJNdzZud1YyUURCWkJ6Rzh1QUlmWXhSS25LbEdsbDlJcVF3ZDlmS1ZyUjBQQTRzckg4V2V5QXRZVENJSFVRMzlyZDdLTFF4ZEVtSmJlUQ?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
     {
       "title": "週刊地震情報 2026.7.12 和歌山県南方沖でM4.7 南海トラフ巨大地震と異なるタイプ - ウェザーニュース",
       "source": "ウェザーニュース",
@@ -16,6 +30,20 @@
       "zoomable": true,
       "matchedArea": "南海トラフ",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "NASA衛星データが捉えたベネズエラ大地震、建物被害は5万8000棟超か - 日経クロステック",
+      "source": "日経クロステック",
+      "time": "2026-07-08T05:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5iSW1NOHRnNUlwc1M1NUFLR3NWX1BtRjVONjFHbnZKNE5HU2F1cmZabHlyaURtWDRzdkpqXzNFeHJhNFdpSGxUeWQ4LU8tNl9ZSjJncWJ3YzRYTjRYRFJaRWl0b3pnU1E?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "「レベル4」までに危険な場所から全員避難！防災気象情報を活用して身を守り、早めの備えを - 政府広報オンライン",
@@ -76,38 +104,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "ベネズエラ地震義援金募金活動のご報告 - オリックス・バファローズ",
-      "source": "オリックス・バファローズ",
-      "time": "2026-07-09T15:03:44+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yY2pEckhZbW42WFZaVjF3Vk1hZFd5ZW1wQXN1R0RmOW0wMU9QcTVMVHJPUW1oS2pOZWN0NzFKWW1rdzJzSy1SR1Q5RG9QTlV5UTRWMXAzY1Exdms5cmdvY3hJMExCTFNL?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "ベネズエラ地震の死者3300人超に、対応遅れに不満高まる - ロイター",
+      "title": "ベネズエラ地震の死者3535人、被災から1週間余り 1.8万人家失う - ロイター",
       "source": "ロイター",
-      "time": "2026-07-06T09:11:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBySWxDX0lyNkpPSnlfS3NtQ0JfZUJhTGRZRkdnRzAzcm5BcGNaX1A4Si1MMzBqWDFfZEN0NXh4NlkyMkNNZDJXY3ItUDBnb0c3M0tIUFBSOGFPNE51aWFRVjlFY0dxQWdCbXhUbm5ZdEtWRXlZOG1IUQ?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "ベネズエラ地震 発生から2週間余り 死者4100人超 1万7000人超が住居失う - テレ朝NEWS",
-      "source": "テレ朝NEWS",
-      "time": "2026-07-11T12:02:06+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE95aGlWUndYdS0zemhRbTY0VVJVM0ZYYWIyWkJab29oV0JyMzZGbFQxZnphYTNVcVBaRGVHbUc0eEZ3WGlHYVl4Tm8xdEJwS241R2ZRSElFTWFJRkVKdkl4R1pDTDNGOEZwY3VNT056WFlvUE1mejUzT0tB?oc=5",
+      "time": "2026-07-07T07:19:43+09:00",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdWZPaWNMUnFhNmxkZFhsc1lodGhnYW4zX3Fnb25BSzd6c3BUcGJndmVRdS1HTWVoQUZsd2hoSWRrZjFfUDNCeG0wdGdpdUJ1S3F4TnNKVVg4MmliMDE2a3N2VHpwSVpRYjFTLUxqcjZSbUJtZGoyQk5fWjE0QXVoZg?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
