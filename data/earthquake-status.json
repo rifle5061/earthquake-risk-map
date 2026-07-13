@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-13T13:49:21+09:00",
+  "fetched_at": "2026-07-13T17:15:12+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/12 23:13:00",
-    "area": "十勝地方北部",
-    "magnitude": 3.3,
-    "depth": 0,
+    "time": "2026/07/13 15:32:00",
+    "area": "千葉県北東部",
+    "magnitude": 3.0,
+    "depth": 50,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
