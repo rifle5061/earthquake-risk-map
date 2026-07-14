@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-14T23:48:35+09:00",
+  "fetched_at": "2026-07-15T02:34:50+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/14 17:07:00",
-    "area": "岩手県沖",
-    "magnitude": 4.8,
-    "depth": 40,
-    "maxScale": 30,
-    "intensityLabel": "3",
+    "time": "2026/07/15 00:38:00",
+    "area": "滋賀県南部",
+    "magnitude": 2.5,
+    "depth": 10,
+    "maxScale": 10,
+    "intensityLabel": "1",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
