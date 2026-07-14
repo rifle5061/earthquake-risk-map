@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T21:46:57+09:00",
+  "updated_at": "2026-07-15T01:12:36+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -59,20 +59,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "鳥取県、島根県で最大震度1の地震 鳥取県・米子市、鳥取南部町、島根県・安来市（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-07-14T02:35:25+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2bWItSnZqWlN0OUtqUnd0aWNuNHNHbGlKcUVVWXBUTXU1MGZVNHA4Q0p2azBHcDJ6Um5jVEJrOVJVWG1tTUxoMEJmUzBqcV81VDB4WlJ5SVBreTBXT01qZ1QxNU1zSktMc3BNbnhUb0lCZ2hIeFJ5cEtzMFU2LVU?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "防災庁設置法が成立 政府の災害対応司令塔―１１月にも発足 - 時事ドットコム",
       "source": "時事ドットコム",
       "time": "2026-07-13T15:23:00+09:00",
@@ -106,6 +92,20 @@
       "source": "オリックス・バファローズ",
       "time": "2026-07-09T15:03:44+09:00",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yY2pEckhZbW42WFZaVjF3Vk1hZFd5ZW1wQXN1R0RmOW0wMU9QcTVMVHJPUW1oS2pOZWN0NzFKWW1rdzJzSy1SR1Q5RG9QTlV5UTRWMXAzY1Exdms5cmdvY3hJMExCTFNL?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "「防災庁」設置法が成立、１１月にも発足へ…政府の災害対応の司令塔 - 読売新聞",
+      "source": "読売新聞",
+      "time": "2026-07-13T18:32:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE14cmdfUHRlYmYxT2RWVGtMcHZpWVdFV0g5Ri05aGxUcHdPSU54LWtLVmZXcHFNMnR4RGdMbzlzUEJtUjF0TG5hVkVENWdWSzNNX2NONHlSclhTdmlYU1BBUXZwZUc3Zw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
