@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T18:24:09+09:00",
+  "updated_at": "2026-07-14T20:06:05+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -60,7 +60,7 @@
       "zoomSource": "none"
     },
     {
-      "title": "【地震速報】青森県 岩手県で震度3 津波の心配なし - NHKニュース",
+      "title": "【地震情報】青森県 岩手県で震度3 津波の心配なし - NHKニュース",
       "source": "NHKニュース",
       "time": "2026-07-14T17:11:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5UTUJocnFDMF90MFQ5ZVJ2OFlPV0RoZGxkVjdGZVBCbGZUcW93dkdmNDM2aGFxR2F6aDhrUlRFaE5aNDQtZEw0WW5MdTZDN3VOYVFudFNKa05YVGJxSWxn?oc=5",
