@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-15T20:57:26+09:00",
+  "fetched_at": "2026-07-15T22:51:57+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/15 17:39:00",
-    "area": "宮城県沖",
-    "magnitude": 3.9,
-    "depth": 30,
+    "time": "2026/07/15 21:29:00",
+    "area": "岩手県沖",
+    "magnitude": 4.4,
+    "depth": 40,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
