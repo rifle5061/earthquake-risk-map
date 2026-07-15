@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T08:53:40+09:00",
+  "updated_at": "2026-07-15T11:14:07+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -102,10 +102,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "【避難指示】山口・長門市 高潮警戒のため 15日午前1:28時点 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-07-15T06:08:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE91akdhN0taOXBRV0p4NWg3Z1dybGd0Y2NxNl82a0dQVklwMTdfU21tdVBlTVNjc2RSeHlQOHBKSDhWeXRIMGtwVVZ3bFBQSWMwMDJyakdlQQ?oc=5",
+      "title": "ベネズエラ地震 発生から2週間余り 死者4100人超 1万7000人超が住居失う - テレ朝NEWS",
+      "source": "テレ朝NEWS",
+      "time": "2026-07-11T12:02:06+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE95aGlWUndYdS0zemhRbTY0VVJVM0ZYYWIyWkJab29oV0JyMzZGbFQxZnphYTNVcVBaRGVHbUc0eEZ3WGlHYVl4Tm8xdEJwS241R2ZRSElFTWFJRkVKdkl4R1pDTDNGOEZwY3VNT056WFlvUE1mejUzT0tB?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
