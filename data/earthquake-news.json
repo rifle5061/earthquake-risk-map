@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-07-15T23:48:28+09:00",
+  "updated_at": "2026-07-16T01:19:50+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
-      "title": "週刊地震情報 2026.7.12 和歌山県南方沖でM4.7 南海トラフ巨大地震と異なるタイプ - ウェザーニュース",
+      "title": "岩手県沖でM4.8の地震 青森県と岩手県で震度3 津波の心配なし - ウェザーニュース",
       "source": "ウェザーニュース",
-      "time": "2026-07-12T10:54:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tb1N4ZzRvRnptZnk0UWlTMmhoUmZ5d1o3Ry10ZmRGYkMxNmZUdVhFRGRmSmFsNlB2Y05Gc1VUcFo2QXp2ZFJDRTIxRXlwcGpKaEV4bQ?oc=5",
+      "time": "2026-07-14T17:12:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBNV3pMVG1sRWNnUlNESnpHTnMwT3g4ZC1DLWEtcWI4dFBYcnBRM2NzUC1wcWxfTllQZXdHcFFEYUxmUWtNRl9KeEIzZHJSbDFoWXpfUG1Hd2hURnc?oc=5",
       "type": "news",
-      "area": "南海トラフ",
+      "area": "東北〜関東沖",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.8,
-      "lon": 136.2,
+      "lat": 37.8,
+      "lon": 142.0,
       "zoom": 6,
       "zoomable": true,
-      "matchedArea": "南海トラフ",
+      "matchedArea": "東北〜関東沖",
       "zoomSource": "dictionary"
     },
     {
@@ -46,10 +46,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "防災庁設置法が成立 政府の災害対応司令塔―１１月にも発足 - 時事ドットコム",
-      "source": "時事ドットコム",
-      "time": "2026-07-13T15:23:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5RQU0yd2hJT2JVaDZVZ3RlelE4bi1vLUIwbmprLW84S3VvQmhFVjN0MHl0LXRBcVotXzR3cUxXTmxFX1NVbVM2WlZ6RFl6RDBMQUZXQnE4UmEyYjM1ZXFZVjFwNA?oc=5",
+      "title": "「レベル4」までに危険な場所から全員避難！防災気象情報を活用して身を守り、早めの備えを - 政府広報オンライン",
+      "source": "政府広報オンライン",
+      "time": "2026-07-10T16:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2dlVZODcxbFhhV05aa0FwemVreFpIenIyWmhaRGZYR216bnF6ZXotb3JHemdrc2ZObTRDRXlnTU9CNEdkY2llaUFtMUxPYTZNUEI4Vkk3S0ZWQThOcTlkQks0MnZMcjBPT3Qyeg?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -60,10 +60,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "「レベル4」までに危険な場所から全員避難！防災気象情報を活用して身を守り、早めの備えを - 政府広報オンライン",
-      "source": "政府広報オンライン",
-      "time": "2026-07-10T16:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2dlVZODcxbFhhV05aa0FwemVreFpIenIyWmhaRGZYR216bnF6ZXotb3JHemdrc2ZObTRDRXlnTU9CNEdkY2llaUFtMUxPYTZNUEI4Vkk3S0ZWQThOcTlkQks0MnZMcjBPT3Qyeg?oc=5",
+      "title": "防災庁設置法が成立 政府の災害対応司令塔―１１月にも発足 - 時事ドットコム",
+      "source": "時事ドットコム",
+      "time": "2026-07-13T15:23:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5RQU0yd2hJT2JVaDZVZ3RlelE4bi1vLUIwbmprLW84S3VvQmhFVjN0MHl0LXRBcVotXzR3cUxXTmxFX1NVbVM2WlZ6RFl6RDBMQUZXQnE4UmEyYjM1ZXFZVjFwNA?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -89,10 +89,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "「防災庁」設置法が成立、１１月にも発足へ…政府の災害対応の司令塔 - 読売新聞",
-      "source": "読売新聞",
-      "time": "2026-07-13T18:32:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE14cmdfUHRlYmYxT2RWVGtMcHZpWVdFV0g5Ri05aGxUcHdPSU54LWtLVmZXcHFNMnR4RGdMbzlzUEJtUjF0TG5hVkVENWdWSzNNX2NONHlSclhTdmlYU1BBUXZwZUc3Zw?oc=5",
+      "title": "防災庁設置へ 個人の行動変容課題 - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-07-14T10:52:37+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE80U1AweFh4bzBjeXF4UGM5enA3MGQwdXlXbS15UmNxcmxhSzRmMzB6N1RxcHpLZU44VUFuQ0Z2ZV9OTnhkMU52cjJYRVlfa0gw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -103,10 +103,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "防災庁設置へ 個人の行動変容課題 - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-07-14T10:52:37+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE80U1AweFh4bzBjeXF4UGM5enA3MGQwdXlXbS15UmNxcmxhSzRmMzB6N1RxcHpLZU44VUFuQ0Z2ZV9OTnhkMU52cjJYRVlfa0gw?oc=5",
+      "title": "令和8年度の自衛隊統合防災演習（08JXR） 7月21日～24日に実施予定 - J ディフェンス ニュース",
+      "source": "J ディフェンス ニュース",
+      "time": "2026-07-13T11:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9sU2wtYzJaYTBZTTFSQlR6NU9jYloyYzN2NUl5TE5lZjk2VWlrVVAtMFBrTi04YXVBWko1dk1VNGx5MC1BMF9FMGVsWEk4ZERseEtmVDFBTHVfc0Z5?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
