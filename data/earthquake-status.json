@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-16T23:59:37+09:00",
+  "fetched_at": "2026-07-17T01:24:35+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/16 15:04:00",
-    "area": "神奈川県西部",
-    "magnitude": 2.0,
-    "depth": 20,
+    "time": "2026/07/17 01:10:00",
+    "area": "茨城県南部",
+    "magnitude": 3.0,
+    "depth": 50,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
