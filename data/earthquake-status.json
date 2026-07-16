@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-17T06:16:16+09:00",
+  "fetched_at": "2026-07-17T07:28:32+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/17 01:10:00",
-    "area": "茨城県南部",
-    "magnitude": 3.0,
-    "depth": 50,
-    "maxScale": 10,
-    "intensityLabel": "1",
+    "time": "2026/07/17 06:49:00",
+    "area": "大隅半島東方沖",
+    "magnitude": 5.2,
+    "depth": 40,
+    "maxScale": 30,
+    "intensityLabel": "3",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
