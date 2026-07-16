@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-16T08:40:22+09:00",
+  "fetched_at": "2026-07-16T10:07:52+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/16 01:23:00",
-    "area": "石川県加賀地方",
-    "magnitude": 2.0,
-    "depth": 0,
+    "time": "2026/07/16 09:01:00",
+    "area": "千葉県北東部",
+    "magnitude": 4.4,
+    "depth": 50,
     "maxScale": 20,
     "intensityLabel": "2",
     "domesticTsunami": "None"
