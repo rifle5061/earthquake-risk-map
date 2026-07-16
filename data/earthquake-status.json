@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-16T13:25:07+09:00",
+  "fetched_at": "2026-07-16T18:03:01+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/16 09:01:00",
-    "area": "千葉県北東部",
-    "magnitude": 4.4,
-    "depth": 50,
-    "maxScale": 20,
-    "intensityLabel": "2",
+    "time": "2026/07/16 15:04:00",
+    "area": "神奈川県西部",
+    "magnitude": 2.0,
+    "depth": 20,
+    "maxScale": 10,
+    "intensityLabel": "1",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
