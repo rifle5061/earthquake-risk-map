@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T04:04:32+09:00",
+  "updated_at": "2026-07-18T05:26:49+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -33,20 +33,6 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "今秋にも誕生！「防災庁」ってなにをするところ？防災庁設置準備室に聞きました - 読売新聞",
-      "source": "読売新聞",
-      "time": "2026-07-16T06:13:09+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9qbFlRU284eE9VSTBuaHFMejFGSWVZX1NhbHBMbWRPRjNISUJLdXppQkdWZXdmWG9Vb0pGMW5URzhYb2p4VlRONnlPTjg0bF94amJkU1A4dzVQVXBuUmVhd0F3?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "歴史が示す「次の南海トラフ巨大地震」の姿 専門家に聞く - JAPAN Forward",
       "source": "JAPAN Forward",
       "time": "2026-07-17T17:44:52+09:00",
@@ -60,6 +46,20 @@
       "zoomable": true,
       "matchedArea": "南海トラフ",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "今秋にも誕生！「防災庁」ってなにをするところ？防災庁設置準備室に聞きました - 読売新聞",
+      "source": "読売新聞",
+      "time": "2026-07-16T06:13:09+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9qbFlRU284eE9VSTBuaHFMejFGSWVZX1NhbHBMbWRPRjNISUJLdXppQkdWZXdmWG9Vb0pGMW5URzhYb2p4VlRONnlPTjg0bF94amJkU1A4dzVQVXBuUmVhd0F3?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "米強制送還のベネズエラ人、帰国日に地震で多数死亡、当局が現場封鎖 - 朝日新聞",
