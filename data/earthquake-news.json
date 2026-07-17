@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T20:05:16+09:00",
+  "updated_at": "2026-07-17T21:42:09+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -32,6 +32,20 @@
       "zoomSource": "none"
     },
     {
+      "title": "米強制送還のベネズエラ人、帰国日に地震で多数死亡、当局が現場封鎖 - 朝日新聞",
+      "source": "朝日新聞",
+      "time": "2026-07-17T06:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54VnhhZEhNQUtBd0xIWEltTjVWY1pwWkE0alBySVhvX053S3RJVTRwNUp6cWl5WXRMcVBIa1B2dWRqZlRvUVNfNlVOeFJMQ1ZoandEbFkzWVFJQXZoYVRBQ1N2RTJYQUE?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "石川県で最大震度2の地震 石川県・白山市 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
       "time": "2026-07-16T01:26:00+09:00",
@@ -47,18 +61,19 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "米強制送還のベネズエラ人、帰国日に地震で多数死亡、当局が現場封鎖 - 朝日新聞",
-      "source": "朝日新聞",
-      "time": "2026-07-17T06:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54VnhhZEhNQUtBd0xIWEltTjVWY1pwWkE0alBySVhvX053S3RJVTRwNUp6cWl5WXRMcVBIa1B2dWRqZlRvUVNfNlVOeFJMQ1ZoandEbFkzWVFJQXZoYVRBQ1N2RTJYQUE?oc=5",
+      "title": "歴史が示す「次の南海トラフ巨大地震」の姿 専門家に聞く - JAPAN Forward",
+      "source": "JAPAN Forward",
+      "time": "2026-07-17T17:44:52+09:00",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVTFCUDA0SzQyeW1qUXd3LURMNm5jSzJTSVNmZE1KMkRnajQ5Yy0wVmtzYXB2N0p4S1RzWkxwekRnUFl6OTFFZjVOYWcyM21MZlRFLVFtb09GdndyZTJ4cWkxRXhNeTk3TnlmeVVHME9JMURTZzFKTS1PV3lXVFRaZE5zUXMwNlE?oc=5",
       "type": "news",
-      "area": "",
+      "area": "南海トラフ",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
+      "lat": 32.8,
+      "lon": 136.2,
       "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "zoomable": true,
+      "matchedArea": "南海トラフ",
+      "zoomSource": "dictionary"
     },
     {
       "title": "「防災庁」設置法が成立 政府、大規模災害への備え強化 - 日本経済新聞",
@@ -102,21 +117,6 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
-    },
-    {
-      "title": "南海トラフ沿いのプレート境界、ひずみがたまり続ける領域が判明 - ナショナル ジオグラフィック日本版",
-      "source": "ナショナル ジオグラフィック日本版",
-      "time": "2026-07-15T20:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ScmJMczk4bjJNaVBJeWhabEpmay13WXVjcGFOOWpHUUZadTJvcUFvVWRiXzhGZGFzVnBkOGRoejdaWVRiR1dsbmw1OVBnY3VuMmpkcFFDeUZYcTA4MG5CalVTWQ?oc=5",
-      "type": "news",
-      "area": "南海トラフ",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.8,
-      "lon": 136.2,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "南海トラフ",
-      "zoomSource": "dictionary"
     }
   ]
 }
