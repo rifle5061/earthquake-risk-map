@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T23:42:15+09:00",
+  "updated_at": "2026-07-18T01:14:04+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -32,20 +32,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "米強制送還のベネズエラ人、帰国日に地震で多数死亡、当局が現場封鎖 - 朝日新聞",
-      "source": "朝日新聞",
-      "time": "2026-07-17T06:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54VnhhZEhNQUtBd0xIWEltTjVWY1pwWkE0alBySVhvX053S3RJVTRwNUp6cWl5WXRMcVBIa1B2dWRqZlRvUVNfNlVOeFJMQ1ZoandEbFkzWVFJQXZoYVRBQ1N2RTJYQUE?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "石川県で最大震度2の地震 石川県・白山市 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
       "time": "2026-07-16T01:26:00+09:00",
@@ -59,6 +45,20 @@
       "zoomable": true,
       "matchedArea": "北陸地方",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "米強制送還のベネズエラ人、帰国日に地震で多数死亡、当局が現場封鎖 - 朝日新聞",
+      "source": "朝日新聞",
+      "time": "2026-07-17T06:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54VnhhZEhNQUtBd0xIWEltTjVWY1pwWkE0alBySVhvX053S3RJVTRwNUp6cWl5WXRMcVBIa1B2dWRqZlRvUVNfNlVOeFJMQ1ZoandEbFkzWVFJQXZoYVRBQ1N2RTJYQUE?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "歴史が示す「次の南海トラフ巨大地震」の姿 専門家に聞く - JAPAN Forward",
