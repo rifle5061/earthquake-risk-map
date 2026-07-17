@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-17T23:02:00+09:00",
+  "fetched_at": "2026-07-18T00:38:51+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/17 06:49:00",
-    "area": "大隅半島東方沖",
-    "magnitude": 5.2,
-    "depth": 40,
-    "maxScale": 30,
-    "intensityLabel": "3",
+    "time": "2026/07/17 23:49:00",
+    "area": "メキシコ、チアパス州沿岸",
+    "magnitude": 7.4,
+    "depth": -1,
+    "maxScale": -1,
+    "intensityLabel": "不明",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
