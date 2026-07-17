@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-18T04:31:55+09:00",
+  "fetched_at": "2026-07-18T05:32:25+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/17 23:49:00",
-    "area": "メキシコ、チアパス州沿岸",
-    "magnitude": 7.4,
-    "depth": -1,
-    "maxScale": -1,
-    "intensityLabel": "不明",
+    "time": "2026/07/18 04:45:00",
+    "area": "千葉県東方沖",
+    "magnitude": 4.3,
+    "depth": 40,
+    "maxScale": 20,
+    "intensityLabel": "2",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
