@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T08:24:08+09:00",
+  "updated_at": "2026-07-17T09:59:32+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -90,6 +90,20 @@
       "zoomSource": "none"
     },
     {
+      "title": "今秋にも誕生！「防災庁」ってなにをするところ？防災庁設置準備室に聞きました - 読売新聞",
+      "source": "読売新聞",
+      "time": "2026-07-16T06:13:09+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9qbFlRU284eE9VSTBuaHFMejFGSWVZX1NhbHBMbWRPRjNISUJLdXppQkdWZXdmWG9Vb0pGMW5URzhYb2p4VlRONnlPTjg0bF94amJkU1A4dzVQVXBuUmVhd0F3?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "防災庁設置法が成立 政府の災害対応司令塔―１１月にも発足 - 時事ドットコム",
       "source": "時事ドットコム",
       "time": "2026-07-13T15:23:00+09:00",
@@ -102,21 +116,6 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
-    },
-    {
-      "title": "【地震速報】宮崎県南部平野部 鹿児島県大隅地方で震度3 - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-07-17T06:54:30+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1sOEUtaGlIaHhjQlUtdzl1cnh3ZmdtZDcwVW9NUW0xYWZ4cDk4TUlRNmhtT3JwektTS2hBcVdJRjRJMk9veWhqM2FQbXFDbm9IVXdhUVN6U3Z1cUstUUhr?oc=5",
-      "type": "news",
-      "area": "太平洋側・南海トラフ想定域",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 33.2,
-      "lon": 134.5,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "太平洋側・南海トラフ想定域",
-      "zoomSource": "dictionary"
     }
   ]
 }
