@@ -1,7 +1,7 @@
 {
   "source": "P2P地震情報 JSON API v2 / 履歴コード551",
   "endpoint": "https://api.p2pquake.net/v2/history?codes=551&limit=100&offset=0",
-  "fetched_at": "2026-07-17T19:50:18+09:00",
+  "fetched_at": "2026-07-17T20:05:15+09:00",
   "updated_at": "2026/07/17 06:49:00",
   "count": 100,
   "items": [

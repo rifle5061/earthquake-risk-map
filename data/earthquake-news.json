@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T18:07:19+09:00",
+  "updated_at": "2026-07-17T20:05:16+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -47,10 +47,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "「息子はいつ見つかるの」異臭漂う土ぼこりの現場 ベネズエラ地震 - 朝日新聞",
+      "title": "米強制送還のベネズエラ人、帰国日に地震で多数死亡、当局が現場封鎖 - 朝日新聞",
       "source": "朝日新聞",
-      "time": "2026-07-11T21:41:44+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5hbU9yazlpdW15OEYwM3h2a1hxcGEtSW9WYjJ4NkIzSElvbWdwSjNwMXFncmtHMXhhVGpnTDFTeGdEQnliUUREQmxqX0VDRUcxbnN6TU5nY0pFUGtHMW0tR18xNVdYcnc?oc=5",
+      "time": "2026-07-17T06:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54VnhhZEhNQUtBd0xIWEltTjVWY1pwWkE0alBySVhvX053S3RJVTRwNUp6cWl5WXRMcVBIa1B2dWRqZlRvUVNfNlVOeFJMQ1ZoandEbFkzWVFJQXZoYVRBQ1N2RTJYQUE?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
