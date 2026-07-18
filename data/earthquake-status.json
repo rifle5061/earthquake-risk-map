@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-18T08:33:56+09:00",
+  "fetched_at": "2026-07-18T10:05:16+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/18 06:31:00",
-    "area": "岩手県沖",
+    "time": "2026/07/18 09:48:00",
+    "area": "奄美大島近海",
     "magnitude": 3.4,
-    "depth": 40,
+    "depth": 20,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
