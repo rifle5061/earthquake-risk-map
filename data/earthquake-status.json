@@ -1,11 +1,11 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-20T03:38:08+09:00",
+  "fetched_at": "2026-07-20T04:53:02+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/20 03:04:00",
-    "area": "日高地方中部",
-    "magnitude": 2.8,
+    "time": "2026/07/20 04:21:00",
+    "area": "京都府南部",
+    "magnitude": 2.7,
     "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
