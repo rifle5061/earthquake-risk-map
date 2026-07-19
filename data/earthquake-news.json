@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T04:39:52+09:00",
+  "updated_at": "2026-07-20T05:43:47+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -89,20 +89,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "ベネズエラ大地震の死者5069人 1週間で1000人弱増える 感染症流行の懸念も - テレ朝NEWS",
-      "source": "テレ朝NEWS",
-      "time": "2026-07-18T11:35:58+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9oRHo1VHRQQjJkYm5wNTFsSnBlSnRFN1VfXzNGYjgxTEUzTVNMa3NQRXpkNTEwWWtXWERycnRGWnFzNGxkNGNIb2JDeVBGbnVOTTI2SHN4ZFN0U2dfZTV6WXhreEZJbE5sdmdBTDlSS1laZlUzYVE4OXlR?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "南海トラフ沿いのプレート境界、ひずみがたまり続ける領域が判明 - ナショナルジオグラフィック日本版",
       "source": "ナショナルジオグラフィック日本版",
       "time": "2026-07-15T20:00:00+09:00",
@@ -116,6 +102,20 @@
       "zoomable": true,
       "matchedArea": "南海トラフ",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "緊急地震速報の音はなぜ「ギュイッ」と3回鳴る？眠っていても脳を覚醒させる1秒未満の音、その知られざる設計原理 - JBpress",
+      "source": "JBpress",
+      "time": "2026-07-16T06:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9jWl9EN1JLa0I3OGh2NGVjdWJSTWNqMUJPRGJXZDZoQkZWTGcxaFowcTRPVGNYc0Y3YTVQeGtfZGJZYm5QclJjaWZ6UmxWWVBLNTlFMEZR?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     }
   ]
 }
