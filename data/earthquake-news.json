@@ -1,22 +1,7 @@
 {
-  "updated_at": "2026-07-19T10:01:46+09:00",
+  "updated_at": "2026-07-19T13:46:01+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
-    {
-      "title": "週刊地震情報 2026.7.12 和歌山県南方沖でM4.7 南海トラフ巨大地震と異なるタイプ - ウェザーニュース",
-      "source": "ウェザーニュース",
-      "time": "2026-07-12T10:54:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tb1N4ZzRvRnptZnk0UWlTMmhoUmZ5d1o3Ry10ZmRGYkMxNmZUdVhFRGRmSmFsNlB2Y05Gc1VUcFo2QXp2ZFJDRTIxRXlwcGpKaEV4bQ?oc=5",
-      "type": "news",
-      "area": "南海トラフ",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.8,
-      "lon": 136.2,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "南海トラフ",
-      "zoomSource": "dictionary"
-    },
     {
       "title": "歴史が示す「次の南海トラフ巨大地震」の姿 専門家に聞く - JAPAN Forward",
       "source": "JAPAN Forward",
@@ -61,20 +46,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "ベネズエラ地震 死者5000人超に - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-07-18T08:01:09+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA5TXFabUx3OUs5bm9abEZyUkFrOS0yaHZVdy1NQlY0TzBhd2xjYzg2eW1aMUZvNENfM2VPbkI4b1U1ZnNDY0tpZ3FSSEhqcXJv?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "「防災庁」設置法が成立 政府、大規模災害への備え強化 - 日本経済新聞",
       "source": "日本経済新聞",
       "time": "2026-07-13T14:58:46+09:00",
@@ -104,6 +75,20 @@
       "zoomSource": "dictionary"
     },
     {
+      "title": "防災庁設置へ 個人の行動変容課題 - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-07-14T10:52:37+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE80U1AweFh4bzBjeXF4UGM5enA3MGQwdXlXbS15UmNxcmxhSzRmMzB6N1RxcHpLZU44VUFuQ0Z2ZV9OTnhkMU52cjJYRVlfa0gw?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "ベネズエラ大地震の死者5069人 1週間で1000人弱増える 感染症流行の懸念も - テレ朝NEWS",
       "source": "テレ朝NEWS",
       "time": "2026-07-18T11:35:58+09:00",
@@ -116,6 +101,21 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
+    },
+    {
+      "title": "南海トラフ沿いのプレート境界、ひずみがたまり続ける領域が判明 - ナショナルジオグラフィック日本版",
+      "source": "ナショナルジオグラフィック日本版",
+      "time": "2026-07-15T20:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ScmJMczk4bjJNaVBJeWhabEpmay13WXVjcGFOOWpHUUZadTJvcUFvVWRiXzhGZGFzVnBkOGRoejdaWVRiR1dsbmw1OVBnY3VuMmpkcFFDeUZYcTA4MG5CalVTWQ?oc=5",
+      "type": "news",
+      "area": "南海トラフ",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.8,
+      "lon": 136.2,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "南海トラフ",
+      "zoomSource": "dictionary"
     }
   ]
 }
