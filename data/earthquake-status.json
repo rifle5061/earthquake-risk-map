@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-21T01:54:08+09:00",
-  "count": 96,
+  "fetched_at": "2026-07-21T03:51:13+09:00",
+  "count": 95,
   "latest": {
-    "time": "2026/07/20 11:25:00",
-    "area": "福島県中通り",
-    "magnitude": 3.0,
-    "depth": 100,
+    "time": "2026/07/21 02:23:00",
+    "area": "山梨県東部・富士五湖",
+    "magnitude": 3.1,
+    "depth": 20,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
