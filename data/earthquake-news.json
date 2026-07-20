@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T03:28:24+09:00",
+  "updated_at": "2026-07-21T05:07:54+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -18,8 +18,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "歴史が示す「次の南海トラフ巨大地震」の姿 専門家に聞く - japan-forward.com",
-      "source": "japan-forward.com",
+      "title": "歴史が示す「次の南海トラフ巨大地震」の姿 専門家に聞く - JAPAN Forward",
+      "source": "JAPAN Forward",
       "time": "2026-07-17T17:44:52+09:00",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVTFCUDA0SzQyeW1qUXd3LURMNm5jSzJTSVNmZE1KMkRnajQ5Yy0wVmtzYXB2N0p4S1RzWkxwekRnUFl6OTFFZjVOYWcyM21MZlRFLVFtb09GdndyZTJ4cWkxRXhNeTk3TnlmeVVHME9JMURTZzFKTS1PV3lXVFRaZE5zUXMwNlE?oc=5",
       "type": "news",
