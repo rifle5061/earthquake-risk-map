@@ -1,10 +1,28 @@
 {
   "source": "P2P地震情報 JSON API v2 / 履歴コード551",
   "endpoint": "https://api.p2pquake.net/v2/history?codes=551&limit=100&offset=0",
-  "fetched_at": "2026-07-21T01:54:08+09:00",
-  "updated_at": "2026/07/20 11:25:00",
-  "count": 96,
+  "fetched_at": "2026-07-21T03:28:23+09:00",
+  "updated_at": "2026/07/21 02:23:00",
+  "count": 97,
   "items": [
+    {
+      "id": "6a5e5a52e88ee598246beeaf",
+      "code": 551,
+      "time": "2026/07/21 02:23:00",
+      "received_at": "2026/07/21 02:26:42.549",
+      "area": "山梨県東部・富士五湖",
+      "lat": 35.5,
+      "lon": 138.9,
+      "magnitude": 3.1,
+      "mag": 3.1,
+      "depth": 20,
+      "maxScale": 10,
+      "intensityLabel": "1",
+      "domesticTsunami": "None",
+      "foreignTsunami": "Unknown",
+      "source": "P2P地震情報",
+      "map": true
+    },
     {
       "id": "6a5d87d6e88ee598246beeae",
       "code": 551,
