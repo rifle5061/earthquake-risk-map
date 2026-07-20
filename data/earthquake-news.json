@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T11:47:29+09:00",
+  "updated_at": "2026-07-20T15:16:09+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -18,38 +18,25 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "千葉県で最大震度2の地震 千葉県・銚子市、旭市 - TBS NEWS DIG",
+      "title": "石川県で最大震度2の地震 石川県・白山市 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
-      "time": "2026-07-18T04:48:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE84WWd0ZGJuVVp3TGNscUpJNGdmTnNucWFHdE16OWozNEZJQlVKdDBTbnhYa2ZNaE5IWW5vRVNVbDZNRlpDNDFkSVpHLURBTFdWRF82UktKdw?oc=5",
+      "time": "2026-07-16T01:26:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE16R0ZrVmowVXNGRWFxSktTOFl2ci1CSU1JQmNUSGg0RDI0YjhHX2pSQmJsQVZpY1RCSFl1akttNjhHZHc0ZmxBQjdua0Q2TUp2dXZSUnU5aw?oc=5",
       "type": "news",
-      "area": "",
+      "area": "北陸地方",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "lat": 37.0,
+      "lon": 137.2,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "北陸地方",
+      "zoomSource": "dictionary"
     },
     {
       "title": "米強制送還のベネズエラ人、帰国日に地震で多数死亡、当局が現場封鎖 - 朝日新聞",
       "source": "朝日新聞",
       "time": "2026-07-17T06:00:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54VnhhZEhNQUtBd0xIWEltTjVWY1pwWkE0alBySVhvX053S3RJVTRwNUp6cWl5WXRMcVBIa1B2dWRqZlRvUVNfNlVOeFJMQ1ZoandEbFkzWVFJQXZoYVRBQ1N2RTJYQUE?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "「防災庁」設置法が成立 政府、大規模災害への備え強化 - 日本経済新聞",
-      "source": "日本経済新聞",
-      "time": "2026-07-13T14:58:46+09:00",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xZkNPb0J3ZUd4bVdhMWdLUUpUb25WSDJfM3BCR2ZKbzN0WDFnTDIyTl9rTnk0a1UzaVd2bnU2ZGl0Rm1fWHZMQlJYeUkyR0lPTzc2cEdQZkZPOG0xSmxsbkgyb3lrQlJFU2laMg?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -108,6 +95,20 @@
       "source": "JBpress",
       "time": "2026-07-16T06:00:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9jWl9EN1JLa0I3OGh2NGVjdWJSTWNqMUJPRGJXZDZoQkZWTGcxaFowcTRPVGNYc0Y3YTVQeGtfZGJZYm5QclJjaWZ6UmxWWVBLNTlFMEZR?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "メキシコ南東部沖でＭ7.4の地震、津波の恐れ - ロイター",
+      "source": "ロイター",
+      "time": "2026-07-18T01:07:52+09:00",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4wQVRLamdSWk5sTjUyT2lETUhoQzNUNzJDNnhPNzV5VElKdHBnU3BZSmdXa1hNdEdZOV9wZ2xLbmU0Sy1XMjR3SHNlRzNyUGJxMS1JNU5VQy1VTlFsUEJkbmxGazJXVGRLYzZaSnY1X1hsZmN2bkV6bw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
