@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-22T05:17:30+09:00",
-  "count": 89,
+  "fetched_at": "2026-07-22T06:38:33+09:00",
+  "count": 91,
   "latest": {
-    "time": "2026/07/22 00:47:00",
-    "area": "愛知県東部",
-    "magnitude": 3.2,
-    "depth": 40,
+    "time": "2026/07/22 05:49:00",
+    "area": "福岡県筑後地方",
+    "magnitude": 2.4,
+    "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
