@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-21T10:08:19+09:00",
+  "fetched_at": "2026-07-21T13:31:28+09:00",
   "count": 95,
   "latest": {
-    "time": "2026/07/21 02:23:00",
-    "area": "山梨県東部・富士五湖",
-    "magnitude": 3.1,
-    "depth": 20,
-    "maxScale": 10,
-    "intensityLabel": "1",
+    "time": "2026/07/21 11:25:00",
+    "area": "根室半島南東沖",
+    "magnitude": 4.0,
+    "depth": 80,
+    "maxScale": 20,
+    "intensityLabel": "2",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
