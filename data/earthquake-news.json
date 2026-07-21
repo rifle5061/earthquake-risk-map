@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T09:03:35+09:00",
+  "updated_at": "2026-07-21T12:55:12+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -16,35 +16,6 @@
       "zoomable": true,
       "matchedArea": "北陸地方",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "歴史が示す「次の南海トラフ巨大地震」の姿 専門家に聞く - JAPAN Forward",
-      "source": "JAPAN Forward",
-      "time": "2026-07-17T17:44:52+09:00",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVTFCUDA0SzQyeW1qUXd3LURMNm5jSzJTSVNmZE1KMkRnajQ5Yy0wVmtzYXB2N0p4S1RzWkxwekRnUFl6OTFFZjVOYWcyM21MZlRFLVFtb09GdndyZTJ4cWkxRXhNeTk3TnlmeVVHME9JMURTZzFKTS1PV3lXVFRaZE5zUXMwNlE?oc=5",
-      "type": "news",
-      "area": "南海トラフ",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.8,
-      "lon": 136.2,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "南海トラフ",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "防災庁設置へ 個人の行動変容課題 - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-07-14T10:52:37+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE80U1AweFh4bzBjeXF4UGM5enA3MGQwdXlXbS15UmNxcmxhSzRmMzB6N1RxcHpLZU44VUFuQ0Z2ZV9OTnhkMU52cjJYRVlfa0gw?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     },
     {
       "title": "【地震情報】宮崎県日南市 鹿児島県肝付町で震度3 - NHKニュース",
@@ -91,6 +62,20 @@
       "zoomSource": "none"
     },
     {
+      "title": "〔海外地震〕メキシコ南部沿岸でM7.3・日本への津波の影響なし(7/18)（レスキューナウニュース） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-07-18T00:30:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TYXpMMG11YUV5UmNzVXkzenNoa2JBdHhKOTN6R1BEZ3VhVXU0SHdFQko3NjhtREhzVzdQeVJKR1F1SkhGek1OSF9RQWNpU29SSjBUdzRZQ1hyLWd2Mm1mb0lNekR1SnlEamgwUDNWWGowamwxdS1zcFFISEw4QkE?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "【速報】中米を震源とするM7.4の地震 日本への津波の影響なし 気象庁 - テレ朝NEWS",
       "source": "テレ朝NEWS",
       "time": "2026-07-18T00:24:44+09:00",
@@ -105,19 +90,32 @@
       "zoomSource": "none"
     },
     {
-      "title": "8/9(日)観戦チケットプレゼント！「日本ハウズイング presents 体を使って防災を学ぼう！」開催！ - 北海道日本ハムファイターズ",
-      "source": "北海道日本ハムファイターズ",
-      "time": "2026-07-14T11:49:11+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TajVtMDZxNXdMMGZWb1FuMVpxSVczWE14QVQ0WUlwQTRjNzB1ZnI5VVNJemRScjZDTV9tMjJCMlhJbm9yZTNsQ0d6OGdtbEJhdVg3QmVGRW1PaE9IV05la2dVbHF2RUU?oc=5",
+      "title": "死者５０００人超に 清潔な水やトイレ不足が深刻―ベネズエラ地震 - 時事ドットコム",
+      "source": "時事ドットコム",
+      "time": "2026-07-18T10:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5XYUh5b095X3lkR3hvd0dWcmlDTGZKMFBOYUtsZG1lY0oxRV96alJmSFhMNDd6YzN2Q1lVeXRFRTJ2clFXRUtRR012Q0RsTTNSOXVrTEk3QmdyQlM1aV9KakVwYw?oc=5",
       "type": "news",
-      "area": "北海道周辺",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 43.2,
-      "lon": 142.8,
+      "lat": null,
+      "lon": null,
       "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "北海道周辺",
-      "zoomSource": "dictionary"
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "大津市で震度1 震源は滋賀県南部 - 京都新聞デジタル",
+      "source": "京都新聞デジタル",
+      "time": "2026-07-15T00:47:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Sa3hyaFUybFZ0TjNxa2tKTEs2bDZuM0ZJakZiVEw1WXpmcTU0eXduZXBiX19IeW5VVnF3OWUzbXNUZS1YbHhtUjlrUFl6eGxrYVFQTXhwaDc?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     }
   ]
 }
