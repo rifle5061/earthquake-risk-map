@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T00:02:32+09:00",
+  "updated_at": "2026-07-22T01:53:59+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -62,6 +62,21 @@
       "zoomSource": "dictionary"
     },
     {
+      "title": "【地震】愛知県内で震度1 愛知県西部を震源とする最大震度1の地震が発生 津波の心配なし（メ〜テレ（名古屋テレビ）） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-07-22T00:47:01+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvN0xwUUZSV09vaGJidThITmFEQUluUVVPYzFxU2FXaGNoMkhFRmtqdkt1SGFWQWxBWDVoeUJ3SnJxaGFlWG5LRFV1ZnpBSWdXT2VYOS1UNlJGeHZBb1h5bnRsdFY2S2RJN3E2R3lnUUx2UjA4d2wxSmhqbWZJUFk?oc=5",
+      "type": "news",
+      "area": "太平洋側・南海トラフ想定域",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 33.2,
+      "lon": 134.5,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "太平洋側・南海トラフ想定域",
+      "zoomSource": "dictionary"
+    },
+    {
       "title": "緊急地震速報の音はなぜ「ギュイッ」と3回鳴る？眠っていても脳を覚醒させる1秒未満の音、その知られざる設計原理 - JBpress",
       "source": "JBpress",
       "time": "2026-07-16T06:00:00+09:00",
@@ -94,20 +109,6 @@
       "source": "時事ドットコム",
       "time": "2026-07-18T10:00:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5XYUh5b095X3lkR3hvd0dWcmlDTGZKMFBOYUtsZG1lY0oxRV96alJmSFhMNDd6YzN2Q1lVeXRFRTJ2clFXRUtRR012Q0RsTTNSOXVrTEk3QmdyQlM1aV9KakVwYw?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "大津市で震度1 震源は滋賀県南部 - 京都新聞デジタル",
-      "source": "京都新聞デジタル",
-      "time": "2026-07-15T00:47:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Sa3hyaFUybFZ0TjNxa2tKTEs2bDZuM0ZJakZiVEw1WXpmcTU0eXduZXBiX19IeW5VVnF3OWUzbXNUZS1YbHhtUjlrUFl6eGxrYVFQTXhwaDc?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
