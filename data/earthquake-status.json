@@ -1,11 +1,11 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-22T10:06:51+09:00",
+  "fetched_at": "2026-07-22T13:33:16+09:00",
   "count": 94,
   "latest": {
-    "time": "2026/07/22 08:01:00",
-    "area": "埼玉県北部",
-    "magnitude": 2.0,
+    "time": "2026/07/22 10:55:00",
+    "area": "福島県会津",
+    "magnitude": 2.2,
     "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
