@@ -1,9 +1,9 @@
 {
   "source": "P2P地震情報 JSON API v2 / 履歴コード551",
   "endpoint": "https://api.p2pquake.net/v2/history?codes=551&limit=100&offset=0",
-  "fetched_at": "2026-07-23T00:17:17+09:00",
+  "fetched_at": "2026-07-23T00:39:50+09:00",
   "updated_at": "2026/07/22 20:11:00",
-  "count": 92,
+  "count": 91,
   "items": [
     {
       "id": "6a60a61fe88ee598246beeba",
@@ -1636,24 +1636,6 @@
       "magnitude": 3.5,
       "mag": 3.5,
       "depth": 50,
-      "maxScale": 10,
-      "intensityLabel": "1",
-      "domesticTsunami": "None",
-      "foreignTsunami": "Unknown",
-      "source": "P2P地震情報",
-      "map": true
-    },
-    {
-      "id": "6a467a15e88ee598246bee5f",
-      "code": 551,
-      "time": "2026/07/02 23:44:00",
-      "received_at": "2026/07/02 23:47:49.467",
-      "area": "与那国島近海",
-      "lat": 24.6,
-      "lon": 122.5,
-      "magnitude": 4.6,
-      "mag": 4.6,
-      "depth": 110,
       "maxScale": 10,
       "intensityLabel": "1",
       "domesticTsunami": "None",
