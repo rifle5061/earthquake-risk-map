@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-22T18:57:39+09:00",
-  "count": 93,
+  "fetched_at": "2026-07-22T22:47:54+09:00",
+  "count": 92,
   "latest": {
-    "time": "2026/07/22 10:55:00",
-    "area": "福島県会津",
-    "magnitude": 2.2,
-    "depth": 10,
-    "maxScale": 10,
-    "intensityLabel": "1",
+    "time": "2026/07/22 20:11:00",
+    "area": "福島県沖",
+    "magnitude": 4.2,
+    "depth": 40,
+    "maxScale": 20,
+    "intensityLabel": "2",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
