@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T08:28:48+09:00",
+  "updated_at": "2026-07-22T09:58:42+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -16,20 +16,6 @@
       "zoomable": true,
       "matchedArea": "太平洋側・南海トラフ想定域",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "米強制送還のベネズエラ人、帰国日に地震で多数死亡、当局が現場封鎖 - 朝日新聞",
-      "source": "朝日新聞",
-      "time": "2026-07-17T06:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54VnhhZEhNQUtBd0xIWEltTjVWY1pwWkE0alBySVhvX053S3RJVTRwNUp6cWl5WXRMcVBIa1B2dWRqZlRvUVNfNlVOeFJMQ1ZoandEbFkzWVFJQXZoYVRBQ1N2RTJYQUE?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     },
     {
       "title": "南海トラフ沿いのプレート境界、ひずみがたまり続ける領域が判明 - ナショナルジオグラフィック日本版",
@@ -108,6 +94,20 @@
       "source": "NHKニュース",
       "time": "2026-07-18T00:33:25+09:00",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1U2RsSGloQlVsdG13clk5M1FaV1NkSnZjTEt2ZnZiVGhyNEE5Nkg4c2FrbkQtYU0tcFdscHpDZjA0SnlwMXY1WktmYnltVzBmUWc2a2JvWkNjY2pPaWh3?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "前橋市災害警戒本部の廃止及び自主避難所の閉鎖 - city.maebashi.gunma.jp",
+      "source": "city.maebashi.gunma.jp",
+      "time": "2026-07-17T20:40:53+09:00",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMUhuYjlXQkYtaXhQY0t0MC1oYU43aVphYTBXY2pLcUpUbldBWjBOcV9ZQmx0U05reENDWXVtbWRNVTVobml3Smp3NDA5R0E0b0tCZmVxeW44QjA0NjlJQW42RFAzaDFhQTFTY1o3U0RNOC1sa1Y5U0hoRVctX1JBSVp4b3cySUthOXY0aEtVcEMxRE9QUmo2dy1B?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
