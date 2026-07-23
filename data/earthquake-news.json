@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T08:00:47+09:00",
+  "updated_at": "2026-07-23T09:59:28+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -47,20 +47,6 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "【速報】中米を震源とするM7.4の地震 日本への津波の影響なし 気象庁 - テレ朝NEWS",
-      "source": "テレ朝NEWS",
-      "time": "2026-07-18T00:24:44+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5rUlVNcXpnRlFSZG9oV1o2QWE5RVlQUDcwWi1lN2hoWUJ2d0VmU0xiSDJ3c3RRZDJDZEI5bjZTNmF6LU1CYjctWHFMVUxuV000aWZUazJEM25aQkpqanZGd0c3eWk5ZDdtOWVoVERnNW1kdw?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "死者５０００人超に 清潔な水やトイレ不足が深刻―ベネズエラ地震 - 時事ドットコム",
       "source": "時事ドットコム",
       "time": "2026-07-18T10:00:00+09:00",
@@ -89,6 +75,21 @@
       "zoomSource": "none"
     },
     {
+      "title": "「北海道・三陸沖後発地震注意情報」の発表 これまでより前倒しへ 気象庁 – Quebee キュエビー - QAB 琉球朝日放送",
+      "source": "QAB 琉球朝日放送",
+      "time": "2026-07-21T19:24:31+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBROXlxb3JDc1pXV1BhX0NndnQ4ZUdfVWRHZU5TTjQ5RU11MlIwQ2k0OTAzM3NkSU1PaHNhZFh4cEtkZjByMmV4SDhTMGpTdjVMbFlkclNMcW8?oc=5",
+      "type": "news",
+      "area": "日本海溝・東北沖",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 38.6,
+      "lon": 143.0,
+      "zoom": 5,
+      "zoomable": true,
+      "matchedArea": "日本海溝・東北沖",
+      "zoomSource": "dictionary"
+    },
+    {
       "title": "前橋市災害警戒本部の廃止及び自主避難所の閉鎖 - city.maebashi.gunma.jp",
       "source": "city.maebashi.gunma.jp",
       "time": "2026-07-17T20:40:53+09:00",
@@ -103,19 +104,18 @@
       "zoomSource": "none"
     },
     {
-      "title": "「北海道・三陸沖後発地震注意情報」の発表 これまでより前倒しへ 気象庁 – Quebee キュエビー - QAB 琉球朝日放送",
-      "source": "QAB 琉球朝日放送",
-      "time": "2026-07-21T19:24:31+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBROXlxb3JDc1pXV1BhX0NndnQ4ZUdfVWRHZU5TTjQ5RU11MlIwQ2k0OTAzM3NkSU1PaHNhZFh4cEtkZjByMmV4SDhTMGpTdjVMbFlkclNMcW8?oc=5",
+      "title": "【速報】中米を震源とするM7.4の地震 日本への津波の影響なし 気象庁 - テレ朝NEWS",
+      "source": "テレ朝NEWS",
+      "time": "2026-07-18T00:24:44+09:00",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5rUlVNcXpnRlFSZG9oV1o2QWE5RVlQUDcwWi1lN2hoWUJ2d0VmU0xiSDJ3c3RRZDJDZEI5bjZTNmF6LU1CYjctWHFMVUxuV000aWZUazJEM25aQkpqanZGd0c3eWk5ZDdtOWVoVERnNW1kdw?oc=5",
       "type": "news",
-      "area": "日本海溝・東北沖",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 38.6,
-      "lon": 143.0,
-      "zoom": 5,
-      "zoomable": true,
-      "matchedArea": "日本海溝・東北沖",
-      "zoomSource": "dictionary"
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     }
   ]
 }
