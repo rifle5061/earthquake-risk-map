@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-23T16:18:11+09:00",
-  "count": 83,
+  "fetched_at": "2026-07-23T18:56:40+09:00",
+  "count": 86,
   "latest": {
-    "time": "2026/07/23 07:46:00",
-    "area": "紀伊水道",
-    "magnitude": 3.2,
+    "time": "2026/07/23 18:22:00",
+    "area": "奄美大島近海",
+    "magnitude": 4.7,
     "depth": 10,
-    "maxScale": 10,
-    "intensityLabel": "1",
+    "maxScale": 30,
+    "intensityLabel": "3",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
