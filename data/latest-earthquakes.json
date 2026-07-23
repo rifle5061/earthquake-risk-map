@@ -1,9 +1,9 @@
 {
   "source": "P2P地震情報 JSON API v2 / 履歴コード551",
   "endpoint": "https://api.p2pquake.net/v2/history?codes=551&limit=100&offset=0",
-  "fetched_at": "2026-07-23T10:14:18+09:00",
+  "fetched_at": "2026-07-23T13:22:27+09:00",
   "updated_at": "2026/07/23 07:46:00",
-  "count": 89,
+  "count": 88,
   "items": [
     {
       "id": "6a6148eee88ee598246beebb",
@@ -1584,24 +1584,6 @@
       "depth": 0,
       "maxScale": 10,
       "intensityLabel": "1",
-      "domesticTsunami": "None",
-      "foreignTsunami": "Unknown",
-      "source": "P2P地震情報",
-      "map": true
-    },
-    {
-      "id": "6a471528e88ee598246bee63",
-      "code": 551,
-      "time": "2026/07/03 10:44:00",
-      "received_at": "2026/07/03 10:49:28.136",
-      "area": "宮城県沖",
-      "lat": 38.7,
-      "lon": 142.3,
-      "magnitude": 4.8,
-      "mag": 4.8,
-      "depth": 30,
-      "maxScale": 20,
-      "intensityLabel": "2",
       "domesticTsunami": "None",
       "foreignTsunami": "Unknown",
       "source": "P2P地震情報",
