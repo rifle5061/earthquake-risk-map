@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T16:04:57+09:00",
+  "updated_at": "2026-07-24T00:53:40+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -60,6 +60,20 @@
       "zoomSource": "none"
     },
     {
+      "title": "市民に憤り、揺れる政権 被害全容いまだ分からず―ベネズエラ地震１カ月 - 時事ドットコム",
+      "source": "時事ドットコム",
+      "time": "2026-07-22T07:03:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE44aU1abVlsNXFPRHZJeW45R0NXUnZTS3NDWmNPdFJZaml0R2NjUG0wTFVUT05sZWtWQmZ6Y1pURVkyVUZNbS1rV2V6UzM4VW5vcFJ6NU9URk85RkRyQkQ3Z1lhTQ?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "【速報】中米を震源とするM7.4の地震 日本への津波の影響なし 気象庁 - テレ朝NEWS",
       "source": "テレ朝NEWS",
       "time": "2026-07-18T00:24:44+09:00",
@@ -72,35 +86,6 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
-    },
-    {
-      "title": "死者５０００人超に 清潔な水やトイレ不足が深刻―ベネズエラ地震 - 時事ドットコム",
-      "source": "時事ドットコム",
-      "time": "2026-07-18T10:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5XYUh5b095X3lkR3hvd0dWcmlDTGZKMFBOYUtsZG1lY0oxRV96alJmSFhMNDd6YzN2Q1lVeXRFRTJ2clFXRUtRR012Q0RsTTNSOXVrTEk3QmdyQlM1aV9KakVwYw?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "「北海道・三陸沖後発地震注意情報」の発表 これまでより前倒しへ 気象庁 – Quebee キュエビー - QAB 琉球朝日放送",
-      "source": "QAB 琉球朝日放送",
-      "time": "2026-07-21T19:24:31+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBROXlxb3JDc1pXV1BhX0NndnQ4ZUdfVWRHZU5TTjQ5RU11MlIwQ2k0OTAzM3NkSU1PaHNhZFh4cEtkZjByMmV4SDhTMGpTdjVMbFlkclNMcW8?oc=5",
-      "type": "news",
-      "area": "日本海溝・東北沖",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 38.6,
-      "lon": 143.0,
-      "zoom": 5,
-      "zoomable": true,
-      "matchedArea": "日本海溝・東北沖",
-      "zoomSource": "dictionary"
     },
     {
       "title": "【速報】青森県に「レベル4土砂災害危険警報」を発表　危険な場所から避難を(気象予報士 日直主任 2026年07月19日) - tenki.jp",
@@ -116,6 +101,20 @@
       "zoomable": true,
       "matchedArea": "東北地方",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "長野県で最大震度1の地震 長野県・松本市、安曇野市、筑北村 - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-07-22T07:32:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE43OGhWVjlGd0xkc2hybWVtdHZhcjVxWmw1TkdPQ3VGdXlJclVyU2NfMUFrR0xRUktXcEpqZmVHVE5pTTRIczU3QWpJTzlwQ2VqQngwcmoxbw?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     }
   ]
 }
