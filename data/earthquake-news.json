@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T20:16:05+09:00",
+  "updated_at": "2026-07-24T21:56:20+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -103,18 +103,18 @@
       "zoomSource": "none"
     },
     {
-      "title": "【速報】青森県に「レベル4土砂災害危険警報」を発表　危険な場所から避難を(気象予報士 日直主任 2026年07月19日) - tenki.jp",
-      "source": "tenki.jp",
-      "time": "2026-07-19T04:25:08+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5OZ0VrY0ZxOXEzekwyeXFZc0R2NXUyTUkwbFRlWTZzRlo3UURrVVlCVVB2MXc1aHgzWklnVnZlbXk0ajl5UGltZEFmWWZjczhPdTB6eTlRX2I2Ynl3bDI3SGhreG5zRFlyMXfSAW9BVV95cUxNbFRZYnlkYzU0LVFEcGtaemkzYnB5Z18wZVlpV0hBZUNQdDhpVnlJX0dQVFdTTlZPUEF4eEdtbV9FOFh0YThTcmsxMERzUFRQQTJ2MTVabzhPSUJiTTFXLVB6bGV3T0tJb3dmc1hqUWM?oc=5",
+      "title": "石川県七尾市:能登半島地震「復興住宅」１４戸完成、８月入居開始…「恒久的住まい移行という希望への一歩」 - 読売新聞",
+      "source": "読売新聞",
+      "time": "2026-07-23T13:50:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1QU1NQeUNPckp0Tmg2QUtiZ3dKU1lXOENoeHA5UklDem1ZNXowV0lkZ3UxZEFfUzBNeFBXQnZwRl9IcUZSX1VycDhsTnBOaFRMMVF2eFJscTZsNUZBT01RY0ZsRDM4Zw?oc=5",
       "type": "news",
-      "area": "東北地方",
+      "area": "能登半島周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 39.2,
-      "lon": 140.8,
-      "zoom": 6,
+      "lat": 37.35,
+      "lon": 136.9,
+      "zoom": 8,
       "zoomable": true,
-      "matchedArea": "東北地方",
+      "matchedArea": "能登半島周辺",
       "zoomSource": "dictionary"
     }
   ]
