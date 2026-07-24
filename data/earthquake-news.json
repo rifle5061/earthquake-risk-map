@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T23:55:54+09:00",
+  "updated_at": "2026-07-25T01:41:58+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -32,20 +32,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "【速報】中米を震源とするM7.4の地震 日本への津波の影響なし 気象庁 - テレ朝NEWS",
-      "source": "テレ朝NEWS",
-      "time": "2026-07-18T00:24:44+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5rUlVNcXpnRlFSZG9oV1o2QWE5RVlQUDcwWi1lN2hoWUJ2d0VmU0xiSDJ3c3RRZDJDZEI5bjZTNmF6LU1CYjctWHFMVUxuV000aWZUazJEM25aQkpqanZGd0c3eWk5ZDdtOWVoVERnNW1kdw?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "「北海道・三陸沖後発地震注意情報」の発表 これまでより前倒しへ 気象庁（テレビ朝日系（ANN）） - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
       "time": "2026-07-21T19:09:35+09:00",
@@ -65,6 +51,20 @@
       "source": "時事ドットコム",
       "time": "2026-07-18T10:00:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5XYUh5b095X3lkR3hvd0dWcmlDTGZKMFBOYUtsZG1lY0oxRV96alJmSFhMNDd6YzN2Q1lVeXRFRTJ2clFXRUtRR012Q0RsTTNSOXVrTEk3QmdyQlM1aV9KakVwYw?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "メキシコ南部でM7.3の地震 グアテマラやエルサルバドルでも揺れ 津波発生の恐れも - テレ朝NEWS",
+      "source": "テレ朝NEWS",
+      "time": "2026-07-18T02:14:25+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5hZmFaSm1GX2xjYmsxTGs1cGxYX3RQMGpCMjY0MkpEQ28xdVdtcER2Y21zdE5oTzVySENaank4WE5Zbi1hNV9QWXZCRjhJTWhCOE9ETDNCZ2YxeUltcVdQRGpYNXMtZHdSbWdIYk1Ncm9RaUJmSHNoNkNn?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
