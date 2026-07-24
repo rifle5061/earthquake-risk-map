@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-25T04:54:00+09:00",
-  "count": 78,
+  "fetched_at": "2026-07-25T06:00:36+09:00",
+  "count": 79,
   "latest": {
-    "time": "2026/07/25 04:43:00",
-    "area": "奄美大島近海",
-    "magnitude": 4.2,
+    "time": "2026/07/25 04:54:00",
+    "area": "長野県北部",
+    "magnitude": 2.3,
     "depth": 10,
-    "maxScale": 20,
-    "intensityLabel": "2",
+    "maxScale": 10,
+    "intensityLabel": "1",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
