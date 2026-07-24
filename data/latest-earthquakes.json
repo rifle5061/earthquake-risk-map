@@ -1,9 +1,9 @@
 {
   "source": "P2P地震情報 JSON API v2 / 履歴コード551",
   "endpoint": "https://api.p2pquake.net/v2/history?codes=551&limit=100&offset=0",
-  "fetched_at": "2026-07-24T08:58:19+09:00",
+  "fetched_at": "2026-07-24T10:08:38+09:00",
   "updated_at": "2026/07/23 18:22:00",
-  "count": 82,
+  "count": 81,
   "items": [
     {
       "id": "6a61de41e88ee598246beebe",
@@ -1455,24 +1455,6 @@
       "lon": 137.7,
       "magnitude": 2.1,
       "mag": 2.1,
-      "depth": 10,
-      "maxScale": 10,
-      "intensityLabel": "1",
-      "domesticTsunami": "None",
-      "foreignTsunami": "Unknown",
-      "source": "P2P地震情報",
-      "map": true
-    },
-    {
-      "id": "6a483770e88ee598246bee6d",
-      "code": 551,
-      "time": "2026/07/04 07:25:00",
-      "received_at": "2026/07/04 07:28:00.885",
-      "area": "日向灘",
-      "lat": 32.0,
-      "lon": 131.9,
-      "magnitude": 3.1,
-      "mag": 3.1,
       "depth": 10,
       "maxScale": 10,
       "intensityLabel": "1",
