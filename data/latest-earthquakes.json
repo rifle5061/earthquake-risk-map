@@ -1,9 +1,9 @@
 {
   "source": "P2P地震情報 JSON API v2 / 履歴コード551",
   "endpoint": "https://api.p2pquake.net/v2/history?codes=551&limit=100&offset=0",
-  "fetched_at": "2026-07-26T04:11:15+09:00",
+  "fetched_at": "2026-07-26T04:35:22+09:00",
   "updated_at": "2026/07/25 23:53:00",
-  "count": 79,
+  "count": 78,
   "items": [
     {
       "id": "6a64cee1e88ee598246beec4",
@@ -1404,24 +1404,6 @@
       "depth": 10,
       "maxScale": 10,
       "intensityLabel": "1",
-      "domesticTsunami": "None",
-      "foreignTsunami": "Unknown",
-      "source": "P2P地震情報",
-      "map": true
-    },
-    {
-      "id": "6a4a9b46e88ee598246bee76",
-      "code": 551,
-      "time": "2026/07/06 02:55:00",
-      "received_at": "2026/07/06 02:58:30.861",
-      "area": "福島県沖",
-      "lat": 37.0,
-      "lon": 141.2,
-      "magnitude": 3.7,
-      "mag": 3.7,
-      "depth": 50,
-      "maxScale": 20,
-      "intensityLabel": "2",
       "domesticTsunami": "None",
       "foreignTsunami": "Unknown",
       "source": "P2P地震情報",
