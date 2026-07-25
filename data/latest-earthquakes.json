@@ -1,10 +1,28 @@
 {
   "source": "P2P地震情報 JSON API v2 / 履歴コード551",
   "endpoint": "https://api.p2pquake.net/v2/history?codes=551&limit=100&offset=0",
-  "fetched_at": "2026-07-25T23:46:09+09:00",
-  "updated_at": "2026/07/25 22:52:00",
-  "count": 80,
+  "fetched_at": "2026-07-26T00:45:52+09:00",
+  "updated_at": "2026/07/25 23:53:00",
+  "count": 81,
   "items": [
+    {
+      "id": "6a64cee1e88ee598246beec4",
+      "code": 551,
+      "time": "2026/07/25 23:53:00",
+      "received_at": "2026/07/25 23:57:37.768",
+      "area": "福島県会津",
+      "lat": 37.1,
+      "lon": 139.4,
+      "magnitude": 2.3,
+      "mag": 2.3,
+      "depth": 10,
+      "maxScale": 10,
+      "intensityLabel": "1",
+      "domesticTsunami": "None",
+      "foreignTsunami": "Unknown",
+      "source": "P2P地震情報",
+      "map": true
+    },
     {
       "id": "6a64c041e88ee598246beec3",
       "code": 551,

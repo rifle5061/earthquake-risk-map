@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-25T23:36:10+09:00",
-  "count": 80,
+  "fetched_at": "2026-07-26T00:45:52+09:00",
+  "count": 81,
   "latest": {
-    "time": "2026/07/25 22:52:00",
-    "area": "上川地方北部",
-    "magnitude": 2.7,
-    "depth": 0,
+    "time": "2026/07/25 23:53:00",
+    "area": "福島県会津",
+    "magnitude": 2.3,
+    "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
