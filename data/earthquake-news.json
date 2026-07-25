@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T02:29:47+09:00",
+  "updated_at": "2026-07-26T03:31:34+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -32,10 +32,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "ベネズエラ地震1カ月 死者5300人 - Yahoo!ニュース",
+      "title": "防災庁の地方拠点要望 全国45団体 - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
-      "time": "2026-07-24T20:39:35+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAzWUZzUk0tS0owYU5FRmpVeVJvWVAtci1OcmpNbkdBT29xWDlEeF9LZC1qTVFFdXJGT2tyNjdJZDdHRC1tQTFkejhuS2VyU2Z2?oc=5",
+      "time": "2026-07-25T15:09:52+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9LSXVPWUx0bXFoem55VUNPaVE4dFluYmZoOGw1X1c1MFVrVUx0RnVwU0dGeEJ2UFFlbDNzc2FPbnh6SUJNeG5TVHdwcVpDeGpu?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
