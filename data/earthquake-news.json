@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T05:09:30+09:00",
+  "updated_at": "2026-07-26T06:24:05+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -104,10 +104,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "【初等教育科】地震体験車「ユレルンダー」で防災教育を学ぶ～震度7の揺れを体感し、防災への理解を深める - 別府大学",
-      "source": "別府大学",
-      "time": "2026-07-24T08:45:31+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBlWGJpMHNLTTh6akNTWFhzZHVvaFd4NzlOTkhQWGpYZzBHQ0dMcE5MUFVVRGhjRUVLOUdvNVM4R0x3bTJt?oc=5",
+      "title": "“「防災庁」今秋に発足” 国が初動から被災地を支える司令塔 - 公明党",
+      "source": "公明党",
+      "time": "2026-07-23T13:19:33+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBGcnRfZjNvSW4xTURWSEt4VHVIcjlsZjdtcmdIekRHeUs5XzBlaENkRmdyVkhsYm5DSlFEZlJ6V2F4RENpcHBFdmw5LTh2SFQ0YlNoWA?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
