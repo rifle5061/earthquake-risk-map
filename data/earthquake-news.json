@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T12:47:35+09:00",
+  "updated_at": "2026-07-25T15:15:37+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -32,19 +32,32 @@
       "zoomSource": "none"
     },
     {
-      "title": "「北海道・三陸沖後発地震注意情報」の発表 これまでより前倒しへ 気象庁（テレビ朝日系（ANN）） - Yahoo!ニュース",
+      "title": "ベネズエラ地震1カ月 死者5300人 - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
-      "time": "2026-07-21T19:09:35+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1RUnNKQW5xOUVWWWpwdjNSVU1XV3NPVm9uOEl4T042aVZ5RS0tYll0RU5DVGRUVTlqMnVfai1iLVlRejhBR1RwaFJkU0wxWHo1cmxyYW5tYzMtMWlJVVY5a1JCODJMYV9nWll4SDlqM05SZXcwR2hjeXRNOHNjcE0?oc=5",
+      "time": "2026-07-24T20:39:35+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAzWUZzUk0tS0owYU5FRmpVeVJvWVAtci1OcmpNbkdBT29xWDlEeF9LZC1qTVFFdXJGT2tyNjdJZDdHRC1tQTFkejhuS2VyU2Z2?oc=5",
       "type": "news",
-      "area": "日本海溝・東北沖",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 38.6,
-      "lon": 143.0,
-      "zoom": 5,
-      "zoomable": true,
-      "matchedArea": "日本海溝・東北沖",
-      "zoomSource": "dictionary"
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "南米ペルーでM5.5の地震 6人死亡 30人以上けが 「今も瓦礫の下に人が…」 - テレ朝NEWS",
+      "source": "テレ朝NEWS",
+      "time": "2026-07-20T13:25:28+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1QWUZqZU5VWGJyQUZPTk42SnFJQXJzUFYtSWpIeUpPV2x5ZzA0NnZCcXhoTXJfcmNWRVgyeVd2RDcyUUFUYVZObEVPajdCMnJhMDdILVN2Q2lRV21fQ19LRkhPeGFKQmx0RFBna01TSWFrS1R5djVrUER3?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "石川県七尾市:能登半島地震「復興住宅」１４戸完成、８月入居開始…「恒久的住まい移行という希望への一歩」 - 読売新聞",
@@ -62,38 +75,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "南米ペルーでM5.5の地震 6人死亡 30人以上けが 「今も瓦礫の下に人が…」 - テレ朝NEWS",
-      "source": "テレ朝NEWS",
-      "time": "2026-07-20T13:25:28+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1QWUZqZU5VWGJyQUZPTk42SnFJQXJzUFYtSWpIeUpPV2x5ZzA0NnZCcXhoTXJfcmNWRVgyeVd2RDcyUUFUYVZObEVPajdCMnJhMDdILVN2Q2lRV21fQ19LRkhPeGFKQmx0RFBna01TSWFrS1R5djVrUER3?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "風水害における避難所の開設 - city.yaizu.lg.jp",
       "source": "city.yaizu.lg.jp",
       "time": "2026-07-24T11:48:25+09:00",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTlBGMWFuaWl0QlV5Y0ZIUWF4UzRPR1lSNldReVBBV2l1MDJiSXRmREg3bmFLb0t5ZDBWd2h4QmdXZm1fMFZob0tRN0FfOFpuRWpEMTRyUU4wcjlBb1Q4dk04UW1VR1htQjNJa0J4WWJuSnIzNFprMXZxNW85Z01SVGFWMk1Zb0E5cENiT1otajBWYUJOZ1dGMg?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "【初等教育科】地震体験車「ユレルンダー」で防災教育を学ぶ～震度7の揺れを体感し、防災への理解を深める - 別府大学",
-      "source": "別府大学",
-      "time": "2026-07-24T08:45:31+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBlWGJpMHNLTTh6akNTWFhzZHVvaFd4NzlOTkhQWGpYZzBHQ0dMcE5MUFVVRGhjRUVLOUdvNVM4R0x3bTJt?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -117,6 +102,20 @@
       "zoomable": true,
       "matchedArea": "東北地方",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "【初等教育科】地震体験車「ユレルンダー」で防災教育を学ぶ～震度7の揺れを体感し、防災への理解を深める - 別府大学",
+      "source": "別府大学",
+      "time": "2026-07-24T08:45:31+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBlWGJpMHNLTTh6akNTWFhzZHVvaFd4NzlOTkhQWGpYZzBHQ0dMcE5MUFVVRGhjRUVLOUdvNVM4R0x3bTJt?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     }
   ]
 }
