@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T01:02:25+09:00",
+  "updated_at": "2026-07-26T02:29:47+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -60,6 +60,21 @@
       "zoomSource": "none"
     },
     {
+      "title": "南海トラフ地震の被害想定、誤ったデータで算定 岡山県、修正し公開 - 朝日新聞",
+      "source": "朝日新聞",
+      "time": "2026-07-25T10:15:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBISmNGZ0NRZVZlY3ZMVGhQQ004cWFIRmg3VWZ3dktQdXNLRzNGVUtLQVpvaG11UWxPVHRQd1U3QlFBamt1MXh2cmVFSklXeDdjLUZONDljNS1lTHZ1UGYxMVl6aWZseUU?oc=5",
+      "type": "news",
+      "area": "南海トラフ",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.8,
+      "lon": 136.2,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "南海トラフ",
+      "zoomSource": "dictionary"
+    },
+    {
       "title": "石川県七尾市:能登半島地震「復興住宅」１４戸完成、８月入居開始…「恒久的住まい移行という希望への一歩」 - 読売新聞",
       "source": "読売新聞",
       "time": "2026-07-23T13:50:00+09:00",
@@ -102,20 +117,6 @@
       "zoomable": true,
       "matchedArea": "東北地方",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "【初等教育科】地震体験車「ユレルンダー」で防災教育を学ぶ～震度7の揺れを体感し、防災への理解を深める - 別府大学",
-      "source": "別府大学",
-      "time": "2026-07-24T08:45:31+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBlWGJpMHNLTTh6akNTWFhzZHVvaFd4NzlOTkhQWGpYZzBHQ0dMcE5MUFVVRGhjRUVLOUdvNVM4R0x3bTJt?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     }
   ]
 }
