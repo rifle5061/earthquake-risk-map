@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-25T21:46:26+09:00",
-  "count": 79,
+  "fetched_at": "2026-07-25T23:36:10+09:00",
+  "count": 80,
   "latest": {
-    "time": "2026/07/25 14:04:00",
-    "area": "新島・神津島近海",
+    "time": "2026/07/25 22:52:00",
+    "area": "上川地方北部",
     "magnitude": 2.7,
-    "depth": 10,
+    "depth": 0,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"

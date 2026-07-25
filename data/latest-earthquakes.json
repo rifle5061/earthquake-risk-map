@@ -1,10 +1,28 @@
 {
   "source": "P2P地震情報 JSON API v2 / 履歴コード551",
   "endpoint": "https://api.p2pquake.net/v2/history?codes=551&limit=100&offset=0",
-  "fetched_at": "2026-07-25T22:20:50+09:00",
-  "updated_at": "2026/07/25 14:04:00",
-  "count": 79,
+  "fetched_at": "2026-07-25T23:36:10+09:00",
+  "updated_at": "2026/07/25 22:52:00",
+  "count": 80,
   "items": [
+    {
+      "id": "6a64c041e88ee598246beec3",
+      "code": 551,
+      "time": "2026/07/25 22:52:00",
+      "received_at": "2026/07/25 22:55:13.645",
+      "area": "上川地方北部",
+      "lat": 44.2,
+      "lon": 142.1,
+      "magnitude": 2.7,
+      "mag": 2.7,
+      "depth": 0,
+      "maxScale": 10,
+      "intensityLabel": "1",
+      "domesticTsunami": "None",
+      "foreignTsunami": "Unknown",
+      "source": "P2P地震情報",
+      "map": true
+    },
     {
       "id": "6a644461e88ee598246beec2",
       "code": 551,
