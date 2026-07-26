@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-26T21:15:54+09:00",
-  "count": 79,
+  "fetched_at": "2026-07-26T23:07:19+09:00",
+  "count": 77,
   "latest": {
-    "time": "2026/07/26 13:59:00",
-    "area": "苫小牧沖",
-    "magnitude": 3.7,
-    "depth": 120,
+    "time": "2026/07/26 21:58:00",
+    "area": "トカラ列島近海",
+    "magnitude": 2.3,
+    "depth": 20,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
