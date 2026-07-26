@@ -1,9 +1,9 @@
 {
   "source": "P2P地震情報 JSON API v2 / 履歴コード551",
   "endpoint": "https://api.p2pquake.net/v2/history?codes=551&limit=100&offset=0",
-  "fetched_at": "2026-07-27T03:41:56+09:00",
+  "fetched_at": "2026-07-27T04:17:49+09:00",
   "updated_at": "2026/07/27 03:03:00",
-  "count": 80,
+  "count": 79,
   "items": [
     {
       "id": "6a664c77e88ee598246beecd",
@@ -1422,24 +1422,6 @@
       "depth": 10,
       "maxScale": 10,
       "intensityLabel": "1",
-      "domesticTsunami": "None",
-      "foreignTsunami": "Unknown",
-      "source": "P2P地震情報",
-      "map": true
-    },
-    {
-      "id": "6a4be1f5e88ee598246bee7e",
-      "code": 551,
-      "time": "2026/07/07 02:09:00",
-      "received_at": "2026/07/07 02:12:21.179",
-      "area": "岩手県沖",
-      "lat": 40.1,
-      "lon": 142.5,
-      "magnitude": 4.6,
-      "mag": 4.6,
-      "depth": 40,
-      "maxScale": 20,
-      "intensityLabel": "2",
       "domesticTsunami": "None",
       "foreignTsunami": "Unknown",
       "source": "P2P地震情報",
