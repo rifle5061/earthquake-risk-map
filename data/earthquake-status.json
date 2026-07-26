@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-26T08:30:12+09:00",
-  "count": 78,
+  "fetched_at": "2026-07-26T10:14:03+09:00",
+  "count": 79,
   "latest": {
-    "time": "2026/07/25 23:53:00",
-    "area": "福島県会津",
+    "time": "2026/07/26 10:04:00",
+    "area": "トカラ列島近海",
     "magnitude": 2.3,
-    "depth": 10,
+    "depth": 20,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
