@@ -1,9 +1,9 @@
 {
   "source": "P2P地震情報 JSON API v2 / 履歴コード551",
   "endpoint": "https://api.p2pquake.net/v2/history?codes=551&limit=100&offset=0",
-  "fetched_at": "2026-07-26T15:01:18+09:00",
+  "fetched_at": "2026-07-26T16:25:21+09:00",
   "updated_at": "2026/07/26 13:59:00",
-  "count": 80,
+  "count": 79,
   "items": [
     {
       "id": "6a6594d7e88ee598246beec7",
@@ -1423,24 +1423,6 @@
       "maxScale": 30,
       "intensityLabel": "3",
       "domesticTsunami": "Checking",
-      "foreignTsunami": "Unknown",
-      "source": "P2P地震情報",
-      "map": true
-    },
-    {
-      "id": "6a4b49bae88ee598246bee78",
-      "code": 551,
-      "time": "2026/07/06 15:20:00",
-      "received_at": "2026/07/06 15:22:50.08",
-      "area": "岐阜県飛騨地方",
-      "lat": 36.2,
-      "lon": 137.4,
-      "magnitude": 2.5,
-      "mag": 2.5,
-      "depth": 10,
-      "maxScale": 10,
-      "intensityLabel": "1",
-      "domesticTsunami": "None",
       "foreignTsunami": "Unknown",
       "source": "P2P地震情報",
       "map": true

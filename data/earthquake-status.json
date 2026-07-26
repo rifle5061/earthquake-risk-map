@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-26T13:44:25+09:00",
+  "fetched_at": "2026-07-26T16:25:21+09:00",
   "count": 79,
   "latest": {
-    "time": "2026/07/26 13:34:00",
-    "area": "日向灘",
-    "magnitude": 3.2,
-    "depth": 40,
+    "time": "2026/07/26 13:59:00",
+    "area": "苫小牧沖",
+    "magnitude": 3.7,
+    "depth": 120,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
