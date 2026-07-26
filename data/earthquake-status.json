@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-26T10:14:03+09:00",
+  "fetched_at": "2026-07-26T13:44:25+09:00",
   "count": 79,
   "latest": {
-    "time": "2026/07/26 10:04:00",
-    "area": "トカラ列島近海",
-    "magnitude": 2.3,
-    "depth": 20,
+    "time": "2026/07/26 13:34:00",
+    "area": "日向灘",
+    "magnitude": 3.2,
+    "depth": 40,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
