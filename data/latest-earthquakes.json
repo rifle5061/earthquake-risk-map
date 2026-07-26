@@ -1,9 +1,9 @@
 {
   "source": "P2P地震情報 JSON API v2 / 履歴コード551",
   "endpoint": "https://api.p2pquake.net/v2/history?codes=551&limit=100&offset=0",
-  "fetched_at": "2026-07-27T01:37:39+09:00",
+  "fetched_at": "2026-07-27T01:57:38+09:00",
   "updated_at": "2026/07/26 23:45:00",
-  "count": 78,
+  "count": 77,
   "items": [
     {
       "id": "6a661e30e88ee598246beec9",
@@ -1383,24 +1383,6 @@
       "lon": 130.5,
       "magnitude": 3.2,
       "mag": 3.2,
-      "depth": 50,
-      "maxScale": 10,
-      "intensityLabel": "1",
-      "domesticTsunami": "None",
-      "foreignTsunami": "Unknown",
-      "source": "P2P地震情報",
-      "map": true
-    },
-    {
-      "id": "6a4bc4d1e88ee598246bee7c",
-      "code": 551,
-      "time": "2026/07/07 00:05:00",
-      "received_at": "2026/07/07 00:08:01.368",
-      "area": "沖縄本島近海",
-      "lat": 26.3,
-      "lon": 127.4,
-      "magnitude": 2.9,
-      "mag": 2.9,
       "depth": 50,
       "maxScale": 10,
       "intensityLabel": "1",
