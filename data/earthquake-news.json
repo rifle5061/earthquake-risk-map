@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T00:23:22+09:00",
+  "updated_at": "2026-07-28T02:17:04+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -61,6 +61,34 @@
       "zoomSource": "dictionary"
     },
     {
+      "title": "【地震】薩摩地方を震源とする地震 阿久根市で震度3観測 津波の心配なし マグニチュード4.2 - 日テレNEWS NNN",
+      "source": "日テレNEWS NNN",
+      "time": "2026-07-27T11:47:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdlFlTUNOc3FXbHVtaENlUHFHQW9ucG5ib0pZRVNsNlNvZ2JreVZmMjI4RERKcU5KNUlCLW1fMG5qcWdxY05Ea3JnQmtWa3NUaDZ1VWtxUUc3SHVyNzBJc3FyOVMycHJzbV94Q1hkYXg1S3RzZ1lvYVRtME9RVlNUQ2diazhCQzg?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "フランスの森林火災、22万人超が避難 拡大続けボルドーに迫る - 朝日新聞",
+      "source": "朝日新聞",
+      "time": "2026-07-26T16:29:43+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzYl9neVhQQVFyNGVMeFRPY3ZVUWtscnhwVWlqZ3pKTU9EZkJfSXhNdXNNVXAwWlBYXzJvZTZmYVpFaWhqdjF1RlMtLUs0RkV4YmFMcG5sVC1yajB5RnlfRC1pNkp4QXM?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "富来田地区避難所開設ワークショップの実施 - city.kisarazu.lg.jp",
       "source": "city.kisarazu.lg.jp",
       "time": "2026-07-27T20:08:35+09:00",
@@ -75,39 +103,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "大雨で山形県南陽市の一部地区に避難指示（2026年7月25日掲載）｜YBC NEWS NNN - 日テレNEWS NNN",
-      "source": "日テレNEWS NNN",
-      "time": "2026-07-26T14:55:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeG9jeWVyaEVpMXJlaXptV19rbkFEUEh5N2ZBSnZiWGZTNWJuT0ExVGdtNERpT24yVHZnTEZsTnZpYTU3bmJ6WVRjVDhkSnNPZFV6UVFvWkNjUld2eGZ0T2tPS3dqQXl5bG9IMUpKV1NZTmU1N0RDelF3c1R6Z19RMmlUellGVTQ?oc=5",
-      "type": "news",
-      "area": "東北地方",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 39.2,
-      "lon": 140.8,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "東北地方",
-      "zoomSource": "dictionary"
-    },
-    {
       "title": "仏ボルドー近郊に山火事広がる、数万人が避難　スペインでもバレンシア州へ拡大 - BBC",
       "source": "BBC",
       "time": "2026-07-27T12:01:30+09:00",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBUNkNIMTZCc0lOeVNxc2RCcUZkZGZ1bjdhSUpwa0FRblVFbWJLb1l2d1Q0enZMdkpJUG1SdXhMZmRBbTZZWVh5TjVELTJVUVZnMUFMenZxNXpDWGtiZjJR0gFkQVVfeXFMTi1qekcyMGhDMGI2S0hWbDExbkN5eC1aS21GNXlIaTVVR0VxV09EUkRfMlZGVVdmZEhVejFBeWxSbkVGZVNPYjJpcjBZYnNJdlJBYnBmM0I3T0xlcmszeDlHaTlXYQ?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "【地震情報】鹿児島 阿久根で震度3 津波の心配なし - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-07-27T02:03:50+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GTDRtWHNZZWpHZzU2VlR1NXFRZEc5dk5lNUhCcVVlYUlOUXI3Zm8yc3dyNEdJT1dzRk5sM2xQRGlMb2RCc2VoTmxxN0R6a1llRkxsT3l1NnQ3RXdKdkpj?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
