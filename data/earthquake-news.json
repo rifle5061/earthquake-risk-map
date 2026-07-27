@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T08:04:45+09:00",
+  "updated_at": "2026-07-27T10:07:20+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -31,21 +31,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "【「レベル4」避難指示】新潟・江南区 松山の一部 21人（7世帯） 26日午後3時15分発表 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-07-26T15:22:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBDbE9XbzB6bEo1WGNPX2wxa0pmcEk0eEtUWnlWQmJMYWFPMmxaVENwMXMtQi1sSGpzd3UzSG5McUVtTHdEZDZoWTdHMm9zX1YtcFZJT3RKOA?oc=5",
-      "type": "news",
-      "area": "北陸地方",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 37.0,
-      "lon": 137.2,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "北陸地方",
-      "zoomSource": "dictionary"
-    },
-    {
       "title": "宮城・栗原市に避難指示９４世帯対象 夏川が氾濫危険水位超える - khb東日本放送",
       "source": "khb東日本放送",
       "time": "2026-07-26T17:28:00+09:00",
@@ -58,6 +43,21 @@
       "zoom": 6,
       "zoomable": true,
       "matchedArea": "東北地方",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "【「レベル4」避難指示】新潟・江南区 松山の一部 21人（7世帯） 26日午後3時15分発表 - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-07-26T15:22:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBDbE9XbzB6bEo1WGNPX2wxa0pmcEk0eEtUWnlWQmJMYWFPMmxaVENwMXMtQi1sSGpzd3UzSG5McUVtTHdEZDZoWTdHMm9zX1YtcFZJT3RKOA?oc=5",
+      "type": "news",
+      "area": "北陸地方",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 37.0,
+      "lon": 137.2,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "北陸地方",
       "zoomSource": "dictionary"
     },
     {
@@ -75,18 +75,19 @@
       "zoomSource": "none"
     },
     {
-      "title": "フランスの森林火災、22万人超が避難 拡大続けボルドーに迫る - 朝日新聞",
+      "title": "南海トラフ地震の被害想定、誤ったデータで算定 岡山県、修正し公開 - 朝日新聞",
       "source": "朝日新聞",
-      "time": "2026-07-26T16:29:43+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzYl9neVhQQVFyNGVMeFRPY3ZVUWtscnhwVWlqZ3pKTU9EZkJfSXhNdXNNVXAwWlBYXzJvZTZmYVpFaWhqdjF1RlMtLUs0RkV4YmFMcG5sVC1yajB5RnlfRC1pNkp4QXM?oc=5",
+      "time": "2026-07-25T10:15:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBISmNGZ0NRZVZlY3ZMVGhQQ004cWFIRmg3VWZ3dktQdXNLRzNGVUtLQVpvaG11UWxPVHRQd1U3QlFBamt1MXh2cmVFSklXeDdjLUZONDljNS1lTHZ1UGYxMVl6aWZseUU?oc=5",
       "type": "news",
-      "area": "",
+      "area": "南海トラフ",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
+      "lat": 32.8,
+      "lon": 136.2,
       "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "zoomable": true,
+      "matchedArea": "南海トラフ",
+      "zoomSource": "dictionary"
     },
     {
       "title": "大雨で山形県南陽市の一部地区に避難指示（2026年7月25日掲載）｜YBC NEWS NNN - 日テレNEWS NNN",
