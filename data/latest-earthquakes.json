@@ -1,10 +1,28 @@
 {
   "source": "P2P地震情報 JSON API v2 / 履歴コード551",
   "endpoint": "https://api.p2pquake.net/v2/history?codes=551&limit=100&offset=0",
-  "fetched_at": "2026-07-27T13:02:38+09:00",
-  "updated_at": "2026/07/27 12:04:00",
-  "count": 79,
+  "fetched_at": "2026-07-27T14:09:11+09:00",
+  "updated_at": "2026/07/27 13:56:00",
+  "count": 80,
   "items": [
+    {
+      "id": "6a66e5bfe88ee598246beecf",
+      "code": 551,
+      "time": "2026/07/27 13:56:00",
+      "received_at": "2026/07/27 13:59:43.953",
+      "area": "トカラ列島近海",
+      "lat": 29.4,
+      "lon": 129.5,
+      "magnitude": 2.7,
+      "mag": 2.7,
+      "depth": 0,
+      "maxScale": 10,
+      "intensityLabel": "1",
+      "domesticTsunami": "None",
+      "foreignTsunami": "Unknown",
+      "source": "P2P地震情報",
+      "map": true
+    },
     {
       "id": "6a66cb6ae88ee598246beece",
       "code": 551,
