@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T07:59:42+09:00",
+  "updated_at": "2026-07-28T09:08:07+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -75,6 +75,20 @@
       "zoomSource": "none"
     },
     {
+      "title": "須賀・浜田地区における津波注意報発表時の避難指示発令対象区域の変更について - town.rifu.miyagi.jp",
+      "source": "town.rifu.miyagi.jp",
+      "time": "2026-07-27T17:24:07+09:00",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA1bUtqYXhhYldwOHQ3Z2pxVWhqMlRhUnY5TTJnVWpwOGZrMzZ1SV9XaUdma0IxQ3NSYy0yaDVWTkJ4MHZSdVRZWjhPcllqNk5rRm81dkZKWXB3ZVBQS3BBTFdhTEYxNHBtOVZ6TWtyS1FMWWRDLUFr?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "フランスの森林火災、22万人超が避難 拡大続けボルドーに迫る - 朝日新聞",
       "source": "朝日新聞",
       "time": "2026-07-26T16:29:43+09:00",
@@ -93,20 +107,6 @@
       "source": "city.kisarazu.lg.jp",
       "time": "2026-07-27T20:08:35+09:00",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1kRmFady1VU3NrcnNoV0QyOWRMbGxnOVdZR3FTU0NkRXMyY0psTVJGbVl1bHhqWHNFbi1xUkdQcDVTUWV2RmQ5d19Oal9MbDJSQld5VzNFTTRudXRVSWFEWVFpb2xyT1BoaVplbmhSVmU2WjJfelNSeQ?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "仏ボルドー近郊に山火事広がる、数万人が避難　スペインでもバレンシア州へ拡大 - BBC",
-      "source": "BBC",
-      "time": "2026-07-27T12:01:30+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBUNkNIMTZCc0lOeVNxc2RCcUZkZGZ1bjdhSUpwa0FRblVFbWJLb1l2d1Q0enZMdkpJUG1SdXhMZmRBbTZZWVh5TjVELTJVUVZnMUFMenZxNXpDWGtiZjJR0gFkQVVfeXFMTi1qekcyMGhDMGI2S0hWbDExbkN5eC1aS21GNXlIaTVVR0VxV09EUkRfMlZGVVdmZEhVejFBeWxSbkVGZVNPYjJpcjBZYnNJdlJBYnBmM0I3T0xlcmszeDlHaTlXYQ?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
