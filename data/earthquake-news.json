@@ -1,11 +1,41 @@
 {
-  "updated_at": "2026-07-28T18:16:49+09:00",
+  "updated_at": "2026-07-28T20:34:58+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
-      "title": "熊本県で最大震度7の強い地震 熊本県・宇城市、氷川町 - TBS NEWS DIG",
+      "title": "熊本県熊本地方を震源とする地震についての会見 - 首相官邸",
+      "source": "首相官邸",
+      "time": "2026-07-28T19:18:37+09:00",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1MR2xHNjJnXzFWcUhraGJ2ZGdqNXZwSXFYWUlJbUpNaWxWU0lZb3UyR3BKN1dwbkRlVXpIYzRzblNxUGgtS21jSWFXdkRWUXExWFhyaXQtOVl4d2xEOVRCRVVmNGlwMVVqT21MaDhQbw?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "熊本県で震度7 2016年の熊本地震の活動域と重なる 日奈久断層の活動か - ウェザーニュース",
+      "source": "ウェザーニュース",
+      "time": "2026-07-28T17:20:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oZmtWZ3hIa0psMkV0MFVlQU5WQzYxN1RuYmtHNkoyU1hPdHJJMWdUaldYUVNJay0ta3c4Nzl2djlyZ28tZk1qVjNUNzVxNHVJQ1k1VQ?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "【最新ライブ】:熊本県で最大震度7の強い地震 熊本県・宇城市、氷川町 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
-      "time": "2026-07-28T16:35:00+09:00",
+      "time": "2026-07-28T19:38:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA0NHlyUjJSSks2bkg3dmJvS3F2RXhKRmFxS0x4V1ZpcGQtc2l4OGFZdnhUVmJ4V256VEd4aEtoeVJPX2R1bzctd0FmM3JyWVdNVXdhWFRpaw?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
@@ -16,6 +46,20 @@
       "zoomable": true,
       "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "熊本で最大震度7の地震 有明・八代海への津波注意報は解除 - 朝日新聞",
+      "source": "朝日新聞",
+      "time": "2026-07-28T19:40:08+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rejZ2NjBxbGNGaDNueTg5ZVRsclhHMlRTMzI0T19jemtxcXdXempCeFZmRDVEYmdsci1RZklHM3NENVBUZExKMjVRbV8xaGY1Nm8tNERaWVhEQkR1MEVSdE4yMmhwTW8?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "【速報】熊本で「震度7」観測 長崎県内も最大震度5強｜ニュース - ktn.co.jp",
@@ -32,10 +76,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "【地震】熊本で震度7、神埼市と白石町で震度5弱 有明・八代海に津波注意報（佐賀新聞） - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-07-28T17:03:20+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOWlZwd0tORjg5dks4aHhUSXRscVc4SHBWUWZEb1VWd25yaGJHSkhrLTQwWC1uXzdoT19vbFptcjB0QXZkUUpuSnd2T1lUWDM3RXY0TXJHZENwOG5wM25PSmhfWXlOM2ZkZlF6ZFkyVnBFNlhfX25IN2s0T21XMW8?oc=5",
+      "title": "専門家「2016年地震の『割れ残り』動いた可能性」 熊本で震度7 - 毎日新聞",
+      "source": "毎日新聞",
+      "time": "2026-07-28T18:19:21+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAwSjFjUktTOXAyMTRDakNVVDg1ZTcweVpLa3E4Snh6aHJFeUtjR0lpVGhTNHd5LXJOTFh1RVZoejFrdEpkM0FNWGw2YjMxV3ZtOXhMNGFzdTN6RG5ZelhMQ1NSbHlQWHYx?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -61,10 +105,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "熊本県熊本地方を震源とする地震に関する総理指示（16：29） - 首相官邸",
-      "source": "首相官邸",
-      "time": "2026-07-28T17:18:37+09:00",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBOb3F2V21raXI0cEZDX1A1bndfeC1aRWVuemVxV2h1c2ZDYk5XS1JaY0w5Um5FYndQMjJYdHByenFITUd0clFVZDlFLWIycmxxM3BkSXJVekotN3ZWdWN1VGNJX3ZrUzlya0hfeA?oc=5",
+      "title": "熊本県で震度7 イオンモール熊本で爆発、2階崩落で多数閉じ込めか - 日本経済新聞",
+      "source": "日本経済新聞",
+      "time": "2026-07-28T19:16:01+09:00",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5wTnZ4MmI0VXQ0STZsVUhXalNLSlVDZHpTQzN2WTQzRW12SG91blFEQ0tKcTA1S2Z0c052c2VzRkJ5YndyekYwRExqMUE1YXlwQy02MjVFVzc0RGxqTGwyNE9vRzZlSWFDUGs2eg?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -74,49 +118,6 @@
       "zoomable": true,
       "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "【地震】熊本県天草・芦北地方を震源とする最大震度5弱の地震が発生 津波警報等発表中 - khb東日本放送",
-      "source": "khb東日本放送",
-      "time": "2026-07-28T17:12:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE80ZGVxUTdKaHBXR0pDN1otNU9CbEhVVjFQa0RRVDFzY3BOSFdzcFk0dV9McE9pOVJ1S3FtVUpNSTNreXNudzRSUHFvdFVMQ0U?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "【津波情報】有明・八代海に津波注意報 - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-07-28T17:39:34+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xV29Eb2Zhak5iWDM5VnBDTXBWZ29lektqQmRwaGVlU3RHOE56SGV0TlNVeVVtOTNqOVN3blZrUmN4blQwWmFaT2V5ZjhlQVBaWERrUVdpOGd0R2Mwbmxz?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "熊本で震度7 午後4時27分ごろ観測 - 毎日新聞",
-      "source": "毎日新聞",
-      "time": "2026-07-28T16:38:21+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yUDNPRkFVeU1GekxodmdrMy1PVHVyTzk4R0pEVnFFQWN0c1laQ1dselQzWWEtNU1ZOVQtYWUwWWRCOWdLeWpMbkVfQjlUbmV5amJyekRMVTBRSHJpYnRScEtUX2FQTTdS?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     }
   ]
 }
