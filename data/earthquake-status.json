@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-29T06:46:43+09:00",
+  "fetched_at": "2026-07-29T07:55:51+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/07/29 06:31:00",
+    "time": "2026/07/29 07:45:00",
     "area": "熊本県熊本地方",
-    "magnitude": 2.3,
+    "magnitude": 2.4,
     "depth": 0,
-    "maxScale": 20,
-    "intensityLabel": "2",
+    "maxScale": 10,
+    "intensityLabel": "1",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
