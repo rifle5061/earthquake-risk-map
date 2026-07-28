@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-07-28T08:33:37+09:00",
-  "count": 81,
+  "fetched_at": "2026-07-28T10:02:50+09:00",
+  "count": 84,
   "latest": {
-    "time": "2026/07/28 06:00:00",
-    "area": "和歌山県北部",
-    "magnitude": 2.5,
+    "time": "2026/07/28 09:39:00",
+    "area": "鹿児島県薩摩地方",
+    "magnitude": 3.7,
     "depth": 0,
-    "maxScale": 20,
-    "intensityLabel": "2",
+    "maxScale": 30,
+    "intensityLabel": "3",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
