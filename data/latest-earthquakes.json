@@ -1,9 +1,9 @@
 {
   "source": "P2P地震情報 JSON API v2 / 履歴コード551",
   "endpoint": "https://api.p2pquake.net/v2/history?codes=551&limit=100&offset=0",
-  "fetched_at": "2026-07-28T14:51:33+09:00",
+  "fetched_at": "2026-07-28T15:24:41+09:00",
   "updated_at": "2026/07/28 09:39:00",
-  "count": 84,
+  "count": 83,
   "items": [
     {
       "id": "6a67fb17e88ee598246beed3",
@@ -1495,24 +1495,6 @@
       "maxScale": 30,
       "intensityLabel": "3",
       "domesticTsunami": "Checking",
-      "foreignTsunami": "Unknown",
-      "source": "P2P地震情報",
-      "map": true
-    },
-    {
-      "id": "6a4dd1e4e88ee598246bee80",
-      "code": 551,
-      "time": "2026/07/08 13:25:00",
-      "received_at": "2026/07/08 13:28:20.462",
-      "area": "千葉県北東部",
-      "lat": 35.8,
-      "lon": 140.7,
-      "magnitude": 3.0,
-      "mag": 3.0,
-      "depth": 50,
-      "maxScale": 10,
-      "intensityLabel": "1",
-      "domesticTsunami": "None",
       "foreignTsunami": "Unknown",
       "source": "P2P地震情報",
       "map": true

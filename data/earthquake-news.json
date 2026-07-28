@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-07-28T12:45:54+09:00",
+  "updated_at": "2026-07-28T15:24:42+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
+    {
+      "title": "「津波注意報で広域避難指示」は信頼性損なうおそれ 国通知 - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-07-22T06:00:56+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1sTTdjWHhDV25NSmREZnhReWZra2hRckdSM1BqN1pRb1NCZ2tnWHQ3LV83T1FfT0swQTFGdUdhZTI3UVVGYjhwN3dkVFlYTWx1ampvZG5GTTdTTWJ5TUg4?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
     {
       "title": "和歌山県で最大震度2の地震 和歌山県・和歌山市（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
@@ -16,20 +30,6 @@
       "zoomable": true,
       "matchedArea": "太平洋側・南海トラフ想定域",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "「津波注意報で広域避難指示」は信頼性損なうおそれ 国通知 - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-07-22T06:00:56+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1sTTdjWHhDV25NSmREZnhReWZra2hRckdSM1BqN1pRb1NCZ2tnWHQ3LV83T1FfT0swQTFGdUdhZTI3UVVGYjhwN3dkVFlYTWx1ampvZG5GTTdTTWJ5TUg4?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     },
     {
       "title": "宮城・栗原市に避難指示 ９４世帯対象 夏川が氾濫危険水位超える - khb東日本放送",
@@ -62,20 +62,6 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "【地震】薩摩地方を震源とする地震 阿久根市で震度3観測 津波の心配なし マグニチュード4.2 - 日テレNEWS NNN",
-      "source": "日テレNEWS NNN",
-      "time": "2026-07-27T11:47:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdlFlTUNOc3FXbHVtaENlUHFHQW9ucG5ib0pZRVNsNlNvZ2JreVZmMjI4RERKcU5KNUlCLW1fMG5qcWdxY05Ea3JnQmtWa3NUaDZ1VWtxUUc3SHVyNzBJc3FyOVMycHJzbV94Q1hkYXg1S3RzZ1lvYVRtME9RVlNUQ2diazhCQzg?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "須賀・浜田地区における津波注意報発表時の避難指示発令対象区域の変更について - town.rifu.miyagi.jp",
       "source": "town.rifu.miyagi.jp",
       "time": "2026-07-28T05:26:44+09:00",
@@ -90,10 +76,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "フランスの森林火災、22万人超が避難 拡大続けボルドーに迫る - 朝日新聞",
-      "source": "朝日新聞",
-      "time": "2026-07-26T16:29:43+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzYl9neVhQQVFyNGVMeFRPY3ZVUWtscnhwVWlqZ3pKTU9EZkJfSXhNdXNNVXAwWlBYXzJvZTZmYVpFaWhqdjF1RlMtLUs0RkV4YmFMcG5sVC1yajB5RnlfRC1pNkp4QXM?oc=5",
+      "title": "【地震】薩摩地方を震源とする地震 阿久根市で震度3観測 津波の心配なし マグニチュード4.2 - 日テレNEWS NNN",
+      "source": "日テレNEWS NNN",
+      "time": "2026-07-27T11:47:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdlFlTUNOc3FXbHVtaENlUHFHQW9ucG5ib0pZRVNsNlNvZ2JreVZmMjI4RERKcU5KNUlCLW1fMG5qcWdxY05Ea3JnQmtWa3NUaDZ1VWtxUUc3SHVyNzBJc3FyOVMycHJzbV94Q1hkYXg1S3RzZ1lvYVRtME9RVlNUQ2diazhCQzg?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -104,10 +90,24 @@
       "zoomSource": "none"
     },
     {
-      "title": "富来田地区避難所開設ワークショップの実施 - city.kisarazu.lg.jp",
-      "source": "city.kisarazu.lg.jp",
-      "time": "2026-07-27T20:08:35+09:00",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1kRmFady1VU3NrcnNoV0QyOWRMbGxnOVdZR3FTU0NkRXMyY0psTVJGbVl1bHhqWHNFbi1xUkdQcDVTUWV2RmQ5d19Oal9MbDJSQld5VzNFTTRudXRVSWFEWVFpb2xyT1BoaVplbmhSVmU2WjJfelNSeQ?oc=5",
+      "title": "「所沢式」避難所開設スタートキット - city.tokorozawa.saitama.jp",
+      "source": "city.tokorozawa.saitama.jp",
+      "time": "2026-07-28T13:16:33+09:00",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObGs0OTR0VFlPQ1NhT0tNQVFHNEFsWUZyVUl1N0dJdS1yanctS1Zwdl9fbi1MUjVURGJWd0lMYWFHQTRXWGJpUThETG53Y3hIOGVIaXVVMUx1SWZIdkdPLW0yTnBjYVVkcEthekdRYVFNUVJvbGoxbVRFZFhuek1OazhJUWtPcjQ?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "フランスの森林火災、22万人超が避難 拡大続けボルドーに迫る - 朝日新聞",
+      "source": "朝日新聞",
+      "time": "2026-07-26T16:29:43+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzYl9neVhQQVFyNGVMeFRPY3ZVUWtscnhwVWlqZ3pKTU9EZkJfSXhNdXNNVXAwWlBYXzJvZTZmYVpFaWhqdjF1RlMtLUs0RkV4YmFMcG5sVC1yajB5RnlfRC1pNkp4QXM?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
