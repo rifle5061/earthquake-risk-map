@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T07:02:49+09:00",
+  "updated_at": "2026-07-29T08:29:39+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -33,10 +33,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "「令和８年熊本地震」と命名…気象庁 2016年地震との関連「まだわからない」（日テレNEWS NNN） - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-07-28T19:19:01+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9VSUVNQndnR1pNVXpNb0xHYTl5RWxXV3Q0WUo0ejZoWDlYeGNfbWgxdW8yUHpYNDV5WnBTcG9LX0stX1ZDQkZkQU5vdGo5MEthQk8wWnhlVlVEQmx3ZDlxUjFWUnctSndlQ3R2TnRoTW8tRzQ3VXBlbExZX0d2RTA?oc=5",
+      "title": "【令和8年熊本地震】 緊急支援を開始！ 被災地を支えてください - Yahoo!ネット募金",
+      "source": "Yahoo!ネット募金",
+      "time": "2026-07-28T21:04:15+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WS3dlZS0tVDJhQjhXYXdhXzdnbUZvMnJ0SUMtMEpuSzdKUDBEeHVoRG9MeUN0d0p5cVFxYXV3YlVKNm5nR1FBd1FiOXNNaVExN0lxVGxn?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -60,6 +60,21 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
+    },
+    {
+      "title": "震度7の揺れ、阪神大震災以来8回観測 うち3回は熊本県内 - 日本経済新聞",
+      "source": "日本経済新聞",
+      "time": "2026-07-28T18:47:04+09:00",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1maXV1NWdOMzFpa0NGeEp4OEN5cVlSWVhrVG45WVEyb0hHODhSVUVZUC1WcTBVRFJJTkNPZXh1Q3liTlktSXkzU3NRUHZwN1NsUjJRZHdnbXB4WEhhMTNCdHBOY0hPaWplUEpCUQ?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
     },
     {
       "title": "熊本で最大震度7の地震 気象庁「数日は震度7程度の地震に注意」 - 朝日新聞",
@@ -95,20 +110,6 @@
       "source": "ktn.co.jp",
       "time": "2026-07-28T16:54:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4xbjE1Zk9HTU84enYxSWVQdTl0eml4MlNuY0lOQ0tyY3QzdURmb3ZSdjB0VHotUWg3bzJ5VkNBZ25HeVJYOHVpN1c4NWktVG82TkxpVXgxRkNOd2tCNzg2TFRn?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "「余震が怖い」「１０年前思い出す」 震度７、不安抱える住民ら―道路寸断、家屋倒壊に火災も・熊本 - 時事ドットコム",
-      "source": "時事ドットコム",
-      "time": "2026-07-28T18:38:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAtSTZ5UGlNeEl2X2ZISTAxd0NFUTZ2VEVyWnlOWnNiRGpONUJEb2twZW0zUS1IYWNLd1FqZ3BmX3lONTdLQWdJbGl3eC01UWlWdGFUTDYyVXZuTHRqQ19uRWhZaw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
