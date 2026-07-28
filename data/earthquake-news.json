@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T04:20:01+09:00",
+  "updated_at": "2026-07-29T07:02:49+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -33,20 +33,6 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "熊本で最大震度7の地震 気象庁「数日は震度7程度の地震に注意」 - 朝日新聞",
-      "source": "朝日新聞",
-      "time": "2026-07-28T16:39:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rejZ2NjBxbGNGaDNueTg5ZVRsclhHMlRTMzI0T19jemtxcXdXempCeFZmRDVEYmdsci1RZklHM3NENVBUZExKMjVRbV8xaGY1Nm8tNERaWVhEQkR1MEVSdE4yMmhwTW8?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "「令和８年熊本地震」と命名…気象庁 2016年地震との関連「まだわからない」（日テレNEWS NNN） - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
       "time": "2026-07-28T19:19:01+09:00",
@@ -62,10 +48,38 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "「横ずれ断層型」地震か？熊本で最大震度7 2016年の熊本地震を引き起こした“2つの断層”に「関連する可能性が高い」気象庁【news23】 - TBS NEWS DIG",
+      "title": "熊本で震度７、１０年前の「割れ残り」断層がずれて発生か…専門家「前震の後に本震が来る可能性に注意」 - 読売新聞",
+      "source": "読売新聞",
+      "time": "2026-07-29T05:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9VNlVkUlF0a3I0d0YyTjNaTV9LbHRQNHQ3VTVINW9IeDBjcEdxaWtuaFpFM0owdDRQb1pTQ2FSRlQzVTVqR3pYLWdBYnZiNmhqUEpLTkdHbHJFYUFZbVlwck42NWI?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "熊本で最大震度7の地震 気象庁「数日は震度7程度の地震に注意」 - 朝日新聞",
+      "source": "朝日新聞",
+      "time": "2026-07-28T16:39:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rejZ2NjBxbGNGaDNueTg5ZVRsclhHMlRTMzI0T19jemtxcXdXempCeFZmRDVEYmdsci1RZklHM3NENVBUZExKMjVRbV8xaGY1Nm8tNERaWVhEQkR1MEVSdE4yMmhwTW8?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "【最新ライブ】熊本県で最大震度7の強い地震 熊本県・宇城市、氷川町 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
-      "time": "2026-07-29T01:30:45+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE84R3dqN1BxVjBJVTdnV2tmMXhNb0xhOHRIX21GRS1reGEtUGlSUzFZaFpMZ2ZOcnEyN0FDV25zSEpmT0xYQ19sa0RiZ2tPZTRLbVo3UXhGMA?oc=5",
+      "time": "2026-07-28T16:35:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA0NHlyUjJSSks2bkg3dmJvS3F2RXhKRmFxS0x4V1ZpcGQtc2l4OGFZdnhUVmJ4V256VEd4aEtoeVJPX2R1bzctd0FmM3JyWVdNVXdhWFRpaw?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -103,21 +117,6 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
-    },
-    {
-      "title": "震度7の揺れ、阪神大震災以来8回観測 うち3回は熊本県内 - 日本経済新聞",
-      "source": "日本経済新聞",
-      "time": "2026-07-28T18:47:04+09:00",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1maXV1NWdOMzFpa0NGeEp4OEN5cVlSWVhrVG45WVEyb0hHODhSVUVZUC1WcTBVRFJJTkNPZXh1Q3liTlktSXkzU3NRUHZwN1NsUjJRZHdnbXB4WEhhMTNCdHBOY0hPaWplUEpCUQ?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
     }
   ]
 }
