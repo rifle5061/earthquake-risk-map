@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-30T05:53:35+09:00",
+  "updated_at": "2026-07-30T06:59:26+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
-      "title": "熊本県熊本地方を震源とする地震についての会見 - kantei.go.jp",
-      "source": "kantei.go.jp",
+      "title": "熊本県熊本地方を震源とする地震についての会見 - 首相官邸",
+      "source": "首相官邸",
       "time": "2026-07-28T19:18:37+09:00",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1MR2xHNjJnXzFWcUhraGJ2ZGdqNXZwSXFYWUlJbUpNaWxWU0lZb3UyR3BKN1dwbkRlVXpIYzRzblNxUGgtS21jSWFXdkRWUXExWFhyaXQtOVl4d2xEOVRCRVVmNGlwMVVqT21MaDhQbw?oc=5",
       "type": "news",
@@ -78,10 +78,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "令和8年熊本地震災害に伴う 店頭支援金募金開始のお知らせ｜ニュースリリース - family.co.jp",
-      "source": "family.co.jp",
-      "time": "2026-07-29T09:39:11+09:00",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9IMExYQmtUb0RWODhjWk5MbmUwcHZTb2JmSjhjN2c0TXJyb2dBczhnZ1RsUUFjQTd1Ul84eHR5Y01oV01vRlpQVkJ5TGdmSGh4VTAtNHpmVUw2V0p1YmlOeno0eENXZmRkbTQ3bUJ2RlB5Q3M3Nncw?oc=5",
+      "title": "宮城県にも活断層 熊本県と同様の地震が起きる危険性も 専門家 - khb東日本放送",
+      "source": "khb東日本放送",
+      "time": "2026-07-29T18:15:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE02YjdGbERNZzNxRzMtT2pWSWF5N0NUTGVFZXFwS3g1al9CUWR3QUx6WV90MWhXdFYxRS1vckRsbVRZbExjT3FEZE9YLVFjSFU?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -93,10 +93,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "宮城県にも活断層 熊本県と同様の地震が起きる危険性も 専門家 - khb東日本放送",
-      "source": "khb東日本放送",
-      "time": "2026-07-29T18:15:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE02YjdGbERNZzNxRzMtT2pWSWF5N0NUTGVFZXFwS3g1al9CUWR3QUx6WV90MWhXdFYxRS1vckRsbVRZbExjT3FEZE9YLVFjSFU?oc=5",
+      "title": "令和8年熊本地震災害に伴う 店頭支援金募金開始のお知らせ｜ニュースリリース - family.co.jp",
+      "source": "family.co.jp",
+      "time": "2026-07-29T09:39:11+09:00",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9IMExYQmtUb0RWODhjWk5MbmUwcHZTb2JmSjhjN2c0TXJyb2dBczhnZ1RsUUFjQTd1Ul84eHR5Y01oV01vRlpQVkJ5TGdmSGh4VTAtNHpmVUw2V0p1YmlOeno0eENXZmRkbTQ3bUJ2RlB5Q3M3Nncw?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
