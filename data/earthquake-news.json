@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T21:53:45+09:00",
+  "updated_at": "2026-08-01T00:17:57+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -77,23 +77,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "令和8年熊本地震の影響について（第2報）｜お知らせ｜ソニーセミコンダクタソリューションズグループ - sony-semicon.com",
-      "source": "sony-semicon.com",
-      "time": "2026-07-31T14:15:54+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9XRHNfdkpWNWg4SDVyVk5YV2t6SVZ6OWVjbV9mb0dUblVsak5zZGZ0QkNQUG0zMG1JaVRRbGFZSE9ONHkwSVpra0JIZEhpWndHWFlNNmdOLXM5ODVFcjIydjZEdm1vcXJN?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "熊本県で震度7 2016年の熊本地震の活動域と重なる 日奈久断層の活動か - weathernews.jp",
-      "source": "weathernews.jp",
+      "title": "熊本県で震度7 2016年の熊本地震の活動域と重なる 日奈久断層の活動か - ウェザーニュース",
+      "source": "ウェザーニュース",
       "time": "2026-07-28T18:58:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oZmtWZ3hIa0psMkV0MFVlQU5WQzYxN1RuYmtHNkoyU1hPdHJJMWdUaldYUVNJay0ta3c4Nzl2djlyZ28tZk1qVjNUNzVxNHVJQ1k1VQ?oc=5",
       "type": "news",
@@ -111,6 +96,21 @@
       "source": "BBC",
       "time": "2026-07-30T17:25:20+09:00",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE95RGRMSlhGbjJjNllvQjZXbDMwZHVtZFJjSzdNaVdDSWk3OUxLa3VNQTgxRFlnaTJVM0I4d3A1WDB2MjBfQ1RuWnNtY0U2ejFVRFpjbzY3dUtRaDNnZC1F0gFkQVVfeXFMUDZ3UUpDc1g0Q3pHUXhNWi1NTndoZWlhQUg2ZTNMRkJibV9aanRfd1VIZFlKcTJxbDRzVWdEOXhoRGFXa1BsQUxqV3VFdjJUZUowSmE4RmNYWUR6TFZlTmppdFlNcQ?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "令和8年熊本地震災害に伴う 店頭支援金募金開始のお知らせ｜ニュースリリース - family.co.jp",
+      "source": "family.co.jp",
+      "time": "2026-07-29T09:39:11+09:00",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9IMExYQmtUb0RWODhjWk5MbmUwcHZTb2JmSjhjN2c0TXJyb2dBczhnZ1RsUUFjQTd1Ul84eHR5Y01oV01vRlpQVkJ5TGdmSGh4VTAtNHpmVUw2V0p1YmlOeno0eENXZmRkbTQ3bUJ2RlB5Q3M3Nncw?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
