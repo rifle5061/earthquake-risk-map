@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T13:57:28+09:00",
+  "updated_at": "2026-07-31T16:52:53+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -92,8 +92,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "熊本地震、死者30人と首相　避難者は猛暑に直面 - BBC",
-      "source": "BBC",
+      "title": "熊本地震、死者30人と首相　避難者は猛暑に直面 - bbc.com",
+      "source": "bbc.com",
       "time": "2026-07-30T17:25:20+09:00",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE95RGRMSlhGbjJjNllvQjZXbDMwZHVtZFJjSzdNaVdDSWk3OUxLa3VNQTgxRFlnaTJVM0I4d3A1WDB2MjBfQ1RuWnNtY0U2ejFVRFpjbzY3dUtRaDNnZC1F0gFkQVVfeXFMUDZ3UUpDc1g0Q3pHUXhNWi1NTndoZWlhQUg2ZTNMRkJibV9aanRfd1VIZFlKcTJxbDRzVWdEOXhoRGFXa1BsQUxqV3VFdjJUZUowSmE4RmNYWUR6TFZlTmppdFlNcQ?oc=5",
       "type": "news",
