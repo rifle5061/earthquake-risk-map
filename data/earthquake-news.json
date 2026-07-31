@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T08:04:25+09:00",
+  "updated_at": "2026-07-31T10:03:42+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -92,10 +92,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "熊本地震、死者30人と首相　避難者は猛暑に直面 - BBC",
-      "source": "BBC",
-      "time": "2026-07-30T17:25:20+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE95RGRMSlhGbjJjNllvQjZXbDMwZHVtZFJjSzdNaVdDSWk3OUxLa3VNQTgxRFlnaTJVM0I4d3A1WDB2MjBfQ1RuWnNtY0U2ejFVRFpjbzY3dUtRaDNnZC1F0gFkQVVfeXFMUDZ3UUpDc1g0Q3pHUXhNWi1NTndoZWlhQUg2ZTNMRkJibV9aanRfd1VIZFlKcTJxbDRzVWdEOXhoRGFXa1BsQUxqV3VFdjJUZUowSmE4RmNYWUR6TFZlTmppdFlNcQ?oc=5",
+      "title": "令和8年熊本地震災害に伴う 店頭支援金募金開始のお知らせ｜ニュースリリース - family.co.jp",
+      "source": "family.co.jp",
+      "time": "2026-07-29T09:39:11+09:00",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9IMExYQmtUb0RWODhjWk5MbmUwcHZTb2JmSjhjN2c0TXJyb2dBczhnZ1RsUUFjQTd1Ul84eHR5Y01oV01vRlpQVkJ5TGdmSGh4VTAtNHpmVUw2V0p1YmlOeno0eENXZmRkbTQ3bUJ2RlB5Q3M3Nncw?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -107,10 +107,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "最大震度7の「令和8年熊本地震」、建物や道路に多数被害 余震続く - 日経クロステック",
-      "source": "日経クロステック",
-      "time": "2026-07-28T20:50:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5uWFJLUFc0UG1DRHdrcklfaXM1VmlFWld6SHozb2ZuNjJGalFPUUQzcjE4Z29qcmwtdVk3RWllakNhaTJUa3dCUWVCVzNpZ0NvU3YzZlc4VWNLSUllLW9WazlBbkRDN3d5Z1M5QQ?oc=5",
+      "title": "震度7の揺れ、阪神大震災以来8回観測 うち3回は熊本県内 - 日本経済新聞",
+      "source": "日本経済新聞",
+      "time": "2026-07-28T18:47:04+09:00",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1maXV1NWdOMzFpa0NGeEp4OEN5cVlSWVhrVG45WVEyb0hHODhSVUVZUC1WcTBVRFJJTkNPZXh1Q3liTlktSXkzU3NRUHZwN1NsUjJRZHdnbXB4WEhhMTNCdHBOY0hPaWplUEpCUQ?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
