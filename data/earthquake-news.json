@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T02:03:51+09:00",
+  "updated_at": "2026-08-01T03:52:49+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -48,8 +48,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "熊本で震度7、多数の死傷者 10年前の地震の断層の「割れ残り」か - scienceportal.jst.go.jp",
-      "source": "scienceportal.jst.go.jp",
+      "title": "熊本で震度7、多数の死傷者 10年前の地震の断層の「割れ残り」か - Science Portal",
+      "source": "Science Portal",
       "time": "2026-07-29T16:40:38+09:00",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9vUGtfTW5tRThqcXF3al8xMHJHMXFMTW9DZGZSZkE1YnVfS3IxakZldmcxYWp3U1VlV0pZanRqaDU4a25hakZTZnlCWi1odWI3Y2txX0VPVUYwR2E0TVRHMWJ3SU93Zw?oc=5",
       "type": "news",
