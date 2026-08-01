@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-01T12:59:48+09:00",
+  "updated_at": "2026-08-01T15:37:06+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
-      "title": "【令和8年熊本地震】被災地へ緊急支援を届けます（グッドネーバーズ・ジャパン） - donation.yahoo.co.jp",
-      "source": "donation.yahoo.co.jp",
+      "title": "【令和8年熊本地震】被災地へ緊急支援を届けます（グッドネーバーズ・ジャパン） - Yahoo!ネット募金",
+      "source": "Yahoo!ネット募金",
       "time": "2026-07-29T15:20:21+09:00",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HRTltS00tMklVU1RsTzljTVZPVmpQTkhFajVVVnJsSGNwSFZFSUZ3R3RtcEM5VHNDNlZydGw3UjRYWHZsWmJERVBvd205Y2ZVWUlYWDVR?oc=5",
       "type": "news",
@@ -107,8 +107,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "熊本県で震度7 2016年の熊本地震の活動域と重なる 日奈久断層の活動か - weathernews.jp",
-      "source": "weathernews.jp",
+      "title": "熊本県で震度7 2016年の熊本地震の活動域と重なる 日奈久断層の活動か - ウェザーニュース",
+      "source": "ウェザーニュース",
       "time": "2026-07-28T18:58:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oZmtWZ3hIa0psMkV0MFVlQU5WQzYxN1RuYmtHNkoyU1hPdHJJMWdUaldYUVNJay0ta3c4Nzl2djlyZ28tZk1qVjNUNzVxNHVJQ1k1VQ?oc=5",
       "type": "news",
