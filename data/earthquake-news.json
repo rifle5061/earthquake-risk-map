@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T00:58:35+09:00",
+  "updated_at": "2026-08-03T02:08:42+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -77,8 +77,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "熊本県で震度7 2016年の熊本地震の活動域と重なる 日奈久断層の活動か - weathernews.jp",
-      "source": "weathernews.jp",
+      "title": "熊本県で震度7 2016年の熊本地震の活動域と重なる 日奈久断層の活動か - ウェザーニュース",
+      "source": "ウェザーニュース",
       "time": "2026-07-28T18:58:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oZmtWZ3hIa0psMkV0MFVlQU5WQzYxN1RuYmtHNkoyU1hPdHJJMWdUaldYUVNJay0ta3c4Nzl2djlyZ28tZk1qVjNUNzVxNHVJQ1k1VQ?oc=5",
       "type": "news",
@@ -107,8 +107,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "酷暑に危機感、「ホテル避難」始動 熊本地震、従来よりスピード重視 - 朝日新聞",
-      "source": "朝日新聞",
+      "title": "酷暑に危機感、「ホテル避難」始動 熊本地震、従来よりスピード重視 - asahi.com",
+      "source": "asahi.com",
       "time": "2026-08-02T19:15:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1pcDRFWldqTEJhSUVnclFHRm1peHc5dzRFUk9mVzBlcFJhd1ozM1pjaW5WZERObkVheUZidVl0Q2tUQXVLb3lnMm5ZVmNXdExmM1ZDdjQ1aHEzQVZUNFA3blZ5bl9PSUE?oc=5",
       "type": "news",
