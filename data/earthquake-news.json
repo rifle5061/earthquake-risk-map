@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T06:54:02+09:00",
+  "updated_at": "2026-08-03T07:54:35+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -77,8 +77,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "「ボラサポ・令和8年熊本地震」(災害支援金)の寄付受付を開始しました - 赤い羽根共同募金",
-      "source": "赤い羽根共同募金",
+      "title": "「ボラサポ・令和8年熊本地震」(災害支援金)の寄付受付を開始しました - akaihane.or.jp",
+      "source": "akaihane.or.jp",
       "time": "2026-07-30T04:36:52+09:00",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9CcE55bXEtMktnWFhxV0toV0Y1a2NaTVZ2aC1oNTJxRU45WExvZV8tWnFZMGowdWdCOXBDaW9YV3J4WnVfclVNcWZ6cUl6Nmh6UWRMTERYeVJYTlZEdHZVLXkwbTU?oc=5",
       "type": "news",
