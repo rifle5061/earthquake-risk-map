@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-03T04:44:47+09:00",
+  "updated_at": "2026-08-03T05:52:58+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
-      "title": "熊本県熊本地方を震源とする地震についての会見 - kantei.go.jp",
-      "source": "kantei.go.jp",
+      "title": "熊本県熊本地方を震源とする地震についての会見 - 首相官邸",
+      "source": "首相官邸",
       "time": "2026-07-28T19:18:37+09:00",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1MR2xHNjJnXzFWcUhraGJ2ZGdqNXZwSXFYWUlJbUpNaWxWU0lZb3UyR3BKN1dwbkRlVXpIYzRzblNxUGgtS21jSWFXdkRWUXExWFhyaXQtOVl4d2xEOVRCRVVmNGlwMVVqT21MaDhQbw?oc=5",
       "type": "news",
