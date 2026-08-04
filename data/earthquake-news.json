@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T15:25:30+09:00",
+  "updated_at": "2026-08-04T18:19:57+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -33,20 +33,6 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "熊本で震度7、多数の死傷者 10年前の地震の断層の「割れ残り」か - Science Portal",
-      "source": "Science Portal",
-      "time": "2026-07-29T16:40:38+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9vUGtfTW5tRThqcXF3al8xMHJHMXFMTW9DZGZSZkE1YnVfS3IxakZldmcxYWp3U1VlV0pZanRqaDU4a25hakZTZnlCWi1odWI3Y2txX0VPVUYwR2E0TVRHMWJ3SU93Zw?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "令和8年熊本地震に対する対応について - waseda.jp",
       "source": "waseda.jp",
       "time": "2026-07-30T15:03:58+09:00",
@@ -60,6 +46,20 @@
       "zoomable": true,
       "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "熊本で震度7、多数の死傷者 10年前の地震の断層の「割れ残り」か - Science Portal",
+      "source": "Science Portal",
+      "time": "2026-07-29T16:40:38+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9vUGtfTW5tRThqcXF3al8xMHJHMXFMTW9DZGZSZkE1YnVfS3IxakZldmcxYWp3U1VlV0pZanRqaDU4a25hakZTZnlCWi1odWI3Y2txX0VPVUYwR2E0TVRHMWJ3SU93Zw?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "「ボラサポ・令和8年熊本地震」(災害支援金)の寄付受付を開始しました - 赤い羽根共同募金",
@@ -107,8 +107,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "最大震度7の「令和8年熊本地震」、建物や道路に多数被害 余震続く - xtech.nikkei.com",
-      "source": "xtech.nikkei.com",
+      "title": "最大震度7の「令和8年熊本地震」、建物や道路に多数被害 余震続く - 日経クロステック",
+      "source": "日経クロステック",
       "time": "2026-07-28T20:50:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5uWFJLUFc0UG1DRHdrcklfaXM1VmlFWld6SHozb2ZuNjJGalFPUUQzcjE4Z29qcmwtdVk3RWllakNhaTJUa3dCUWVCVzNpZ0NvU3YzZlc4VWNLSUllLW9WazlBbkRDN3d5Z1M5QQ?oc=5",
       "type": "news",
