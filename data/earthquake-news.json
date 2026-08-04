@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T05:08:33+09:00",
+  "updated_at": "2026-08-05T06:47:56+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -18,8 +18,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "令和８年熊本地震非常災害対策本部会議 - 首相官邸",
-      "source": "首相官邸",
+      "title": "令和８年熊本地震非常災害対策本部会議 - kantei.go.jp",
+      "source": "kantei.go.jp",
       "time": "2026-07-31T22:21:21+09:00",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE95T25lMnYyM2Z2NnZENlZSOGRsQnh0ME5xTUVDcEFrYWJhdTNObF9rS3RzU0lwQ2IzSXFsd3Z6bzM4RE0wVGlCQ191RWNDdUEwbHEyU19uTDhHbmxqeGdzbHB3STF4WjlXRE5Qd0RUbVhrZw?oc=5",
       "type": "news",
@@ -62,8 +62,8 @@
       "zoomSource": "none"
     },
     {
-      "title": "「ボラサポ・令和8年熊本地震」(災害支援金)の寄付受付を開始しました - akaihane.or.jp",
-      "source": "akaihane.or.jp",
+      "title": "「ボラサポ・令和8年熊本地震」(災害支援金)の寄付受付を開始しました - 赤い羽根共同募金",
+      "source": "赤い羽根共同募金",
       "time": "2026-07-30T04:36:52+09:00",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9CcE55bXEtMktnWFhxV0toV0Y1a2NaTVZ2aC1oNTJxRU45WExvZV8tWnFZMGowdWdCOXBDaW9YV3J4WnVfclVNcWZ6cUl6Nmh6UWRMTERYeVJYTlZEdHZVLXkwbTU?oc=5",
       "type": "news",
