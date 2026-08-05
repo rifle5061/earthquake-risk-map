@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T06:45:35+09:00",
+  "updated_at": "2026-08-06T07:56:21+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -63,8 +63,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "令和8年熊本地震に伴う車両型auショップでの避難所などへの支援を開始 | KDDI News Room - KDDI ニュースルーム",
-      "source": "KDDI ニュースルーム",
+      "title": "令和8年熊本地震に伴う車両型auショップでの避難所などへの支援を開始 | KDDI News Room - newsroom.kddi.com",
+      "source": "newsroom.kddi.com",
       "time": "2026-07-31T14:00:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QNXBiMGxaNkNzdlNpYjFJZ3lTLUFqNTFOTzhMOFN2S0FFWVduZlVUWTJmUmFVX08tYUhwajZiVG5hYkUzSHI4UDYweDNNbnFpM19Vc0QtNlFzaUNobnd2VmxJT0dNNGlmWnliLQ?oc=5",
       "type": "news",
