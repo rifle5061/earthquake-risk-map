@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T03:03:04+09:00",
+  "updated_at": "2026-08-06T05:07:00+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -22,21 +22,6 @@
       "source": "waseda.jp",
       "time": "2026-07-30T15:03:58+09:00",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE00WTB6NVhHTDhWM0pvMVNuY0dlTW9LdG8xNDI5Um5VMzF1YnRSNktIM0tkMVFtU2F2cTJGbmlQUHFWM2tTZ0FJNXNPY3FIQQ?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "「ボラサポ・令和8年熊本地震」(災害支援金)の寄付受付を開始しました - 赤い羽根共同募金",
-      "source": "赤い羽根共同募金",
-      "time": "2026-07-30T04:36:52+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9CcE55bXEtMktnWFhxV0toV0Y1a2NaTVZ2aC1oNTJxRU45WExvZV8tWnFZMGowdWdCOXBDaW9YV3J4WnVfclVNcWZ6cUl6Nmh6UWRMTERYeVJYTlZEdHZVLXkwbTU?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -112,6 +97,21 @@
       "source": "TBS NEWS DIG",
       "time": "2026-08-04T16:41:23+09:00",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE44ZmhrVG1QZjVqNGt0ZjNvWGZILVJDSzQ1NVllLXZhbUg4NXQzd280T0lLc3UzNUdYVldhNE5aaUkzdENxM1NsOWQyUDRlVy1NeS1JWGF6NA?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "「すでに複合災害」熊本地震と猛暑 「被災後防災」を識者が呼びかけ - 朝日新聞",
+      "source": "朝日新聞",
+      "time": "2026-08-02T11:01:49+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zc2lqSFdMTVRrb3VYNFhNc1pRTlI3QVBJOXhyY25Bb01qcExHWlkzVGQ4eF94dGRwanpETGF5OTBIbFRSZWRKMXJPb3JheVdxQ080TGwyeTVDQ3hUczNPWXdrTXg3Qms?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
