@@ -1,11 +1,11 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-06T15:44:46+09:00",
+  "fetched_at": "2026-08-06T18:31:20+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/06 14:37:00",
+    "time": "2026/08/06 18:21:00",
     "area": "熊本県熊本地方",
-    "magnitude": 2.4,
+    "magnitude": 2.2,
     "depth": 0,
     "maxScale": 10,
     "intensityLabel": "1",
