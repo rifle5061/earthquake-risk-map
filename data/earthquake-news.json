@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-08T01:23:16+09:00",
+  "updated_at": "2026-08-08T02:22:31+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
-      "title": "令和８年熊本地震非常災害対策本部会議 - kantei.go.jp",
-      "source": "kantei.go.jp",
+      "title": "令和８年熊本地震非常災害対策本部会議 - 首相官邸",
+      "source": "首相官邸",
       "time": "2026-08-04T18:21:29+09:00",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDZzB4THp5NU5oLXhUT1BMa253bGJRbFN1QkU3ZS1CN1RNVC1yZVJGZENiN0lmZEVuYWJHbHQ0dFBoTFZYZnIzRXNCb19tbTJKNEU4OERtV1JHWnNDb3NLYzN0VEhNOXZXMk5WelVqMGZiZw?oc=5",
       "type": "news",
@@ -63,8 +63,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "１３７年前と同じ日、同じ猛暑の中で起きた熊本地震…繰り返す災害を克服してきた先人の教訓と英知 - 読売新聞",
-      "source": "読売新聞",
+      "title": "１３７年前と同じ日、同じ猛暑の中で起きた熊本地震…繰り返す災害を克服してきた先人の教訓と英知 - yomiuri.co.jp",
+      "source": "yomiuri.co.jp",
       "time": "2026-08-03T15:30:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15RFhncDVyRnREUU1VMTlhclc0a2N5SmFSZFBNT3J3V0diNkV6ZkoyUUljTlVVblV2VWs5ZURRNDd2NWRmV21JZGNybFZ6V0ViRTZpQkhHQXU2S25KM0hPeWxKWkdZOVdMZ0JXb0hLNEZSd3lXaUdWVg?oc=5",
       "type": "news",
