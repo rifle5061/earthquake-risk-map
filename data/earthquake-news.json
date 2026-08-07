@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T05:07:22+09:00",
+  "updated_at": "2026-08-08T06:09:33+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -48,8 +48,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "「すでに複合災害」熊本地震と猛暑 「被災後防災」を識者が呼びかけ - asahi.com",
-      "source": "asahi.com",
+      "title": "「すでに複合災害」熊本地震と猛暑 「被災後防災」を識者が呼びかけ - 朝日新聞",
+      "source": "朝日新聞",
       "time": "2026-08-02T11:01:49+09:00",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zc2lqSFdMTVRrb3VYNFhNc1pRTlI3QVBJOXhyY25Bb01qcExHWlkzVGQ4eF94dGRwanpETGF5OTBIbFRSZWRKMXJPb3JheVdxQ080TGwyeTVDQ3hUczNPWXdrTXg3Qms?oc=5",
       "type": "news",
