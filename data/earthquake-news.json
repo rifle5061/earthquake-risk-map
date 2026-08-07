@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-07T15:44:33+09:00",
+  "updated_at": "2026-08-07T17:11:26+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
-      "title": "令和８年熊本地震非常災害対策本部会議 - 首相官邸",
-      "source": "首相官邸",
+      "title": "令和８年熊本地震非常災害対策本部会議 - kantei.go.jp",
+      "source": "kantei.go.jp",
       "time": "2026-07-31T22:21:21+09:00",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE95T25lMnYyM2Z2NnZENlZSOGRsQnh0ME5xTUVDcEFrYWJhdTNObF9rS3RzU0lwQ2IzSXFsd3Z6bzM4RE0wVGlCQ191RWNDdUEwbHEyU19uTDhHbmxqeGdzbHB3STF4WjlXRE5Qd0RUbVhrZw?oc=5",
       "type": "news",
@@ -48,8 +48,22 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "「すでに複合災害」熊本地震と猛暑 「被災後防災」を識者が呼びかけ - 朝日新聞",
-      "source": "朝日新聞",
+      "title": "地震と雲を関係付ける誤情報に注意　命を守るための「正しい防災」とは?(気象予報士 堂本　幸代 2026年08月02日) - tenki.jp",
+      "source": "tenki.jp",
+      "time": "2026-08-02T15:37:40+09:00",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZNkVlYjB3SU9KX0ZtODRLa3hkZmZzaldoSThxR05QMTRIZTllSzBpaldDZFUtTnU3cWpmQk1famFjWDBiOHlENmZMb2dWWG1kSUozUG1LZUJXSGRyQjREWGZCcEV1UlQ2SlBneGxSZzbSAXZBVV95cUxPSHk5WWt4MVVYZTlFeno5TWc0bzBkX0RpM1MzTlQzQUJtem01TEhfZURwZUN2UzFaR0hSamtCOGVjZWFFS1M2cGpfZW1Yd3lIanhWNUVuRXp5WTd4NFhDR0RzU1o1eFpfSTc1R2JsclZ1TkgtOTNn?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "「すでに複合災害」熊本地震と猛暑 「被災後防災」を識者が呼びかけ - asahi.com",
+      "source": "asahi.com",
       "time": "2026-08-02T11:01:49+09:00",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zc2lqSFdMTVRrb3VYNFhNc1pRTlI3QVBJOXhyY25Bb01qcExHWlkzVGQ4eF94dGRwanpETGF5OTBIbFRSZWRKMXJPb3JheVdxQ080TGwyeTVDQ3hUczNPWXdrTXg3Qms?oc=5",
       "type": "news",
@@ -97,21 +111,6 @@
       "source": "TBS NEWS DIG",
       "time": "2026-08-04T16:41:23+09:00",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE44ZmhrVG1QZjVqNGt0ZjNvWGZILVJDSzQ1NVllLXZhbUg4NXQzd280T0lLc3UzNUdYVldhNE5aaUkzdENxM1NsOWQyUDRlVy1NeS1JWGF6NA?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "熊本地震48時間後でも整わぬ「TKB」 10年前と変わらぬ避難所（朝日新聞） - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-08-01T01:29:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBleW9KY1ByT3dVR3ViWV9yU0tfc05tQkprLUNsV0ttSU4zay1vcDZtWDVsdktWUGZGUnlwZXZHWlVlRjNraXdsVjhXRTFqN2haLXc5M1lFUnBGV2tLbjAzTXAtZUJGUG9aU3JodWxnbWhTYmNTXzYtMlhpQkVzT2c?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
