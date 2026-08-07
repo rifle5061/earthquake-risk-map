@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-07T23:14:44+09:00",
+  "updated_at": "2026-08-08T01:23:16+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
-      "title": "令和８年熊本地震非常災害対策本部会議 - 首相官邸",
-      "source": "首相官邸",
+      "title": "令和８年熊本地震非常災害対策本部会議 - kantei.go.jp",
+      "source": "kantei.go.jp",
       "time": "2026-08-04T18:21:29+09:00",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDZzB4THp5NU5oLXhUT1BMa253bGJRbFN1QkU3ZS1CN1RNVC1yZVJGZENiN0lmZEVuYWJHbHQ0dFBoTFZYZnIzRXNCb19tbTJKNEU4OERtV1JHWnNDb3NLYzN0VEhNOXZXMk5WelVqMGZiZw?oc=5",
       "type": "news",
@@ -108,9 +108,9 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "熊本地震 災害関連死の疑い含め38人死亡 避難所に6630人避難 - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-08-07T21:31:17+09:00",
+      "title": "熊本地震 災害関連死の疑い含め38人死亡 避難所に6630人避難 - news.web.nhk",
+      "source": "news.web.nhk",
+      "time": "2026-08-07T11:35:01+09:00",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE83TTN5eEtlbVZxV0FRYlhSMElaRUtmOFpMREp3a1BNRlQ5M2tDSHFiQ2FsUmtwbjJXRnRTenFybnNUY2UwRVkzNTN5Uy1abzNIS0JJM192T09KM1JOMzhr?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
