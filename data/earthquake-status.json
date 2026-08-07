@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-08T03:10:26+09:00",
+  "fetched_at": "2026-08-08T04:14:27+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/08 01:10:00",
-    "area": "大分県西部",
-    "magnitude": 2.8,
+    "time": "2026/08/08 03:41:00",
+    "area": "茨城県北部",
+    "magnitude": 3.9,
     "depth": 10,
-    "maxScale": 10,
-    "intensityLabel": "1",
+    "maxScale": 30,
+    "intensityLabel": "3",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
