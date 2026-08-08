@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T17:38:00+09:00",
+  "updated_at": "2026-08-08T18:34:56+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -18,8 +18,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "週刊地震情報 2026.8.2 熊本県で10年ぶりに震度7 日奈久断層帯の活動 - ウェザーニュース",
-      "source": "ウェザーニュース",
+      "title": "週刊地震情報 2026.8.2 熊本県で10年ぶりに震度7 日奈久断層帯の活動 - weathernews.jp",
+      "source": "weathernews.jp",
       "time": "2026-08-02T10:17:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1nSE5sRzRmVWF5Rll5TjRVcE94TjM5OTlTUmFNNlRlc05uWEtqZElUS01Ka3lVMjk3YWlDdmhBa2d1M2hRcERzeXFnNkpwWU1XRmpveQ?oc=5",
       "type": "news",
