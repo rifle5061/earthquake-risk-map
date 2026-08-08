@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-09T07:57:33+09:00",
+  "updated_at": "2026-08-09T08:32:55+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
-      "title": "令和８年熊本地震非常災害対策本部会議 - kantei.go.jp",
-      "source": "kantei.go.jp",
+      "title": "令和８年熊本地震非常災害対策本部会議 - 首相官邸",
+      "source": "首相官邸",
       "time": "2026-08-04T18:21:29+09:00",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDZzB4THp5NU5oLXhUT1BMa253bGJRbFN1QkU3ZS1CN1RNVC1yZVJGZENiN0lmZEVuYWJHbHQ0dFBoTFZYZnIzRXNCb19tbTJKNEU4OERtV1JHWnNDb3NLYzN0VEhNOXZXMk5WelVqMGZiZw?oc=5",
       "type": "news",
@@ -16,20 +16,6 @@
       "zoomable": true,
       "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "地震と雲を関係付ける誤情報に注意　命を守るための「正しい防災」とは?(気象予報士 堂本　幸代 2026年08月02日) - tenki.jp",
-      "source": "tenki.jp",
-      "time": "2026-08-02T15:37:40+09:00",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZNkVlYjB3SU9KX0ZtODRLa3hkZmZzaldoSThxR05QMTRIZTllSzBpaldDZFUtTnU3cWpmQk1famFjWDBiOHlENmZMb2dWWG1kSUozUG1LZUJXSGRyQjREWGZCcEV1UlQ2SlBneGxSZzbSAXZBVV95cUxPSHk5WWt4MVVYZTlFeno5TWc0bzBkX0RpM1MzTlQzQUJtem01TEhfZURwZUN2UzFaR0hSamtCOGVjZWFFS1M2cGpfZW1Yd3lIanhWNUVuRXp5WTd4NFhDR0RzU1o1eFpfSTc1R2JsclZ1TkgtOTNn?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     },
     {
       "title": "週刊地震情報 2026.8.2 熊本県で10年ぶりに震度7 日奈久断層帯の活動 - ウェザーニュース",
@@ -77,8 +63,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "【速報】「地震活動は依然として活発な状態」気象庁会見 熊本地震1週間 震度1以上観測する地震は521回発生 引き続き今後1週間ほど最大震度5強程度以上の地震に注意 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
+      "title": "【速報】「地震活動は依然として活発な状態」気象庁会見 熊本地震1週間 震度1以上観測する地震は521回発生 引き続き今後1週間ほど最大震度5強程度以上の地震に注意 - newsdig.tbs.co.jp",
+      "source": "newsdig.tbs.co.jp",
       "time": "2026-08-04T16:41:23+09:00",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE44ZmhrVG1QZjVqNGt0ZjNvWGZILVJDSzQ1NVllLXZhbUg4NXQzd280T0lLc3UzNUdYVldhNE5aaUkzdENxM1NsOWQyUDRlVy1NeS1JWGF6NA?oc=5",
       "type": "news",
@@ -92,8 +78,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "【熊本地震】ＳＮＳで広がった陰謀論や怪しい募金話◆災害時のデマ注意、専門家は「一次情報チェックを」 - jiji.com",
-      "source": "jiji.com",
+      "title": "【熊本地震】ＳＮＳで広がった陰謀論や怪しい募金話◆災害時のデマ注意、専門家は「一次情報チェックを」 - 時事ドットコム",
+      "source": "時事ドットコム",
       "time": "2026-08-04T11:00:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA1a0o4SmNVdWRINDJvNmY1RmJ3MW94SUhjN1E3UE9ObWQ5QnF0VU9HYVJZTVF0VW5pS2NtcEVpclduOU55Q3Q4YlMyenB6c05KN2EyQmNRd3F6TWN3dEFtMDRB?oc=5",
       "type": "news",
@@ -107,19 +93,33 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "熊本県の地震は南海トラフ巨大地震の発生に影響はなし（FNNプライムオンライン（フジテレビ系）） - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-08-08T02:00:48+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nbllEU3RVSF9HcGpiRERHYWozSWEtcUFITjR5ell4cVF6dEtmQ0lrLWZxMWNIa0wzM1ZzVjh1ZVl5U3o0QXZqa21ZcnZmZEZmV0Q5RVpRck1pQnFqX3cwRWJYSlhjWjdWY2dva2hva3VuVEYzZFhKeHpBVHF6bTg?oc=5",
+      "title": "避難後に上司の指示でイオン店内に戻り爆発に巻き込まれ……テナント従業員2人死亡　熊本地震 - BBC",
+      "source": "BBC",
+      "time": "2026-08-04T20:18:49+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1WRmxQWDBKM0pxbVBYZFhIcVY1ZGpZNkl2bWYyaF84aVlmNjRKaV9XRVZiUFpyLVN0TVNTaW5hUUprWm15UnNzQ1VjS2xUMUxJc1RVZlNrWS1nQnhkdVRZ0gFkQVVfeXFMTXE5SW01X2RpQUhoQnBlNVdzU3pRWUZSVHlRa2lJRG1PWjFPeXBEU1o3SUY0YndYMVpacGdaWUNPcU9rU01lT1BhLV9mREhyY2VRbnVxSERQWTU2al9pdVFRR19PQg?oc=5",
       "type": "news",
-      "area": "南海トラフ",
+      "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.8,
-      "lon": 136.2,
-      "zoom": 6,
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
       "zoomable": true,
-      "matchedArea": "南海トラフ",
+      "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "10年後に再び熊本を襲った震度7の真相「割れ残った断層が割れた」とはどういうことか？ 天気・天災の謎（21） - JBpress",
+      "source": "JBpress",
+      "time": "2026-08-05T06:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03TWhsWWhtWFA5bVRVQ0VvZ2lyUk9pY3pXTDBIWUdWRWpYNUdmR21PVUFHeUhFRDN5XzlYUl9qX3FhZV90ejRUODdCVGcwaU9UUHVUdkZn?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     }
   ]
 }
