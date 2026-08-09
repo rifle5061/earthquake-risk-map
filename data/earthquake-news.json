@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T06:29:44+09:00",
+  "updated_at": "2026-08-10T07:00:05+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -108,18 +108,18 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "南海トラフ巨大地震の最新予想最大震度、大分県内8市町で上昇 県有識者会議が見直し、6強は計4市に（大分合同新聞） - news.yahoo.co.jp",
-      "source": "news.yahoo.co.jp",
-      "time": "2026-08-08T10:20:23+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NZ1dDNEtPVUhxZFN3ZkJaVGZ2TGlONWo0MjZicFQwUWhQWkR5M2V5d1BOT2R0a1dSNEVzVDQ5UHlnRzBTbGFySG9IZlQ4NC1zemJyR0xraXUybUI2Wjlpcmlmc3BZOTNlODNsczc4ZjE1Y2FnWDNGaXJuRXlrdEE?oc=5",
+      "title": "【令和8年熊本地震被害支援募金】8/11(火・祝)～16(日)楽天モバイル 最強パーク宮城で募金活動を行います - 東北楽天ゴールデンイーグルス",
+      "source": "東北楽天ゴールデンイーグルス",
+      "time": "2026-08-05T15:43:29+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1vcmc2YlU1ZC15WjIwN3MxdFkxRGRsbEFTbk5wRTdtQ1VuWG1yc19RanM4TTBjUW9pcVM0ZjVLZDROTExPeHBpaDBsWlIxSWxaQ1c0NU1WRWRmM2V4cFZKOEhHN093NVBnbGc?oc=5",
       "type": "news",
-      "area": "南海トラフ",
+      "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.8,
-      "lon": 136.2,
-      "zoom": 6,
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
       "zoomable": true,
-      "matchedArea": "南海トラフ",
+      "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
     }
   ]
