@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T20:26:29+09:00",
+  "updated_at": "2026-08-09T20:55:51+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -77,8 +77,8 @@
       "zoomSource": "none"
     },
     {
-      "title": "【速報】「地震活動は依然として活発な状態」気象庁会見 熊本地震1週間 震度1以上観測する地震は521回発生 引き続き今後1週間ほど最大震度5強程度以上の地震に注意 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
+      "title": "【速報】「地震活動は依然として活発な状態」気象庁会見 熊本地震1週間 震度1以上観測する地震は521回発生 引き続き今後1週間ほど最大震度5強程度以上の地震に注意 - newsdig.tbs.co.jp",
+      "source": "newsdig.tbs.co.jp",
       "time": "2026-08-04T16:41:23+09:00",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE44ZmhrVG1QZjVqNGt0ZjNvWGZILVJDSzQ1NVllLXZhbUg4NXQzd280T0lLc3UzNUdYVldhNE5aaUkzdENxM1NsOWQyUDRlVy1NeS1JWGF6NA?oc=5",
       "type": "news",
@@ -92,8 +92,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "広島県で最大震度1の地震 広島県・江田島市（TBS NEWS DIG Powered by JNN） - news.yahoo.co.jp",
-      "source": "news.yahoo.co.jp",
+      "title": "広島県で最大震度1の地震 広島県・江田島市（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
       "time": "2026-08-08T23:32:13+09:00",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFdG13MGRlcnB4UUI2d2VGQVNtV3JWcmhQRlFDVS1NdVQtUjZ3cE5NSkdOcEJ2Nm9zTkg1V0RpXzVtMWRKOUhidE9UR2hEMnM0NTNsMndrMTZUcHJySzJLa0pVVmpEdk9SNjMzbDhHc3hpTTNnSFlqdjVIMnAwZjA?oc=5",
       "type": "news",
