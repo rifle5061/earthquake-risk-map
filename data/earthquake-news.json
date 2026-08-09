@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T17:39:35+09:00",
+  "updated_at": "2026-08-09T18:36:37+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -92,6 +92,20 @@
       "zoomSource": "dictionary"
     },
     {
+      "title": "広島県で最大震度1の地震 広島県・江田島市（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-08-08T23:32:13+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFdG13MGRlcnB4UUI2d2VGQVNtV3JWcmhQRlFDVS1NdVQtUjZ3cE5NSkdOcEJ2Nm9zTkg1V0RpXzVtMWRKOUhidE9UR2hEMnM0NTNsMndrMTZUcHJySzJLa0pVVmpEdk9SNjMzbDhHc3hpTTNnSFlqdjVIMnAwZjA?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "【熊本地震】ＳＮＳで広がった陰謀論や怪しい募金話◆災害時のデマ注意、専門家は「一次情報チェックを」 - 時事ドットコム",
       "source": "時事ドットコム",
       "time": "2026-08-04T11:00:00+09:00",
@@ -104,21 +118,6 @@
       "zoom": 7,
       "zoomable": true,
       "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "【速報】岩手県で震度4 北海道から福島県の広い範囲で揺れ 新幹線に影響なし - テレ朝NEWS",
-      "source": "テレ朝NEWS",
-      "time": "2026-08-09T03:05:02+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1BOWJtcGpXdkNhVHEzQ1dQUkdXUHZobmJaSkh3QnZYazl0RmdfN1lRZy1USndoVGJaZVFMWEdNU1RGTFFEb0liVWhRUF9iZWVPcUhSZGZ4YWtSaVd4amZMRUtWZkM3RjdLZ25HUmt0NGltdw?oc=5",
-      "type": "news",
-      "area": "北海道周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 43.2,
-      "lon": 142.8,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "北海道周辺",
       "zoomSource": "dictionary"
     }
   ]
