@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T21:49:52+09:00",
+  "updated_at": "2026-08-09T22:47:49+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -18,8 +18,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "【応募受付中・8/21締切】「ボラサポ・令和8年熊本地震」助成の募集を開始しました - 赤い羽根共同募金",
-      "source": "赤い羽根共同募金",
+      "title": "【応募受付中・8/21締切】「ボラサポ・令和8年熊本地震」助成の募集を開始しました - akaihane.or.jp",
+      "source": "akaihane.or.jp",
       "time": "2026-08-04T16:37:06+09:00",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5PQWxwbE5lR0x4Y1BpQW5zRTdLTmRYS1FJWFoxbVVnTmMxdHlCS3lWZTNzREZMdGF1YmJoQ2xBLVNhZC05QmNyVEFxMlBNNjVmekltazdmMnM?oc=5",
       "type": "news",
@@ -35,7 +35,7 @@
     {
       "title": "熊本地震、子どもの居場所がない 避難所すみっこでゲーム、親も限界 - 朝日新聞",
       "source": "朝日新聞",
-      "time": "2026-08-09T20:46:44+09:00",
+      "time": "2026-08-09T13:33:36+09:00",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE80ZzZSZzZOOUppMHNZWG1uX2czdGlxMHh3M2FNa0VNdWxUMVpLTlFIMzJxZGN3VElERENjVUx5STNtd2tzYnI1b2ZRZi1HaF9NV1pvM093Rml4MmNjRW96b3hyQU50dFk?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
