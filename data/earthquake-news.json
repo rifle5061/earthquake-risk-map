@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T16:40:26+09:00",
+  "updated_at": "2026-08-10T18:17:22+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -48,8 +48,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "【速報】「地震活動は依然として活発な状態」気象庁会見 熊本地震1週間 震度1以上観測する地震は521回発生 引き続き今後1週間ほど最大震度5強程度以上の地震に注意 - newsdig.tbs.co.jp",
-      "source": "newsdig.tbs.co.jp",
+      "title": "【速報】「地震活動は依然として活発な状態」気象庁会見 熊本地震1週間 震度1以上観測する地震は521回発生 引き続き今後1週間ほど最大震度5強程度以上の地震に注意 - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
       "time": "2026-08-04T16:41:23+09:00",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE44ZmhrVG1QZjVqNGt0ZjNvWGZILVJDSzQ1NVllLXZhbUg4NXQzd280T0lLc3UzNUdYVldhNE5aaUkzdENxM1NsOWQyUDRlVy1NeS1JWGF6NA?oc=5",
       "type": "news",
@@ -63,8 +63,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "令和8年熊本地震 緊急支援 必要な支援を必要な方々へ（JVOAD） - donation.yahoo.co.jp",
-      "source": "donation.yahoo.co.jp",
+      "title": "令和8年熊本地震 緊急支援 必要な支援を必要な方々へ（JVOAD） - Yahoo!ネット募金",
+      "source": "Yahoo!ネット募金",
       "time": "2026-08-05T16:00:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwUEdYOXRjSk5WWXplNGJXdmFDUDA4QXpzVk5hakNZYVZZZnF2V29TaGVHQWdSVWJoeGtrN3FkbzhMekd5MURVbXhXU19JVXRqeXFSbTJ3?oc=5",
       "type": "news",
