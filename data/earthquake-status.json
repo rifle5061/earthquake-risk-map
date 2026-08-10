@@ -1,11 +1,11 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-10T20:09:58+09:00",
+  "fetched_at": "2026-08-10T20:58:19+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/10 18:19:00",
-    "area": "鹿児島県薩摩地方",
-    "magnitude": 2.1,
+    "time": "2026/08/10 20:25:00",
+    "area": "網走地方",
+    "magnitude": 2.7,
     "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
