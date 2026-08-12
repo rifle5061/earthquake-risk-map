@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T23:56:52+09:00",
+  "updated_at": "2026-08-13T00:59:39+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -31,6 +31,20 @@
       "zoomable": true,
       "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "「コロンビア地震緊急支援募金」へのご寄付のお願い - 日本財団",
+      "source": "日本財団",
+      "time": "2026-08-12T18:06:25+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTDE0MmpTb1RFN21jWnBHUnRfTUlIbHlUWFZEbEl4VWN6Y2ZhUWZuazZIbzYtT2hxMG8xbW5yRTJQaDYwbVpIZTk2eGJ0b1g1X1JybVBWeVkya0ZIc1lDRUVtMGFQbHlBbFlyYm5ZYTB1RkU1bXhUbW04X2dzbDhVd0M0MDVRb1RESGc?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "熊本地震、子どもの居場所がない 避難所すみっこでゲーム、親も限界 - 朝日新聞",
@@ -105,20 +119,6 @@
       "zoomable": true,
       "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "熊本 今後１か月程度は震度5弱程度以上の地震に注意 気象庁 - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-08-11T06:11:53+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Mbk92WkJ4dlhSanRHdGZwMHBPR3FYNnoxOWNlSG5ib1lBWGoyNUpZMEU1MmdvNHh0Z1ZDTUxlcWZldHpKQy0tRlRadDREZF9JU3pBb1FUa3lFS3NxX2Zr?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     }
   ]
 }
