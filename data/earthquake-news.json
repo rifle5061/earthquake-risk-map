@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-12T13:05:23+09:00",
+  "updated_at": "2026-08-12T14:53:58+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
-      "title": "令和８年熊本地震非常災害対策本部会議 - 首相官邸",
-      "source": "首相官邸",
+      "title": "令和８年熊本地震非常災害対策本部会議 - kantei.go.jp",
+      "source": "kantei.go.jp",
       "time": "2026-08-10T20:40:25+09:00",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QLWhGd3hZSFRJZ1I1OHU0bkViRUR6bEtnaVlxUWFnSURSTTR5LVRyZFoxM3VSTy1kZ0RRb2lYX0FZNGZfcDVPMW9rNXgzMHVwU2hKb055Z20ydUtrRDQ1ZWp0OVFBNE81NkxhWVlhWWhDdw?oc=5",
       "type": "news",
@@ -18,10 +18,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "熊本地震2週間、いまも6千人避難 暑さ深刻、熱中症の搬送273件 - 朝日新聞",
+      "title": "熊本地震、子どもの居場所がない 避難所すみっこでゲーム、親も限界 - 朝日新聞",
       "source": "朝日新聞",
-      "time": "2026-08-11T06:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40Q3FKVTF4N0paQm5PcDZXc3o0eXRmWERwY3FZR0FMSTNBT1FzSjRIdjI5dmZsa2VQWXJUblNLVGx4SVhISnF3MDlrb1RjVm54N0ZoMm1xcnFxZGJiczJfNER5ODM4UTA?oc=5",
+      "time": "2026-08-09T13:33:36+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE80ZzZSZzZOOUppMHNZWG1uX2czdGlxMHh3M2FNa0VNdWxUMVpLTlFIMzJxZGN3VElERENjVUx5STNtd2tzYnI1b2ZRZi1HaF9NV1pvM093Rml4MmNjRW96b3hyQU50dFk?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -63,6 +63,21 @@
       "zoomSource": "dictionary"
     },
     {
+      "title": "熊本県で最大震度3の地震 熊本県・八代市、宇城市、氷川町 - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-08-12T08:54:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE45MWwwak9HTFlSUUVSOUxWMGtXUnd6UzZ0d2hHOXZmN09ZRXBHNHA5SjJCelczMnRMR0N6LWF0cG9BaFh3cWFNeHV3NzcwVlk2aHpXejJzVQ?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
+    },
+    {
       "title": "南米コロンビアでＭ７．４の地震 建物被害、負傷者も - 時事ドットコム",
       "source": "時事ドットコム",
       "time": "2026-08-10T23:28:00+09:00",
@@ -79,7 +94,7 @@
     {
       "title": "熊本地震2週間 6千人なお避難生活 - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
-      "time": "2026-08-12T11:15:53+09:00",
+      "time": "2026-08-11T07:50:20+09:00",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9DY1UyZC1yNHZKZ1ZpMTAzLWstdDNPWTAxclhvRTVoTUppNnV5dVd5SEpFT3dMZXBFUTBzMnhNcFVIb3dEZDBMOUdROHlFOFhx?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
@@ -92,33 +107,19 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "“大地変動の時代”突入？熊本地震も一環か 専門家「南海トラフの前兆」指摘も - テレ朝NEWS",
-      "source": "テレ朝NEWS",
-      "time": "2026-08-06T16:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1GYVNIUkszMm1XRDNhVTJfZjJUbjhEdm5xQlN1LTYxWnkzRFZIZVJYMTJmSFptRzEyOUp3WnlpbHdWQ1p6TU0yNk14ZmZNLW5wbGJZU3NNb1JJNmpOQmNSbFh1ckxDUHRybmZNRjRteXRHZw?oc=5",
+      "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3652人避難 - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-08-12T12:10:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBxMHgtazhWSFdhNk45dWhDYlNqWk0tRGREUUhWdDI4TDNjWm85ekpoUHkxTXVySUtxMU1RaWZ3b2pzWW40NUhUZDZ3QzhacDNmczhCdEgwTzhTUzkwMVpZ?oc=5",
       "type": "news",
-      "area": "南海トラフ",
+      "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.8,
-      "lon": 136.2,
-      "zoom": 6,
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
       "zoomable": true,
-      "matchedArea": "南海トラフ",
+      "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "南米コロンビアでＭ7.4の地震、国家非常事態宣言 100人超死亡 - ロイター",
-      "source": "ロイター",
-      "time": "2026-08-10T23:41:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1fMjg0clZPNGJXaVZYeEdiWEtkdjFLOUpNOTFaOXR5eHNNM1BIcXF0X2hDR3FhaFo0blJiMnFYdHJ1cUxXcWtMQ2hSQVV5WGJzZXRabi1vZEVkeXFOOFFjSTZ0aE11SkFFWnhxaDVIdFl3V1NIRGFTTg?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     }
   ]
 }
