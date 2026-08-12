@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-12T11:34:07+09:00",
+  "fetched_at": "2026-08-12T13:27:20+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/12 09:25:00",
-    "area": "鹿児島県薩摩地方",
-    "magnitude": 2.3,
-    "depth": 0,
-    "maxScale": 10,
-    "intensityLabel": "1",
+    "time": "2026/08/12 13:05:00",
+    "area": "熊本県天草・芦北地方",
+    "magnitude": 4.9,
+    "depth": 10,
+    "maxScale": 40,
+    "intensityLabel": "4",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
