@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T16:20:55+09:00",
+  "updated_at": "2026-08-12T17:46:47+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -7,6 +7,21 @@
       "source": "首相官邸",
       "time": "2026-08-10T20:40:25+09:00",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QLWhGd3hZSFRJZ1I1OHU0bkViRUR6bEtnaVlxUWFnSURSTTR5LVRyZFoxM3VSTy1kZ0RRb2lYX0FZNGZfcDVPMW9rNXgzMHVwU2hKb055Z20ydUtrRDQ1ZWp0OVFBNE81NkxhWVlhWWhDdw?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "令和８年熊本地震 関連情報 | 2026年 | トピックス | 観光庁 - mlit.go.jp",
+      "source": "mlit.go.jp",
+      "time": "2026-08-07T14:27:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1QNVpaSkRWcDRhQjhra3ZxYnJpX1p1NllwVDB5Q3ozRi1pbkdTc3RsV2tQb1pzbmo3dFFPOEhxblJJSkhocHJjeTIxODZZSE9VaXh0WlcxVDhrYjRseUlmWQ?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -105,21 +120,6 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
-    },
-    {
-      "title": "熊本地震 災害関連死の疑い含め39人死亡 避難所に3652人避難 - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-08-12T12:10:27+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBxMHgtazhWSFdhNk45dWhDYlNqWk0tRGREUUhWdDI4TDNjWm85ekpoUHkxTXVySUtxMU1RaWZ3b2pzWW40NUhUZDZ3QzhacDNmczhCdEgwTzhTUzkwMVpZ?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
     }
   ]
 }
