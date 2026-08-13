@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T01:00:38+09:00",
+  "updated_at": "2026-08-14T02:27:37+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -62,8 +62,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "熊本県で最大震度3の地震 熊本県・熊本南区 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
+      "title": "熊本県で最大震度3の地震 熊本県・熊本南区 - newsdig.tbs.co.jp",
+      "source": "newsdig.tbs.co.jp",
       "time": "2026-08-13T04:10:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ydVotRWlhUmNGZVU1VDJXaTFFdlB1OGFnUmNDZW1NVjlyNFVFemVXREZkclFOVlBQX0NpdlY2cEo3N2d2Q2JvM1hobDQ0czQybWJFVmtWQQ?oc=5",
       "type": "news",
@@ -92,6 +92,20 @@
       "zoomSource": "dictionary"
     },
     {
+      "title": "【地震情報】熊本市で震度3 津波の心配なし - news.web.nhk",
+      "source": "news.web.nhk",
+      "time": "2026-08-13T04:10:22+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBia2ZWVXVxME05ZDgwc1VrbElfc3RIWkNhd2ZraHgzdkVadEVCV3RMYXZlOHJVNlI3c1cxNmtCY3VRZzd4ODNYT3ZueXRiRks1NjdOUzhyQlhOWkpEcXZ3?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "緊急支援｜令和8年熊本地震被害へのご支援を（ピースウィンズ・ジャパン） - Yahoo!ネット募金",
       "source": "Yahoo!ネット募金",
       "time": "2026-08-10T16:00:00+09:00",
@@ -105,20 +119,6 @@
       "zoomable": true,
       "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "南米コロンビアでＭ７．４の地震 建物被害、負傷者も - 時事ドットコム",
-      "source": "時事ドットコム",
-      "time": "2026-08-10T23:28:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9QVGEybzVoenhMVTF4VHdfeklRUE5RdVJYN3FUMXJMVmtoQ1AyQ1ZSWVNnMWFZUzExVTlpb1E2S0g1SFhpZUVCN0tyc21ZbTB3a09XMDFWemNPVTBJWGtveHlVMA?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     }
   ]
 }
