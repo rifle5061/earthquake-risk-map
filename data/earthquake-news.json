@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T18:58:19+09:00",
+  "updated_at": "2026-08-14T20:01:34+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -22,21 +22,6 @@
       "source": "朝日新聞",
       "time": "2026-08-09T18:00:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBpc3UwcjN6V1lJQ29oeFJ0amJVQm96WU1KQVFqbnFmb0ZieWpVY1pTbC05ZTR3V2Z5LUUxMUZOVjJkeFUyRVdJSTViQnF0VmR3aTR1V2JTMllsaHJNcUlfMnNjX0Z4b3M?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "熊本県で最大震度3の地震 熊本県・熊本南区 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-08-13T04:10:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ydVotRWlhUmNGZVU1VDJXaTFFdlB1OGFnUmNDZW1NVjlyNFVFemVXREZkclFOVlBQX0NpdlY2cEo3N2d2Q2JvM1hobDQ0czQybWJFVmtWQQ?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -117,6 +102,21 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
+    },
+    {
+      "title": "熊本地震は「依然として活動は活発」 平時より地震の発生確率高く 気象庁 - テレ朝NEWS",
+      "source": "テレ朝NEWS",
+      "time": "2026-08-10T15:41:31+09:00",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBPWmNuYkZBbzJqbmRRQVdOdTF1R2ZudUswTG9IdzFaRmZ2bmFSbnFYX3J3OTNEdUptSG43cVdjWGVXUTNEZ0F0R1IxVUs0QkY3VnpPZ3dlRFNSUHVoNTRDN2FqLWZuZ2RaMUlNdklqb3lMZw?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
     }
   ]
 }
