@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-14T11:23:42+09:00",
+  "fetched_at": "2026-08-14T13:21:37+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/14 07:50:00",
-    "area": "千葉県北東部",
-    "magnitude": 2.8,
-    "depth": 40,
+    "time": "2026/08/14 12:42:00",
+    "area": "豊後水道",
+    "magnitude": 3.2,
+    "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
