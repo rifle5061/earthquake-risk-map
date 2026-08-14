@@ -1,11 +1,11 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-15T06:49:21+09:00",
+  "fetched_at": "2026-08-15T07:19:53+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/15 06:38:00",
+    "time": "2026/08/15 07:12:00",
     "area": "熊本県天草・芦北地方",
-    "magnitude": 2.9,
+    "magnitude": 3.0,
     "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
