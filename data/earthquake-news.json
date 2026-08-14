@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T17:43:29+09:00",
+  "updated_at": "2026-08-14T18:58:19+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -63,8 +63,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "「余震続けば大地震は回避できる?」 〝ガス抜き〟効果に期待の声も…専門家の見解は?（熊本日日新聞） - news.yahoo.co.jp",
-      "source": "news.yahoo.co.jp",
+      "title": "「余震続けば大地震は回避できる?」 〝ガス抜き〟効果に期待の声も…専門家の見解は?（熊本日日新聞） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
       "time": "2026-08-13T10:05:24+09:00",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94TmZDcmRhY1FFcF9KZTIxMDRTb0lwU0pkQUdUSmlRVUZsQl9uQ2VlbGtJdXE1WkVBNkdMQm85TUJucnB2ZWFQcGJMakNpTm1vbnN5QTVNRmdtenRGbldacE9xdk1kaWJWelFHOFFVZzlFZHM0azk5MG9OMFZ1RTA?oc=5",
       "type": "news",
