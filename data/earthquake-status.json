@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-15T20:18:09+09:00",
+  "fetched_at": "2026-08-15T20:43:53+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/15 18:47:00",
-    "area": "熊本県熊本地方",
-    "magnitude": 2.3,
-    "depth": 0,
+    "time": "2026/08/15 20:30:00",
+    "area": "台湾付近",
+    "magnitude": 4.6,
+    "depth": 70,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
