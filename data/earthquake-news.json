@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T00:44:54+09:00",
+  "updated_at": "2026-08-16T01:20:55+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -89,10 +89,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "【地震情報】熊本市で震度3 津波の心配なし - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-08-13T04:10:22+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBia2ZWVXVxME05ZDgwc1VrbElfc3RIWkNhd2ZraHgzdkVadEVCV3RMYXZlOHJVNlI3c1cxNmtCY3VRZzd4ODNYT3ZueXRiRks1NjdOUzhyQlhOWkpEcXZ3?oc=5",
+      "title": "インドネシアでM7.7の地震 14人死亡 約1mの津波観測 - テレ朝NEWS",
+      "source": "テレ朝NEWS",
+      "time": "2026-08-15T18:26:32+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE90OWRJOU1vTmxPNV9PQkVpVXo5MWJPTUR4VU1vZVphMnB0MmNKcGg2c2FWTUU1WU5Hei1vSTk5QmJpSjV0eEtmazBQaHIwUzVuSENtUGtfLXFhcEZ0azY4VEU4MnlCUkNjWmhyS2tLbjFNMVpVQkljZHh3?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -103,19 +103,18 @@
       "zoomSource": "none"
     },
     {
-      "title": "熊本地震は「依然として活動は活発」 平時より地震の発生確率高く 気象庁 - テレ朝NEWS",
-      "source": "テレ朝NEWS",
-      "time": "2026-08-10T15:41:31+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBPWmNuYkZBbzJqbmRRQVdOdTF1R2ZudUswTG9IdzFaRmZ2bmFSbnFYX3J3OTNEdUptSG43cVdjWGVXUTNEZ0F0R1IxVUs0QkY3VnpPZ3dlRFNSUHVoNTRDN2FqLWZuZ2RaMUlNdklqb3lMZw?oc=5",
+      "title": "【地震情報】熊本市で震度3 津波の心配なし - news.web.nhk",
+      "source": "news.web.nhk",
+      "time": "2026-08-13T04:10:22+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBia2ZWVXVxME05ZDgwc1VrbElfc3RIWkNhd2ZraHgzdkVadEVCV3RMYXZlOHJVNlI3c1cxNmtCY3VRZzd4ODNYT3ZueXRiRks1NjdOUzhyQlhOWkpEcXZ3?oc=5",
       "type": "news",
-      "area": "九州内陸・周辺",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     }
   ]
 }
