@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T05:47:28+09:00",
+  "updated_at": "2026-08-16T06:18:22+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -61,18 +61,19 @@
       "zoomSource": "none"
     },
     {
-      "title": "大阪府で最大震度1の地震 大阪府・熊取町（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
+      "title": "【専門家解説】震度1以上が600回超 ”10年は一瞬” 活発な地震活動が継続「これで収まると考えないで」 熊本地震 - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
-      "time": "2026-08-15T21:08:13+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4tMHhDX2dJWGQ3SVV1UGxscU52TF9PMzdzOC1ZaGdNT3pzRXE2TGplb2paVVN2d0IyZ0ItTkM0S2ozeVRFMlBiNnZ0WmFNVDg1N0xTejI3TERyQXZuWDdOejNRanlXb19aM2N5ODRPbDFwM3RoeHNDeHZDSVBvcms?oc=5",
+      "time": "2026-08-14T19:38:12+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96SEplTEV2ZGlfdGxWUXM5T0dqXzRNWEpRYTAxWUZEcUJWbDBnOG0ySFJ5RWFQT1FDbGxfX3FaN2pRek5FeXRneWxOQ2dCSTR4YmVGaWEyVFVrckRkTkZTUHZFWTBUQlV2aG1KV3BMRUZHNVdiZXp4Uno1djBIVUk?oc=5",
       "type": "news",
-      "area": "",
+      "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
     },
     {
       "title": "大聖堂の塔も倒れ……各地で建物が倒壊、コロンビア地震 - BBC",
@@ -103,18 +104,19 @@
       "zoomSource": "none"
     },
     {
-      "title": "インドネシアのM7.7の地震、死者10人超 避難を強いられる村人たち - CNN.co.jp",
-      "source": "CNN.co.jp",
-      "time": "2026-08-15T17:10:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA4QVRBQWFtSWtSSFFhLTFnSE5XTjg3WVFic0xrWE5hYjFsY1JtUzVkbzNsdTV5d19ENkZaLUswN0tIMWNXejZOcWpraVl2eF93NFY0?oc=5",
+      "title": "熊本地震は「依然として活動は活発」 平時より地震の発生確率高く 気象庁 - テレ朝NEWS",
+      "source": "テレ朝NEWS",
+      "time": "2026-08-10T15:41:31+09:00",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBPWmNuYkZBbzJqbmRRQVdOdTF1R2ZudUswTG9IdzFaRmZ2bmFSbnFYX3J3OTNEdUptSG43cVdjWGVXUTNEZ0F0R1IxVUs0QkY3VnpPZ3dlRFNSUHVoNTRDN2FqLWZuZ2RaMUlNdklqb3lMZw?oc=5",
       "type": "news",
-      "area": "",
+      "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
     }
   ]
 }
