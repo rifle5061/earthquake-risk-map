@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T07:20:01+09:00",
+  "updated_at": "2026-08-15T11:31:49+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -76,8 +76,8 @@
       "zoomSource": "none"
     },
     {
-      "title": "熊本地震は「依然として活動は活発」 平時より地震の発生確率高く 気象庁 - テレ朝NEWS",
-      "source": "テレ朝NEWS",
+      "title": "熊本地震は「依然として活動は活発」 平時より地震の発生確率高く 気象庁 - news.tv-asahi.co.jp",
+      "source": "news.tv-asahi.co.jp",
       "time": "2026-08-10T15:41:31+09:00",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBPWmNuYkZBbzJqbmRRQVdOdTF1R2ZudUswTG9IdzFaRmZ2bmFSbnFYX3J3OTNEdUptSG43cVdjWGVXUTNEZ0F0R1IxVUs0QkY3VnpPZ3dlRFNSUHVoNTRDN2FqLWZuZ2RaMUlNdklqb3lMZw?oc=5",
       "type": "news",
