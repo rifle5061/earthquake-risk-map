@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-16T04:20:53+09:00",
+  "fetched_at": "2026-08-16T04:44:43+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/16 02:59:00",
-    "area": "茨城県北部",
-    "magnitude": 3.2,
-    "depth": 10,
+    "time": "2026/08/16 04:33:00",
+    "area": "硫黄島近海",
+    "magnitude": 5.4,
+    "depth": 130,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
