@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T01:20:55+09:00",
+  "updated_at": "2026-08-16T01:49:24+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -33,8 +33,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "インドネシアでＭ７・７の地震、４７人死亡…震源付近で高さ１・６ｍの津波観測 - 読売新聞",
-      "source": "読売新聞",
+      "title": "インドネシアでＭ７・７の地震、４７人死亡…震源付近で高さ１・６ｍの津波観測 - yomiuri.co.jp",
+      "source": "yomiuri.co.jp",
       "time": "2026-08-15T22:19:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5KTW5JYXVtYmJ0QjFNRHlLX0FXa0RPOXMwMkpEU29VZjEzaXBrdGJvYXN1VUtqYkN1YmtJdGdFNzlyY1NLclJKVF9PUElwM2ZmMFZGZHFaTWhNV2l1Qk01WlpB?oc=5",
       "type": "news",
