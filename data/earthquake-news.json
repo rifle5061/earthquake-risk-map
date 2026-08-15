@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T16:27:57+09:00",
+  "updated_at": "2026-08-15T18:23:28+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -33,9 +33,9 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "インドネシア東部沖でＭ7.7の地震、5人死亡と州知事発表 津波警報は解除（ロイター） - Yahoo!ニュース",
+      "title": "インドネシア東部沖でＭ7.7の地震、20人死亡と救助当局 津波警報は解除（ロイター） - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
-      "time": "2026-08-15T13:03:18+09:00",
+      "time": "2026-08-15T09:52:09+09:00",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10S05YYnZKU3JBaEFiSjI3SnljNW9EWjhENXZYdmZMTW9JaUpUYnNvRnVTLUtoTnRXS2wwU25MMWJ1U0lDZE42Q3ZFWnFDT0RnX2o3ckRaSVJkU0RPU19SdWN6X2h0U2ZEUGM0bS1JY2o0aHZrQmh6Nzg5clAzZkU?oc=5",
       "type": "news",
       "area": "",
@@ -45,21 +45,6 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
-    },
-    {
-      "title": "熊本地震発生時に断層出現、防犯カメラ捉える…高さ１ｍのずれが２０ｍ以上「学術的価値高い映像」 - 読売新聞",
-      "source": "読売新聞",
-      "time": "2026-08-14T22:12:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zVE1qVHFUR09FRUdkZDEzcUk1eGhLN0tMdjBuNVlQVWpaRjJPME15ZTRMSWdRb0VtZjY0dzBqbElnMUt4bUFGZ1Q2d2dRVGZvRU9fT21pXzVrNFc0YlFrT1AteXZkQQ?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
     },
     {
       "title": "大聖堂の塔も倒れ……各地で建物が倒壊、コロンビア地震 - BBC",
@@ -76,8 +61,8 @@
       "zoomSource": "none"
     },
     {
-      "title": "南米コロンビアでＭ７．４の地震 建物被害、負傷者も - 時事ドットコム",
-      "source": "時事ドットコム",
+      "title": "南米コロンビアでＭ７．４の地震 建物被害、負傷者も - jiji.com",
+      "source": "jiji.com",
       "time": "2026-08-10T23:28:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9QVGEybzVoenhMVTF4VHdfeklRUE5RdVJYN3FUMXJMVmtoQ1AyQ1ZSWVNnMWFZUzExVTlpb1E2S0g1SFhpZUVCN0tyc21ZbTB3a09XMDFWemNPVTBJWGtveHlVMA?oc=5",
       "type": "news",
@@ -94,6 +79,21 @@
       "source": "テレ朝NEWS",
       "time": "2026-08-10T15:41:31+09:00",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBPWmNuYkZBbzJqbmRRQVdOdTF1R2ZudUswTG9IdzFaRmZ2bmFSbnFYX3J3OTNEdUptSG43cVdjWGVXUTNEZ0F0R1IxVUs0QkY3VnpPZ3dlRFNSUHVoNTRDN2FqLWZuZ2RaMUlNdklqb3lMZw?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "熊本県八代市・宇城市などで震度４、震源は天草・芦北地方でＭ４・９と推定…津波の心配なし - 読売新聞",
+      "source": "読売新聞",
+      "time": "2026-08-12T13:28:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93N0ljeDV6SnpIamxmQVJvWDlLejJFQXNRRVl1S2QzZ1h3bXdZRU5ZTElWbEhGMVEzdExmTHZIUzRvRXQyZ3dxWUNvYm9DdVM1VnNNMVV1UUdzbXdtMWx0bXREY0FOdw?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
