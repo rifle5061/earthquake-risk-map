@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-16T05:58:59+09:00",
+  "fetched_at": "2026-08-16T06:28:04+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/16 04:33:00",
-    "area": "硫黄島近海",
-    "magnitude": 5.4,
-    "depth": 130,
+    "time": "2026/08/16 06:18:00",
+    "area": "岩手県沖",
+    "magnitude": 3.7,
+    "depth": 40,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
