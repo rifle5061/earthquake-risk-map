@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T07:18:22+09:00",
+  "updated_at": "2026-08-16T08:17:59+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -61,18 +61,19 @@
       "zoomSource": "none"
     },
     {
-      "title": "インドネシアでＭ７・７の地震、４７人死亡…震源付近で高さ１・６ｍの津波観測 - yomiuri.co.jp",
-      "source": "yomiuri.co.jp",
-      "time": "2026-08-15T22:19:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5KTW5JYXVtYmJ0QjFNRHlLX0FXa0RPOXMwMkpEU29VZjEzaXBrdGJvYXN1VUtqYkN1YmtJdGdFNzlyY1NLclJKVF9PUElwM2ZmMFZGZHFaTWhNV2l1Qk01WlpB?oc=5",
+      "title": "【専門家解説】震度1以上が600回超 ”10年は一瞬” 活発な地震活動が継続「これで収まると考えないで」 熊本地震 - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-08-14T19:38:12+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96SEplTEV2ZGlfdGxWUXM5T0dqXzRNWEpRYTAxWUZEcUJWbDBnOG0ySFJ5RWFQT1FDbGxfX3FaN2pRek5FeXRneWxOQ2dCSTR4YmVGaWEyVFVrckRkTkZTUHZFWTBUQlV2aG1KV3BMRUZHNVdiZXp4Uno1djBIVUk?oc=5",
       "type": "news",
-      "area": "",
+      "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
     },
     {
       "title": "大聖堂の塔も倒れ……各地で建物が倒壊、コロンビア地震 - BBC",
@@ -89,19 +90,18 @@
       "zoomSource": "none"
     },
     {
-      "title": "【専門家解説】震度1以上が600回超 ”10年は一瞬” 活発な地震活動が継続「これで収まると考えないで」 熊本地震 - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-08-14T19:38:12+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96SEplTEV2ZGlfdGxWUXM5T0dqXzRNWEpRYTAxWUZEcUJWbDBnOG0ySFJ5RWFQT1FDbGxfX3FaN2pRek5FeXRneWxOQ2dCSTR4YmVGaWEyVFVrckRkTkZTUHZFWTBUQlV2aG1KV3BMRUZHNVdiZXp4Uno1djBIVUk?oc=5",
+      "title": "インドネシアでＭ７・７の地震、４７人死亡…震源付近で高さ１・６ｍの津波観測 - 読売新聞",
+      "source": "読売新聞",
+      "time": "2026-08-15T22:19:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5KTW5JYXVtYmJ0QjFNRHlLX0FXa0RPOXMwMkpEU29VZjEzaXBrdGJvYXN1VUtqYkN1YmtJdGdFNzlyY1NLclJKVF9PUElwM2ZmMFZGZHFaTWhNV2l1Qk01WlpB?oc=5",
       "type": "news",
-      "area": "九州内陸・周辺",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "南米コロンビアでＭ７．４の地震 建物被害、負傷者も - 時事ドットコム",
