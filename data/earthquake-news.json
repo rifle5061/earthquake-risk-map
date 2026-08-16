@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T19:20:20+09:00",
+  "updated_at": "2026-08-16T19:48:00+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -18,8 +18,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "大阪府で最大震度1の地震 大阪府・熊取町 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
+      "title": "大阪府で最大震度1の地震 大阪府・熊取町 - newsdig.tbs.co.jp",
+      "source": "newsdig.tbs.co.jp",
       "time": "2026-08-15T21:06:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5NdlJ1UWlqZ1V0VkNTd0JlWHFESi1fS2J3Z1VjQU0xcXNiUVhmYjg5NWkxZ28zWlN3OXVQRFNHY3lOMjZyajJDMEZKbG1xX2RVeEx4WnJmTQ?oc=5",
       "type": "news",
@@ -102,8 +102,8 @@
       "zoomSource": "none"
     },
     {
-      "title": "【地震情報】熊本市で震度3 津波の心配なし - NHKニュース",
-      "source": "NHKニュース",
+      "title": "【地震情報】熊本市で震度3 津波の心配なし - news.web.nhk",
+      "source": "news.web.nhk",
       "time": "2026-08-13T04:10:22+09:00",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBia2ZWVXVxME05ZDgwc1VrbElfc3RIWkNhd2ZraHgzdkVadEVCV3RMYXZlOHJVNlI3c1cxNmtCY3VRZzd4ODNYT3ZueXRiRks1NjdOUzhyQlhOWkpEcXZ3?oc=5",
       "type": "news",
