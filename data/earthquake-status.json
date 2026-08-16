@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-16T08:58:23+09:00",
+  "fetched_at": "2026-08-16T10:47:36+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/16 06:18:00",
-    "area": "岩手県沖",
-    "magnitude": 3.7,
-    "depth": 40,
+    "time": "2026/08/16 09:30:00",
+    "area": "熊本県天草・芦北地方",
+    "magnitude": 2.1,
+    "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
