@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T18:28:46+09:00",
+  "updated_at": "2026-08-16T18:52:24+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -46,18 +46,19 @@
       "zoomSource": "none"
     },
     {
-      "title": "インドネシアでＭ７・７の地震、４７人死亡…震源付近で高さ１・６ｍの津波観測（読売新聞オンライン） - Yahoo!ニュース",
+      "title": "熊本地震 なお3205人が避難所に - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
-      "time": "2026-08-15T22:20:22+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05Q1hGUTZoSTNqSjJYZ1pEVjdxYWdoaGpkN1A3RU1FbEgzX0R3RWVqQ0RkVWNvLUpPSjZnd293QjExemFFS1I1NVpFamwzaTI2TVF2Y0lSX2JfZkhIcFBLSnNrdTJaRjZsOHhIZVZqaFJraFRNNFQtTHZybTZLLVk?oc=5",
+      "time": "2026-08-16T07:42:46+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1kWnhmYlRLMVZrYkx2cGtlbTczbzBNOGNNazZCU0t3YVFOTlM5bXE0cEpBRDVUbGFQdVUySkFkRVU5RmxGcVo5bVJ6eXpDSVY1?oc=5",
       "type": "news",
-      "area": "",
+      "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
     },
     {
       "title": "インドネシア付近、M7.7の地震 日本への津波影響なし 気象庁 - 朝日新聞",
