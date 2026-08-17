@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-17T20:49:40+09:00",
+  "fetched_at": "2026-08-17T21:39:05+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/17 19:36:00",
-    "area": "天草灘",
-    "magnitude": 3.2,
-    "depth": 10,
+    "time": "2026/08/17 21:07:00",
+    "area": "青森県東方沖",
+    "magnitude": 3.8,
+    "depth": 60,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
