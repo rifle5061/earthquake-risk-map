@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-17T13:38:45+09:00",
+  "fetched_at": "2026-08-17T14:20:16+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/17 12:06:00",
-    "area": "日向灘",
-    "magnitude": 4.1,
-    "depth": 10,
-    "maxScale": 20,
-    "intensityLabel": "2",
+    "time": "2026/08/17 13:55:00",
+    "area": "宮古島近海",
+    "magnitude": 4.3,
+    "depth": 50,
+    "maxScale": 10,
+    "intensityLabel": "1",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
