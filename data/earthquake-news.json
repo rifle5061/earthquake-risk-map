@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T23:53:05+09:00",
+  "updated_at": "2026-08-18T00:22:20+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -47,8 +47,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "大阪府で最大震度1の地震 大阪府・熊取町 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
+      "title": "大阪府で最大震度1の地震 大阪府・熊取町 - newsdig.tbs.co.jp",
+      "source": "newsdig.tbs.co.jp",
       "time": "2026-08-15T21:06:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5NdlJ1UWlqZ1V0VkNTd0JlWHFESi1fS2J3Z1VjQU0xcXNiUVhmYjg5NWkxZ28zWlN3OXVQRFNHY3lOMjZyajJDMEZKbG1xX2RVeEx4WnJmTQ?oc=5",
       "type": "news",
