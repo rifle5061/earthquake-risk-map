@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-18T14:26:08+09:00",
+  "fetched_at": "2026-08-18T16:24:10+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/18 12:42:00",
+    "time": "2026/08/18 15:05:00",
     "area": "熊本県天草・芦北地方",
-    "magnitude": 3.7,
+    "magnitude": 4.0,
     "depth": 10,
-    "maxScale": 20,
-    "intensityLabel": "2",
+    "maxScale": 30,
+    "intensityLabel": "3",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
