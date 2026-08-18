@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T04:48:40+09:00",
+  "updated_at": "2026-08-19T05:48:47+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -75,21 +75,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "熊本地震、高まる次への警戒 活断層がもたらす連鎖の正体を動画解説 - 日本経済新聞",
-      "source": "日本経済新聞",
-      "time": "2026-08-12T05:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBLR3BLdEpfTldSVkRXd1JZVDIxVnVHcDd0TXcyQWJIczB6SnlhU0NBRlpGVzBOdWFfV2FUTERaZG96bUZoaUNzR0R4QUFlRFlmWnBxWWxuSGVzTEk5VEhodC1uSzdVZUE2TTQzNQ?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
-    },
-    {
       "title": "Ｍ７．７の地震、４７人死亡 １．６メートルの津波観測―インドネシア - 時事ドットコム",
       "source": "時事ドットコム",
       "time": "2026-08-15T23:38:00+09:00",
@@ -116,6 +101,21 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
+    },
+    {
+      "title": "令和８年熊本地震 関連情報 | 災害関連情報 | 観光庁 - mlit.go.jp",
+      "source": "mlit.go.jp",
+      "time": "2026-08-18T01:22:17+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE83MGRPQU9id0ktUGdkZTRlT1ZVVVZVVzJpUmh5ZFI2cDlVQ1JqYk15WjhZSlpnR20zcndLbjR2SUdVVFFJQlAwc0xkelVWZkRLQTVod2UwMVNBUmNYYnc?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
     }
   ]
 }
