@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T17:33:56+09:00",
+  "updated_at": "2026-08-18T19:37:43+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -61,8 +61,8 @@
       "zoomSource": "none"
     },
     {
-      "title": "インドネシア地震、死者47人に 2000人避難 - CNN",
-      "source": "CNN",
+      "title": "インドネシア地震、死者47人に 2000人避難 - CNN.co.jp",
+      "source": "CNN.co.jp",
       "time": "2026-08-16T09:36:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBJSE1neHNLQURJdDllNC1zVzM4NG9fbUR4SGV2VmJxZWVuSHVRV05VRW9taGN6RGtBU3paX0ptVlRrVF9UX29TcWJiUlk0TEVfUzdn?oc=5",
       "type": "news",
@@ -89,8 +89,8 @@
       "zoomSource": "none"
     },
     {
-      "title": "Ｍ７．７の地震、４７人死亡 １．６メートルの津波観測―インドネシア - jiji.com",
-      "source": "jiji.com",
+      "title": "Ｍ７．７の地震、４７人死亡 １．６メートルの津波観測―インドネシア：時事ドットコム - 時事ドットコム",
+      "source": "時事ドットコム",
       "time": "2026-08-15T23:38:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE03LW5wczFXNzEweE1qcTdtSThLOGxOZ3ExLVBha0wyTmI5Y3c1YkRab25OLUlqS1Fna0FoSmlGRmpxSTRxWXZRSlpyWjZWTkZqcVFrYTkxZ19ESTRDUlE5TmNyZw?oc=5",
       "type": "news",
