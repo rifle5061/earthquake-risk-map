@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-19T08:45:53+09:00",
+  "fetched_at": "2026-08-19T10:06:51+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/19 07:10:00",
-    "area": "熊本県天草・芦北地方",
-    "magnitude": 3.8,
+    "time": "2026/08/19 09:42:00",
+    "area": "石川県能登地方",
+    "magnitude": 1.9,
     "depth": 10,
-    "maxScale": 30,
-    "intensityLabel": "3",
+    "maxScale": 10,
+    "intensityLabel": "1",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
