@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T03:31:33+09:00",
+  "updated_at": "2026-08-20T04:22:17+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -89,23 +89,22 @@
       "zoomSource": "none"
     },
     {
-      "title": "被災地で孤立、助け合う外国人 文化の壁、避難所にためらい―熊本地震 - 時事ドットコム",
+      "title": "Ｍ７．７の地震、４７人死亡 １．６メートルの津波観測―インドネシア - 時事ドットコム",
       "source": "時事ドットコム",
-      "time": "2026-08-14T07:03:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9rUlk0SXV1THBURE1ydzJvd3ZUbWN5am5PZjNtNUtTRG1ndTEyS0dXQU9tcDJTeFZSZkFHSGFyTWl3TEdQUmRKblJENjdDWFhMc18zV0RDaTdpdXF0MjRrVko0SQ?oc=5",
+      "time": "2026-08-15T23:38:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE03LW5wczFXNzEweE1qcTdtSThLOGxOZ3ExLVBha0wyTmI5Y3c1YkRab25OLUlqS1Fna0FoSmlGRmpxSTRxWXZRSlpyWjZWTkZqcVFrYTkxZ19ESTRDUlE5TmNyZw?oc=5",
       "type": "news",
-      "area": "九州内陸・周辺",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
-      "title": "南海トラフ「地震発生後すぐ避難して」と専門家 30m級の津波が7分後に到達も 誰とどこに逃げるか決めていますか？ - AERA DIGITAL",
-      "source": "AERA DIGITAL",
+      "title": "南海トラフ「地震発生後すぐ避難して」と専門家 30m級の津波が7分後に到達も 誰とどこに逃げるか決めていますか？ - dot.asahi.com",
+      "source": "dot.asahi.com",
       "time": "2026-08-17T10:00:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zQ19TZ0pJeHE3Y2RRc0xnTjJuTXZMdFJTWWRPODhvSW9ENTh4SEgyeXNodVRWd0dxMlNyMTVHME4tcWJNcFZ2bUFIRWlZRkZXakRwZ3Y2SEFRdw?oc=5",
       "type": "news",
