@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T15:46:05+09:00",
+  "updated_at": "2026-08-19T16:35:26+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -32,8 +32,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "イオン、避難後に再入館「認めた事実あった」 補償含め早期に対応 [2026年熊本地震] - 朝日新聞",
-      "source": "朝日新聞",
+      "title": "イオン、避難後に再入館「認めた事実あった」 補償含め早期に対応 [2026年熊本地震] - asahi.com",
+      "source": "asahi.com",
       "time": "2026-08-12T20:10:07+09:00",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CN0ZmaEJuUWVmTGVNX1ZDR2syZnZXZ2F3QmNpU09QVFplZlRYU09GUmc2ajRGWUVrQ2swckdrR1JyMmpveUpUUDlvNkY0UnoyMXMxVVhpZERwcHl5U1ZoWm9NVXdKYzA?oc=5",
       "type": "news",
