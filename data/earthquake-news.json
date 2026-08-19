@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T10:06:26+09:00",
+  "updated_at": "2026-08-19T11:37:37+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -17,8 +17,8 @@
       "zoomSource": "none"
     },
     {
-      "title": "令和８年熊本地震非常災害対策本部会議 - kantei.go.jp",
-      "source": "kantei.go.jp",
+      "title": "令和８年熊本地震非常災害対策本部会議 - 首相官邸",
+      "source": "首相官邸",
       "time": "2026-08-12T21:08:53+09:00",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBrNWJWaFBhU1ZhX2VzdDNxS2V2SFpGRlZKMFdPTEN4SFN2aE1icWJxcWVJMWFTVUhnNExGdHJXVmh2anc5S3NoX0dmVWZZYWRVWm9MSWlRR0hnUTZnT091aUMyaV84cmVLU2preVlka1lsZw?oc=5",
       "type": "news",
@@ -45,6 +45,20 @@
       "zoomable": true,
       "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "【地震情報】熊本で震度3 津波の心配なし - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-08-19T07:14:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAzVlBqdm12b043ZTBWbkRwSEhZbGpjRE1XaGNMMG8xWkNId2VZUm11SXZmUEplQk1yZXZ1OThPZ3RYaEVnZS1PMkhmSE1MWnVqUndfNHpmdGtUVzVMMU1v?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "2026年熊本地震＞ホテル・旅館への「2次避難」進まず 「遠方に避難すると…」 被災者が消極的な理由とは…（熊本日日新聞） - Yahoo!ニュース",
@@ -80,20 +94,6 @@
       "source": "CNN.co.jp",
       "time": "2026-08-16T09:36:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBJSE1neHNLQURJdDllNC1zVzM4NG9fbUR4SGV2VmJxZWVuSHVRV05VRW9taGN6RGtBU3paX0ptVlRrVF9UX29TcWJiUlk0TEVfUzdn?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "【地震速報】熊本で震度3 津波の心配なし - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-08-18T15:09:28+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1aZm1MSVZPUXZZenJiWWpZZzFaSXprcERacFBLajg2WGtJeWwyUUV5bU1JTzZ0VjJOWW5QWFlnOExXdGZKUEgtVU5lc25PUTF1YzdDY3p6OXdoUWtORW1v?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
