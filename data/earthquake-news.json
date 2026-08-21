@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T23:32:15+09:00",
+  "updated_at": "2026-08-22T00:30:15+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -36,6 +36,21 @@
       "source": "首相官邸",
       "time": "2026-08-18T22:01:30+09:00",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1iUmxQNDNmRXF2ZGJ3Z1RLMEFTS2RpMEV0b3hOY0ItbnpYRFJLZExuR3pBUFpRbUM5TzJzVS1jVFM4RmxxbFBkMVBMdjdJZmZtMGYyS2ZxZElOWk1kNGl0UWlwYzR1Rjc1WFJMdlRZcmRxaWFpZ3IySGJZemU0Vm8?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "「できることがあると思って」震度7の宇城市で災害ボランティア 猛暑の中、続く 2026年熊本地震（RKK熊本放送） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-08-21T12:44:14+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CcW1zQnJNYWdpSWNNVy11VW14UTNoME14M2tKbmMyZDJvRlFYUzdBR0ZIY09wVnpqeTc0cGxQTDBQTmRkTFp6X2k1Wlg4M2dTTXBKRnh5V2hXN2o3T2Q2TXZ3X242YVZDZkR0SU5wTVJYeG1DZ2JzMHB6WW9CVEk?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -87,21 +102,6 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
-    },
-    {
-      "title": "2026年熊本地震＞ホテル・旅館への「2次避難」進まず 「遠方に避難すると…」 被災者が消極的な理由とは…（熊本日日新聞） - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-08-17T09:35:22+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBodFBLRnBTZDZFVVhSdUlnTDN3a1VwdmR5blVOM3lhLTlZWWpId190VWxrRFBURG9BdnB4SUtxc3NvNzByZXpUN3VQTG1zSTE3ZkhBQkhGZGlHUFl5OXUxdW1ZNVBBWW5SOVBIYXJkX05kRkJFMEFWUHhpTEZmZGs?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
     },
     {
       "title": "令和８年熊本地震 関連情報 | 災害関連情報 | 観光庁 - mlit.go.jp",
