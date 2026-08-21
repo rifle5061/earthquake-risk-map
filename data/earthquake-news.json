@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T11:42:52+09:00",
+  "updated_at": "2026-08-21T12:48:11+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -46,10 +46,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "【地震情報】熊本で震度3 津波の心配なし - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-08-19T07:14:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAzVlBqdm12b043ZTBWbkRwSEhZbGpjRE1XaGNMMG8xWkNId2VZUm11SXZmUEplQk1yZXZ1OThPZ3RYaEVnZS1PMkhmSE1MWnVqUndfNHpmdGtUVzVMMU1v?oc=5",
+      "title": "インドネシア地震、死者47人に 2000人避難 - CNN.co.jp",
+      "source": "CNN.co.jp",
+      "time": "2026-08-16T09:36:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBJSE1neHNLQURJdDllNC1zVzM4NG9fbUR4SGV2VmJxZWVuSHVRV05VRW9taGN6RGtBU3paX0ptVlRrVF9UX29TcWJiUlk0TEVfUzdn?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -58,6 +58,21 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
+    },
+    {
+      "title": "【地震情報】沖縄県で震度3 - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-08-21T09:05:39+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE96Z293RFl1SGF3MzJnUHJNaFV0WmFQaW9laUlwLUtfeXJ5Z1hfWXlNWk02SVNONGo5X1RUZm1iN2NXZ1c2aHBLZmN3SFBjaXlZWV8xSEx3LTZvM1Q0bzJF?oc=5",
+      "type": "news",
+      "area": "沖縄・南西諸島",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 25.7,
+      "lon": 127.8,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "沖縄・南西諸島",
+      "zoomSource": "dictionary"
     },
     {
       "title": "2026年熊本地震＞ホテル・旅館への「2次避難」進まず 「遠方に避難すると…」 被災者が消極的な理由とは…（熊本日日新聞） - Yahoo!ニュース",
@@ -75,20 +90,6 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "インドネシア地震、死者47人に 2000人避難 - CNN.co.jp",
-      "source": "CNN.co.jp",
-      "time": "2026-08-16T09:36:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBJSE1neHNLQURJdDllNC1zVzM4NG9fbUR4SGV2VmJxZWVuSHVRV05VRW9taGN6RGtBU3paX0ptVlRrVF9UX29TcWJiUlk0TEVfUzdn?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "Ｍ７．７の地震、４７人死亡 １．６メートルの津波観測―インドネシア - 時事ドットコム",
       "source": "時事ドットコム",
       "time": "2026-08-15T23:38:00+09:00",
@@ -103,18 +104,18 @@
       "zoomSource": "none"
     },
     {
-      "title": "令和８年熊本地震 関連情報 | 災害関連情報 | 観光庁 - mlit.go.jp",
-      "source": "mlit.go.jp",
-      "time": "2026-08-17T16:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE83MGRPQU9id0ktUGdkZTRlT1ZVVVZVVzJpUmh5ZFI2cDlVQ1JqYk15WjhZSlpnR20zcndLbjR2SUdVVFFJQlAwc0xkelVWZkRLQTVod2UwMVNBUmNYYnc?oc=5",
+      "title": "南海トラフ「地震発生後すぐ避難して」と専門家 30m級の津波が7分後に到達も 誰とどこに逃げるか決めていますか？ - AERA DIGITAL",
+      "source": "AERA DIGITAL",
+      "time": "2026-08-17T10:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zQ19TZ0pJeHE3Y2RRc0xnTjJuTXZMdFJTWWRPODhvSW9ENTh4SEgyeXNodVRWd0dxMlNyMTVHME4tcWJNcFZ2bUFIRWlZRkZXakRwZ3Y2SEFRdw?oc=5",
       "type": "news",
-      "area": "九州内陸・周辺",
+      "area": "南海トラフ",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
+      "lat": 32.8,
+      "lon": 136.2,
+      "zoom": 6,
       "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
+      "matchedArea": "南海トラフ",
       "zoomSource": "dictionary"
     }
   ]
