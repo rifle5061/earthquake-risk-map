@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T10:09:47+09:00",
+  "updated_at": "2026-08-21T11:42:52+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -46,6 +46,20 @@
       "zoomSource": "none"
     },
     {
+      "title": "【地震情報】熊本で震度3 津波の心配なし - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-08-19T07:14:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAzVlBqdm12b043ZTBWbkRwSEhZbGpjRE1XaGNMMG8xWkNId2VZUm11SXZmUEplQk1yZXZ1OThPZ3RYaEVnZS1PMkhmSE1MWnVqUndfNHpmdGtUVzVMMU1v?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "2026年熊本地震＞ホテル・旅館への「2次避難」進まず 「遠方に避難すると…」 被災者が消極的な理由とは…（熊本日日新聞） - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
       "time": "2026-08-17T09:35:22+09:00",
@@ -59,20 +73,6 @@
       "zoomable": true,
       "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "【地震情報】熊本で震度3 津波の心配なし - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-08-19T07:14:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAzVlBqdm12b043ZTBWbkRwSEhZbGpjRE1XaGNMMG8xWkNId2VZUm11SXZmUEplQk1yZXZ1OThPZ3RYaEVnZS1PMkhmSE1MWnVqUndfNHpmdGtUVzVMMU1v?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     },
     {
       "title": "インドネシア地震、死者47人に 2000人避難 - CNN.co.jp",
