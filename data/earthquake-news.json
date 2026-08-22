@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T16:56:18+09:00",
+  "updated_at": "2026-08-22T17:31:06+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -61,10 +61,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "インドネシアのM7.7の地震、死者10人超 避難を強いられる村人たち - CNN.co.jp",
+      "title": "インドネシア地震、死者47人に 2000人避難 - CNN.co.jp",
       "source": "CNN.co.jp",
-      "time": "2026-08-15T17:10:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA4QVRBQWFtSWtSSFFhLTFnSE5XTjg3WVFic0xrWE5hYjFsY1JtUzVkbzNsdTV5d19ENkZaLUswN0tIMWNXejZOcWpraVl2eF93NFY0?oc=5",
+      "time": "2026-08-16T09:36:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBJSE1neHNLQURJdDllNC1zVzM4NG9fbUR4SGV2VmJxZWVuSHVRV05VRW9taGN6RGtBU3paX0ptVlRrVF9UX29TcWJiUlk0TEVfUzdn?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
