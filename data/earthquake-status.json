@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-23T01:48:56+09:00",
+  "fetched_at": "2026-08-23T02:17:47+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/22 22:46:00",
-    "area": "釧路沖",
-    "magnitude": 2.9,
-    "depth": 50,
-    "maxScale": 10,
-    "intensityLabel": "1",
+    "time": "2026/08/23 02:00:00",
+    "area": "茨城県南部",
+    "magnitude": 5.9,
+    "depth": 70,
+    "maxScale": 45,
+    "intensityLabel": "5弱",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
