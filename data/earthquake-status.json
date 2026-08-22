@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-22T22:29:19+09:00",
+  "fetched_at": "2026-08-22T22:54:02+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/22 19:30:00",
-    "area": "熊本県天草・芦北地方",
-    "magnitude": 2.6,
-    "depth": 0,
+    "time": "2026/08/22 22:46:00",
+    "area": "釧路沖",
+    "magnitude": 2.9,
+    "depth": 50,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"

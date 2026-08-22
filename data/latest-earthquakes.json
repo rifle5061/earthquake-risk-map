@@ -1,10 +1,28 @@
 {
   "source": "P2P地震情報 JSON API v2 / 履歴コード551",
   "endpoint": "https://api.p2pquake.net/v2/history?codes=551&limit=100&offset=0",
-  "fetched_at": "2026-08-22T22:34:32+09:00",
-  "updated_at": "2026/08/22 19:30:00",
+  "fetched_at": "2026-08-22T22:54:02+09:00",
+  "updated_at": "2026/08/22 22:46:00",
   "count": 100,
   "items": [
+    {
+      "id": "6a89a8d6e88ee598246bf245",
+      "code": 551,
+      "time": "2026/08/22 22:46:00",
+      "received_at": "2026/08/22 22:49:10.135",
+      "area": "釧路沖",
+      "lat": 43.0,
+      "lon": 145.4,
+      "magnitude": 2.9,
+      "mag": 2.9,
+      "depth": 50,
+      "maxScale": 10,
+      "intensityLabel": "1",
+      "domesticTsunami": "None",
+      "foreignTsunami": "Unknown",
+      "source": "P2P地震情報",
+      "map": true
+    },
     {
       "id": "6a897af2e88ee598246bf244",
       "code": 551,
@@ -1784,24 +1802,6 @@
       "intensityLabel": "1",
       "domesticTsunami": "None",
       "foreignTsunami": "Unknown",
-      "source": "P2P地震情報",
-      "map": true
-    },
-    {
-      "id": "6a7f96b1e88ee598246bf1e1",
-      "code": 551,
-      "time": "2026/08/15 06:58:00",
-      "received_at": "2026/08/15 07:29:04.987",
-      "area": "インドネシア、フローレス",
-      "lat": -8.3,
-      "lon": 121.4,
-      "magnitude": 7.7,
-      "mag": 7.7,
-      "depth": -1,
-      "maxScale": -1,
-      "intensityLabel": "不明",
-      "domesticTsunami": "None",
-      "foreignTsunami": "WarningPacific",
       "source": "P2P地震情報",
       "map": true
     }
