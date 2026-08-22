@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T06:45:07+09:00",
+  "updated_at": "2026-08-23T07:18:55+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -32,32 +32,19 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "【緊急地震ライブ】東京・茨城・埼玉・千葉で震度5弱の地震 津波の心配なし - TBS NEWS DIG",
+      "title": "茨城県、埼玉県、千葉県、東京都で最大震度5弱の強い地震 茨城県・小美玉市、茨城古河市、龍ケ崎市、下妻市 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
-      "time": "2026-08-23T02:19:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1sSWdQVmNvZUVpb203MFpMaUpJZEtkSHpjZmtwSW1ZWHZWOF9iVTRQbmlKTGZ4LUlmY1A3akNTQU1jNXlnbXhaazZRR3VGUXVNWjlVM1lPdw?oc=5",
+      "time": "2026-08-23T02:12:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5UenNyQXNDT0pTNzFReGR4bTMtSGpGaFkxZlhxNENkNlpUVU5vTFEwZDQtcXktU0xKb2FOdDRzQ3JkcmI3WTNDV3FlZDdyU2tYUHJzUlNIbw?oc=5",
       "type": "news",
-      "area": "",
+      "area": "首都圏周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "茨城などで最大震度5弱 津波なし - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-08-23T02:10:40+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBfM1UzdEpFOVBjNllJRV9SdDRLTTdxeTI2ek5PdVo0blNnMFBMT1ZIZEZ1Tzlxejc4MVBSN0hvOGFCeDVXYlF0T2RtVDgwQ3Qx?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "lat": 35.55,
+      "lon": 139.8,
+      "zoom": 8,
+      "zoomable": true,
+      "matchedArea": "首都圏周辺",
+      "zoomSource": "dictionary"
     },
     {
       "title": "茨城 東京 埼玉 千葉で震度5弱 気象庁“今後1週間程度は注意” - NHKニュース",
@@ -72,6 +59,21 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
+    },
+    {
+      "title": "【地震】静岡県内で震度3 茨城県南部を震源とする最大震度5弱の地震が発生 津波の心配なし（テレビ静岡NEWS） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-08-23T02:08:02+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pckVnRVJEZUt2Q0V0SzQtY2dMM2FEWmY1b1ROZFo0TDlPNGJaXzAtUUFETTFDZlM1WWk3S0RFRHZrSkUzdWtxR2tEVkhzMzVpT2xlYU5saDg4Sk9DRWdHUVQxY0hpclBvVE9pN1YtWFd5VklOdTVXVWkxcTBjekU?oc=5",
+      "type": "news",
+      "area": "首都圏周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 35.55,
+      "lon": 139.8,
+      "zoom": 8,
+      "zoomable": true,
+      "matchedArea": "首都圏周辺",
+      "zoomSource": "dictionary"
     },
     {
       "title": "安全安心:緊急地震速報 - 十日町タウン情報",
@@ -102,10 +104,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "茨城県、埼玉県、千葉県、東京都で最大震度5弱の強い地震 茨城県・小美玉市、茨城古河市、龍ケ崎市、下妻市 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-08-23T02:12:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5UenNyQXNDT0pTNzFReGR4bTMtSGpGaFkxZlhxNENkNlpUVU5vTFEwZDQtcXktU0xKb2FOdDRzQ3JkcmI3WTNDV3FlZDdyU2tYUHJzUlNIbw?oc=5",
+      "title": "【速報】東京都23区、茨城県北部などで震度5弱 津波の心配なし - テレ朝NEWS",
+      "source": "テレ朝NEWS",
+      "time": "2026-08-23T02:10:45+09:00",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE55RkdOTjl5Nm5DU0J1Vjh1QldzdXloc0JyZFF2Rl90NGtvZ01faGJjUXlVb21JZUsyMUk3MHpoS1NWQUE4NFJvdzRoTzR2aml6NlhDZ2hoUkpKb3hTNUFLb2FmcWVNTlFtM1Vmb3pDTkZyZw?oc=5",
       "type": "news",
       "area": "首都圏周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
