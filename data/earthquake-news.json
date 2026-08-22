@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T00:45:07+09:00",
+  "updated_at": "2026-08-23T03:26:31+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -7,6 +7,20 @@
       "source": "tenki.jp",
       "time": "2026-08-17T12:58:33+09:00",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QVlczTFVQUHFhVmc2YUVfSjRLdkdQM0JUcEo4ampvSTRHVk5rS1JXSjlyc3VPZlBSMFctMmdwUnlEUEFJLWZEN2ltQXdvWWh3WW9uT0VvTGI5b3E1Ykxhd1c3RC1XOFdfRzJoRNIBckFVX3lxTE9fcFBrY0tTelRNbVJOSzhoM00yQTNJRzlLUHNhbUxVWUhQbzAyVmFGRlZxX2RXRG5qdWZIblhTcVN0dGxCSExnMFNWbVFBbktjVVg4dFpienZSRVRmenE2bnBNbHdLbmt0VW5LVE94eE1CZw?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "茨城などで最大震度5弱 津波なし - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-08-23T02:10:40+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBfM1UzdEpFOVBjNllJRV9SdDRLTTdxeTI2ek5PdVo0blNnMFBMT1ZIZEZ1Tzlxejc4MVBSN0hvOGFCeDVXYlF0T2RtVDgwQ3Qx?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -32,10 +46,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "東京都で最大震度3の地震 東京都・三宅村、御蔵島村 - TBS NEWS DIG",
+      "title": "茨城県、埼玉県、千葉県、東京都で最大震度5弱の強い地震 茨城県・小美玉市、茨城古河市、龍ケ崎市、下妻市 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
-      "time": "2026-08-21T21:07:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5LMENDWF9IV0xaSTV3UDRoMjhRcE9LMTlnUDJCaWNNZlg2QUpfd0VRM29aSl9CRGlCRDFNVHRWeDVPenlKemZaaG5FNDg3Nlc5czZyX1JyMA?oc=5",
+      "time": "2026-08-23T02:06:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5UenNyQXNDT0pTNzFReGR4bTMtSGpGaFkxZlhxNENkNlpUVU5vTFEwZDQtcXktU0xKb2FOdDRzQ3JkcmI3WTNDV3FlZDdyU2tYUHJzUlNIbw?oc=5",
       "type": "news",
       "area": "首都圏周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -75,19 +89,18 @@
       "zoomSource": "none"
     },
     {
-      "title": "2026年熊本地震＞ホテル・旅館への「2次避難」進まず 「遠方に避難すると…」 被災者が消極的な理由とは…（熊本日日新聞） - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-08-17T09:35:22+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBodFBLRnBTZDZFVVhSdUlnTDN3a1VwdmR5blVOM3lhLTlZWWpId190VWxrRFBURG9BdnB4SUtxc3NvNzByZXpUN3VQTG1zSTE3ZkhBQkhGZGlHUFl5OXUxdW1ZNVBBWW5SOVBIYXJkX05kRkJFMEFWUHhpTEZmZGs?oc=5",
+      "title": "安全安心:緊急地震速報 - 十日町タウン情報",
+      "source": "十日町タウン情報",
+      "time": "2026-08-23T02:01:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ycVF4R0RQSmpXa05yejAyYm5qQmpGN3d6OWJrTGwza2dWdGlGdmtHVXEwN051RHBtTm1ZanlJVTk2Rk11U0RyeTB5YzBwQ0xUYXRlVWFzYkNwNzhob3lZ?oc=5",
       "type": "news",
-      "area": "九州内陸・周辺",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "令和８年熊本地震 関連情報 | 災害関連情報 | 観光庁 - mlit.go.jp",
@@ -102,21 +115,6 @@
       "zoom": 7,
       "zoomable": true,
       "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "沖縄県で最大震度1の地震 沖縄県・宮古島市 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-08-21T03:18:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9oc1dWQnhraGtUTGVVbWNEelRJUGxsQUJsLTNWNXlNc0JEMHlpX3p2OG12b0hNQm9RR0JrbXI3TjJTQlIxUEQyYjk5RkVkVDZBTHk3eUw5Yw?oc=5",
-      "type": "news",
-      "area": "沖縄・南西諸島",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 25.7,
-      "lon": 127.8,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "沖縄・南西諸島",
       "zoomSource": "dictionary"
     }
   ]
