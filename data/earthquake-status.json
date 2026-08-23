@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-24T00:46:45+09:00",
+  "fetched_at": "2026-08-24T01:51:09+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/23 22:45:00",
-    "area": "浦河沖",
-    "magnitude": 6.0,
-    "depth": 40,
-    "maxScale": 40,
-    "intensityLabel": "4",
+    "time": "2026/08/24 01:36:00",
+    "area": "日高地方東部",
+    "magnitude": 4.0,
+    "depth": 60,
+    "maxScale": 20,
+    "intensityLabel": "2",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
