@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T19:49:31+09:00",
+  "updated_at": "2026-08-23T20:18:23+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -7,20 +7,6 @@
       "source": "tenki.jp",
       "time": "2026-08-17T12:58:33+09:00",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QVlczTFVQUHFhVmc2YUVfSjRLdkdQM0JUcEo4ampvSTRHVk5rS1JXSjlyc3VPZlBSMFctMmdwUnlEUEFJLWZEN2ltQXdvWWh3WW9uT0VvTGI5b3E1Ykxhd1c3RC1XOFdfRzJoRNIBckFVX3lxTE9fcFBrY0tTelRNbVJOSzhoM00yQTNJRzlLUHNhbUxVWUhQbzAyVmFGRlZxX2RXRG5qdWZIblhTcVN0dGxCSExnMFNWbVFBbktjVVg4dFpienZSRVRmenE2bnBNbHdLbmt0VW5LVE94eE1CZw?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "関東で震度5弱 けが人30人超 - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-08-23T12:02:19+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5VcjNDam5vQ3VVaXJzb2xHZWdEd3BIdVVnREY0SXl1NWhHbkk2Y3Vhd2lsQjNrUnJRTzhQb3NQSnRxUVJwSDYxaTh3SVNpWk02?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -44,6 +30,20 @@
       "zoomable": true,
       "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "関東で震度5弱 けが人30人超 - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-08-23T12:02:19+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5VcjNDam5vQ3VVaXJzb2xHZWdEd3BIdVVnREY0SXl1NWhHbkk2Y3Vhd2lsQjNrUnJRTzhQb3NQSnRxUVJwSDYxaTh3SVNpWk02?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "【地震ライブ】茨城県、埼玉県、千葉県、東京都で最大震度5弱の強い地震 茨城県・小美玉市、茨城古河市、龍ケ崎市、下妻市 - TBS NEWS DIG",
@@ -89,10 +89,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "【情報まとめ】「震度5弱」茨城、埼玉、千葉、東京23区 “逆断層型”の地震 京浜東北線など一部区間で運転見合わせ さいたま・川崎・相模原などで9人けが 川口で道路に水あふれる 目黒で一時停電 - テレ朝NEWS",
+      "title": "関東地方で最大震度5弱 津波の心配なし 今後1週間は同程度の地震に注意 - テレ朝NEWS",
       "source": "テレ朝NEWS",
-      "time": "2026-08-23T06:38:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1OTUxJZHduVzRiQVZZVzVTRUQybmdmVkcxNlJqY2M3TUc0WHZaVkhKVnJkZS1rMmN0QVJJRDdEZnczc1dReUZ6XzJIZEptS0ZLSWJ4SzFPNE1JOEJyNTVpU1J4SE9wc01rNFN6UzVqS1JWdw?oc=5",
+      "time": "2026-08-23T06:29:30+09:00",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9UWXJRTjBCRzZjWF96bnlvek40OEZWcFpJNENyeFVEaHhaY0R5UU5IMUtMdTNOMHhtQ2VJVGVBUHpKTkh6Z0E2MHQwRDQ4eUVTRk8xZkZxOG5paUw3T3VkZkg1SUFSRlcyZTd2b1JNdVFFQQ?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
