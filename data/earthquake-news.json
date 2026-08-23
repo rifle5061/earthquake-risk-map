@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T11:43:29+09:00",
+  "updated_at": "2026-08-23T12:48:26+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -89,34 +89,32 @@
       "zoomSource": "none"
     },
     {
-      "title": "【速報】東京都23区、茨城県北部などで震度5弱 津波の心配なし - テレ朝NEWS",
+      "title": "【情報まとめ】「震度5弱」茨城、埼玉、千葉、東京23区 “逆断層型”の地震 京浜東北線など一部区間で運転見合わせ さいたま・川崎・相模原などで9人けが 川口で道路に水あふれる 目黒で一時停電 - テレ朝NEWS",
       "source": "テレ朝NEWS",
-      "time": "2026-08-23T02:10:45+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE55RkdOTjl5Nm5DU0J1Vjh1QldzdXloc0JyZFF2Rl90NGtvZ01faGJjUXlVb21JZUsyMUk3MHpoS1NWQUE4NFJvdzRoTzR2aml6NlhDZ2hoUkpKb3hTNUFLb2FmcWVNTlFtM1Vmb3pDTkZyZw?oc=5",
+      "time": "2026-08-23T06:38:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1OTUxJZHduVzRiQVZZVzVTRUQybmdmVkcxNlJqY2M3TUc0WHZaVkhKVnJkZS1rMmN0QVJJRDdEZnczc1dReUZ6XzJIZEptS0ZLSWJ4SzFPNE1JOEJyNTVpU1J4SE9wc01rNFN6UzVqS1JWdw?oc=5",
       "type": "news",
-      "area": "首都圏周辺",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 35.55,
-      "lon": 139.8,
-      "zoom": 8,
-      "zoomable": true,
-      "matchedArea": "首都圏周辺",
-      "zoomSource": "dictionary"
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
-      "title": "震度5弱 茨城県南部 2026年08月23日02:00ごろ 地震詳細 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-08-23T10:29:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT2dpaDRiWE5mdEd0M2VDUHpCM2g0ZEJYLTlPUnoxQkJpeThoWTZIV0FWb095Rk92bXRPajZMN0tadUM4OGRUWHJkQ2FpUEJYYkRvYXpGREEzQVp3RjNBWXEzTVNUYTlNaC1PRVBtNUd2QTZWcGNtVkxnMERwb3AxMWtR?oc=5",
+      "title": "【地震情報】熊本で震度3 津波の心配なし - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-08-19T07:14:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAzVlBqdm12b043ZTBWbkRwSEhZbGpjRE1XaGNMMG8xWkNId2VZUm11SXZmUEplQk1yZXZ1OThPZ3RYaEVnZS1PMkhmSE1MWnVqUndfNHpmdGtUVzVMMU1v?oc=5",
       "type": "news",
-      "area": "首都圏周辺",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 35.55,
-      "lon": 139.8,
-      "zoom": 8,
-      "zoomable": true,
-      "matchedArea": "首都圏周辺",
-      "zoomSource": "dictionary"
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     }
   ]
 }
