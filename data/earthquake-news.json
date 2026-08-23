@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T13:33:48+09:00",
+  "updated_at": "2026-08-23T14:26:46+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -75,10 +75,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "大阪府で最大震度1の地震 大阪府・能勢町（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
+      "title": "地震で突然失業 肩落とす被災者 - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
-      "time": "2026-08-23T06:53:13+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VMzliUzRLejdaSWVmVDNfNnRhSzFiZkJIN0YtVkZPMkQteGRudE5qSjVnQmJwbUw3U25JQ0E3TEhGVkFQOEozQXpKeF92WF94MHFxSkIzbXdJV1RnREtnQ0hYaFNYSGtEcV91b2Q3ZUtGTFc5c3pLbER0SmJkd2s?oc=5",
+      "time": "2026-08-22T10:06:27+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBEMWpTZENHc1U3S1dFZ0N2bEZXcnNTQ0VaNUhrWXdnZTZoTjlob3pSTzZ2YVR3Vk9JNWZLSEF2RTkzai03VUdIc2ttaUhmYzlK?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -89,18 +89,19 @@
       "zoomSource": "none"
     },
     {
-      "title": "【情報まとめ】「震度5弱」茨城、埼玉、千葉、東京23区 “逆断層型”の地震 京浜東北線など一部区間で運転見合わせ さいたま・川崎・相模原などで9人けが 川口で道路に水あふれる 目黒で一時停電 - テレ朝NEWS",
+      "title": "【速報】東京都23区、茨城県北部などで震度5弱 津波の心配なし - テレ朝NEWS",
       "source": "テレ朝NEWS",
-      "time": "2026-08-23T06:38:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1OTUxJZHduVzRiQVZZVzVTRUQybmdmVkcxNlJqY2M3TUc0WHZaVkhKVnJkZS1rMmN0QVJJRDdEZnczc1dReUZ6XzJIZEptS0ZLSWJ4SzFPNE1JOEJyNTVpU1J4SE9wc01rNFN6UzVqS1JWdw?oc=5",
+      "time": "2026-08-23T02:10:45+09:00",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE55RkdOTjl5Nm5DU0J1Vjh1QldzdXloc0JyZFF2Rl90NGtvZ01faGJjUXlVb21JZUsyMUk3MHpoS1NWQUE4NFJvdzRoTzR2aml6NlhDZ2hoUkpKb3hTNUFLb2FmcWVNTlFtM1Vmb3pDTkZyZw?oc=5",
       "type": "news",
-      "area": "",
+      "area": "首都圏周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "lat": 35.55,
+      "lon": 139.8,
+      "zoom": 8,
+      "zoomable": true,
+      "matchedArea": "首都圏周辺",
+      "zoomSource": "dictionary"
     },
     {
       "title": "【地震情報】熊本で震度3 津波の心配なし - NHKニュース",
