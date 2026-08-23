@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T14:55:01+09:00",
+  "updated_at": "2026-08-23T16:31:04+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -89,6 +89,20 @@
       "zoomSource": "none"
     },
     {
+      "title": "関東地方の地震で少なくとも9人けが 交通にも影響 - khb東日本放送",
+      "source": "khb東日本放送",
+      "time": "2026-08-23T06:30:29+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9rOXdqSmRUZ3NlRjlXNkRWX2x5elZQOXE3bk5pSy1IT2xNTXl0NXcwUy1XOU50M0RpYUc5U1llVFRIcG1nZjNJM3RiR1VSUWs?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "【速報】東京都23区、茨城県北部などで震度5弱 津波の心配なし - テレ朝NEWS",
       "source": "テレ朝NEWS",
       "time": "2026-08-23T02:10:45+09:00",
@@ -102,20 +116,6 @@
       "zoomable": true,
       "matchedArea": "首都圏周辺",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "【地震情報】熊本で震度3 津波の心配なし - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-08-19T07:14:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAzVlBqdm12b043ZTBWbkRwSEhZbGpjRE1XaGNMMG8xWkNId2VZUm11SXZmUEplQk1yZXZ1OThPZ3RYaEVnZS1PMkhmSE1MWnVqUndfNHpmdGtUVzVMMU1v?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     }
   ]
 }
