@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T05:19:17+09:00",
+  "updated_at": "2026-08-24T07:18:57+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -46,20 +46,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "専門家 “関東の地下にある「地震の巣」で発生 備え確認を” | NHKニュース | 地震、茨城県 - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-08-23T18:57:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAxMkdTOV9zMnBmYjNEMXZSU09IclZScUVPdUJVY2haTW16Q0t0YUlPOHgyNnZ1eFdvTmlZRUVlYXNWWjJ0WXVsZGQyYVlrMDEtbnVkWk56Uld6TnNGOXJF?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "【地震ライブ】茨城県、埼玉県、千葉県、東京都で最大震度5弱の強い地震 茨城県・小美玉市、茨城古河市、龍ケ崎市、下妻市 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
       "time": "2026-08-23T02:12:00+09:00",
@@ -73,6 +59,20 @@
       "zoomable": true,
       "matchedArea": "首都圏周辺",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "専門家 “関東の地下にある「地震の巣」で発生 備え確認を” | NHKニュース | 地震、茨城県 - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-08-23T18:57:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAxMkdTOV9zMnBmYjNEMXZSU09IclZScUVPdUJVY2haTW16Q0t0YUlPOHgyNnZ1eFdvTmlZRUVlYXNWWjJ0WXVsZGQyYVlrMDEtbnVkWk56Uld6TnNGOXJF?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "安全安心:緊急地震速報 - 十日町タウン情報",
