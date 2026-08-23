@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T10:11:35+09:00",
+  "updated_at": "2026-08-23T11:43:29+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -32,7 +32,7 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "茨城県、埼玉県、千葉県、東京都で最大震度5弱の強い地震 茨城県・小美玉市、茨城古河市、龍ケ崎市、下妻市 - TBS NEWS DIG",
+      "title": "【地震ライブ】茨城県、埼玉県、千葉県、東京都で最大震度5弱の強い地震 茨城県・小美玉市、茨城古河市、龍ケ崎市、下妻市 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
       "time": "2026-08-23T02:12:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5UenNyQXNDT0pTNzFReGR4bTMtSGpGaFkxZlhxNENkNlpUVU5vTFEwZDQtcXktU0xKb2FOdDRzQ3JkcmI3WTNDV3FlZDdyU2tYUHJzUlNIbw?oc=5",
@@ -61,10 +61,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "地震で突然失業 肩落とす被災者 - Yahoo!ニュース",
+      "title": "【地震速報】滋賀・近江八幡市や兵庫・豊岡市でも震度1を観測…関東地方でM5.9の地震 最大震度5弱 - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
-      "time": "2026-08-22T10:06:27+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBEMWpTZENHc1U3S1dFZ0N2bEZXcnNTQ0VaNUhrWXdnZTZoTjlob3pSTzZ2YVR3Vk9JNWZLSEF2RTkzai03VUdIc2ttaUhmYzlK?oc=5",
+      "time": "2026-08-23T02:22:12+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VUlpheFBTZnVmamt4ZVVBYlp2NmpGTGpSSV8ta3NXSVlDNFBCZ1l4QnZUcjBibG1OZXdHQTFmSFBsdXBIMEt4dUlYUjRGT0JDZHA5UE5nVnFXRklReVhhMkFJa2NiRlA1RE03R0xWUlloSU5aZzk2cjE1bGdXUFU?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -89,24 +89,25 @@
       "zoomSource": "none"
     },
     {
-      "title": "関東地方の地震で少なくとも9人けが 交通にも影響 - khb東日本放送",
-      "source": "khb東日本放送",
-      "time": "2026-08-23T07:04:03+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9rOXdqSmRUZ3NlRjlXNkRWX2x5elZQOXE3bk5pSy1IT2xNTXl0NXcwUy1XOU50M0RpYUc5U1llVFRIcG1nZjNJM3RiR1VSUWs?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "【速報】東京都23区、茨城県北部などで震度5弱 津波の心配なし - テレ朝NEWS",
       "source": "テレ朝NEWS",
       "time": "2026-08-23T02:10:45+09:00",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE55RkdOTjl5Nm5DU0J1Vjh1QldzdXloc0JyZFF2Rl90NGtvZ01faGJjUXlVb21JZUsyMUk3MHpoS1NWQUE4NFJvdzRoTzR2aml6NlhDZ2hoUkpKb3hTNUFLb2FmcWVNTlFtM1Vmb3pDTkZyZw?oc=5",
+      "type": "news",
+      "area": "首都圏周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 35.55,
+      "lon": 139.8,
+      "zoom": 8,
+      "zoomable": true,
+      "matchedArea": "首都圏周辺",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "震度5弱 茨城県南部 2026年08月23日02:00ごろ 地震詳細 - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-08-23T10:29:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT2dpaDRiWE5mdEd0M2VDUHpCM2g0ZEJYLTlPUnoxQkJpeThoWTZIV0FWb095Rk92bXRPajZMN0tadUM4OGRUWHJkQ2FpUEJYYkRvYXpGREEzQVp3RjNBWXEzTVNUYTlNaC1PRVBtNUd2QTZWcGNtVkxnMERwb3AxMWtR?oc=5",
       "type": "news",
       "area": "首都圏周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
