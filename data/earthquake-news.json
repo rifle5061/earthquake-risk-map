@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T21:35:00+09:00",
+  "updated_at": "2026-08-23T22:29:46+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -7,6 +7,20 @@
       "source": "tenki.jp",
       "time": "2026-08-17T12:58:33+09:00",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QVlczTFVQUHFhVmc2YUVfSjRLdkdQM0JUcEo4ampvSTRHVk5rS1JXSjlyc3VPZlBSMFctMmdwUnlEUEFJLWZEN2ltQXdvWWh3WW9uT0VvTGI5b3E1Ykxhd1c3RC1XOFdfRzJoRNIBckFVX3lxTE9fcFBrY0tTelRNbVJOSzhoM00yQTNJRzlLUHNhbUxVWUhQbzAyVmFGRlZxX2RXRG5qdWZIblhTcVN0dGxCSExnMFNWbVFBbktjVVg4dFpienZSRVRmenE2bnBNbHdLbmt0VW5LVE94eE1CZw?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "関東で震度5弱 けが人30人超 - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-08-23T12:02:19+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5VcjNDam5vQ3VVaXJzb2xHZWdEd3BIdVVnREY0SXl1NWhHbkk2Y3Vhd2lsQjNrUnJRTzhQb3NQSnRxUVJwSDYxaTh3SVNpWk02?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -30,20 +44,6 @@
       "zoomable": true,
       "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "関東で震度5弱 けが人30人超 - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-08-23T12:02:19+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5VcjNDam5vQ3VVaXJzb2xHZWdEd3BIdVVnREY0SXl1NWhHbkk2Y3Vhd2lsQjNrUnJRTzhQb3NQSnRxUVJwSDYxaTh3SVNpWk02?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     },
     {
       "title": "【地震ライブ】茨城県、埼玉県、千葉県、東京都で最大震度5弱の強い地震 茨城県・小美玉市、茨城古河市、龍ケ崎市、下妻市 - TBS NEWS DIG",
