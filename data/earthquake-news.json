@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T03:25:35+09:00",
+  "updated_at": "2026-08-24T03:56:36+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -46,21 +46,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "未明の震度5弱…“地震の巣”とは 首都直下地震の可能性は - テレ朝NEWS",
-      "source": "テレ朝NEWS",
-      "time": "2026-08-23T18:09:34+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OcWtWOHNyM0c3RnNuRFJOcXE1cjFSTmhHS0UyZnphWjAzR0tjenRJeFkzby1Nd2h5QmE2elBUU2xVV1VfajRPcXBZakJId3lvSGpEcjRKMldVR0tXTGY2RGliSDgydHNBYndFQ3p0Si1lQQ?oc=5",
-      "type": "news",
-      "area": "相模トラフ・関東南方",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 34.9,
-      "lon": 139.6,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "相模トラフ・関東南方",
-      "zoomSource": "dictionary"
-    },
-    {
       "title": "【地震ライブ】茨城県、埼玉県、千葉県、東京都で最大震度5弱の強い地震 茨城県・小美玉市、茨城古河市、龍ケ崎市、下妻市 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
       "time": "2026-08-23T02:12:00+09:00",
@@ -91,6 +76,21 @@
       "zoomSource": "dictionary"
     },
     {
+      "title": "未明の震度5弱…“地震の巣”とは 首都直下地震の可能性は - テレ朝NEWS",
+      "source": "テレ朝NEWS",
+      "time": "2026-08-23T18:09:34+09:00",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OcWtWOHNyM0c3RnNuRFJOcXE1cjFSTmhHS0UyZnphWjAzR0tjenRJeFkzby1Nd2h5QmE2elBUU2xVV1VfajRPcXBZakJId3lvSGpEcjRKMldVR0tXTGY2RGliSDgydHNBYndFQ3p0Si1lQQ?oc=5",
+      "type": "news",
+      "area": "相模トラフ・関東南方",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 34.9,
+      "lon": 139.6,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "相模トラフ・関東南方",
+      "zoomSource": "dictionary"
+    },
+    {
       "title": "関東で震度5弱 けが人30人超 - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
       "time": "2026-08-23T12:02:19+09:00",
@@ -105,18 +105,19 @@
       "zoomSource": "none"
     },
     {
-      "title": "関東地方で最大震度5弱 津波の心配なし 今後1週間は同程度の地震に注意 - テレ朝NEWS",
+      "title": "【速報】東京都23区、茨城県北部などで震度5弱 津波の心配なし - テレ朝NEWS",
       "source": "テレ朝NEWS",
-      "time": "2026-08-23T06:29:30+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9UWXJRTjBCRzZjWF96bnlvek40OEZWcFpJNENyeFVEaHhaY0R5UU5IMUtMdTNOMHhtQ2VJVGVBUHpKTkh6Z0E2MHQwRDQ4eUVTRk8xZkZxOG5paUw3T3VkZkg1SUFSRlcyZTd2b1JNdVFFQQ?oc=5",
+      "time": "2026-08-23T02:10:45+09:00",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE55RkdOTjl5Nm5DU0J1Vjh1QldzdXloc0JyZFF2Rl90NGtvZ01faGJjUXlVb21JZUsyMUk3MHpoS1NWQUE4NFJvdzRoTzR2aml6NlhDZ2hoUkpKb3hTNUFLb2FmcWVNTlFtM1Vmb3pDTkZyZw?oc=5",
       "type": "news",
-      "area": "",
+      "area": "首都圏周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "lat": 35.55,
+      "lon": 139.8,
+      "zoom": 8,
+      "zoomable": true,
+      "matchedArea": "首都圏周辺",
+      "zoomSource": "dictionary"
     }
   ]
 }
