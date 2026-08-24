@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T22:56:40+09:00",
+  "updated_at": "2026-08-24T23:38:55+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -47,10 +47,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "茨城 東京 埼玉 千葉で震度5弱 気象庁“今後1週間程度は注意” - NHKニュース",
+      "title": "専門家 “関東の地下にある「地震の巣」で発生 備え確認を” | NHKニュース | 地震、茨城県 - NHKニュース",
       "source": "NHKニュース",
-      "time": "2026-08-23T02:04:40+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1xdUQ1X0NUVTdZMTdYeVUtd3VrelhrREJNZ2tUV2pMUzBSUWp4ZkRSQzBNN3hwUkozdWZQUU9KcGNLWldPNVc2SEtaNUFvWmRJSFJfdzdUbmZHclZqeGFV?oc=5",
+      "time": "2026-08-23T18:57:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAxMkdTOV9zMnBmYjNEMXZSU09IclZScUVPdUJVY2haTW16Q0t0YUlPOHgyNnZ1eFdvTmlZRUVlYXNWWjJ0WXVsZGQyYVlrMDEtbnVkWk56Uld6TnNGOXJF?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
