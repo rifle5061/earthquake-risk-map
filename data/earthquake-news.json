@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T07:52:58+09:00",
+  "updated_at": "2026-08-25T08:19:56+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -16,6 +16,20 @@
       "zoomable": true,
       "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "埼玉で震度5弱…家に閉じ込められた男性も「身動きが取れない」 水道から水が出ず、トイレも流せず 10代男性ら転倒し負傷 マンホールから水があふれる（埼玉新聞） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-08-24T08:01:16+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fTXdrakxwcEp6T2Fhb0pKUDJpSVZ1aW5ya092bzg0T2NfMkg5SXRCUWQ1UV81VnpNZ0RsdHR1elhVcWZtRXNUOXlkdDlJSHJfSjFCdUMxY2pMTjVqdXJZV1F3ZXUtZ2UxdHBEanVUMG5adm9wQ21KenNfNUJvTlU?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "専門家 “関東の地下にある「地震の巣」で発生 備え確認を” | NHKニュース | 地震、茨城県 - NHKニュース",
@@ -47,38 +61,25 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "安全安心:緊急地震速報 - 十日町タウン情報",
-      "source": "十日町タウン情報",
-      "time": "2026-08-23T02:01:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ycVF4R0RQSmpXa05yejAyYm5qQmpGN3d6OWJrTGwza2dWdGlGdmtHVXEwN051RHBtTm1ZanlJVTk2Rk11U0RyeTB5YzBwQ0xUYXRlVWFzYkNwNzhob3lZ?oc=5",
+      "title": "【速報】東京都23区、茨城県北部などで震度5弱 津波の心配なし - テレ朝NEWS",
+      "source": "テレ朝NEWS",
+      "time": "2026-08-23T02:10:45+09:00",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE55RkdOTjl5Nm5DU0J1Vjh1QldzdXloc0JyZFF2Rl90NGtvZ01faGJjUXlVb21JZUsyMUk3MHpoS1NWQUE4NFJvdzRoTzR2aml6NlhDZ2hoUkpKb3hTNUFLb2FmcWVNTlFtM1Vmb3pDTkZyZw?oc=5",
       "type": "news",
-      "area": "",
+      "area": "首都圏周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "lat": 35.55,
+      "lon": 139.8,
+      "zoom": 8,
+      "zoomable": true,
+      "matchedArea": "首都圏周辺",
+      "zoomSource": "dictionary"
     },
     {
-      "title": "埼玉で震度5弱…家に閉じ込められた男性も「身動きが取れない」 水道から水が出ず、トイレも流せず 10代男性ら転倒し負傷 マンホールから水があふれる（埼玉新聞） - Yahoo!ニュース",
+      "title": "きょう（23日）未明 関東の広い範囲で震度5弱 少なくとも22人がけが 今後1週間ほどは今回と同じ最大震度5弱程度の地震に注意（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
-      "time": "2026-08-24T08:01:16+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fTXdrakxwcEp6T2Fhb0pKUDJpSVZ1aW5ya092bzg0T2NfMkg5SXRCUWQ1UV81VnpNZ0RsdHR1elhVcWZtRXNUOXlkdDlJSHJfSjFCdUMxY2pMTjVqdXJZV1F3ZXUtZ2UxdHBEanVUMG5adm9wQ21KenNfNUJvTlU?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "関東の広い範囲で地震、各地の詳しい震度…茨城・埼玉・千葉・東京で震度５弱 - 読売新聞",
-      "source": "読売新聞",
-      "time": "2026-08-23T03:49:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1OWmRNMzhwNlpMeWowUkdGS1ZZeUowRUlRellTSVlUUnFyYnFBc2w1dHM2Qnc2dTVYa1owc2s3YkJLYWVQTmhxeWppRDIwRkN0aUlDSWVhcGhMVXFHcWVFSlFabHZEZw?oc=5",
+      "time": "2026-08-23T12:09:33+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JY01XeU5VeFNUMHRJb0pjdnA5WWIyXzdLQ0FKTXhsU2hCZ1hxYS1jc2RnM09pMWNIbVd3eG05ZWNLNXlKdElZdURnbm55ejJkelJzN2U2ektmRjRLWWpSeVloUnlCOUhIMHRjR1liY1JEd3N1LXY5WWtUYWhGVFU?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
