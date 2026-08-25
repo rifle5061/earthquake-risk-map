@@ -1,15 +1,15 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-25T20:01:54+09:00",
+  "fetched_at": "2026-08-25T20:42:54+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/25 18:07:00",
-    "area": "根室半島南東沖",
-    "magnitude": 4.8,
-    "depth": 80,
-    "maxScale": 30,
-    "intensityLabel": "3",
-    "domesticTsunami": "None"
+    "time": "2026/08/25 18:40:00",
+    "area": "バヌアツ諸島",
+    "magnitude": -1.0,
+    "depth": -1,
+    "maxScale": -1,
+    "intensityLabel": "不明",
+    "domesticTsunami": "Checking"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
 }
