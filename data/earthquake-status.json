@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-26T08:36:44+09:00",
+  "fetched_at": "2026-08-26T08:58:57+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/26 08:33:00",
-    "area": "茨城県南部",
-    "magnitude": 3.4,
-    "depth": 50,
-    "maxScale": 20,
-    "intensityLabel": "2",
+    "time": "2026/08/26 08:52:00",
+    "area": "日向灘",
+    "magnitude": 2.0,
+    "depth": 10,
+    "maxScale": 10,
+    "intensityLabel": "1",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
