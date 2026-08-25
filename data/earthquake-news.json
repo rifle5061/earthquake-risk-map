@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T16:00:26+09:00",
+  "updated_at": "2026-08-25T17:06:37+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -18,20 +18,6 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "都内襲った『レベル4大雨』と『震度5弱』…影響続く 東京駅付近では信号機が陥没（TOKYO MX） - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-08-25T11:31:53+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81dm9ManljenowZkNLR0V2R0VjeHZJZVJuVDhqTkRjWmJEMnUxRXF1X3Faa09kQ0piVnZhc2ZxQ1hzSWZFZEhuU2VQX1ZpbFFscmZ3SElDZEJiTk4wWW9WOF9MRkJDWHBpSWk3bVJ3bmw1ZXk2MmFCZUhZNTVBQ1k?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "【地震ライブ】茨城県、埼玉県、千葉県、東京都で最大震度5弱の強い地震 茨城県・小美玉市、茨城古河市、龍ケ崎市、下妻市 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
       "time": "2026-08-23T02:12:00+09:00",
@@ -45,6 +31,20 @@
       "zoomable": true,
       "matchedArea": "首都圏周辺",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "都内襲った『レベル4大雨』と『震度5弱』…影響続く 東京駅付近では信号機が陥没（TOKYO MX） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-08-25T11:31:53+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81dm9ManljenowZkNLR0V2R0VjeHZJZVJuVDhqTkRjWmJEMnUxRXF1X3Faa09kQ0piVnZhc2ZxQ1hzSWZFZEhuU2VQX1ZpbFFscmZ3SElDZEJiTk4wWW9WOF9MRkJDWHBpSWk3bVJ3bmw1ZXk2MmFCZUhZNTVBQ1k?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "専門家 “関東の地下にある「地震の巣」で発生 備え確認を” | NHKニュース | 地震、茨城県 - NHKニュース",
@@ -90,19 +90,18 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "震度5弱 茨城県南部 2026年08月23日02:00ごろ 地震詳細 | TBS NEWS DIG - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-08-23T02:05:07+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT2dpaDRiWE5mdEd0M2VDUHpCM2g0ZEJYLTlPUnoxQkJpeThoWTZIV0FWb095Rk92bXRPajZMN0tadUM4OGRUWHJkQ2FpUEJYYkRvYXpGREEzQVp3RjNBWXEzTVNUYTlNaC1PRVBtNUd2QTZWcGNtVkxnMERwb3AxMWtR?oc=5",
+      "title": "東京、千葉、埼玉、茨城の17市区町で震度5弱 各地でけが人も - 毎日新聞",
+      "source": "毎日新聞",
+      "time": "2026-08-23T04:44:35+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE15ZUI5SllwZWRmQThoQkRTOTNUVkhyeUN5bVNtN2FrSldBTTlZREQ0cTVUaWlMQmhIdGczQmNmaEdRRGQ5X1k3UGw0ZjdJNGw3V1R5LVJwVzRLN2lLdzVCT1VyY0VDU2Ix?oc=5",
       "type": "news",
-      "area": "首都圏周辺",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 35.55,
-      "lon": 139.8,
-      "zoom": 8,
-      "zoomable": true,
-      "matchedArea": "首都圏周辺",
-      "zoomSource": "dictionary"
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     }
   ]
 }
