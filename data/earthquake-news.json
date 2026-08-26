@@ -1,7 +1,22 @@
 {
-  "updated_at": "2026-08-26T10:10:03+09:00",
+  "updated_at": "2026-08-26T11:45:43+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
+    {
+      "title": "令和８年熊本地震非常災害対策本部会議・令和８年８月千葉豪雨に関する関係閣僚会議 - 首相官邸",
+      "source": "首相官邸",
+      "time": "2026-08-21T22:31:34+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Sal9vVGtoZ0xfR2F1aWw3bjhJZXRBei1rQVJCVFM4a1lkTlpRWnRVaVpwLVhRa1dmWkRRNVE4aWo3TVR1cFFOOURSc282ekNUeV9YaUZ6NWdldmhxa3A2MnZ0QXBFMkhwek92bnpVRmxrNzdnTktrUGVNdTdoRHc?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
+    },
     {
       "title": "【地震ライブ】茨城県、埼玉県、千葉県、東京都で最大震度5弱の強い地震 茨城県・小美玉市、茨城古河市、龍ケ崎市、下妻市 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
@@ -32,10 +47,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "埼玉で震度5弱…家に閉じ込められた男性も「身動きが取れない」 水道から水が出ず、トイレも流せず 10代男性ら転倒し負傷 マンホールから水があふれる（埼玉新聞） - Yahoo!ニュース",
+      "title": "【地震速報】滋賀・近江八幡市や兵庫・豊岡市でも震度1を観測…関東地方でM5.9の地震 最大震度5弱 - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
-      "time": "2026-08-24T08:01:16+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fTXdrakxwcEp6T2Fhb0pKUDJpSVZ1aW5ya092bzg0T2NfMkg5SXRCUWQ1UV81VnpNZ0RsdHR1elhVcWZtRXNUOXlkdDlJSHJfSjFCdUMxY2pMTjVqdXJZV1F3ZXUtZ2UxdHBEanVUMG5adm9wQ21KenNfNUJvTlU?oc=5",
+      "time": "2026-08-23T02:22:12+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VUlpheFBTZnVmamt4ZVVBYlp2NmpGTGpSSV8ta3NXSVlDNFBCZ1l4QnZUcjBibG1OZXdHQTFmSFBsdXBIMEt4dUlYUjRGT0JDZHA5UE5nVnFXRklReVhhMkFJa2NiRlA1RE03R0xWUlloSU5aZzk2cjE1bGdXUFU?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -60,10 +75,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "【情報まとめ】未明の「震度5弱」茨城、埼玉、千葉、東京23区 “逆断層型”の地震 45人けが 交通にも影響 気象庁「1週間程度は注意」 - テレ朝NEWS",
-      "source": "テレ朝NEWS",
-      "time": "2026-08-24T12:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1OTUxJZHduVzRiQVZZVzVTRUQybmdmVkcxNlJqY2M3TUc0WHZaVkhKVnJkZS1rMmN0QVJJRDdEZnczc1dReUZ6XzJIZEptS0ZLSWJ4SzFPNE1JOEJyNTVpU1J4SE9wc01rNFN6UzVqS1JWdw?oc=5",
+      "title": "東京、千葉、埼玉、茨城の17市区町で震度5弱 各地でけが人も - 毎日新聞",
+      "source": "毎日新聞",
+      "time": "2026-08-23T04:44:35+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE15ZUI5SllwZWRmQThoQkRTOTNUVkhyeUN5bVNtN2FrSldBTTlZREQ0cTVUaWlMQmhIdGczQmNmaEdRRGQ5X1k3UGw0ZjdJNGw3V1R5LVJwVzRLN2lLdzVCT1VyY0VDU2Ix?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -89,24 +104,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "専門家 “関東の地下にある「地震の巣」で発生 備え確認を” | NHKニュース | 地震、茨城県 - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-08-23T18:57:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAxMkdTOV9zMnBmYjNEMXZSU09IclZScUVPdUJVY2haTW16Q0t0YUlPOHgyNnZ1eFdvTmlZRUVlYXNWWjJ0WXVsZGQyYVlrMDEtbnVkWk56Uld6TnNGOXJF?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "関東で震度5弱「地震の巣で」識者 - Yahoo!ニュース",
+      "title": "埼玉で震度5弱…家に閉じ込められた男性も「身動きが取れない」 水道から水が出ず、トイレも流せず 10代男性ら転倒し負傷 マンホールから水があふれる（埼玉新聞） - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
-      "time": "2026-08-23T16:36:14+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1RMFJmaFVRT2p6RVU5emJ4RUdKa2xremEyUmdXZXBJTkNyM0NIODBmd2wxOHpSWXdhT3cyVGN2T05sYVRiVHNTX2JKeERWMEhM?oc=5",
+      "time": "2026-08-24T08:01:16+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fTXdrakxwcEp6T2Fhb0pKUDJpSVZ1aW5ya092bzg0T2NfMkg5SXRCUWQ1UV81VnpNZ0RsdHR1elhVcWZtRXNUOXlkdDlJSHJfSjFCdUMxY2pMTjVqdXJZV1F3ZXUtZ2UxdHBEanVUMG5adm9wQ21KenNfNUJvTlU?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
