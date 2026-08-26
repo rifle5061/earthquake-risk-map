@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T22:53:49+09:00",
+  "updated_at": "2026-08-26T23:41:16+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -90,25 +90,24 @@
       "zoomSource": "none"
     },
     {
-      "title": "震度5弱 茨城県南部 2026年08月23日02:00ごろ 地震詳細 | TBS NEWS DIG - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-08-23T02:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT2dpaDRiWE5mdEd0M2VDUHpCM2g0ZEJYLTlPUnoxQkJpeThoWTZIV0FWb095Rk92bXRPajZMN0tadUM4OGRUWHJkQ2FpUEJYYkRvYXpGREEzQVp3RjNBWXEzTVNUYTlNaC1PRVBtNUd2QTZWcGNtVkxnMERwb3AxMWtR?oc=5",
+      "title": "【情報まとめ】未明の「震度5弱」茨城、埼玉、千葉、東京23区 “逆断層型”の地震 45人けが 交通にも影響 気象庁「1週間程度は注意」 - テレ朝NEWS",
+      "source": "テレ朝NEWS",
+      "time": "2026-08-24T12:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1OTUxJZHduVzRiQVZZVzVTRUQybmdmVkcxNlJqY2M3TUc0WHZaVkhKVnJkZS1rMmN0QVJJRDdEZnczc1dReUZ6XzJIZEptS0ZLSWJ4SzFPNE1JOEJyNTVpU1J4SE9wc01rNFN6UzVqS1JWdw?oc=5",
       "type": "news",
-      "area": "首都圏周辺",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 35.55,
-      "lon": 139.8,
-      "zoom": 8,
-      "zoomable": true,
-      "matchedArea": "首都圏周辺",
-      "zoomSource": "dictionary"
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
-      "title": "【地震速報】滋賀・近江八幡市や兵庫・豊岡市でも震度1を観測…関東地方でM5.9の地震 最大震度5弱 - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-08-23T02:22:12+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VUlpheFBTZnVmamt4ZVVBYlp2NmpGTGpSSV8ta3NXSVlDNFBCZ1l4QnZUcjBibG1OZXdHQTFmSFBsdXBIMEt4dUlYUjRGT0JDZHA5UE5nVnFXRklReVhhMkFJa2NiRlA1RE03R0xWUlloSU5aZzk2cjE1bGdXUFU?oc=5",
+      "title": "東京、千葉、埼玉、茨城の17市区町で震度5弱 各地でけが人も - 毎日新聞",
+      "source": "毎日新聞",
+      "time": "2026-08-23T04:44:35+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE15ZUI5SllwZWRmQThoQkRTOTNUVkhyeUN5bVNtN2FrSldBTTlZREQ0cTVUaWlMQmhIdGczQmNmaEdRRGQ5X1k3UGw0ZjdJNGw3V1R5LVJwVzRLN2lLdzVCT1VyY0VDU2Ix?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
