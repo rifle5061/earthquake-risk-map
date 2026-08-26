@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-26T16:08:00+09:00",
+  "fetched_at": "2026-08-26T16:58:19+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/26 13:33:00",
-    "area": "熊本県熊本地方",
-    "magnitude": 2.6,
-    "depth": 10,
+    "time": "2026/08/26 16:32:00",
+    "area": "択捉島付近",
+    "magnitude": 4.6,
+    "depth": 160,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
