@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T09:26:52+09:00",
+  "updated_at": "2026-08-27T19:08:48+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -32,19 +32,18 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "【速報】埼玉県で地震 栃木県、茨城県、群馬県、千葉県など揺れる 茨城県南部が震源（埼玉新聞） - Yahoo!ニュース",
+      "title": "埼玉で震度5弱…家に閉じ込められた男性も「身動きが取れない」 水道から水が出ず、トイレも流せず 10代男性ら転倒し負傷 マンホールから水があふれる（埼玉新聞） - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
-      "time": "2026-08-26T09:47:37+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xMFEzUGpvR2N0ZmFONHg5dVZHY1Z5QjFlSThBdE92Q0FGd0pkZnM1WmRuYlY4SXVtVU5pd1NwcURXUDdlY093bUJsQTV2T0l0emFIMXNjckZXNW8xanVrbDJPd2dVTUhrTEhLcEZjWGpXaUtKaXNJaEs4WHBPLUE?oc=5",
+      "time": "2026-08-24T08:01:16+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fTXdrakxwcEp6T2Fhb0pKUDJpSVZ1aW5ya092bzg0T2NfMkg5SXRCUWQ1UV81VnpNZ0RsdHR1elhVcWZtRXNUOXlkdDlJSHJfSjFCdUMxY2pMTjVqdXJZV1F3ZXUtZ2UxdHBEanVUMG5adm9wQ21KenNfNUJvTlU?oc=5",
       "type": "news",
-      "area": "首都圏周辺",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 35.55,
-      "lon": 139.8,
-      "zoom": 8,
-      "zoomable": true,
-      "matchedArea": "首都圏周辺",
-      "zoomSource": "dictionary"
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "【地震ライブ】茨城県、埼玉県、千葉県、東京都で最大震度5弱の強い地震 茨城県・小美玉市、茨城古河市、龍ケ崎市、下妻市 - TBS NEWS DIG",
@@ -76,19 +75,18 @@
       "zoomSource": "none"
     },
     {
-      "title": "東京都足立区などで震度５弱、茨城県南部震源の地震で３８人負傷…高層ビルなど揺らす長周期地震動も観測 - 読売新聞",
-      "source": "読売新聞",
-      "time": "2026-08-23T18:53:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1weUM5cFhjeGdmMjY4WUxzOVlHSVphdUhwclN4NjlpSENWNnlwMVZTOEk4NXJLTzVPOVRTdG1BOTdkczR2U3prM3d1anVIVl9LcHNMUV9tamF6ZzRZdVhNNEVycHVMdw?oc=5",
+      "title": "「科学×冒険サバイバル！」第2シリーズ「巨大地震のサバイバル」全3話を再放送します！ - NHK",
+      "source": "NHK",
+      "time": "2026-08-24T12:59:25+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91UllZNFppQnNUYS1icmN6bkp6eUJLRGZJM2NFVE5zLTRkN0NpRTc1UHZYYVpqZEJiYnBHRU9XR3FsMUpNT3Z5aEF3d0FoRlE?oc=5",
       "type": "news",
-      "area": "首都圏周辺",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 35.55,
-      "lon": 139.8,
-      "zoom": 8,
-      "zoomable": true,
-      "matchedArea": "首都圏周辺",
-      "zoomSource": "dictionary"
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "東京、千葉、埼玉、茨城の17市区町で震度5弱 各地でけが人も - 毎日新聞",
