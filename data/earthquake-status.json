@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-28T07:47:57+09:00",
+  "fetched_at": "2026-08-28T15:45:19+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/28 07:13:00",
-    "area": "浦河沖",
-    "magnitude": 4.4,
-    "depth": 60,
-    "maxScale": 20,
-    "intensityLabel": "2",
+    "time": "2026/08/28 15:09:00",
+    "area": "熊本県天草・芦北地方",
+    "magnitude": 2.5,
+    "depth": 10,
+    "maxScale": 10,
+    "intensityLabel": "1",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
