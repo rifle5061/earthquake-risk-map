@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T10:27:35+09:00",
+  "updated_at": "2026-08-29T17:12:48+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -31,6 +31,21 @@
       "zoomSource": "none"
     },
     {
+      "title": "令和8年熊本地震から1か月　改めて確認したい地震への備えと避難時の行動(気象予報士 吉田　友海 2026年08月28日) - tenki.jp",
+      "source": "tenki.jp",
+      "time": "2026-08-28T13:39:11+09:00",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zaDZrc25vRTllWnFMc2Y2a20ycm1qVkJBaFBmY3FsQkNpVWlRbWJUVTgwa0g2dkZ5c0FHVlFXZ3dBNGc3dWk0T245TXhOakxaV04wU1c1Q1ZnQ0lCVmdLdmI5WElpbm01OEdV0gFwQVVfeXFMTm1RLXNqYTZUZTdhZUdYM1RFTDdIMl9zakJSR0Y1M1pBWVV3eDl1REhUd0dwNEowZGMzYVFuYnh4ZGpScTgweXBKQWtncGRiVzJzQ09BWVdHWFJkX19QLTQtYnppTm01cnN6TFVmalFNMA?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
+    },
+    {
       "title": "熊本地震から1カ月 死者38人 今も約2500人避難、支援急務に - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
       "time": "2026-08-28T07:35:58+09:00",
@@ -48,7 +63,7 @@
     {
       "title": "令和８年熊本地震 関連情報 | 災害関連情報 | 観光庁 - mlit.go.jp",
       "source": "mlit.go.jp",
-      "time": "2026-08-29T07:28:50+09:00",
+      "time": "2026-08-29T13:29:54+09:00",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE83MGRPQU9id0ktUGdkZTRlT1ZVVVZVVzJpUmh5ZFI2cDlVQ1JqYk15WjhZSlpnR20zcndLbjR2SUdVVFFJQlAwc0xkelVWZkRLQTVod2UwMVNBUmNYYnc?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
@@ -80,20 +95,6 @@
       "source": "NHK",
       "time": "2026-08-24T12:59:25+09:00",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91UllZNFppQnNUYS1icmN6bkp6eUJLRGZJM2NFVE5zLTRkN0NpRTc1UHZYYVpqZEJiYnBHRU9XR3FsMUpNT3Z5aEF3d0FoRlE?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "【地震情報】熊本 上天草で震度3 津波の心配なし - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-08-27T04:29:22+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ZSFpVcmwxUkhDOXhtN2NHN0JiSnZDMlBSNDNGV1FYLUtwYndKOTczVklZelR6dHhlMUcza3c2Uy0xTE93c1hfaUtsUVJKMFVpV1oxMDZDREIwWS04amlB?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
