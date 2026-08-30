@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-30T07:43:27+09:00",
+  "fetched_at": "2026-08-30T09:45:10+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/30 00:17:00",
-    "area": "千葉県東方沖",
-    "magnitude": 4.8,
-    "depth": 30,
-    "maxScale": 40,
-    "intensityLabel": "4",
+    "time": "2026/08/30 09:14:00",
+    "area": "浦河沖",
+    "magnitude": 4.0,
+    "depth": 60,
+    "maxScale": 10,
+    "intensityLabel": "1",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
