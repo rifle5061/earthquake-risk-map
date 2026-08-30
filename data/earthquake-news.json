@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T07:43:19+09:00",
+  "updated_at": "2026-08-30T10:02:43+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -46,10 +46,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "千葉県で最大震度1の地震 千葉県・多古町 - TBS NEWS DIG",
+      "title": "茨城県で最大震度4のやや強い地震 茨城県・神栖市 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
-      "time": "2026-08-29T23:58:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBXSUpHbDZBSEpRNTFXeExadFkwLUlWTGMyemt1VXpPY2Y0VjVlMHhJY01BV0ZLc091OHZ0M1djaGFwMEd3bV9nVnM5WUU2bHBRQUxBLUNkWQ?oc=5",
+      "time": "2026-08-30T00:20:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9tRkNvakNjTHpkOEx0X1M1enZqeF9oZXpKQXBfcnAyN3lndWFOT1hxT2ViSEVtXzZRMFA0WjU1cjlUOTBhOVNyVXZEWEtja3lVWG5Kaml3Yw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -90,20 +90,6 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "【地震情報】茨城県で震度4 津波の心配なし - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-08-28T16:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAzeGVTOGdOUVI1SUR2NWlmX1lKWENzeERUbDl1X2daR3FGU01KVG1mSzY4c0dqWWxBZDVPLWRIaVNQOEk1MlE1UDE2UmlIbV9fQ3NlLXRoaTBSSklxUFRN?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "南海トラフ地震、首都直下地震の最新被害想定概要（2026年8月） - nippon.com",
       "source": "nippon.com",
       "time": "2026-08-28T06:00:00+09:00",
@@ -117,6 +103,20 @@
       "zoomable": true,
       "matchedArea": "南海トラフ",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "【地震情報】茨城県で震度4 津波の心配なし - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-08-28T16:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAzeGVTOGdOUVI1SUR2NWlmX1lKWENzeERUbDl1X2daR3FGU01KVG1mSzY4c0dqWWxBZDVPLWRIaVNQOEk1MlE1UDE2UmlIbV9fQ3NlLXRoaTBSSklxUFRN?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     }
   ]
 }
