@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-08-31T14:53:33+09:00",
+  "fetched_at": "2026-08-31T21:42:44+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/08/31 11:55:00",
-    "area": "奄美大島近海",
-    "magnitude": 3.5,
-    "depth": 10,
+    "time": "2026/08/31 18:49:00",
+    "area": "福島県中通り",
+    "magnitude": 3.3,
+    "depth": 80,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
