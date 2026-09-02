@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T01:59:00+09:00",
+  "updated_at": "2026-09-03T04:40:50+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -17,47 +17,18 @@
       "zoomSource": "none"
     },
     {
-      "title": "防災の日に各地で訓練 政府は日本海溝・千島海溝巨大地震想定 - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-09-01T06:09:18+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xaVpwb2dTMlFBaVBaVVNPMVd6OWwzVmZ4RjY0UE9sQjJyWGVycHh4el9sbjBBNFFFcG44MXNnemVPTVptdGQzTWkxQnlwM1c4R0Zha2FxR09qMWRPaWd3?oc=5",
+      "title": "南海トラフ地震、首都直下地震の最新被害想定概要（2026年8月） - nippon.com",
+      "source": "nippon.com",
+      "time": "2026-08-28T06:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0xd09pdW94dG5BX0ZYSnUtUl8yUXRObFEtWjRrRmNibWx3MUI0RWlVa1V4bkVQRFRaRTJoSXZfdFdjUmVkXzZodmtuN3hLU3ZKZkkxSnhFaw?oc=5",
       "type": "news",
-      "area": "日本海溝・東北沖",
+      "area": "南海トラフ",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 38.6,
-      "lon": 143.0,
-      "zoom": 5,
-      "zoomable": true,
-      "matchedArea": "日本海溝・東北沖",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "茨城県で最大震度4のやや強い地震 茨城県・神栖市（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-08-30T00:20:27+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5iYW9OZEdWdFV0Qlhlb05XUUF0RUFFc2hXclFPdWs4bnMzc3RZNHNUUzlScVl5SzduMS1mRFJEbTljMWVrRUtYSEJUdlVTYWkwaVVtSGM4eEp3TXI5SkhsT1pPUkRpNUUzeU1wZFhnLUNFRkdTdHl3UDJ4V3NnM2M?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
+      "lat": 32.8,
+      "lon": 136.2,
       "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "\"1000年に1回\"のずれ3回も 熊本地震の「不都合な真実」 - 毎日新聞",
-      "source": "毎日新聞",
-      "time": "2026-08-31T11:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tU2I0Y3VQaXJ6VDM5SUFIbm9nTU9oWE1JYWhSbUc4THRXY3R0X3kwNkdEMWpPNnJEMDNsM2JyX0FiTHNHWGloSUZDS01ac3V1b1Rob0dpdEFxc21SVldaSnNpTERlM0di?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
       "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
+      "matchedArea": "南海トラフ",
       "zoomSource": "dictionary"
     },
     {
@@ -75,18 +46,32 @@
       "zoomSource": "none"
     },
     {
-      "title": "熊本地震の被災者ら避難所ロビーに雑魚寝「サウナ状態」、人員不足で物資運びきれず…民間が配送支援も - 読売新聞",
+      "title": "近畿地方でＭ６・８以上の地震発生確率、３０年以内に５０～６０％に…活断層多く注意呼びかけ - 読売新聞",
       "source": "読売新聞",
-      "time": "2026-08-28T16:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aeFkyVnJjV2dHNWZja0o4UjBKLXR5RmswN0t0aldnSGtMaWwyWXU1WGh3MDdCOENGM3pLTnY0bmM3bjA2VHRPYVAyMEdyOXFyZlpyVGdtSXJMYVJsZTFaN3dPYkNhdw?oc=5",
+      "time": "2026-08-28T17:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9hS0xKN21hLTFwZ0hvVnNUY0o1QUo5RlA5dUhOd0E4MUFsZVJ0QXBySThPUm5jcUVyQl9ENHk2VUZDU0Y5T181bi0tMFkzM3dHU1BGanlId2NFbXUtWU1HaEQzVS0?oc=5",
       "type": "news",
-      "area": "九州内陸・周辺",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "「生きてるうちに必ずくる」緊急地震速報が間に合わない日向灘地震 大きな揺れに耐える備えを（FNNプライムオンライン） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-08-29T05:00:41+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Od0x4S2dWUWdraVBoR0hnMm5teDFzNmlMOHhqNXBtS1dFbE5PTmgtZFJCTlNRYmhXMkNSX1VBUzE1NUM2LXhNd0w4cVF2eVRUa19yNDBFUXhlazNWRmpPc25XSzBzMTRZbzlNQnZTS1RPSVdhek4xcUh3NmR0LXM?oc=5",
+      "type": "news",
+      "area": "日向灘",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 31.8,
+      "lon": 132.0,
       "zoom": 7,
       "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
+      "matchedArea": "日向灘",
       "zoomSource": "dictionary"
     },
     {
@@ -117,6 +102,20 @@
       "zoomable": true,
       "matchedArea": "南海トラフ",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "京都府・滋賀県「ほぼ全域」に震度6強以上予測の断層 京都市で震度7、死者4600人超想定も - 京都新聞デジタル",
+      "source": "京都新聞デジタル",
+      "time": "2026-08-28T18:30:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE80VlFpM0ttY1Fac2lvWHdvb2stZS03OFQ4RFBKWnFwT1FxcUVldElXUWhENXhlQ2tEbXU2QVhoTW5SeGZmUmE3SmdaY3duMEg4eEliQndQejQ?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     }
   ]
 }
