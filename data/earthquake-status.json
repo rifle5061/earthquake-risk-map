@@ -1,15 +1,15 @@
 {
   "status": "ok",
-  "fetched_at": "2026-09-05T02:35:24+09:00",
+  "fetched_at": "2026-09-05T04:51:45+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/09/04 23:52:00",
-    "area": "釧路沖",
-    "magnitude": 3.5,
-    "depth": 50,
-    "maxScale": 20,
-    "intensityLabel": "2",
-    "domesticTsunami": "None"
+    "time": "2026/09/05 02:50:00",
+    "area": "スンダ海峡",
+    "magnitude": -1.0,
+    "depth": -1,
+    "maxScale": -1,
+    "intensityLabel": "不明",
+    "domesticTsunami": "Checking"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
 }
