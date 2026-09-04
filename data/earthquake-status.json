@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-09-04T18:56:13+09:00",
+  "fetched_at": "2026-09-04T23:02:38+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/09/04 18:23:00",
-    "area": "福島県沖",
+    "time": "2026/09/04 21:10:00",
+    "area": "宮城県沖",
     "magnitude": 3.8,
-    "depth": 50,
-    "maxScale": 10,
-    "intensityLabel": "1",
+    "depth": 70,
+    "maxScale": 20,
+    "intensityLabel": "2",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
