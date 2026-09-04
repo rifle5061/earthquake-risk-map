@@ -1,21 +1,7 @@
 {
-  "updated_at": "2026-09-04T23:46:50+09:00",
+  "updated_at": "2026-09-05T03:05:44+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
-    {
-      "title": "みなと防災用品カタログを配付します（防災用品支給事業） - city.minato.tokyo.jp",
-      "source": "city.minato.tokyo.jp",
-      "time": "2026-09-01T10:22:49+09:00",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSHBDTVFkeER5emdfSzZySDhPcGk0XzkwdnZXN1pLODVBWDBYN2NSVVN0elJlY3gwYk5zeXpQU1hLaUM2ZWdFd0JZcUstSl82aWFWMENkUGVrZGVncEVsWlN3QzNnRS15dzI3eWZ2OVdZRTREYjQxbzVBTFNWOXdOLTlwU0U?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
     {
       "title": "令和８年熊本地震 関連情報 | 災害関連情報 | 観光庁 - mlit.go.jp",
       "source": "mlit.go.jp",
@@ -60,8 +46,8 @@
       "zoomSource": "none"
     },
     {
-      "title": "「ウルトラマンシリーズ60周年 オリジナル防災グッズ」受注販売開始 - m-78.jp",
-      "source": "m-78.jp",
+      "title": "「ウルトラマンシリーズ60周年 オリジナル防災グッズ」受注販売開始 - 円谷プロ公式サイト",
+      "source": "円谷プロ公式サイト",
       "time": "2026-09-01T10:00:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9Cemkzd1I5eFMwLVNzN0tCTTdRSGs1VnBvNDhqaUkzVmZRWXFzUjdLRmtpZTJsZm5GUVdOc3dBc3MxelB6?oc=5",
       "type": "news",
@@ -115,6 +101,21 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
+    },
+    {
+      "title": "\"1000年に1回\"のずれ3回も 熊本地震の「不都合な真実」 - 毎日新聞",
+      "source": "毎日新聞",
+      "time": "2026-08-31T11:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tU2I0Y3VQaXJ6VDM5SUFIbm9nTU9oWE1JYWhSbUc4THRXY3R0X3kwNkdEMWpPNnJEMDNsM2JyX0FiTHNHWGloSUZDS01ac3V1b1Rob0dpdEFxc21SVldaSnNpTERlM0di?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
     }
   ]
 }
