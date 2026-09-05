@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T21:54:27+09:00",
+  "updated_at": "2026-09-06T00:46:19+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -18,24 +18,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "令和８年度総合防災訓練 - kantei.go.jp",
-      "source": "kantei.go.jp",
+      "title": "令和８年度総合防災訓練 - 首相官邸",
+      "source": "首相官邸",
       "time": "2026-09-01T21:22:27+09:00",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5FczUtWUN5TU1ReDNyVTB5MzBsa1RMQ2phc1pPSjI4UkptZTE4TmR3Z1U1Q2ZER0d5elhWd3lFVjhFRHZCR2hsMi1USEZ5bzhpMHoxcUo5OUQ3eW5hQU5CVHVmelhCNFNxTFZ4OA?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "茨城県で最大震度4のやや強い地震 茨城県・神栖市 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-08-30T00:20:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9tRkNvakNjTHpkOEx0X1M1enZqeF9oZXpKQXBfcnAyN3lndWFOT1hxT2ViSEVtXzZRMFA0WjU1cjlUOTBhOVNyVXZEWEtja3lVWG5Kaml3Yw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -115,6 +101,21 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
+    },
+    {
+      "title": "\"1000年に1回\"のずれ3回も 熊本地震の「不都合な真実」 - 毎日新聞",
+      "source": "毎日新聞",
+      "time": "2026-08-31T11:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tU2I0Y3VQaXJ6VDM5SUFIbm9nTU9oWE1JYWhSbUc4THRXY3R0X3kwNkdEMWpPNnJEMDNsM2JyX0FiTHNHWGloSUZDS01ac3V1b1Rob0dpdEFxc21SVldaSnNpTERlM0di?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
     }
   ]
 }
