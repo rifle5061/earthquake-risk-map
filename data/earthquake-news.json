@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T04:59:53+09:00",
+  "updated_at": "2026-09-07T07:04:27+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -30,6 +30,20 @@
       "zoomable": true,
       "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "令和8年9月7日の大雨に伴う自主避難所の開設について - 佐野市",
+      "source": "佐野市",
+      "time": "2026-09-07T03:03:07+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRzJ2cV9PQ054VUhQREd3TWZqV3I4V0tGUll5YjlUZUNkczdrX3M1Y3NSdjdiZTRJckxMbm4xWFh5TWJLYldjYjFMcFFjY2ZGNkpIR0w0YTJhT1ZOSWtyZldnc3cxRFRyXzF5Q1l2Q3I5amZqY25Lb3NJaUhZSzBqdlF6eVE4T25XS3c?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "「ウルトラマンシリーズ60周年 オリジナル防災グッズ」受注販売開始 - 円谷プロ公式サイト",
@@ -86,21 +100,6 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
-    },
-    {
-      "title": "\"1000年に1回\"のずれ3回も 熊本地震の「不都合な真実」 - 毎日新聞",
-      "source": "毎日新聞",
-      "time": "2026-08-31T11:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tU2I0Y3VQaXJ6VDM5SUFIbm9nTU9oWE1JYWhSbUc4THRXY3R0X3kwNkdEMWpPNnJEMDNsM2JyX0FiTHNHWGloSUZDS01ac3V1b1Rob0dpdEFxc21SVldaSnNpTERlM0di?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
     },
     {
       "title": "防災庁を11月創設へ 課題は山積 - Yahoo!ニュース",
