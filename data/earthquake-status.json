@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-09-07T09:21:00+09:00",
+  "fetched_at": "2026-09-07T19:17:26+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/09/07 02:04:00",
-    "area": "茨城県北部",
-    "magnitude": 2.4,
-    "depth": 10,
+    "time": "2026/09/07 17:47:00",
+    "area": "岩手県沖",
+    "magnitude": 3.3,
+    "depth": 60,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
