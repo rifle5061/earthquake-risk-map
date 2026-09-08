@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-09-08T18:55:51+09:00",
+  "fetched_at": "2026-09-08T23:10:47+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/09/08 16:19:00",
-    "area": "宮城県沖",
-    "magnitude": 3.6,
-    "depth": 50,
+    "time": "2026/09/08 22:23:00",
+    "area": "根室半島南東沖",
+    "magnitude": 3.7,
+    "depth": 80,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
