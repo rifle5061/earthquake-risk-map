@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T03:18:12+09:00",
+  "updated_at": "2026-09-09T06:18:29+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -18,8 +18,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "令和８年熊本地震非常災害復旧復興本部 - 首相官邸",
-      "source": "首相官邸",
+      "title": "令和８年熊本地震非常災害復旧復興本部 - kantei.go.jp",
+      "source": "kantei.go.jp",
       "time": "2026-09-04T15:56:27+09:00",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1qUVBKdEpGY2x5cGpCMzhIVjFHOC15X2tnNWt2S3hQTmdyX0tHbWlXaExDTHFUQ2JKd3JjY1k1ZnZqeXQxVHhUTmdxZEtYNjdRMkY5VGU3cU9zU241U0oxLXRXVEhla0t3ZjZqMkhfbFlJUkk?oc=5",
       "type": "news",
@@ -47,8 +47,8 @@
       "zoomSource": "none"
     },
     {
-      "title": "熊本県で最大震度3の地震 熊本県・上天草市 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
+      "title": "熊本県で最大震度3の地震 熊本県・上天草市 - newsdig.tbs.co.jp",
+      "source": "newsdig.tbs.co.jp",
       "time": "2026-09-07T23:25:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5MeWxaSlAzNk5ucjBCMUg2ci1PSFEyMnhDbHFPQWgxRURxTGNZQjJWc0c5T3NGaktsVl9vR3Q1NE10LXFrY0hZNHNIR29pRlhUdHVYWFdpMA?oc=5",
       "type": "news",
@@ -62,8 +62,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "大阪府、和歌山県で最大震度1の地震 大阪府・大阪岬町、和歌山県・和歌山市（TBS NEWS DIG Powered by JNN） - news.yahoo.co.jp",
-      "source": "news.yahoo.co.jp",
+      "title": "大阪府、和歌山県で最大震度1の地震 大阪府・大阪岬町、和歌山県・和歌山市（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
       "time": "2026-09-07T15:37:14+09:00",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ab2lMODl1SEQ2V2FXaTZRQVpEVUZ2TDduRFl5bTc3eFF4UFRHRmNfc09nclhzT19xc0UzZzZFdDBwZm9LOU1BNXZTWEh1VUdfNURGUHdYSW43NGFqSnZtVG5nY3RQcEcyWkJVSlk1LVZKV2hDRTFwd0t2ZDJMZTQ?oc=5",
       "type": "news",
