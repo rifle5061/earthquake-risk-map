@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T19:35:15+09:00",
+  "updated_at": "2026-09-08T23:52:29+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -18,18 +18,19 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "令和８年度総合防災訓練 - 首相官邸",
+      "title": "令和８年熊本地震非常災害復旧復興本部 - 首相官邸",
       "source": "首相官邸",
-      "time": "2026-09-01T21:22:27+09:00",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5FczUtWUN5TU1ReDNyVTB5MzBsa1RMQ2phc1pPSjI4UkptZTE4TmR3Z1U1Q2ZER0d5elhWd3lFVjhFRHZCR2hsMi1USEZ5bzhpMHoxcUo5OUQ3eW5hQU5CVHVmelhCNFNxTFZ4OA?oc=5",
+      "time": "2026-09-04T15:56:27+09:00",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1qUVBKdEpGY2x5cGpCMzhIVjFHOC15X2tnNWt2S3hQTmdyX0tHbWlXaExDTHFUQ2JKd3JjY1k1ZnZqeXQxVHhUTmdxZEtYNjdRMkY5VGU3cU9zU241U0oxLXRXVEhla0t3ZjZqMkhfbFlJUkk?oc=5",
       "type": "news",
-      "area": "",
+      "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
     },
     {
       "title": "令和8年9月7日の大雨に伴う自主避難所の開設について - 佐野市",
@@ -61,21 +62,6 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "大阪府、和歌山県で最大震度1の地震 大阪府・大阪岬町、和歌山県・和歌山市（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-09-07T15:37:14+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ab2lMODl1SEQ2V2FXaTZRQVpEVUZ2TDduRFl5bTc3eFF4UFRHRmNfc09nclhzT19xc0UzZzZFdDBwZm9LOU1BNXZTWEh1VUdfNURGUHdYSW43NGFqSnZtVG5nY3RQcEcyWkJVSlk1LVZKV2hDRTFwd0t2ZDJMZTQ?oc=5",
-      "type": "news",
-      "area": "太平洋側・南海トラフ想定域",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 33.2,
-      "lon": 134.5,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "太平洋側・南海トラフ想定域",
-      "zoomSource": "dictionary"
-    },
-    {
       "title": "【地震】青森県内で震度2 青森県東方沖を震源とする最大震度2の地震が発生 津波の心配なし - ABA青森朝日放送",
       "source": "ABA青森朝日放送",
       "time": "2026-09-06T14:21:00+09:00",
@@ -91,8 +77,23 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "【地震情報】和歌山で震度3 津波の心配なし - NHKニュース",
-      "source": "NHKニュース",
+      "title": "大阪府、和歌山県で最大震度1の地震 大阪府・大阪岬町、和歌山県・和歌山市（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-09-07T15:37:14+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ab2lMODl1SEQ2V2FXaTZRQVpEVUZ2TDduRFl5bTc3eFF4UFRHRmNfc09nclhzT19xc0UzZzZFdDBwZm9LOU1BNXZTWEh1VUdfNURGUHdYSW43NGFqSnZtVG5nY3RQcEcyWkJVSlk1LVZKV2hDRTFwd0t2ZDJMZTQ?oc=5",
+      "type": "news",
+      "area": "太平洋側・南海トラフ想定域",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 33.2,
+      "lon": 134.5,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "太平洋側・南海トラフ想定域",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "【地震情報】和歌山で震度3 津波の心配なし - news.web.nhk",
+      "source": "news.web.nhk",
       "time": "2026-09-02T17:27:26+09:00",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE95WjRBQVdQWnlQQWNhSEktUmdUQTdKWGFYR1NFRC1iaHI2cGJTcE1XemF1ZGJVcUg0UFlOb0EwS0JJdWp1UEVNZFNDOVNnaFFvbzZZVzVfSEV4aVZDVHJn?oc=5",
       "type": "news",
