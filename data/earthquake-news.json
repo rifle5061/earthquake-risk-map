@@ -1,20 +1,21 @@
 {
-  "updated_at": "2026-09-08T14:46:25+09:00",
+  "updated_at": "2026-09-08T19:35:15+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
-      "title": "地震・津波等ハザードマップ - city.minamisoma.lg.jp",
-      "source": "city.minamisoma.lg.jp",
-      "time": "2026-09-01T16:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOOFdoNVZTTU9KcmlZNGswd2IwQ1c5aFF1WjRaVW1HeDdWb2I2ZDY2YXRocndVMTk1VTNiLXRUYlZrOTNYY3JCdGk4ejBUYzNZUVhPTWpnRlNfeUJGV2NZVmZ6UVlSY29ybENWQ1JKQjdkR0lmNlpUNjczZXRNSENLZ1hTZUNhajQ?oc=5",
+      "title": "熊本地震から1か月、災害後の「心」はどう変化する？ 被災者・支援者が気を付けたいこと - ウェザーニュース",
+      "source": "ウェザーニュース",
+      "time": "2026-09-08T05:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZN3FsZWF3ZWdLb2FWVVJCN3VOSkxKblRkOGd6NWoyTzFnSHN2ZUs3ZDRsSGExYjNRUEF2cDBPdzA0Wl9RQVcyaEFDZlBDQ25GZ3JxNA?oc=5",
       "type": "news",
-      "area": "",
+      "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
     },
     {
       "title": "令和８年度総合防災訓練 - 首相官邸",
@@ -31,21 +32,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "熊本地震から1か月、災害後の「心」はどう変化する？ 被災者・支援者が気を付けたいこと - weathernews.jp",
-      "source": "weathernews.jp",
-      "time": "2026-09-08T05:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZN3FsZWF3ZWdLb2FWVVJCN3VOSkxKblRkOGd6NWoyTzFnSHN2ZUs3ZDRsSGExYjNRUEF2cDBPdzA0Wl9RQVcyaEFDZlBDQ25GZ3JxNA?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
-    },
-    {
       "title": "令和8年9月7日の大雨に伴う自主避難所の開設について - 佐野市",
       "source": "佐野市",
       "time": "2026-09-07T07:38:19+09:00",
@@ -60,8 +46,8 @@
       "zoomSource": "none"
     },
     {
-      "title": "熊本県で最大震度3の地震 熊本県・上天草市 - newsdig.tbs.co.jp",
-      "source": "newsdig.tbs.co.jp",
+      "title": "熊本県で最大震度3の地震 熊本県・上天草市 - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
       "time": "2026-09-07T23:25:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5MeWxaSlAzNk5ucjBCMUg2ci1PSFEyMnhDbHFPQWgxRURxTGNZQjJWc0c5T3NGaktsVl9vR3Q1NE10LXFrY0hZNHNIR29pRlhUdHVYWFdpMA?oc=5",
       "type": "news",
@@ -75,18 +61,19 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "防災庁を11月創設へ 課題は山積 - Yahoo!ニュース",
+      "title": "大阪府、和歌山県で最大震度1の地震 大阪府・大阪岬町、和歌山県・和歌山市（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
-      "time": "2026-09-01T23:18:59+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5MU3hDYm5jOHhRcmQwdjFzcy15Umt4ZnhmWXV0bkhvaEtTdXVhcEoyRFU2bmloTFZZekJ3TDFMTTdYR0J4aWlCOUw4UlAydkJ6?oc=5",
+      "time": "2026-09-07T15:37:14+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ab2lMODl1SEQ2V2FXaTZRQVpEVUZ2TDduRFl5bTc3eFF4UFRHRmNfc09nclhzT19xc0UzZzZFdDBwZm9LOU1BNXZTWEh1VUdfNURGUHdYSW43NGFqSnZtVG5nY3RQcEcyWkJVSlk1LVZKV2hDRTFwd0t2ZDJMZTQ?oc=5",
       "type": "news",
-      "area": "",
+      "area": "太平洋側・南海トラフ想定域",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
+      "lat": 33.2,
+      "lon": 134.5,
       "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "zoomable": true,
+      "matchedArea": "太平洋側・南海トラフ想定域",
+      "zoomSource": "dictionary"
     },
     {
       "title": "【地震】青森県内で震度2 青森県東方沖を震源とする最大震度2の地震が発生 津波の心配なし - ABA青森朝日放送",
@@ -104,18 +91,34 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "【石巻市】全域にレベル４避難指示 - khb東日本放送",
-      "source": "khb東日本放送",
-      "time": "2026-09-07T09:17:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE43M19TekliRDhrd01nQ2l1Z2ZqZVQ1eW00amdyQlQ4dEFMVWdZbU1WNVpYZzZSR0xLY1VoLUVmcUFoSFAweWE1MVFxWk9xRms?oc=5",
+      "title": "【地震情報】和歌山で震度3 津波の心配なし - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-09-02T17:27:26+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE95WjRBQVdQWnlQQWNhSEktUmdUQTdKWGFYR1NFRC1iaHI2cGJTcE1XemF1ZGJVcUg0UFlOb0EwS0JJdWp1UEVNZFNDOVNnaFFvbzZZVzVfSEV4aVZDVHJn?oc=5",
       "type": "news",
-      "area": "",
+      "area": "太平洋側・南海トラフ想定域",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
+      "lat": 33.2,
+      "lon": 134.5,
       "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "zoomable": true,
+      "matchedArea": "太平洋側・南海トラフ想定域",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "【瞬間映像】“裂ける”高速道路 最大震度7観測の熊本地震 国交省が公開 - テレ朝NEWS",
+      "source": "テレ朝NEWS",
+      "time": "2026-09-04T10:43:31+09:00",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CdUhacDU5aHNvRlBlR3A4U3hrU2Q3U3dDWDFfdHBJVnhsZE9wRmZCYVMweDRpYVVvSTVqdGFIb0RKdElzZVd2dTFSODNrcG5FZ1A5UEM2M0tIanZpblZfZzRGdFVjNUhrQ05hSklNbDc0QQ?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
     }
   ]
 }
