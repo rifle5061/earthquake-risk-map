@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-09-10T00:07:10+09:00",
+  "fetched_at": "2026-09-10T03:35:58+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/09/09 17:38:00",
-    "area": "秋田県内陸北部",
-    "magnitude": 2.7,
-    "depth": 10,
+    "time": "2026/09/10 02:11:00",
+    "area": "宮古島近海",
+    "magnitude": 3.4,
+    "depth": 40,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
