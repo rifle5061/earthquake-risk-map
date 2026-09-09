@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T08:31:02+09:00",
+  "updated_at": "2026-09-09T12:07:25+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -31,20 +31,6 @@
       "zoomable": true,
       "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "令和8年9月7日の大雨に伴う自主避難所の開設について - 佐野市",
-      "source": "佐野市",
-      "time": "2026-09-07T07:38:19+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRzJ2cV9PQ054VUhQREd3TWZqV3I4V0tGUll5YjlUZUNkczdrX3M1Y3NSdjdiZTRJckxMbm4xWFh5TWJLYldjYjFMcFFjY2ZGNkpIR0w0YTJhT1ZOSWtyZldnc3cxRFRyXzF5Q1l2Q3I5amZqY25Lb3NJaUhZSzBqdlF6eVE4T25XS3c?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     },
     {
       "title": "熊本県で最大震度3の地震 熊本県・上天草市 - TBS NEWS DIG",
@@ -106,19 +92,33 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "【瞬間映像】“裂ける”高速道路 最大震度7観測の熊本地震 国交省が公開 - news.tv-asahi.co.jp",
-      "source": "news.tv-asahi.co.jp",
-      "time": "2026-09-04T10:43:31+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CdUhacDU5aHNvRlBlR3A4U3hrU2Q3U3dDWDFfdHBJVnhsZE9wRmZCYVMweDRpYVVvSTVqdGFIb0RKdElzZVd2dTFSODNrcG5FZ1A5UEM2M0tIanZpblZfZzRGdFVjNUhrQ05hSklNbDc0QQ?oc=5",
+      "title": "令和８年度「能登半島地震からの復興に向けた観光再生支援事業」の２次公募を開始します | 2026年 | 公募情報 | 観光庁 - mlit.go.jp",
+      "source": "mlit.go.jp",
+      "time": "2026-09-08T11:01:32+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE80cnB1VWhmVHlSVVJWYTJwVlNhN1Q2U2hDbS1UV2dsTnI5MWU1aElpQll6dEk1cEFVNHhEcHZFNnVCWnlMTFFEQWMtbEE0NDUwd0NSY0JVZXVEWmZMR3c?oc=5",
       "type": "news",
-      "area": "九州内陸・周辺",
+      "area": "能登半島周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
+      "lat": 37.35,
+      "lon": 136.9,
+      "zoom": 8,
       "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
+      "matchedArea": "能登半島周辺",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "イオンモール熊本爆発事故、避難後に客も再入館し一部は車とめた屋上へ…巻き込まれていた恐れ - 読売新聞",
+      "source": "読売新聞",
+      "time": "2026-09-04T05:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE85VEN0eWhmNDdZOVlmb2pNdjZESzNJS1F4bl9TR0xfLUgxVndZc1ZCTGtZeTBoMmY1ZFJ4Y0kxVGlYbl9Dd09RbGtoVG9MZDU3dzNkYmgtMFpld3VzWUdjNThUcTNtdw?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     }
   ]
 }
