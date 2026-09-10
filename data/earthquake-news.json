@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T09:24:58+09:00",
+  "updated_at": "2026-09-10T14:02:10+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -63,10 +63,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "【速報】岡山・玉野市に「避難指示」 9日午前11時時点（RSK山陽放送） - Yahoo!ニュース",
+      "title": "2週間程度は最大震度5弱程度以上の地震に注意 地震発生数は緩やかに減少（熊本ニュース KAB ONLINE） - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
-      "time": "2026-09-09T11:09:13+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5xZmF0WHkxRnNRZWFhUDNJNG1KX3ZfX1g1WTh4U0FZSlFLaXIwaXI1TGFZanZrSnh6SnBuLWdCRFEwWWJBbTh3SF9OVjJVVTBGejk4S2hjV2hkVm82V0drSU1yd21NaGRMRTFTMkNJakZwWVNDaDF3MWd0V0djSFU?oc=5",
+      "time": "2026-09-09T19:23:20+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FY0dkbGIzU0t4MWc3TUhwNnJSbER2RXQ3eEQ4WW0zMkZoSVZvRlhZXzlaUnotOUxzQzl0bEhtWWlIRC1mRzJPdGlRNmtybVV1V1d4UzdfdzhsSVRWOFNWU2QwODVlWUhXcjVLYXYwNmozZ0F1WWJKLUdFam0tczg?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -91,6 +91,21 @@
       "zoomSource": "none"
     },
     {
+      "title": "熊本地震 地震調査委“今後2週間程度は震度5弱以上に注意” - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-09-10T00:19:27+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zSFVReVhUUkNCWjBldndYcGtIdjVoMWg2ZF9KNUlDWWo0YXEtYTNjVVJ3SDlNNEthbGVIdV92Y2I5VWV3d1hlX0c1dkZaYTVPX2xJdnlmR1FEOU9aSzZB?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
+    },
+    {
       "title": "令和８年度「能登半島地震からの復興に向けた観光再生支援事業」の２次公募を開始します | 2026年 | 公募情報 | 観光庁 - mlit.go.jp",
       "source": "mlit.go.jp",
       "time": "2026-09-08T11:01:32+09:00",
@@ -103,21 +118,6 @@
       "zoom": 8,
       "zoomable": true,
       "matchedArea": "能登半島周辺",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "日本製紙八代工場の煙突火災、地元住民「ショック」 熊本地震で損傷 - 朝日新聞",
-      "source": "朝日新聞",
-      "time": "2026-09-03T19:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NRXc5VGNlM29RX1kzV0RuWGt5SmFuMDBSVlBKaGVwSFZRZlR6THhtaTBwYnVPR2dJOTl1a0RnN3pmV0NjdTIwV0VDVlExQ0pmcGhLb01haVFZc3pjMUx0QTcteWNGSk0?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
     }
   ]
