@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T07:42:46+09:00",
+  "updated_at": "2026-09-11T09:49:12+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -106,8 +106,8 @@
       "zoomSource": "none"
     },
     {
-      "title": "【瞬間映像】“裂ける”高速道路 最大震度7観測の熊本地震 国交省が公開 - news.tv-asahi.co.jp",
-      "source": "news.tv-asahi.co.jp",
+      "title": "【瞬間映像】“裂ける”高速道路 最大震度7観測の熊本地震 国交省が公開 - テレ朝NEWS",
+      "source": "テレ朝NEWS",
       "time": "2026-09-04T10:43:31+09:00",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CdUhacDU5aHNvRlBlR3A4U3hrU2Q3U3dDWDFfdHBJVnhsZE9wRmZCYVMweDRpYVVvSTVqdGFIb0RKdElzZVd2dTFSODNrcG5FZ1A5UEM2M0tIanZpblZfZzRGdFVjNUhrQ05hSklNbDc0QQ?oc=5",
       "type": "news",
