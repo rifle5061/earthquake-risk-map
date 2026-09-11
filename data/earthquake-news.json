@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T09:49:12+09:00",
+  "updated_at": "2026-09-11T14:36:53+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -33,10 +33,25 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "熊本県で最大震度3の地震 熊本県・上天草市 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
+      "title": "熊本県で最大震度3の地震 熊本県・上天草市 - newsdig.tbs.co.jp",
+      "source": "newsdig.tbs.co.jp",
       "time": "2026-09-07T23:25:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5MeWxaSlAzNk5ucjBCMUg2ci1PSFEyMnhDbHFPQWgxRURxTGNZQjJWc0c5T3NGaktsVl9vR3Q1NE10LXFrY0hZNHNIR29pRlhUdHVYWFdpMA?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "熊本地震の避難所運営、８割超が民間委託に…自治体は被災者の生活再建に集中 - 読売新聞",
+      "source": "読売新聞",
+      "time": "2026-09-08T16:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1fVDJ3T01hNFA5V2N6RkZfaHpDN3FObkxzX3d3YkQtVVB0ek1PUFZXN3RKVHNWbVpIa0h6ZWZzcEVyTmtJMk1iLXNPQ1k4dFRQbHlVelJuNFpPMk1fUGhvZWtHTk0yUQ?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -77,21 +92,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "熊本地震の避難所運営、８割超が民間委託に…自治体は被災者の生活再建に集中 - 読売新聞",
-      "source": "読売新聞",
-      "time": "2026-09-08T16:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1fVDJ3T01hNFA5V2N6RkZfaHpDN3FObkxzX3d3YkQtVVB0ek1PUFZXN3RKVHNWbVpIa0h6ZWZzcEVyTmtJMk1iLXNPQ1k4dFRQbHlVelJuNFpPMk1fUGhvZWtHTk0yUQ?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
-    },
-    {
       "title": "2026年度 総合防災訓練の実施について - osakagas.co.jp",
       "source": "osakagas.co.jp",
       "time": "2026-09-09T16:00:46+09:00",
@@ -106,10 +106,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "【瞬間映像】“裂ける”高速道路 最大震度7観測の熊本地震 国交省が公開 - テレ朝NEWS",
-      "source": "テレ朝NEWS",
-      "time": "2026-09-04T10:43:31+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CdUhacDU5aHNvRlBlR3A4U3hrU2Q3U3dDWDFfdHBJVnhsZE9wRmZCYVMweDRpYVVvSTVqdGFIb0RKdElzZVd2dTFSODNrcG5FZ1A5UEM2M0tIanZpblZfZzRGdFVjNUhrQ05hSklNbDc0QQ?oc=5",
+      "title": "令和8年熊本地震による八代工場における煙突の損傷・倒壊に関する被害調査委員会の設置について - nipponpapergroup.com",
+      "source": "nipponpapergroup.com",
+      "time": "2026-09-10T21:09:43+09:00",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sLWpmaVFweXE3X1RaaUtPbVBkcmp1RURULUNGeTREOUdtSW1RaWI2LXY3QS1ZV1VON1ZUb2psY1NucEJRSVd3QUxUdVl0bnBRb19aazAyeFZtYWpORnRmQ1kwTUx1cURwV0NWaHFpZEx2QQ?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
