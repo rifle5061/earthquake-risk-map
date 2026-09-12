@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T10:23:50+09:00",
+  "updated_at": "2026-09-12T20:04:05+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -7,6 +7,20 @@
       "source": "pref.shiga.lg.jp",
       "time": "2026-09-07T07:34:57+09:00",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HUXVDM1cwY2NYUkhoZWYtclp3ZTQ5TWJOa1NfR0lUZDNEYUo3eHZWWXZxSjhrY18wMFkwUVBURUdzUGhrRlRsck5fODZ5ZGM0aEw3TA?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "避難所及び避難場所 - city.miyako.iwate.jp",
+      "source": "city.miyako.iwate.jp",
+      "time": "2026-09-08T16:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ESC1xWEdkNGpFZHFjSndVV2xfWjlJUlItS013OExyOFNReVJPOUdRWnJNdzZud1YyUURCWkJ6Rzh1QUlmWXhSS25LbEdsbDlJcVF3ZDlmS1ZyUjBQQTRzckg4V2V5QXRZVENJSFVRMzlyZDdLTFF4ZEVtSmJlUQ?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -77,10 +91,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "2026年度 総合防災訓練の実施について - osakagas.co.jp",
-      "source": "osakagas.co.jp",
-      "time": "2026-09-09T16:00:46+09:00",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAtN1RVN3R2RnFWdVo3WTlNSmU4WmgxRldDMkZSRUhrdDBXSWo5a2x1cnhmTXBNVDdJQWtZWlBrcWhSUkpyVEZIY3VlQzFpWUFMZ0hLWTRUQkxVTHVOUlYxU3pLTG5ia0s0TU9vRkNQWjE2bGVM?oc=5",
+      "title": "〔海外深発地震〕インドネシアでM6.6(9/12)（レスキューナウニュース） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-09-12T07:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5MZURGQ1lXNUZLYmxMTzBaVTl3Qzgwd0d2UmFpbjFzLTVYQ0RrZTRxNm5EdGtKVUd1dkl0S25IbUVZaFBjMzh5anFodzNXSWphN3NmNkhGX2h3cFN5cTloQkJmb2t2Z2xLRkxuVDM5cnRTdWh1b1dPSzNiaWk3Q00?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -91,25 +105,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "令和8年熊本地震による八代工場における煙突の損傷・倒壊に関する被害調査委員会の設置について - nipponpapergroup.com",
-      "source": "nipponpapergroup.com",
-      "time": "2026-09-10T21:09:43+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sLWpmaVFweXE3X1RaaUtPbVBkcmp1RURULUNGeTREOUdtSW1RaWI2LXY3QS1ZV1VON1ZUb2psY1NucEJRSVd3QUxUdVl0bnBRb19aazAyeFZtYWpORnRmQ1kwTUx1cURwV0NWaHFpZEx2QQ?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "〔海外深発地震〕インドネシアでM6.6(9/12)（レスキューナウニュース） - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-09-12T07:14:20+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5MZURGQ1lXNUZLYmxMTzBaVTl3Qzgwd0d2UmFpbjFzLTVYQ0RrZTRxNm5EdGtKVUd1dkl0S25IbUVZaFBjMzh5anFodzNXSWphN3NmNkhGX2h3cFN5cTloQkJmb2t2Z2xLRkxuVDM5cnRTdWh1b1dPSzNiaWk3Q00?oc=5",
+      "title": "大雨予報に伴う避難所開設のお知らせ（令和8年9月6日18時現在） - city.hitachiota.ibaraki.jp",
+      "source": "city.hitachiota.ibaraki.jp",
+      "time": "2026-09-06T18:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNY0dyak1jUXlkQ0g4UWdHNGo5SUZyZVhINUtNZ0FMWDMzWjVnOXFVZU0tUlBqdVFJN3NpRVliSGg4TmRJTE9IMkg5RTg5Z0Uzd1pQbUhORGlMeVFnLUlaR3dLNXNNV3Zja0Npc2xTSm5KbHZMMGVyRHJFSDBiS1hYMlhKNFM?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
