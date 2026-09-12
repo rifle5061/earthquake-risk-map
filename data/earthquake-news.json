@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T23:16:49+09:00",
+  "updated_at": "2026-09-13T02:20:45+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -76,23 +76,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "令和8年熊本地震による八代工場における煙突の損傷・倒壊に関する被害調査委員会の設置について - nipponpapergroup.com",
-      "source": "nipponpapergroup.com",
-      "time": "2026-09-10T21:09:43+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sLWpmaVFweXE3X1RaaUtPbVBkcmp1RURULUNGeTREOUdtSW1RaWI2LXY3QS1ZV1VON1ZUb2psY1NucEJRSVd3QUxUdVl0bnBRb19aazAyeFZtYWpORnRmQ1kwTUx1cURwV0NWaHFpZEx2QQ?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "〔海外深発地震〕インドネシアでM6.6(9/12)（レスキューナウニュース） - news.yahoo.co.jp",
-      "source": "news.yahoo.co.jp",
+      "title": "〔海外深発地震〕インドネシアでM6.6(9/12)（レスキューナウニュース） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
       "time": "2026-09-12T07:00:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5MZURGQ1lXNUZLYmxMTzBaVTl3Qzgwd0d2UmFpbjFzLTVYQ0RrZTRxNm5EdGtKVUd1dkl0S25IbUVZaFBjMzh5anFodzNXSWphN3NmNkhGX2h3cFN5cTloQkJmb2t2Z2xLRkxuVDM5cnRTdWh1b1dPSzNiaWk3Q00?oc=5",
       "type": "news",
@@ -117,6 +102,21 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
+    },
+    {
+      "title": "【速報】神奈川県に「レベル4土砂災害危険警報」を発表　危険な場所から避難を(気象予報士 日直主任 2026年09月06日) - tenki.jp",
+      "source": "tenki.jp",
+      "time": "2026-09-06T22:21:20+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aTFk4MnVvRktVMDYwTlV0dGItUndoTmFoSVZCMDZ1d0llU1U0S2JrUW9CLXhtY19uQ3k5RjZlaEhyOWd2V3RKOGY1Z1ZtNnpNYl9wSkIzdXJ0ZXQ3b19NVkh3V2Q5djFLb1HSAW9BVV95cUxQUUhHRnA3cENHMlJwNW5RR0hSMkdaZkRMRmRlazhyejBhMm5EWnM1bXd2Sl96YjdSd3JVQ0V3bjZkdFJ3aGEta0hkUE5PV3lGMzRDTktjYkpad3dYTTg5bVR5RFJJRHNCNUpCMURiQ0k?oc=5",
+      "type": "news",
+      "area": "首都圏周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 35.55,
+      "lon": 139.8,
+      "zoom": 8,
+      "zoomable": true,
+      "matchedArea": "首都圏周辺",
+      "zoomSource": "dictionary"
     }
   ]
 }
