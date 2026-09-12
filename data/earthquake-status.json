@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-09-13T03:48:27+09:00",
+  "fetched_at": "2026-09-13T06:12:21+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/09/13 01:03:00",
-    "area": "富山県東部",
-    "magnitude": 2.9,
-    "depth": 0,
-    "maxScale": 10,
-    "intensityLabel": "1",
+    "time": "2026/09/13 05:33:00",
+    "area": "奄美大島北東沖",
+    "magnitude": 5.1,
+    "depth": 30,
+    "maxScale": 20,
+    "intensityLabel": "2",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
