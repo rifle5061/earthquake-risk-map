@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T08:46:14+09:00",
+  "updated_at": "2026-09-13T12:12:19+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -46,8 +46,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "熊本県で最大震度3の地震 熊本県・上天草市 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
+      "title": "熊本県で最大震度3の地震 熊本県・上天草市 - newsdig.tbs.co.jp",
+      "source": "newsdig.tbs.co.jp",
       "time": "2026-09-07T23:25:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5MeWxaSlAzNk5ucjBCMUg2ci1PSFEyMnhDbHFPQWgxRURxTGNZQjJWc0c5T3NGaktsVl9vR3Q1NE10LXFrY0hZNHNIR29pRlhUdHVYWFdpMA?oc=5",
       "type": "news",
