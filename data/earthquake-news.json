@@ -1,10 +1,24 @@
 {
-  "updated_at": "2026-09-15T17:53:20+09:00",
+  "updated_at": "2026-09-15T23:09:28+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
-      "title": "【地震】青森県内で震度3 津軽海峡を震源とする最大震度3の地震が発生 津波の心配なし - aba-net.com",
-      "source": "aba-net.com",
+      "title": "【地震速報】熊本 八代市で震度3 津波の心配なし - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-09-14T19:40:25+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5vcTROOGdfSmlFVS1sTnZUOU9KS04tVlBQVzdxY2NnS2tnYmp5Z0NKTVVMOWQ1QzR4bUdhR04zZEw1bUdWRzd1eGNuQmVXOFdyMjNtYTJYd2FYLUlWUzln?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "【地震】青森県内で震度3 津軽海峡を震源とする最大震度3の地震が発生 津波の心配なし - ABA青森朝日放送",
+      "source": "ABA青森朝日放送",
       "time": "2026-09-13T17:36:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1zd0gxejRXYnl4aDVJMldqVWRoNXlWUDBYbkQ0M0NubU1MU0FsWmtHbERmdkJEQ2cxSXBEdjc0bDJBRjA2MFE0RW9CWkNpbm9nTHgxYmt0blE?oc=5",
       "type": "news",
@@ -15,21 +29,6 @@
       "zoom": 6,
       "zoomable": true,
       "matchedArea": "東北地方",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "【地震情報】北海道 青森で震度3 津波の心配なし - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-09-13T17:36:14+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE50dEMzR0VJVmZ6LXVTY1M5bmdZTjA0cGdrVG9DUkVkdzQ0emJkemV1U0N2Q0dEdGNTRDVvMENlcmhkQnJ5ck5RdS1oT01TaWZOVkNGYTF3MUtjZDhEczRz?oc=5",
-      "type": "news",
-      "area": "北海道周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 43.2,
-      "lon": 142.8,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "北海道周辺",
       "zoomSource": "dictionary"
     },
     {
@@ -61,20 +60,6 @@
       "zoomable": true,
       "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "神戸市、大雨警戒で「高齢者等避難」を発令 北、垂水、西区の1万2899世帯|社会 - kobe-np.co.jp",
-      "source": "kobe-np.co.jp",
-      "time": "2026-09-08T18:10:33+09:00",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9yZWlWWjNzbExOUkRTUkp3bE9vQS1aMG5XZXFWS1FBeTFfVWVFbmJ2VmRRNGNRZ3lDeFQ0TkhVMlFYdE1yUEJZd0steG9HbS1saFZ1d2dWSFpQM21mS2lQeFlaaXRaMjBCYUVhTFl3?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     },
     {
       "title": "温泉地区に避難指示、関係者「いつまで」 十勝岳の噴火警戒レベル3 [北海道] - 朝日新聞",
@@ -111,6 +96,20 @@
       "source": "city-nakatsu.jp",
       "time": "2026-09-15T15:29:04+09:00",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Ud1ZiVnJGSjlGSU9HWWJQU1dVenROQUF4bFJ2T0JtdXF0SjNINlgwYnRvZXl4dXBtVTRab18xYkJEaFUzT0F0RVo2OWtVSHNKb0xQbkFsUjl3dw?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "ひろしま防災さんぽ 今度は津波編 福山・広島・廿日市です - nhk.or.jp",
+      "source": "nhk.or.jp",
+      "time": "2026-09-15T17:30:55+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1rV2dBVkhvNFd5WWR6TzhCYjMxaktnU0RiZG83UjNoQ09vVm5ENnVXQTdVMVR4dGdWOV9SLW5kTng1NlZQajRUMEZpOHRHMFpVZHlWcHhFWC10eWpEZjRrbFpxM05KWlVu?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
