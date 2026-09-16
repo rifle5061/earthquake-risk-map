@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-09-17T01:08:50+09:00",
+  "fetched_at": "2026-09-17T04:32:59+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/09/17 00:07:00",
-    "area": "茨城県南部",
-    "magnitude": 4.8,
-    "depth": 70,
-    "maxScale": 30,
-    "intensityLabel": "3",
+    "time": "2026/09/17 03:40:00",
+    "area": "茨城県沖",
+    "magnitude": 3.5,
+    "depth": 30,
+    "maxScale": 10,
+    "intensityLabel": "1",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
