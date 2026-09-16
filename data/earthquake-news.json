@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T23:16:50+09:00",
+  "updated_at": "2026-09-17T03:18:15+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -92,6 +92,20 @@
       "zoomSource": "dictionary"
     },
     {
+      "title": "震度速報＝気象庁発表（１７日０時９分） ：地震（震度３以上） - okinawatimes.co.jp",
+      "source": "okinawatimes.co.jp",
+      "time": "2026-09-17T00:09:21+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBTdkViN3g2ZjZvUjlqNHY3WDI2T3pnamxpWVd3bG1UbURzMHd2SWdSSFhOeWM4bEg4VDc0Y1lhazF2N29PbVhQTVV1TGVoMkRUZHhabWxfTFF2eEV0eEE?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "能登半島地震の隆起でできた「滝」の遡上を観測 ―河川構造物に10年以上影響する可能性も明らかに― - tohoku.ac.jp",
       "source": "tohoku.ac.jp",
       "time": "2026-09-16T14:00:00+09:00",
@@ -105,20 +119,6 @@
       "zoomable": true,
       "matchedArea": "能登半島周辺",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "本耶馬渓中学校と地域住民の合同避難訓練を行いました - city-nakatsu.jp",
-      "source": "city-nakatsu.jp",
-      "time": "2026-09-15T15:29:04+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Ud1ZiVnJGSjlGSU9HWWJQU1dVenROQUF4bFJ2T0JtdXF0SjNINlgwYnRvZXl4dXBtVTRab18xYkJEaFUzT0F0RVo2OWtVSHNKb0xQbkFsUjl3dw?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     }
   ]
 }
