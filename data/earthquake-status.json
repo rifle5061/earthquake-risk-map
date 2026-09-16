@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-09-16T15:24:57+09:00",
+  "fetched_at": "2026-09-16T20:55:05+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/09/16 14:23:00",
-    "area": "遠州灘",
-    "magnitude": 3.3,
-    "depth": 30,
-    "maxScale": 10,
-    "intensityLabel": "1",
+    "time": "2026/09/16 17:21:00",
+    "area": "栃木県北部",
+    "magnitude": 2.7,
+    "depth": 0,
+    "maxScale": 20,
+    "intensityLabel": "2",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
