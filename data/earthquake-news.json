@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T02:45:48+09:00",
+  "updated_at": "2026-09-20T05:02:45+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -7,20 +7,6 @@
       "source": "首相官邸",
       "time": "2026-09-15T19:49:04+09:00",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE01Vzltbmk5QWEzN2RTUXhIQXdqSWYydXl0T1JMRnpWWVJ1V24wUUpxQWZ3YVIwTm9hX19BdFR5UjY5ZFJTSFFIUlVZZTczTWdnMi1rVmRzckhNOGU4MF9rYkZCa0Z4X3JaTG54VFB3RQ?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "【地震情報】熊本 天草市と鹿児島 長島町で震度3 津波心配なし - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-09-16T16:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1PcDU5RU0zWnFLY1NBOFgycVZtYWtQUm1oQzdDMFpndUV3d0Rfa2pIa2FaZkFrWDJ0NllFams0Z3FoZ3JWY0pwcjN5cXhwNlpwNmRQa1NjTVZFNWVUUTdZ?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -46,6 +32,20 @@
       "zoomSource": "dictionary"
     },
     {
+      "title": "【地震情報】熊本 水俣で震度4 津波の心配なし - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-09-16T06:13:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB5MVVvcllGbXZDTHRLZk12TExRVG5zdEhaU3pIOWd3Q0JzcGpTT25MWXI4djhLVDJCN0dScG1ySGR1TkhleXZ4UnJXMldiTDlFc0hWT09yb0QyWnR6aHJF?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "大地震発生時の行動と備え - city.okayama.jp",
       "source": "city.okayama.jp",
       "time": "2026-09-18T12:02:35+09:00",
@@ -60,8 +60,8 @@
       "zoomSource": "none"
     },
     {
-      "title": "北朝鮮の地下核実験で想定外の地震が増大、断層活動誘発させた可能性(1/2) - CNN.co.jp",
-      "source": "CNN.co.jp",
+      "title": "北朝鮮の地下核実験で想定外の地震が増大、断層活動誘発させた可能性(1/2) - cnn.co.jp",
+      "source": "cnn.co.jp",
       "time": "2026-09-18T12:00:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE55eEVIT1ZTeTNHOXRhSnhVQjZqVnlibFUwWERCMlowQWtLby1xcUM1T3BqaGJySk9zeVFqT0xXM3dTamlVZkd6ZFE3MnVuZ2dHeWkw?oc=5",
       "type": "news",
@@ -72,21 +72,6 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
-    },
-    {
-      "title": "令和8年熊本地震被害への支援について - city.satte.lg.jp",
-      "source": "city.satte.lg.jp",
-      "time": "2026-09-18T21:40:06+09:00",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB1WU9nTmhaR3k5RFJ1c1NpLVNMYzBFbDAzNDh4LW1fenQxVjVEblBXOWVFbnZidU9PRTBDNVIwaXMzT09CQm1vWG9xa2MwaW5pSnoxaTluVkdDZTQ0SWZYZmstSGsxVF9qNVBJTS0yTDRTWkRMV2dj?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
     },
     {
       "title": "能登半島地震の隆起でできた「滝」の遡上を観測 ―河川構造物に10年以上影響する可能性も明らかに― - tohoku.ac.jp",
@@ -104,18 +89,34 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "弾道ミサイルを想定した住民避難訓練の実施について - pref.ehime.jp",
-      "source": "pref.ehime.jp",
-      "time": "2026-09-17T17:52:11+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9UeHBNY3lyWFNMZnRROWtOMzVCSmtKNHY1TVhOZFNtTEhXTW1LRG42WnZzc1RVWkpSaFRqWllaNUpZeTA5czM3VUdOVnJZZU9hVjd5eA?oc=5",
+      "title": "大きな地震増加時、マグマ噴火も 北海道・十勝岳で―政府火山調査委 - 時事ドットコム",
+      "source": "時事ドットコム",
+      "time": "2026-09-16T18:24:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1UYVVfa0xmU3ppazFvdlJyaHhZVlNhVmRjYnNfUnlFNHFXbDlpb2tfQ3VhbmlkVUp0TUczdjBxQmh4Vjh0a0tJRXJBd2NzQXAwODU4S3BTdXdhaklCOS1pMWRudw?oc=5",
       "type": "news",
-      "area": "",
+      "area": "北海道周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
+      "lat": 43.2,
+      "lon": 142.8,
       "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "zoomable": true,
+      "matchedArea": "北海道周辺",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "災害時、高校生が出来ることは…避難所の設置体験で考える「共助」 [石川県] [能登半島地震] - 朝日新聞",
+      "source": "朝日新聞",
+      "time": "2026-09-19T07:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ZMnZxcUx1VzBLdk5OVVduNmU5d3FXc1dpUVhBWnJQNHUweXhjNGpNdWJvcnBrLVV1WlFUTFVuZ2RmREpPOVlEaDRzOVR6akExc0FtNFY4RFFRU3doWG1iU1owb2hFNlk?oc=5",
+      "type": "news",
+      "area": "能登半島周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 37.35,
+      "lon": 136.9,
+      "zoom": 8,
+      "zoomable": true,
+      "matchedArea": "能登半島周辺",
+      "zoomSource": "dictionary"
     }
   ]
 }
