@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T23:38:05+09:00",
+  "updated_at": "2026-09-20T02:45:48+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -60,6 +60,20 @@
       "zoomSource": "none"
     },
     {
+      "title": "北朝鮮の地下核実験で想定外の地震が増大、断層活動誘発させた可能性(1/2) - CNN.co.jp",
+      "source": "CNN.co.jp",
+      "time": "2026-09-18T12:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE55eEVIT1ZTeTNHOXRhSnhVQjZqVnlibFUwWERCMlowQWtLby1xcUM1T3BqaGJySk9zeVFqT0xXM3dTamlVZkd6ZFE3MnVuZ2dHeWkw?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "令和8年熊本地震被害への支援について - city.satte.lg.jp",
       "source": "city.satte.lg.jp",
       "time": "2026-09-18T21:40:06+09:00",
@@ -88,20 +102,6 @@
       "zoomable": true,
       "matchedArea": "能登半島周辺",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "北朝鮮の地下核実験で想定外の地震が増大、断層活動誘発させた可能性(1/2) - CNN.co.jp",
-      "source": "CNN.co.jp",
-      "time": "2026-09-18T12:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE55eEVIT1ZTeTNHOXRhSnhVQjZqVnlibFUwWERCMlowQWtLby1xcUM1T3BqaGJySk9zeVFqT0xXM3dTamlVZkd6ZFE3MnVuZ2dHeWkw?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     },
     {
       "title": "弾道ミサイルを想定した住民避難訓練の実施について - pref.ehime.jp",
