@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T09:14:46+09:00",
+  "updated_at": "2026-09-20T14:10:56+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -75,8 +75,22 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "大きな地震増加時、マグマ噴火も 北海道・十勝岳で―政府火山調査委 - jiji.com",
-      "source": "jiji.com",
+      "title": "安全安心:第37回消防・防災ひろば開催のお知らせ - 十日町タウン情報",
+      "source": "十日町タウン情報",
+      "time": "2026-09-18T09:31:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE96ZGlrck5uaWg5S2FRdmtrWFp2U0hvS2ZCV1lWWU1TY1hhQ3ozY1ppLXZDS00zZzFENkJsVExoZkhjQVJ1bV83TEdfczAwcUVlNlV1anNVRW43UEVpUWlj?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "大きな地震増加時、マグマ噴火も 北海道・十勝岳で―政府火山調査委 - 時事ドットコム",
+      "source": "時事ドットコム",
       "time": "2026-09-16T18:24:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1UYVVfa0xmU3ppazFvdlJyaHhZVlNhVmRjYnNfUnlFNHFXbDlpb2tfQ3VhbmlkVUp0TUczdjBxQmh4Vjh0a0tJRXJBd2NzQXAwODU4S3BTdXdhaklCOS1pMWRudw?oc=5",
       "type": "news",
@@ -103,20 +117,6 @@
       "zoomable": true,
       "matchedArea": "能登半島周辺",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "北朝鮮の核実験場周辺で地震急増 断層活性化か、中韓チーム分析 - mainichi.jp",
-      "source": "mainichi.jp",
-      "time": "2026-09-18T03:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5JeVZseE9uRXlLRF9ONVRRNjdWNnVhdTg4dXI2UzZjXy05WnVPb2pwLWhiOUxRcUpueEtZb2dXOU56aTAtSjY0aFpLa0JvVkRvRlFWc2VoeGdzdmhvdDZ5S21raGYtX18w?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     }
   ]
 }
