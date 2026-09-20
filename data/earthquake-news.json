@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T07:23:14+09:00",
+  "updated_at": "2026-09-20T09:14:46+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -46,6 +46,20 @@
       "zoomSource": "none"
     },
     {
+      "title": "北朝鮮の地下核実験で想定外の地震が増大、断層活動誘発させた可能性(1/2) - CNN.co.jp",
+      "source": "CNN.co.jp",
+      "time": "2026-09-18T12:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE55eEVIT1ZTeTNHOXRhSnhVQjZqVnlibFUwWERCMlowQWtLby1xcUM1T3BqaGJySk9zeVFqT0xXM3dTamlVZkd6ZFE3MnVuZ2dHeWkw?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "能登半島地震の隆起でできた「滝」の遡上を観測 ―河川構造物に10年以上影響する可能性も明らかに― - tohoku.ac.jp",
       "source": "tohoku.ac.jp",
       "time": "2026-09-16T14:00:00+09:00",
@@ -61,22 +75,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "北朝鮮の地下核実験で想定外の地震が増大、断層活動誘発させた可能性(1/2) - CNN.co.jp",
-      "source": "CNN.co.jp",
-      "time": "2026-09-18T12:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE55eEVIT1ZTeTNHOXRhSnhVQjZqVnlibFUwWERCMlowQWtLby1xcUM1T3BqaGJySk9zeVFqT0xXM3dTamlVZkd6ZFE3MnVuZ2dHeWkw?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "大きな地震増加時、マグマ噴火も 北海道・十勝岳で―政府火山調査委 - 時事ドットコム",
-      "source": "時事ドットコム",
+      "title": "大きな地震増加時、マグマ噴火も 北海道・十勝岳で―政府火山調査委 - jiji.com",
+      "source": "jiji.com",
       "time": "2026-09-16T18:24:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1UYVVfa0xmU3ppazFvdlJyaHhZVlNhVmRjYnNfUnlFNHFXbDlpb2tfQ3VhbmlkVUp0TUczdjBxQmh4Vjh0a0tJRXJBd2NzQXAwODU4S3BTdXdhaklCOS1pMWRudw?oc=5",
       "type": "news",
@@ -90,8 +90,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "災害時、高校生が出来ることは…避難所の設置体験で考える「共助」 [石川県] [能登半島地震] - asahi.com",
-      "source": "asahi.com",
+      "title": "災害時、高校生が出来ることは…避難所の設置体験で考える「共助」 [石川県] [能登半島地震] - 朝日新聞",
+      "source": "朝日新聞",
       "time": "2026-09-19T07:00:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ZMnZxcUx1VzBLdk5OVVduNmU5d3FXc1dpUVhBWnJQNHUweXhjNGpNdWJvcnBrLVV1WlFUTFVuZ2RmREpPOVlEaDRzOVR6akExc0FtNFY4RFFRU3doWG1iU1owb2hFNlk?oc=5",
       "type": "news",
@@ -105,8 +105,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "北朝鮮の核実験場周辺で地震急増 断層活性化か、中韓チーム分析 - 毎日新聞",
-      "source": "毎日新聞",
+      "title": "北朝鮮の核実験場周辺で地震急増 断層活性化か、中韓チーム分析 - mainichi.jp",
+      "source": "mainichi.jp",
       "time": "2026-09-18T03:00:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5JeVZseE9uRXlLRF9ONVRRNjdWNnVhdTg4dXI2UzZjXy05WnVPb2pwLWhiOUxRcUpueEtZb2dXOU56aTAtSjY0aFpLa0JvVkRvRlFWc2VoeGdzdmhvdDZ5S21raGYtX18w?oc=5",
       "type": "news",
