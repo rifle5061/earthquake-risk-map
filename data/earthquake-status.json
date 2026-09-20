@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-09-20T15:40:24+09:00",
+  "fetched_at": "2026-09-20T20:49:47+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/09/19 21:23:00",
-    "area": "宮古島近海",
-    "magnitude": 3.9,
-    "depth": 60,
+    "time": "2026/09/20 16:37:00",
+    "area": "奄美大島近海",
+    "magnitude": 2.6,
+    "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
