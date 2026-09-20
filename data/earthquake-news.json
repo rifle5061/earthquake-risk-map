@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-20T23:01:27+09:00",
+  "updated_at": "2026-09-21T02:33:35+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
-      "title": "防災功労者内閣総理大臣表彰式 - kantei.go.jp",
-      "source": "kantei.go.jp",
+      "title": "防災功労者内閣総理大臣表彰式 - 首相官邸",
+      "source": "首相官邸",
       "time": "2026-09-15T19:49:04+09:00",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE01Vzltbmk5QWEzN2RTUXhIQXdqSWYydXl0T1JMRnpWWVJ1V24wUUpxQWZ3YVIwTm9hX19BdFR5UjY5ZFJTSFFIUlVZZTczTWdnMi1rVmRzckhNOGU4MF9rYkZCa0Z4X3JaTG54VFB3RQ?oc=5",
       "type": "news",
@@ -32,10 +32,24 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "【地震情報】熊本 水俣で震度4 津波の心配なし - news.web.nhk",
-      "source": "news.web.nhk",
+      "title": "【地震情報】熊本 水俣で震度4 津波の心配なし - NHKニュース",
+      "source": "NHKニュース",
       "time": "2026-09-16T06:13:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB5MVVvcllGbXZDTHRLZk12TExRVG5zdEhaU3pIOWd3Q0JzcGpTT25MWXI4djhLVDJCN0dScG1ySGR1TkhleXZ4UnJXMldiTDlFc0hWT09yb0QyWnR6aHJF?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "大地震発生時の行動と備え - city.okayama.jp",
+      "source": "city.okayama.jp",
+      "time": "2026-09-18T12:02:35+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UYjNHcjBUYmNQNjFlOEZRS2RuaDN5X1diRTE1WU5jZ21oUUc3SThhdWdEalI5SGpoazRvVlhaSW5CeVd4VXM4NEE3aEJYcUlGbThIM2lPdUNYajFHeXZTUQ?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -93,20 +107,6 @@
       "source": "十日町タウン情報",
       "time": "2026-09-18T09:31:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE96ZGlrck5uaWg5S2FRdmtrWFp2U0hvS2ZCV1lWWU1TY1hhQ3ozY1ppLXZDS00zZzFENkJsVExoZkhjQVJ1bV83TEdfczAwcUVlNlV1anNVRW43UEVpUWlj?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "自主避難所開設 - city.fukaya.saitama.jp",
-      "source": "city.fukaya.saitama.jp",
-      "time": "2026-09-20T17:01:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB0Rk00TmxaOXdZS0ljM3ZDRXpJUGZmaTJiVndPcjVmX1VoWE9oeFY1bHJOYTBNeWNjV0s4M19TdjB0Q25INC1tOWxjWWNic3NsekYzVDRqQk1sUFJXSFVCNGpZZGc2UQ?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
