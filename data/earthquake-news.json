@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-20T18:57:25+09:00",
+  "updated_at": "2026-09-20T23:01:27+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
-      "title": "防災功労者内閣総理大臣表彰式 - 首相官邸",
-      "source": "首相官邸",
+      "title": "防災功労者内閣総理大臣表彰式 - kantei.go.jp",
+      "source": "kantei.go.jp",
       "time": "2026-09-15T19:49:04+09:00",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE01Vzltbmk5QWEzN2RTUXhIQXdqSWYydXl0T1JMRnpWWVJ1V24wUUpxQWZ3YVIwTm9hX19BdFR5UjY5ZFJTSFFIUlVZZTczTWdnMi1rVmRzckhNOGU4MF9rYkZCa0Z4X3JaTG54VFB3RQ?oc=5",
       "type": "news",
@@ -60,20 +60,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "北朝鮮の地下核実験で想定外の地震が増大、断層活動誘発させた可能性(1/2) - CNN.co.jp",
-      "source": "CNN.co.jp",
-      "time": "2026-09-18T12:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE55eEVIT1ZTeTNHOXRhSnhVQjZqVnlibFUwWERCMlowQWtLby1xcUM1T3BqaGJySk9zeVFqT0xXM3dTamlVZkd6ZFE3MnVuZ2dHeWkw?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "能登半島地震の隆起でできた「滝」の遡上を観測 ―河川構造物に10年以上影響する可能性も明らかに― - tohoku.ac.jp",
       "source": "tohoku.ac.jp",
       "time": "2026-09-16T14:00:00+09:00",
@@ -87,6 +73,20 @@
       "zoomable": true,
       "matchedArea": "能登半島周辺",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "北朝鮮の地下核実験で想定外の地震が増大、断層活動誘発させた可能性(1/2) - CNN.co.jp",
+      "source": "CNN.co.jp",
+      "time": "2026-09-18T12:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE55eEVIT1ZTeTNHOXRhSnhVQjZqVnlibFUwWERCMlowQWtLby1xcUM1T3BqaGJySk9zeVFqT0xXM3dTamlVZkd6ZFE3MnVuZ2dHeWkw?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "安全安心:第37回消防・防災ひろば開催のお知らせ - 十日町タウン情報",
