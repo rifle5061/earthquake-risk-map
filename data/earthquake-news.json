@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T07:06:12+09:00",
+  "updated_at": "2026-09-22T15:01:07+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -59,6 +59,21 @@
       "zoomSource": "none"
     },
     {
+      "title": "熊本県で最大震度3の地震 熊本県・宇土市、宇城市 - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-09-22T01:43:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE16Z2o5bE1lZkZ4WnFTcXBBX0RiLXVFbS1QV2o0T0hackdCTUpvNnBZRkNCaGNiMXVrbkUyY0xHZVAtZEhOUG5WT2czVUt1NlpkT3RjcXJNNA?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
+    },
+    {
       "title": "台風２５号接近、横浜市が崖地沿いに高齢者等避難発令 ３３カ所に避難場所（カナロコ by 神奈川新聞） - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
       "time": "2026-09-21T12:41:01+09:00",
@@ -90,22 +105,8 @@
     {
       "title": "三郷市からの防災情報【9月21日11時20分現在】避難所は開設していません／三郷市公式サイト - city.misato.lg.jp",
       "source": "city.misato.lg.jp",
-      "time": "2026-09-21T12:35:16+09:00",
+      "time": "2026-09-21T11:20:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSENlR05aZWYzYjhINl9jTG1FRFE4d054NERfdzVVclVvMTEtWjd0U0VIUXhHVE9PUFVlN1B4ZXE1d2RSOUgtblBuQTlLT2tOcHhFdS1YOE5XUExxMHdPQ09sM3RFd1VKN1FRc0IzSklnWXI4TlRBbEp4TDNNNWpIOXRvVmxqT3JE?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "北朝鮮の地下核実験で想定外の地震が増大、断層活動誘発させた可能性(1/2) - CNN.co.jp",
-      "source": "CNN.co.jp",
-      "time": "2026-09-18T12:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE55eEVIT1ZTeTNHOXRhSnhVQjZqVnlibFUwWERCMlowQWtLby1xcUM1T3BqaGJySk9zeVFqT0xXM3dTamlVZkd6ZFE3MnVuZ2dHeWkw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
