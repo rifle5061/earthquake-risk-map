@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T07:44:27+09:00",
+  "updated_at": "2026-09-23T10:14:45+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -61,8 +61,22 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "〔海外地震〕アメリカ・アラスカ州でM6.5(9/18)（レスキューナウニュース） - news.yahoo.co.jp",
-      "source": "news.yahoo.co.jp",
+      "title": "台風２５号の接近に伴う避難指示の発令について（2026年9月21日 19時51分配信） - town.sakae.chiba.jp",
+      "source": "town.sakae.chiba.jp",
+      "time": "2026-09-21T19:51:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QOGVRQlZIdE5YbE9scnE4Sl91RkNNQWJCVmZVcHh1WlZtTjBYVk0tZ0NCNkZyLVFyTnJmZHpleGJmdDY1LTN3dGFWb3kxRUtEOTd2MUt6ZU93MVZySllWdnM3a1RiSVctYUpSTXR2UzNGMmRFd0ZlMFZsMmtxQQ?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "〔海外地震〕アメリカ・アラスカ州でM6.5(9/18)（レスキューナウニュース） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
       "time": "2026-09-18T00:10:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIZnFaYkt5Z0cwNEpDUFlPUjN3cTFEdFlJUzZLUDR0cU4xeVNFYmJ0WGZPRFk2SlJGcGhNcVhaWEhTNVpWUnVPNW5ZQzFPc1Z4REM5WXNPUk9ITW13VWpFNkxhWEZ1dnA4dS1BZDJFRFlNcTRzTHp1MUl4S3lhUm8?oc=5",
       "type": "news",
@@ -102,20 +116,6 @@
       "zoomable": true,
       "matchedArea": "能登半島周辺",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "三郷市からの防災情報【9月21日11時20分現在】避難所は開設していません／三郷市公式サイト - city.misato.lg.jp",
-      "source": "city.misato.lg.jp",
-      "time": "2026-09-21T11:20:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSENlR05aZWYzYjhINl9jTG1FRFE4d054NERfdzVVclVvMTEtWjd0U0VIUXhHVE9PUFVlN1B4ZXE1d2RSOUgtblBuQTlLT2tOcHhFdS1YOE5XUExxMHdPQ09sM3RFd1VKN1FRc0IzSklnWXI4TlRBbEp4TDNNNWpIOXRvVmxqT3JE?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     }
   ]
 }
