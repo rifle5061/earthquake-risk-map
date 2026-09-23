@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T10:14:45+09:00",
+  "updated_at": "2026-09-23T15:19:47+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -61,10 +61,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "台風２５号の接近に伴う避難指示の発令について（2026年9月21日 19時51分配信） - town.sakae.chiba.jp",
+      "title": "印旛沼の決壊に伴う避難指示について(対象地区の追加)（2026年9月22日 07時14分配信） - town.sakae.chiba.jp",
       "source": "town.sakae.chiba.jp",
-      "time": "2026-09-21T19:51:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QOGVRQlZIdE5YbE9scnE4Sl91RkNNQWJCVmZVcHh1WlZtTjBYVk0tZ0NCNkZyLVFyTnJmZHpleGJmdDY1LTN3dGFWb3kxRUtEOTd2MUt6ZU93MVZySllWdnM3a1RiSVctYUpSTXR2UzNGMmRFd0ZlMFZsMmtxQQ?oc=5",
+      "time": "2026-09-22T07:14:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9hM0h1WGp6dk5PczdRVjFRWDU3czYzYjFWZW11bTh1VXczM1M2VXJYb0psYXhyOFF1VEg5X3dRRWFHNDE3UkxXODNnUnA2eG1ZWTVsZk5wREV0MUxOdEtHNGlweEN2YjJ4UmNmczg1YTVVZTJQUVJFcjN5c3NKUQ?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -103,19 +103,18 @@
       "zoomSource": "none"
     },
     {
-      "title": "能登半島地震の隆起でできた「滝」の遡上を観測 ―河川構造物に10年以上影響する可能性も明らかに― - tohoku.ac.jp",
-      "source": "tohoku.ac.jp",
-      "time": "2026-09-16T14:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBkaktCREIyMWpWSHhVenlMVUJwMUlIcDdvdjJ2Y005RVlhZEFYUzBwU3JLQVJiWl9ibHRnSnFLNUd6NUpyemI1TWlHOTVTdHBKMHJybHRYQ2drbG9rU1FkX3FyYXdHMWR5NVJTeUVIc3B3SGc2Z0xuaUxqYkdoUQ?oc=5",
+      "title": "三郷市からの防災情報【9月21日11時20分現在】避難所は開設していません／三郷市公式サイト - city.misato.lg.jp",
+      "source": "city.misato.lg.jp",
+      "time": "2026-09-21T11:20:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSENlR05aZWYzYjhINl9jTG1FRFE4d054NERfdzVVclVvMTEtWjd0U0VIUXhHVE9PUFVlN1B4ZXE1d2RSOUgtblBuQTlLT2tOcHhFdS1YOE5XUExxMHdPQ09sM3RFd1VKN1FRc0IzSklnWXI4TlRBbEp4TDNNNWpIOXRvVmxqT3JE?oc=5",
       "type": "news",
-      "area": "能登半島周辺",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 37.35,
-      "lon": 136.9,
-      "zoom": 8,
-      "zoomable": true,
-      "matchedArea": "能登半島周辺",
-      "zoomSource": "dictionary"
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     }
   ]
 }
