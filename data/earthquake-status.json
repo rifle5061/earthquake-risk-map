@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-09-24T19:20:44+09:00",
+  "fetched_at": "2026-09-25T00:22:20+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/09/24 17:27:00",
-    "area": "千葉県北東部",
-    "magnitude": 3.6,
-    "depth": 50,
+    "time": "2026/09/24 22:46:00",
+    "area": "熊本県熊本地方",
+    "magnitude": 2.7,
+    "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
