@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T02:26:16+09:00",
+  "updated_at": "2026-09-25T05:39:26+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -32,10 +32,25 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "【地震情報】熊本 天草市と鹿児島 長島町で震度3 津波心配なし - NHKニュース",
+      "title": "【地震情報】大分 宮崎で震度3 津波の心配なし - NHKニュース",
       "source": "NHKニュース",
-      "time": "2026-09-19T21:11:26+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1PcDU5RU0zWnFLY1NBOFgycVZtYWtQUm1oQzdDMFpndUV3d0Rfa2pIa2FaZkFrWDJ0NllFams0Z3FoZ3JWY0pwcjN5cXhwNlpwNmRQa1NjTVZFNWVUUTdZ?oc=5",
+      "time": "2026-09-21T22:43:41+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGY19GbFZ0ejIzTzBqcDBuSEJ5UXNxbDBJejJYWjJLcl9oOG5HeDcyWkF1WVRXeTRsd2NuSTI0VWlnUVdHOWNUbVZFOGZ5M0habkVpVldwOXlHQm5nRGdj?oc=5",
+      "type": "news",
+      "area": "太平洋側・南海トラフ想定域",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 33.2,
+      "lon": 134.5,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "太平洋側・南海トラフ想定域",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "【地震】岐阜県内で震度1 岐阜県美濃東部を震源とする最大震度1の地震が発生 津波の心配なし（メ〜テレ（名古屋テレビ）） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-09-24T12:44:01+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GSjZWaDdySXVkTlI2THR3NkNnLUpWN3VvYWI4b1FZM0xtQTVyUks5MWJwZWZ3ay1pLU1SUmhGbmFNejZuT2ZvQklrN3pGc19TMTNDVTJXYWZCYXNjbnhWY0paQlNQY3p3dXlsUkdocnhhNkN2TjYxU2RmeENXb3c?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -46,10 +61,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "【地震】岐阜県内で震度1 岐阜県美濃東部を震源とする最大震度1の地震が発生 津波の心配なし（メ〜テレ（名古屋テレビ）） - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-09-24T12:44:01+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GSjZWaDdySXVkTlI2THR3NkNnLUpWN3VvYWI4b1FZM0xtQTVyUks5MWJwZWZ3ay1pLU1SUmhGbmFNejZuT2ZvQklrN3pGc19TMTNDVTJXYWZCYXNjbnhWY0paQlNQY3p3dXlsUkdocnhhNkN2TjYxU2RmeENXb3c?oc=5",
+      "title": "自主避難所の閉鎖について - 佐野市",
+      "source": "佐野市",
+      "time": "2026-09-22T15:31:22+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbFltWVFRMGZyZW8wcUF4Ylp5alFLTGYyM2ZDMFphaXJiLVdGeWIzMFloc2JaWnlmWkgwTWVyUTRUWUZYdjgwNG40MUpTWXkwQWhXcGdUMFg5Z3ItR3l2V1RjZjVYZGtfblZFN3hqRndxTUtjbEVwNU5aNk1yVzRId3dYQ0hfa05Zc2c?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -88,24 +103,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "北朝鮮の核実験場周辺で地震急増 断層活性化か、中韓チーム分析 - 毎日新聞",
-      "source": "毎日新聞",
-      "time": "2026-09-18T03:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5JeVZseE9uRXlLRF9ONVRRNjdWNnVhdTg4dXI2UzZjXy05WnVPb2pwLWhiOUxRcUpueEtZb2dXOU56aTAtSjY0aFpLa0JvVkRvRlFWc2VoeGdzdmhvdDZ5S21raGYtX18w?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "高齢者等避難を解除します - town.oiso.kanagawa.jp",
-      "source": "town.oiso.kanagawa.jp",
-      "time": "2026-09-21T21:03:07+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9IRWJoWWNjLXRsckZET29kd013Z2p2dTB5eEpLQXQ4bjNwTGhwSTdWTzlHdE9xNjJucmJGNXN5ZllpOWFHblBBMm1zcmNUWWVtQ2lGMEpJV2R0d2lUQnJaVw?oc=5",
+      "title": "【台風25号】東京・大島町の1901世帯に「緊急安全確保」 茨城、千葉などの43万7485世帯に「避難指示」 - 日テレNEWS NNN",
+      "source": "日テレNEWS NNN",
+      "time": "2026-09-21T14:24:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5QNHNzUjZQVHJjVllmRk1wbTZwZkEyWWJRc0JTX0pIcGM2Rk50OWVsOFZyV2l6TThJa2tqRDUzN21YNGh5eVlBamNpXzE0Qy1qMEdtRHM5TU9OeE0xY2g4R245cFhSZU5ncmFHd3JHRlZyUnVSTUpZVkpjS2I?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
