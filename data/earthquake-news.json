@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T12:28:30+09:00",
+  "updated_at": "2026-09-25T18:02:47+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -75,6 +75,20 @@
       "zoomSource": "none"
     },
     {
+      "title": "東海 防災ラジオ～大地震 外出中に起きたらどうする？～ゲスト：須田亜香里さん ＭＣ:原大策アナウンサー - nhk.or.jp",
+      "source": "nhk.or.jp",
+      "time": "2026-09-25T12:47:54+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9NWDljNU40SHA1bU4yNF9RT3p6UHBNRVN5WF9yVWJ5VTZZM0VicmhaVFRFSUV5akNJTUR2RTZLaFlvUUhzdzNYRlMxNmFwT29EdlNMbjdVZU8wRjA5M0EyMUxwNU0?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "【台風25号】東京・大島町の1901世帯に「緊急安全確保」 茨城、千葉などの43万7485世帯に「避難指示」 - 日テレNEWS NNN",
       "source": "日テレNEWS NNN",
       "time": "2026-09-21T14:24:00+09:00",
@@ -89,10 +103,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "【2026年09月22日08時00分放送】避難所（総合運動公園）を閉鎖しました - city.tsukubamirai.lg.jp",
-      "source": "city.tsukubamirai.lg.jp",
-      "time": "2026-09-22T08:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQS3EzMFZtY0RsZHFfUXBrQnk5TjR0LXJ0LXplcEJkWnNMR1lkbTFmZy1NM3l2SlZXcE5rdHFGUHV4UURTWmthQUlicE10bFRsT0hfVWNhWDN6SnRsblNfYmw1UFVzMkl0dnBBT3BtZFFqV0luNC1VdmpuSlEwNjFlQTB3?oc=5",
+      "title": "特別展示『地震と火山 ― 画図・写真・波形に記録された地球の動態』 - u-tokyo.ac.jp",
+      "source": "u-tokyo.ac.jp",
+      "time": "2026-09-25T17:13:39+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5keFNRcU1KVTdQT1JOWkpBSXNYSjRfNTRGRC15aVpld1FMVU14OXhJTGEwNGJPSEprbWRPY0pmNW8xVEk5TGVhcVJZNTBzOWEyWGM0eDJaVVJVYll4VkdzVDVkcVUxRVdWNlE?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -101,21 +115,6 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
-    },
-    {
-      "title": "令和8年熊本地震「Ｊリーグ TEAM AS ONE 義援金募金」実施報告 - vanraure.net",
-      "source": "vanraure.net",
-      "time": "2026-09-24T15:27:03+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB4T3ZfYm1aYmRvbjlkVUJIRXRlNS1iemczQlBJcHE2NDJoS3RacWJnSS1HTzlxMGFyWldqZDhWSHNjMVlIbkJEZWZONjU?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
     }
   ]
 }
