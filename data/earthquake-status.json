@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-09-26T04:49:09+09:00",
+  "fetched_at": "2026-09-26T08:04:29+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/09/26 04:14:00",
-    "area": "沖縄本島近海",
-    "magnitude": 3.8,
-    "depth": 10,
-    "maxScale": 10,
-    "intensityLabel": "1",
+    "time": "2026/09/26 06:23:00",
+    "area": "ローヤリティー諸島",
+    "magnitude": 7.0,
+    "depth": -1,
+    "maxScale": -1,
+    "intensityLabel": "不明",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
