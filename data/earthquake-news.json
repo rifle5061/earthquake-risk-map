@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T20:39:41+09:00",
+  "updated_at": "2026-09-27T00:47:31+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -32,10 +32,25 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "熊本県で最大震度4のやや強い地震 熊本県・熊本東区、熊本南区、西原村、嘉島町、益城町 - Yahoo!ニュース",
+      "title": "【地震】愛知県内で震度1 伊勢湾を震源とする最大震度1の地震が発生 津波の心配なし（メ〜テレ（名古屋テレビ）） - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
-      "time": "2026-09-26T10:34:13+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hNm8tcHhVR3BnR2FKRHBObzhtT2Yxdmx4QVA5TV9YNGpvWWNoYzdKY0NiSnVfOGwwWE9EN0NGX0V3Sl8yMFRHVlBPclFvenF5QmgtRlYzZWJKR0VlX1Uwb0VFUUZTWlR2SlpXVjRwUTYwNEJxSXZvZGUwallBTTA?oc=5",
+      "time": "2026-09-26T21:12:01+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DMFlLZTd4QktudDRQM2JVZVdXSTBZWnFlUUwxdFRxWnVkaHRCblk1Z25pQ0pXWnJLeGNtMllUakVROGJXY2NzSDZfaGszRnEzRzdMTmhJVEZ4Mko2MW1MM1hxM1JXZEJWNFJWeEVYWFNya0tMWG13T1ZNUEVJeWM?oc=5",
+      "type": "news",
+      "area": "太平洋側・南海トラフ想定域",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 33.2,
+      "lon": 134.5,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "太平洋側・南海トラフ想定域",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "【速報】熊本県で最大震度4のやや強い地震 長崎県雲仙市と南島原市で震度2を観測 - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-09-26T10:37:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBwSVoxdTA5NlVjeWF1R2VYYVRUZkxxNkxKckxVWFJibk95TjN5RGRBbUNvcU5xbGdBYjROanNXZ01UUG5SOU0xUmVkQ213RDRRbTk5U2ZBbw?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -59,21 +74,6 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
-    },
-    {
-      "title": "震度4 熊本県熊本地方 2026年09月26日10:31ごろ 地震詳細 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-09-26T10:36:06+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcy1pOUZFQVdOX05iQ1BuRk02MWhIWEJkWVN4YUI5NUE4STZRMi1adHo3V2ZBX0gwdVRVdTJyWS1kbjBRaDVZVUl3NlRFeU9FODc0T3ZRcVFUYk0xWjU2dWdDbWdGa1RoeWs5SERrbGF3UXZ2YXlvT3hqbjZqMG0wVEl3?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
     },
     {
       "title": "防災庁、11月2日に発足へ 勧告権で省庁横断の災害対策主導 - 日本経済新聞",
