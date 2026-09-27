@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-09-28T04:16:38+09:00",
+  "fetched_at": "2026-09-28T07:26:11+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/09/28 01:59:00",
-    "area": "千葉県北東部",
-    "magnitude": 2.7,
-    "depth": 40,
+    "time": "2026/09/28 06:29:00",
+    "area": "熊本県天草・芦北地方",
+    "magnitude": 2.8,
+    "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
