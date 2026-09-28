@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T00:45:36+09:00",
+  "updated_at": "2026-09-29T06:35:14+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -18,8 +18,22 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "北海道で最大震度1の地震 北海道・函館市、新ひだか町（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
+      "title": "茨城県、埼玉県で最大震度4のやや強い地震 茨城県・常総市、筑西市、坂東市、つくばみらい市 - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-09-29T04:54:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5qa1E1ZjZuVk9BZ0xMenRPMmU5d3VYZFdkWEd2ODVXMlQxV01XU3NsMVlPWGhfQ2FsSmR3R2YxVHVKR3djQk5pTmc1Rm9BSDRIOThUU2NRTQ?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "北海道で最大震度1の地震 北海道・函館市、新ひだか町（TBS NEWS DIG Powered by JNN） - news.yahoo.co.jp",
+      "source": "news.yahoo.co.jp",
       "time": "2026-09-27T16:30:33+09:00",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CbmRUWTF1R1dfV1JRNEs4eFdUOWdGWjlTVDNvS0I3eFZJank0MHoyUjJSS0t2ZEJBaGFocWoxbVpVazNqT1AxemFWNERlaWZRRlN1cm1oZzM5YWhwa0lTaHdldDVHU3lBZ3N1bGp5YXIzeVdVenhyX0EyRUJEaDA?oc=5",
       "type": "news",
@@ -62,8 +76,8 @@
       "zoomSource": "none"
     },
     {
-      "title": "防災庁11月発足、災害対策加速で「建設コンサル」関連株が動き出す ＜株探トップ特集＞ - 株探",
-      "source": "株探",
+      "title": "防災庁11月発足、災害対策加速で「建設コンサル」関連株が動き出す ＜株探トップ特集＞ - kabutan.jp",
+      "source": "kabutan.jp",
       "time": "2026-09-24T19:30:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9HTUFFdzJJbW9BWnBIWFZWSHBjOWgzNllzOVVKNFpJSjFNQTQzdzYwV1BGa1hEam9RWVFBbmFZaWhRX1pta3F3YllCQ1Axd29SUXNqdGxtRDNhOWJBNkQ2Vw?oc=5",
       "type": "news",
@@ -102,21 +116,6 @@
       "zoom": 7,
       "zoomable": true,
       "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "令和７年度［高知県版］南海トラフ地震による最大クラスの津波のアニメーション - pref.kochi.lg.jp",
-      "source": "pref.kochi.lg.jp",
-      "time": "2026-09-28T15:04:46+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MOEt3V3R6aldLaDQ1Z3pXREVnbU1ISnViTHNnVHEwWXE2aFNaU280dTVaNDEwWGNvYjZBSGFwWUJmeGVTMFl5aXhWaGUzOE9talRXRnNzc2NuejA?oc=5",
-      "type": "news",
-      "area": "南海トラフ",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.8,
-      "lon": 136.2,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "南海トラフ",
       "zoomSource": "dictionary"
     }
   ]
