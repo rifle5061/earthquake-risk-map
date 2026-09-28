@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T07:48:46+09:00",
+  "updated_at": "2026-09-28T10:24:10+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -17,23 +17,8 @@
       "zoomSource": "none"
     },
     {
-      "title": "令和8年熊本地震緊急支援（AAR Japan） - Yahoo!ネット募金",
-      "source": "Yahoo!ネット募金",
-      "time": "2026-09-27T21:46:08+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5wU3BnYlQyd1o1RGRGa3Z0dnZfOXRGVTNsUHVidE9nM2R6N2g0N19wdG9zcE5KVFQxZTZNQnVNNWRIREVSUWZ3VHgzSTZqaTZXZGZKUQ?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "【地震情報】熊本県で震度3 津波の心配なし（11:21） - news.web.nhk",
-      "source": "news.web.nhk",
+      "title": "【地震情報】熊本県で震度3 津波の心配なし（11:21） - NHKニュース",
+      "source": "NHKニュース",
       "time": "2026-09-26T11:25:02+09:00",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1SamZ5SmdnY1pFbmY4NTUtblk0WWp3dzJRNUZRR3ZOWnFpRzR6NDFmdGFyallLV2loeGVMWFJZZkQxcERXUmJoWWlOclRXR0RlUDF5Q3dBSVlrdDlIejBv?oc=5",
       "type": "news",
@@ -47,10 +32,25 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "【速報】熊本県で最大震度4のやや強い地震 長崎県雲仙市と南島原市で震度2を観測 - TBS NEWS DIG",
+      "title": "愛知県で最大震度1の地震 愛知県・豊田市、安城市、西尾市、幸田町（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-09-26T21:12:17+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKbk54VndNWVlsZ0MtUGFIemNadl92MHFhMi1QeXhtN3JJWUNlS2tPd2ZiZ21DMzJUOW1meGNaTWtzeXhOSG9iTElKRE9pWERqeEF2bUZpNkFCSVVja2hwQXJPc2RIM1Bnb25DU3dWMG9ZcUxkT1hlSW9jWWtZVDg?oc=5",
+      "type": "news",
+      "area": "太平洋側・南海トラフ想定域",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 33.2,
+      "lon": 134.5,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "太平洋側・南海トラフ想定域",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "震度4 熊本県熊本地方 2026年09月26日10:31ごろ 地震詳細 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
-      "time": "2026-09-26T10:37:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBwSVoxdTA5NlVjeWF1R2VYYVRUZkxxNkxKckxVWFJibk95TjN5RGRBbUNvcU5xbGdBYjROanNXZ01UUG5SOU0xUmVkQ213RDRRbTk5U2ZBbw?oc=5",
+      "time": "2026-09-26T10:36:06+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcy1pOUZFQVdOX05iQ1BuRk02MWhIWEJkWVN4YUI5NUE4STZRMi1adHo3V2ZBX0gwdVRVdTJyWS1kbjBRaDVZVUl3NlRFeU9FODc0T3ZRcVFUYk0xWjU2dWdDbWdGa1RoeWs5SERrbGF3UXZ2YXlvT3hqbjZqMG0wVEl3?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -60,6 +60,20 @@
       "zoomable": true,
       "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "自主避難所の閉鎖について - 佐野市",
+      "source": "佐野市",
+      "time": "2026-09-22T15:31:22+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbFltWVFRMGZyZW8wcUF4Ylp5alFLTGYyM2ZDMFphaXJiLVdGeWIzMFloc2JaWnlmWkgwTWVyUTRUWUZYdjgwNG40MUpTWXkwQWhXcGdUMFg5Z3ItR3l2V1RjZjVYZGtfblZFN3hqRndxTUtjbEVwNU5aNk1yVzRId3dYQ0hfa05Zc2c?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "印旛沼の決壊に伴う避難指示について(対象地区の追加)（2026年9月22日 07時14分配信） - town.sakae.chiba.jp",
@@ -89,20 +103,6 @@
       "zoomable": true,
       "matchedArea": "太平洋側・南海トラフ想定域",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "特別展示『地震と火山 ― 画図・写真・波形に記録された地球の動態』 - u-tokyo.ac.jp",
-      "source": "u-tokyo.ac.jp",
-      "time": "2026-09-25T17:13:39+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5keFNRcU1KVTdQT1JOWkpBSXNYSjRfNTRGRC15aVpld1FMVU14OXhJTGEwNGJPSEprbWRPY0pmNW8xVEk5TGVhcVJZNTBzOWEyWGM0eDJaVVJVYll4VkdzVDVkcVUxRVdWNlE?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     },
     {
       "title": "リトアニア、ロシアに「反撃」する用意と避難計画を立てていると　BBCが首相を取材 - BBC",
