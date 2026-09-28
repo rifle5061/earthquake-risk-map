@@ -1,24 +1,10 @@
 {
-  "updated_at": "2026-09-28T10:24:10+09:00",
+  "updated_at": "2026-09-28T16:19:01+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
-      "title": "水害時の車両避難場所 - city.nagareyama.chiba.jp",
-      "source": "city.nagareyama.chiba.jp",
-      "time": "2026-09-21T16:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8zREp2UmxITW16WmV0bTV6Z1dPaWxBaE1VMkRWczBkRG1kdjVDTlhiRXd2SUpZbWxnYjczYnhWN1lEUlZjLUdJeElWRXViSjhqck12U09LRzhYZmxNZEhfZ21WN3hVeS1zZDBjNzFWRE5nVEhvWlN1cGdR?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "【地震情報】熊本県で震度3 津波の心配なし（11:21） - NHKニュース",
-      "source": "NHKニュース",
+      "title": "【地震情報】熊本県で震度3 津波の心配なし（11:21） - news.web.nhk",
+      "source": "news.web.nhk",
       "time": "2026-09-26T11:25:02+09:00",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1SamZ5SmdnY1pFbmY4NTUtblk0WWp3dzJRNUZRR3ZOWnFpRzR6NDFmdGFyallLV2loeGVMWFJZZkQxcERXUmJoWWlOclRXR0RlUDF5Q3dBSVlrdDlIejBv?oc=5",
       "type": "news",
@@ -47,6 +33,20 @@
       "zoomSource": "dictionary"
     },
     {
+      "title": "自主避難所の閉鎖について - 佐野市",
+      "source": "佐野市",
+      "time": "2026-09-22T15:31:22+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbFltWVFRMGZyZW8wcUF4Ylp5alFLTGYyM2ZDMFphaXJiLVdGeWIzMFloc2JaWnlmWkgwTWVyUTRUWUZYdjgwNG40MUpTWXkwQWhXcGdUMFg5Z3ItR3l2V1RjZjVYZGtfblZFN3hqRndxTUtjbEVwNU5aNk1yVzRId3dYQ0hfa05Zc2c?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "震度4 熊本県熊本地方 2026年09月26日10:31ごろ 地震詳細 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
       "time": "2026-09-26T10:36:06+09:00",
@@ -60,20 +60,6 @@
       "zoomable": true,
       "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "自主避難所の閉鎖について - 佐野市",
-      "source": "佐野市",
-      "time": "2026-09-22T15:31:22+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbFltWVFRMGZyZW8wcUF4Ylp5alFLTGYyM2ZDMFphaXJiLVdGeWIzMFloc2JaWnlmWkgwTWVyUTRUWUZYdjgwNG40MUpTWXkwQWhXcGdUMFg5Z3ItR3l2V1RjZjVYZGtfblZFN3hqRndxTUtjbEVwNU5aNk1yVzRId3dYQ0hfa05Zc2c?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     },
     {
       "title": "印旛沼の決壊に伴う避難指示について(対象地区の追加)（2026年9月22日 07時14分配信） - town.sakae.chiba.jp",
@@ -90,25 +76,38 @@
       "zoomSource": "none"
     },
     {
-      "title": "「備えの一歩に」日南高校生徒会 防災バッグプロジェクト【みんなと防災】｜ニュース - UMKテレビ宮崎",
-      "source": "UMKテレビ宮崎",
-      "time": "2026-09-25T18:20:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5nak56anUtWGVNRXZUdjd3VllLUk51S2hmTk9kaWUtZ0lnVjRlZlBRamExVDNqVWRYYW52cF91Wk13Y2JBYnBtWkRqa1FveTNMWjJtWnRlbThFQUFDR01N?oc=5",
+      "title": "令和8年度館林市総合防災訓練 - city.tatebayashi.gunma.jp",
+      "source": "city.tatebayashi.gunma.jp",
+      "time": "2026-09-28T11:32:04+09:00",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOR2VfNF9FWlVtWFpjYlRGV3BEVHhlOTVUYnhZWXE0NHBtdnR3bmJpSFFGcHk1SmUtM0ZSS0luS0t0V1luV2dYNEV3UlI5Z1dKOVU4a2tVMmVKTlREM0U5TWY4aV9ac1BfU1FWTC02amhUeGFIdXFlTDdfZ01mMmVvM1pNX3RxY00?oc=5",
       "type": "news",
-      "area": "太平洋側・南海トラフ想定域",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 33.2,
-      "lon": 134.5,
+      "lat": null,
+      "lon": null,
       "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "太平洋側・南海トラフ想定域",
-      "zoomSource": "dictionary"
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
-      "title": "リトアニア、ロシアに「反撃」する用意と避難計画を立てていると　BBCが首相を取材 - BBC",
-      "source": "BBC",
+      "title": "リトアニア、ロシアに「反撃」する用意と避難計画を立てていると　BBCが首相を取材 - bbc.com",
+      "source": "bbc.com",
       "time": "2026-09-22T13:35:42+09:00",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tUEI0ZmhlV25nOWFCTGRndXFBOTQycXZrZW4zcTg2bmxLdFdZWEJyRnlBZloydks4TDZVakhvTnJHVVJCQmRqeGdZYkZrYXBzNFZyVHZPVXNXS1B6TkVaWtIBZkFVX3lxTE1uSGVaY1hCQVFPQnFwVnFVT0k5WHlIaUc4TUFKS2k4eFQ1M2MzOGpud3RwY3JHdjdFeEdveEdRampFYXllN09vRFh6R3ltQUNRcnphakxBZUhYSHJmOVJVT29TUmFzdw?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "半径300m立ち入り禁止 不発弾処理、避難対象は市民2400人 [大阪府] - 朝日新聞",
+      "source": "朝日新聞",
+      "time": "2026-09-27T19:30:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01NmdwNmNRR0JrQ3FJZXVBRkVpQnNuRmkycC03V0VqMG9WemVBV0NEZHVZUGtncERWVlR4b2F6RlhiMEozTlJpbi1jaWdPZTA4T2hRTWRxTjhJaDBXeXdHVm5SQm5zNVU?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
