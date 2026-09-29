@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-09-29T06:35:14+09:00",
+  "updated_at": "2026-09-29T10:28:21+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
+    {
+      "title": "埼玉と茨城で最大震度4 津波の心配なし - 朝日新聞",
+      "source": "朝日新聞",
+      "time": "2026-09-29T06:16:40+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mVTAtdEhzRDliVHVBS3Z6X2NiLXpwdzdOTnFLY3NCNmlwZlJSS1B6UFdQNVpVUEJrTm1xaU9URndVRVRJSkZZMkk4MjRfWHB3Rm55OWtSXy1idVRqN0wwdTZDMC1fN2M?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
     {
       "title": "熊本地震10年関連情報トップページ - city.kumamoto.jp",
       "source": "city.kumamoto.jp",
@@ -18,6 +32,21 @@
       "zoomSource": "dictionary"
     },
     {
+      "title": "「うれしくない、ぞっとした」能登半島地震で不動産が消えた能登で、石川・かほくの会社が見せた覚悟（FNNプライムオンライン） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-09-29T07:00:43+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aWENNWDlDOWhmRXFOREFzQ3ZURVhGRzc0bmhSajEtYmNCd3pidkZIUG1PYlNmcnlIUzk1UlBhaWJma1Q1Znl4enV6SncxdTJWR2FsNUdrMHFUNjNueS1NdVlRUHhXdXlmQUE1QjBXWnd1UGJJd2NGUkFrcTRXY1E?oc=5",
+      "type": "news",
+      "area": "能登半島周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 37.35,
+      "lon": 136.9,
+      "zoom": 8,
+      "zoomable": true,
+      "matchedArea": "能登半島周辺",
+      "zoomSource": "dictionary"
+    },
+    {
       "title": "茨城県、埼玉県で最大震度4のやや強い地震 茨城県・常総市、筑西市、坂東市、つくばみらい市 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
       "time": "2026-09-29T04:54:00+09:00",
@@ -30,21 +59,6 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
-    },
-    {
-      "title": "北海道で最大震度1の地震 北海道・函館市、新ひだか町（TBS NEWS DIG Powered by JNN） - news.yahoo.co.jp",
-      "source": "news.yahoo.co.jp",
-      "time": "2026-09-27T16:30:33+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CbmRUWTF1R1dfV1JRNEs4eFdUOWdGWjlTVDNvS0I3eFZJank0MHoyUjJSS0t2ZEJBaGFocWoxbVpVazNqT1AxemFWNERlaWZRRlN1cm1oZzM5YWhwa0lTaHdldDVHU3lBZ3N1bGp5YXIzeVdVenhyX0EyRUJEaDA?oc=5",
-      "type": "news",
-      "area": "北海道周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 43.2,
-      "lon": 142.8,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "北海道周辺",
-      "zoomSource": "dictionary"
     },
     {
       "title": "【地震情報】熊本県で震度3 津波の心配なし（11:21） - NHKニュース",
@@ -76,24 +90,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "防災庁11月発足、災害対策加速で「建設コンサル」関連株が動き出す ＜株探トップ特集＞ - kabutan.jp",
-      "source": "kabutan.jp",
+      "title": "防災庁11月発足、災害対策加速で「建設コンサル」関連株が動き出す ＜株探トップ特集＞ - 株探",
+      "source": "株探",
       "time": "2026-09-24T19:30:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9HTUFFdzJJbW9BWnBIWFZWSHBjOWgzNllzOVVKNFpJSjFNQTQzdzYwV1BGa1hEam9RWVFBbmFZaWhRX1pta3F3YllCQ1Axd29SUXNqdGxtRDNhOWJBNkQ2Vw?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "印旛沼の決壊に伴う避難指示について(対象地区の追加)（2026年9月22日 07時14分配信） - town.sakae.chiba.jp",
-      "source": "town.sakae.chiba.jp",
-      "time": "2026-09-22T07:14:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9hM0h1WGp6dk5PczdRVjFRWDU3czYzYjFWZW11bTh1VXczM1M2VXJYb0psYXhyOFF1VEg5X3dRRWFHNDE3UkxXODNnUnA2eG1ZWTVsZk5wREV0MUxOdEtHNGlweEN2YjJ4UmNmczg1YTVVZTJQUVJFcjN5c3NKUQ?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
