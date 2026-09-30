@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T11:17:11+09:00",
+  "updated_at": "2026-09-30T17:51:50+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -62,8 +62,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "防災庁11月発足、災害対策加速で「建設コンサル」関連株が動き出す ＜株探トップ特集＞ - kabutan.jp",
-      "source": "kabutan.jp",
+      "title": "防災庁11月発足、災害対策加速で「建設コンサル」関連株が動き出す ＜株探トップ特集＞ - 株探",
+      "source": "株探",
       "time": "2026-09-24T19:30:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9HTUFFdzJJbW9BWnBIWFZWSHBjOWgzNllzOVVKNFpJSjFNQTQzdzYwV1BGa1hEam9RWVFBbmFZaWhRX1pta3F3YllCQ1Axd29SUXNqdGxtRDNhOWJBNkQ2Vw?oc=5",
       "type": "news",
