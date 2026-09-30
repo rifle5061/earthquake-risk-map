@@ -1,15 +1,15 @@
 {
   "status": "ok",
-  "fetched_at": "2026-09-30T16:58:43+09:00",
+  "fetched_at": "2026-09-30T23:50:42+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/09/30 14:00:00",
-    "area": "与那国島近海",
-    "magnitude": 6.0,
+    "time": "2026/09/30 21:28:00",
+    "area": "トカラ列島近海",
+    "magnitude": 2.5,
     "depth": 10,
-    "maxScale": 30,
-    "intensityLabel": "3",
-    "domesticTsunami": "NonEffective"
+    "maxScale": 10,
+    "intensityLabel": "1",
+    "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
 }
