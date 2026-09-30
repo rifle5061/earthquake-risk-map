@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-10-01T04:49:39+09:00",
+  "fetched_at": "2026-10-01T08:28:17+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/10/01 00:58:00",
-    "area": "福島県会津",
-    "magnitude": 2.9,
-    "depth": 0,
-    "maxScale": 10,
-    "intensityLabel": "1",
+    "time": "2026/10/01 06:17:00",
+    "area": "千葉県北東部",
+    "magnitude": 3.5,
+    "depth": 50,
+    "maxScale": 20,
+    "intensityLabel": "2",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
