@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-10-01T18:15:11+09:00",
+  "fetched_at": "2026-10-02T01:36:57+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/10/01 10:32:00",
-    "area": "埼玉県南部",
-    "magnitude": 3.2,
-    "depth": 50,
+    "time": "2026/10/02 01:20:00",
+    "area": "茨城県北部",
+    "magnitude": 2.6,
+    "depth": 0,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
