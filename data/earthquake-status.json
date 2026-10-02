@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-10-02T09:59:11+09:00",
+  "fetched_at": "2026-10-02T15:54:56+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/10/02 06:01:00",
-    "area": "茨城県南部",
-    "magnitude": 3.9,
-    "depth": 50,
+    "time": "2026/10/02 15:41:00",
+    "area": "熊本県天草・芦北地方",
+    "magnitude": 3.5,
+    "depth": 10,
     "maxScale": 20,
     "intensityLabel": "2",
     "domesticTsunami": "None"
