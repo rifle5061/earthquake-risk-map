@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T17:50:23+09:00",
+  "updated_at": "2026-10-03T00:23:02+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -18,8 +18,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "茨城県、埼玉県で最大震度4のやや強い地震 茨城県・常総市、筑西市、坂東市、つくばみらい市 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
+      "title": "茨城県、埼玉県で最大震度4のやや強い地震 茨城県・常総市、筑西市、坂東市、つくばみらい市 - newsdig.tbs.co.jp",
+      "source": "newsdig.tbs.co.jp",
       "time": "2026-09-29T04:54:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5qa1E1ZjZuVk9BZ0xMenRPMmU5d3VYZFdkWEd2ODVXMlQxV01XU3NsMVlPWGhfQ2FsSmR3R2YxVHVKR3djQk5pTmc1Rm9BSDRIOThUU2NRTQ?oc=5",
       "type": "news",
@@ -32,10 +32,25 @@
       "zoomSource": "none"
     },
     {
-      "title": "【地震速報】茨城県と千葉県で震度3 - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-10-01T21:33:45+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA5VmRhanZIaUNQdEJfM29NRUVaZ3k1QXV4Sy1lSXpiVUtkcTN6U3N1WVlfcG9rV0h0T3gtalhsN1V2eXotZ1B3VHBILUtKVVU1cGV2WmpwUTFDUUswMW5N?oc=5",
+      "title": "【地震情報】熊本県で震度3 津波の心配なし（11:21） - news.web.nhk",
+      "source": "news.web.nhk",
+      "time": "2026-09-26T11:25:02+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1SamZ5SmdnY1pFbmY4NTUtblk0WWp3dzJRNUZRR3ZOWnFpRzR6NDFmdGFyallLV2loeGVMWFJZZkQxcERXUmJoWWlOclRXR0RlUDF5Q3dBSVlrdDlIejBv?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "LINEを活用した「避難所チェックイン」機能の運用開始について - 鶴岡市",
+      "source": "鶴岡市",
+      "time": "2026-10-02T16:38:06+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tMVdIX09YbElNTGlRanNHTFdkeWxteG1DMmVrMUpackloTWVtcGFKQjJlbTBmTl83UjZoSnVPZEFCeEVEOEMtSUt2QUJLZXR2blE2OVFPVy15SkI1TklEenFTenY2NGlyaWsxOEE2Sm9KcGI3ZlBhSXhR?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -46,10 +61,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "LINEを活用した「避難所チェックイン」機能の運用開始について - 鶴岡市",
-      "source": "鶴岡市",
-      "time": "2026-10-02T14:46:27+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tMVdIX09YbElNTGlRanNHTFdkeWxteG1DMmVrMUpackloTWVtcGFKQjJlbTBmTl83UjZoSnVPZEFCeEVEOEMtSUt2QUJLZXR2blE2OVFPVy15SkI1TklEenFTenY2NGlyaWsxOEE2Sm9KcGI3ZlBhSXhR?oc=5",
+      "title": "届出避難所（一時避難所）制度について - city.komatsu.lg.jp",
+      "source": "city.komatsu.lg.jp",
+      "time": "2026-10-01T13:20:38+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeXcwS0NyQTUwbDJVOWgtOURCMUxyQ3MtMG5MRU1naFYweDRqSEE1Qi0zXzBrMUdSMUVQcGpFQ29JTmxLd2lSQklYZjRKSGYxcEF0VUxvcHc5dU9fdHpaZmhhN3JwdG43OHViRldxdm9PdHl6WF9tUnFhWFFpMUVzY2tR?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -75,8 +90,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "震度3 千葉県北東部 2026年10月01日21:27ごろ 地震詳細 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
+      "title": "震度3 千葉県北東部 2026年10月01日21:27ごろ 地震詳細 - newsdig.tbs.co.jp",
+      "source": "newsdig.tbs.co.jp",
       "time": "2026-10-01T21:32:45+09:00",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOeVlpb0lwcUhZRi1MVzZzNWkyZFpodGRQMzB6dVJXWW85dHpuRWgtanphS082b3d6c1pUUXIySVpPS29pb0RfNkQ4b0R3WUJwbTY3eUlaQk9xc20wSzZxU2RaYk5RZEh1Nk9MLW1KRkNQa2hjZWE3T0ZjLTZTUlZvZEpR?oc=5",
       "type": "news",
@@ -89,25 +104,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "【地震情報】熊本県で震度3 津波の心配なし（11:21） - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-09-26T11:25:02+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1SamZ5SmdnY1pFbmY4NTUtblk0WWp3dzJRNUZRR3ZOWnFpRzR6NDFmdGFyallLV2loeGVMWFJZZkQxcERXUmJoWWlOclRXR0RlUDF5Q3dBSVlrdDlIejBv?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "台湾東部海域で地震 花蓮、宜蘭などで震度2を観測（中央社フォーカス台湾） - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-09-30T13:29:51+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KTGVoYjBxR2pnTFZELVVRNHRFSVplVzRpbnRsajU4VmVLVWJqRXpyUHM3R3pEc1d1M2ptb1FYeXU4MS1nRjdQUXZKYVlneF94VU1sMmtyUWxmNnJEYk5SOFZZMkhyS3ZUczZQZWVnRTluVkxJbm4zTWZkODViNm8?oc=5",
+      "title": "【地震速報】茨城県と千葉県で震度3 - news.web.nhk",
+      "source": "news.web.nhk",
+      "time": "2026-10-01T21:33:45+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA5VmRhanZIaUNQdEJfM29NRUVaZ3k1QXV4Sy1lSXpiVUtkcTN6U3N1WVlfcG9rV0h0T3gtalhsN1V2eXotZ1B3VHBILUtKVVU1cGV2WmpwUTFDUUswMW5N?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
