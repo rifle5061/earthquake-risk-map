@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T18:58:46+09:00",
+  "updated_at": "2026-10-03T23:39:17+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -74,25 +74,24 @@
       "zoomSource": "none"
     },
     {
+      "title": "防災訓練＆カレー会 - city.ena.lg.jp",
+      "source": "city.ena.lg.jp",
+      "time": "2026-10-01T15:54:03+09:00",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaUVaTGNSZWhHTURCS1owN2Rrb2p5aGRVMGhxWllNZjZHd1hETWhQVmZOZHlqU3l1U3A3dDh3TWdTNjFxejM3d25EWVlTV1hzc0Zyb29WZlo3aDFyMWt3VjZ5NjhQVFRseGE5RmVXY1hBX2w3YjY2Yk1ubmpRb3NaWUhzWUk?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "令和８年熊本地震復興応援「熊本うまかモン集合」9月29日（火）発売 県産食材を使用した商品や熊本ラーメンの名店「味千拉麺」監修商品が登場！ ～対象商品の売上の一部を災害支援金として寄付いたします～｜ニュースリリース - family.co.jp",
       "source": "family.co.jp",
       "time": "2026-09-28T09:02:26+09:00",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1HU2NONTVvNk14NVd2Ym9RbHFjaHVnT2RKS3dWWmFsUV83azNPM2o2ZGJicE96XzNRMTl2clU3MWR1ODJ6cmlqSS1waTgxOERDYXNiS01CSmlLUDFaSWJFLXVzNWZyRXZudmlzYmROWUJidTVqY3k4?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "【助成先団体決定】「ボラサポ・令和8年熊本地震」第1回短期助成事業・中期助成事業の助成団体を決定しました - 赤い羽根共同募金",
-      "source": "赤い羽根共同募金",
-      "time": "2026-09-30T15:29:24+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9KWXhRbkdkaVVVQWJUTk8tMEpHQlUwdzMxeHFTRnI4TjJxc1N1Q3JSb1JoVnNHOGxsTnItanRkZmVDeXNzZmFMTDJ5VHNQWGc?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
