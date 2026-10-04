@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T06:58:26+09:00",
+  "updated_at": "2026-10-04T09:27:00+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -103,10 +103,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "令和8年度精華町避難行動・避難所開設運営訓練実施に伴う緊急速報メールの配信及び防災行政無線の放送訓練について - town.seika.kyoto.jp",
-      "source": "town.seika.kyoto.jp",
-      "time": "2026-10-03T11:39:16+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdDIzSmtmQ2JlWlJZdFdpRlJOSWlUU0ZYUTZGS1doTXQ5YWg1TGNjNy1PZmlnNE8wS2ZjX0lubGdJdllfSTRETjVmMEZFbE1XWHp2NF8yU1ZyaWJrSmJaVktveTlCZkJ0REE0d0lBbmQwMHBMT2FhM0w5bl9RRDlJT0VR?oc=5",
+      "title": "【2026/10/4】出店ブースも多数、防災を楽しく学ぶ「2026ほくと防災マルシェ」（北斗市） - 函館イベント情報局",
+      "source": "函館イベント情報局",
+      "time": "2026-10-01T23:06:03+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE50X05jMm02RElpeW5PazJzMk1XcXFseUFxaG9MQnJLNWJaUXFNaTVESnZLY0lkSXZ4enM2TS1vYWNaQlR1aG1UWU5ONU9pY0FVV0ZtV1VuU0hGMEdBSmc?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
