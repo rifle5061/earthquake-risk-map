@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-10-04T10:49:13+09:00",
+  "fetched_at": "2026-10-04T16:45:49+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/10/04 09:52:00",
-    "area": "石川県能登地方",
-    "magnitude": 2.9,
-    "depth": 10,
+    "time": "2026/10/04 13:19:00",
+    "area": "伊豆大島近海",
+    "magnitude": 2.1,
+    "depth": 0,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
