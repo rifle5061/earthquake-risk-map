@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-10-05T05:52:16+09:00",
+  "fetched_at": "2026-10-05T08:49:10+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/10/05 05:02:00",
-    "area": "播磨灘",
-    "magnitude": 2.5,
-    "depth": 10,
+    "time": "2026/10/05 08:39:00",
+    "area": "トカラ列島近海",
+    "magnitude": 3.8,
+    "depth": 90,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
