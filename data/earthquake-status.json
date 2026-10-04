@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-10-05T02:50:21+09:00",
+  "fetched_at": "2026-10-05T05:52:16+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/10/04 20:56:00",
-    "area": "岩手県沖",
-    "magnitude": 3.4,
-    "depth": 40,
+    "time": "2026/10/05 05:02:00",
+    "area": "播磨灘",
+    "magnitude": 2.5,
+    "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
