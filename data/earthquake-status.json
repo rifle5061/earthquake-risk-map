@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-10-05T13:06:06+09:00",
+  "fetched_at": "2026-10-05T20:27:47+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/10/05 12:39:00",
-    "area": "鹿児島県薩摩地方",
-    "magnitude": 2.0,
-    "depth": 0,
+    "time": "2026/10/05 19:27:00",
+    "area": "愛媛県南予",
+    "magnitude": 3.1,
+    "depth": 50,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
