@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T02:54:15+09:00",
+  "updated_at": "2026-10-08T07:43:36+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -18,6 +18,20 @@
       "zoomSource": "dictionary"
     },
     {
+      "title": "【地震速報】千葉県北東部で震度4 津波の心配なし - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-10-08T04:18:21+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ReV9CYlkybFQycUk5OHlMYmQ0SW1uMW5ocGlhU2t0cEI0NVJLZ2NZbnVSdUtlMDFnd1paSHZQak40OEplWE9rZy15Z2lZX0JZa2FPdG01aDdRejRZNVZV?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "柏崎刈羽原子力発電所の安全対策・防災対策の現状をまとめたリーフレットを作成しました - 新潟県ホームページ",
       "source": "新潟県ホームページ",
       "time": "2026-10-02T16:00:00+09:00",
@@ -31,20 +45,6 @@
       "zoomable": true,
       "matchedArea": "北陸地方",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "震度1 香川県西部 2026年10月05日07:28ごろ 地震詳細 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-10-05T07:38:19+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNS2NMU3J3TmFZT3BwbDJGQVpnZlFySWYwemd2ZTNFUVc0Q2wxSTdiRkwtMEJ0SkhzSWhqd2plU3ZmUTdPcHdPbVV1ODlISF9TNzJlS3pmV2U3SXhYVkRtdV9PdDV2MTVsUnlqU2JzNkJuV2JCUlFxZXh4OTRCRG5BRHBn?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     },
     {
       "title": "神奈川県西部で地震 中井町や湯河原町、清川村などで震度２、震源地は県西部（カナロコ by 神奈川新聞） - Yahoo!ニュース",
@@ -62,18 +62,19 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "【地震速報】茨城県と千葉県で震度3 - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-10-01T21:33:45+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA5VmRhanZIaUNQdEJfM29NRUVaZ3k1QXV4Sy1lSXpiVUtkcTN6U3N1WVlfcG9rV0h0T3gtalhsN1V2eXotZ1B3VHBILUtKVVU1cGV2WmpwUTFDUUswMW5N?oc=5",
+      "title": "震度2 神奈川県西部 2026年10月06日19:53ごろ 地震詳細 - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-10-06T20:00:34+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNclZKY0pNVHlFNGtnMXZYRUtKcFY2Njd6aTNpRWQ5algzcjludTVyYk1fS2dramhaU0hTYjFpX3ZiNTN0U0pnVjJ4RXpIY0E2MG5OWVl2TTNXeERLSlVfb0VSLWZyMFhzNVlSbnNZZWpQZEdwOFdVdjJwcHZGZ0tkdHF3?oc=5",
       "type": "news",
-      "area": "",
+      "area": "首都圏周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "lat": 35.55,
+      "lon": 139.8,
+      "zoom": 8,
+      "zoomable": true,
+      "matchedArea": "首都圏周辺",
+      "zoomSource": "dictionary"
     },
     {
       "title": "備蓄していた毛布、避難の高校生らに配られず マニュアル通りの対応に疑問の声 - 中日新聞Web",
