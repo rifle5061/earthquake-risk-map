@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T11:23:39+09:00",
+  "updated_at": "2026-10-09T18:25:59+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -18,47 +18,33 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "【地震速報】千葉県北東部で震度4 津波の心配なし - NHKニュース",
+      "title": "防災庁の地方機関「防災局」、設置場所を来夏公表 46自治体が誘致 - 日本経済新聞",
+      "source": "日本経済新聞",
+      "time": "2026-10-08T22:05:14+09:00",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5TcFpTNlI4VjczWjI1MEJ3bVJZUloyME5JSnZ5MWsyMlNBRGJ5MS1NaXNCanJQX0pXZTJya2hXRXdSVTA4aTZFLThyTlNNa29xWC1Nd0hTYjZFc1pZM2FiZmR2MEhnRTcxbmN0Ng?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "南海トラフ巨大地震 定例の評価検討会「特段の変化なし」 - NHKニュース",
       "source": "NHKニュース",
-      "time": "2026-10-08T04:18:21+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ReV9CYlkybFQycUk5OHlMYmQ0SW1uMW5ocGlhU2t0cEI0NVJLZ2NZbnVSdUtlMDFnd1paSHZQak40OEplWE9rZy15Z2lZX0JZa2FPdG01aDdRejRZNVZV?oc=5",
+      "time": "2026-10-08T01:20:21+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMRVgwSzRYQnhyVTFGbWRmVG5jWUR0YUR5bVFmRkhHMWNJOWI5WVU5NlpBa1N0XzRTV1N6M08wT29tZ0FUYjRnbG5qX1J0RUJ6RVpKcVRrRWFJazNwQlhV?oc=5",
       "type": "news",
-      "area": "",
+      "area": "南海トラフ",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
+      "lat": 32.8,
+      "lon": 136.2,
       "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "柏崎刈羽原子力発電所の安全対策・防災対策の現状をまとめたリーフレットを作成しました - 新潟県ホームページ",
-      "source": "新潟県ホームページ",
-      "time": "2026-10-02T16:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE93dnU0eHVvcDdYd3VEbjl5WE51cTdHREhkRXRwWXJOeDlkeVJzZW1xSlVEMnlvY04wcEllRnBsOUt5cEJTQkZ2TEZvYzhmSGxTXzNiaWpPVXBSLTh5NHZQM3dIZHl0aVA2YjBGRng1X2lSemRl?oc=5",
-      "type": "news",
-      "area": "北陸地方",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 37.0,
-      "lon": 137.2,
-      "zoom": 7,
       "zoomable": true,
-      "matchedArea": "北陸地方",
+      "matchedArea": "南海トラフ",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "千葉県北東部で震度4の地震 午前4時13分ごろ 津波被害の心配なし - テレ朝NEWS",
-      "source": "テレ朝NEWS",
-      "time": "2026-10-08T04:25:55+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5hQ1E3ZEF5cldjaGh4YnBicWE4eGxJR0xzWl8xejNBUktUZGs3ZnU5SGotb0pneTdpc05pT1diTDFKMjZESjFYcms1NzVIMzNWSThFNGxyaFFvWUhDZjgzQTNndllFZUpFVEFXYzlyZzF3QQ?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     },
     {
       "title": "福山市総合防災訓練について - 福山市ホームページ",
@@ -89,21 +75,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "志摩市における南海トラフ地震に備えた防災まちづくりの推進（防災・安全）事後評価書|志摩市ホームページ - 志摩市ホームページ",
-      "source": "志摩市ホームページ",
-      "time": "2026-10-02T16:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeTFPejJUZmFBOWZQbkVwM1pWWG1lbi1rZHUwT1YxTmlMRS1ZRGN0eGFyQnBNcm40MzBxSlB0dEpoNkNBbW9oNG5PS2dlWTlRTVFFRlluQjNCQU9BMU1sYWR4dzNFUnhGY3N0aGRCVWpLNzRvc1JGMVJ0TTJrenJDTk02XzdNc3BNMXdUSTIwbE45QU5pWUdWbEV3V3lDS25aZnc?oc=5",
-      "type": "news",
-      "area": "南海トラフ",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.8,
-      "lon": 136.2,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "南海トラフ",
-      "zoomSource": "dictionary"
-    },
-    {
       "title": "令和8年度厚岸町避難訓練を行います - 北海道厚岸町",
       "source": "北海道厚岸町",
       "time": "2026-10-08T18:08:39+09:00",
@@ -117,6 +88,34 @@
       "zoomable": true,
       "matchedArea": "北海道周辺",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "「防災局」はどこに設置？ 誘致多数、27年夏に立地決定 防災庁地方機関、東西2カ所 - 産経ニュース",
+      "source": "産経ニュース",
+      "time": "2026-10-08T14:52:56+09:00",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mbHJlaktyeGdDbTdadXRkLWUyNm1ZaGFiRC0tcWRpVU1NOFJXSWljb01QLWZIUnB3bVpyUHE1My1EYzZMR1U2SW1sdzNnSDRmYkxBMDI2ZFhfWWx3cmFsNThBRHhnaEtPSl8xS2xYNXd6RWMwN1E?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "千葉県北東部で震度4の地震 午前4時13分ごろ 津波被害の心配なし - テレ朝NEWS",
+      "source": "テレ朝NEWS",
+      "time": "2026-10-08T04:25:55+09:00",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5hQ1E3ZEF5cldjaGh4YnBicWE4eGxJR0xzWl8xejNBUktUZGs3ZnU5SGotb0pneTdpc05pT1diTDFKMjZESjFYcms1NzVIMzNWSThFNGxyaFFvWUhDZjgzQTNndllFZUpFVEFXYzlyZzF3QQ?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     }
   ]
 }
