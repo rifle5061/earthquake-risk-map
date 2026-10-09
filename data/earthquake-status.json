@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-10-09T09:58:13+09:00",
+  "fetched_at": "2026-10-09T16:16:14+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/10/09 07:14:00",
-    "area": "根室半島南東沖",
-    "magnitude": 3.3,
-    "depth": 60,
-    "maxScale": 10,
-    "intensityLabel": "1",
+    "time": "2026/10/09 11:12:00",
+    "area": "熊本県天草・芦北地方",
+    "magnitude": 3.5,
+    "depth": 10,
+    "maxScale": 20,
+    "intensityLabel": "2",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
