@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T10:05:11+09:00",
+  "updated_at": "2026-10-10T16:30:48+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -18,6 +18,20 @@
       "zoomSource": "dictionary"
     },
     {
+      "title": "パナマでM7.7の大地震 建物が倒壊するなどの被害 - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-10-10T09:11:32+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1qMmZpR1dTRXhJaFYzd2JvejBRZlBrMV9paUVDOVJzbHJuX1NtUjBLbXkzdDdENDlXWnN6U0xIMV9CeEZXUXF6S0c3SmVDdjVHeFJ6c1ZYVQ?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "防災庁の地方機関「防災局」、設置場所を来夏公表 46自治体が誘致 - 日本経済新聞",
       "source": "日本経済新聞",
       "time": "2026-10-08T22:05:14+09:00",
@@ -32,10 +46,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "【地震速報】千葉県北東部で震度4 津波の心配なし - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-10-08T04:18:21+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ReV9CYlkybFQycUk5OHlMYmQ0SW1uMW5ocGlhU2t0cEI0NVJLZ2NZbnVSdUtlMDFnd1paSHZQak40OEplWE9rZy15Z2lZX0JZa2FPdG01aDdRejRZNVZV?oc=5",
+      "title": "パナマでＭ７．７の地震 建物損壊、けが人複数：時事ドットコム - 時事ドットコム",
+      "source": "時事ドットコム",
+      "time": "2026-10-10T10:41:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hX2k3aXRKN01tckYwbkJtVHYzc05JTGpINEd6QWdoQUtXUXR1d0RZTUZKTmNWWUowdm5MRlRTRjVVdG9wYWRIcVNaaFRhMUxmZ2FTdE81bVAxb2h3djNsZjFFQQ?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -60,10 +74,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "【速報】パナマでマグニチュード7.7の地震 日本沿岸では若干の海面変動が起きる可能性があるものの被害の心配なし - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-10-10T04:11:21+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAzSTItb0Zray1BNDJCX1ZBWjkxcWVqZUNURUY0VlFDNGpHeFZOMDJwY1pYWGRhSjR5bkJyVWZGM0N3OFBYeXhqRFlXSXlKTHQyZ1JfcXNfaw?oc=5",
+      "title": "【地震速報】千葉県北東部で震度4 津波の心配なし - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-10-08T04:18:21+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ReV9CYlkybFQycUk5OHlMYmQ0SW1uMW5ocGlhU2t0cEI0NVJLZ2NZbnVSdUtlMDFnd1paSHZQak40OEplWE9rZy15Z2lZX0JZa2FPdG01aDdRejRZNVZV?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -100,21 +114,6 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
-    },
-    {
-      "title": "令和8年度厚岸町避難訓練を行います - 北海道厚岸町",
-      "source": "北海道厚岸町",
-      "time": "2026-10-08T18:08:39+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBkR2E3MS03ejl2a3duak1wYzM0SFVSclUxYkZBWVltMnVzVXFDT0Fzb2VPcFVYNjNIYUU1R2s3MUFrbFppalNOOG1IcVlvQmhqWWRyUg?oc=5",
-      "type": "news",
-      "area": "北海道周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 43.2,
-      "lon": 142.8,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "北海道周辺",
-      "zoomSource": "dictionary"
     }
   ]
 }
