@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T16:30:48+09:00",
+  "updated_at": "2026-10-10T23:13:12+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -60,10 +60,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "中米パナマでM7.7の地震 津波警報はすべて解除 - テレ朝NEWS",
-      "source": "テレ朝NEWS",
-      "time": "2026-10-10T04:46:51+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1XRGhjTThuWXdaMnNHRHJIa1lacUVaMkQtR3pQcVBZUFItTHdaVUMtWmFhdVNuemZMdVI4SzR0R0lnNFBGT0tEamtDcEY0ZWZzTE44WWpzQnVpU3BVQWlOUVZiTHZGUFlBZ3BSVW1PNlJBRWw4cWZwc3p3?oc=5",
+      "title": "【地震速報】千葉県北東部で震度4 津波の心配なし - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-10-08T04:18:21+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ReV9CYlkybFQycUk5OHlMYmQ0SW1uMW5ocGlhU2t0cEI0NVJLZ2NZbnVSdUtlMDFnd1paSHZQak40OEplWE9rZy15Z2lZX0JZa2FPdG01aDdRejRZNVZV?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -74,10 +74,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "【地震速報】千葉県北東部で震度4 津波の心配なし - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-10-08T04:18:21+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ReV9CYlkybFQycUk5OHlMYmQ0SW1uMW5ocGlhU2t0cEI0NVJLZ2NZbnVSdUtlMDFnd1paSHZQak40OEplWE9rZy15Z2lZX0JZa2FPdG01aDdRejRZNVZV?oc=5",
+      "title": "中米パナマでM7.7の地震 津波警報はすべて解除 - テレ朝NEWS",
+      "source": "テレ朝NEWS",
+      "time": "2026-10-10T04:46:51+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1XRGhjTThuWXdaMnNHRHJIa1lacUVaMkQtR3pQcVBZUFItTHdaVUMtWmFhdVNuemZMdVI4SzR0R0lnNFBGT0tEamtDcEY0ZWZzTE44WWpzQnVpU3BVQWlOUVZiTHZGUFlBZ3BSVW1PNlJBRWw4cWZwc3p3?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
