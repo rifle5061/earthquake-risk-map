@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T07:12:30+09:00",
+  "updated_at": "2026-10-11T10:07:01+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -102,10 +102,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "備蓄していた毛布、避難の高校生らに配られず マニュアル通りの対応に疑問の声 - 中日新聞Web",
-      "source": "中日新聞Web",
-      "time": "2026-10-06T05:10:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1uZU5PX21udnhXUW1yWXBkWEtPYlplVm9pTVVDUXZURzJSQVl4Q3FGemtEWU9QYUN6djQxM1lDUnVCNnl4Vm5EY0IyLU85QmxWUXZvMQ?oc=5",
+      "title": "中米パナマでＭ7.7の強い地震、米津波警報センターが警戒呼びかけ - Reuters",
+      "source": "Reuters",
+      "time": "2026-10-10T04:03:43+09:00",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9wTGE0ZmlrRmNNcVdYUzhNa2ZJMV8zLUpNemNpclF1VUpzUlhlNUpwczdXcDQxZUhBTFZPcThWVUF2dE1FX0o0SUltMXdONnIwU2VwYTktbUN1Q1JUZ2U3c0FhdExZMndMRFBoX09VWl9BbWZlSFVzYm8wLXVndw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
