@@ -1,11 +1,11 @@
 {
   "status": "ok",
-  "fetched_at": "2026-10-11T10:37:55+09:00",
+  "fetched_at": "2026-10-11T16:49:30+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/10/11 10:12:00",
-    "area": "長野県南部",
-    "magnitude": 2.8,
+    "time": "2026/10/11 15:49:00",
+    "area": "宮崎県南部平野部",
+    "magnitude": 2.3,
     "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
