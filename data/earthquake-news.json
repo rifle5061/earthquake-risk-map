@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T04:19:47+09:00",
+  "updated_at": "2026-10-12T08:02:20+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -22,20 +22,6 @@
       "source": "TBS NEWS DIG",
       "time": "2026-10-10T09:11:32+09:00",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1qMmZpR1dTRXhJaFYzd2JvejBRZlBrMV9paUVDOVJzbHJuX1NtUjBLbXkzdDdENDlXWnN6U0xIMV9CeEZXUXF6S0c3SmVDdjVHeFJ6c1ZYVQ?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "防災庁の地方機関「防災局」、設置場所を来夏公表 46自治体が誘致 - 日本経済新聞",
-      "source": "日本経済新聞",
-      "time": "2026-10-08T22:05:14+09:00",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5TcFpTNlI4VjczWjI1MEJ3bVJZUloyME5JSnZ5MWsyMlNBRGJ5MS1NaXNCanJQX0pXZTJya2hXRXdSVTA4aTZFLThyTlNNa29xWC1Nd0hTYjZFc1pZM2FiZmR2MEhnRTcxbmN0Ng?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -78,6 +64,20 @@
       "source": "テレ朝NEWS",
       "time": "2026-10-10T04:46:51+09:00",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1XRGhjTThuWXdaMnNHRHJIa1lacUVaMkQtR3pQcVBZUFItTHdaVUMtWmFhdVNuemZMdVI4SzR0R0lnNFBGT0tEamtDcEY0ZWZzTE44WWpzQnVpU3BVQWlOUVZiTHZGUFlBZ3BSVW1PNlJBRWw4cWZwc3p3?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "防災庁の地方機関「防災局」、設置場所を来夏公表 46自治体が誘致 - 日本経済新聞",
+      "source": "日本経済新聞",
+      "time": "2026-10-08T22:05:14+09:00",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5TcFpTNlI4VjczWjI1MEJ3bVJZUloyME5JSnZ5MWsyMlNBRGJ5MS1NaXNCanJQX0pXZTJya2hXRXdSVTA4aTZFLThyTlNNa29xWC1Nd0hTYjZFc1pZM2FiZmR2MEhnRTcxbmN0Ng?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
