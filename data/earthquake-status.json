@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-10-12T07:54:40+09:00",
+  "fetched_at": "2026-10-12T11:03:00+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/10/12 05:05:00",
-    "area": "熊本県天草・芦北地方",
-    "magnitude": 1.9,
-    "depth": 10,
+    "time": "2026/10/12 09:53:00",
+    "area": "硫黄島近海",
+    "magnitude": 5.0,
+    "depth": 180,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
