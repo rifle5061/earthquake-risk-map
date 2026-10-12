@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-10-12T11:03:00+09:00",
+  "fetched_at": "2026-10-12T18:11:08+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/10/12 09:53:00",
-    "area": "硫黄島近海",
-    "magnitude": 5.0,
-    "depth": 180,
-    "maxScale": 10,
-    "intensityLabel": "1",
+    "time": "2026/10/12 16:51:00",
+    "area": "熊本県天草・芦北地方",
+    "magnitude": 2.9,
+    "depth": 10,
+    "maxScale": 20,
+    "intensityLabel": "2",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
