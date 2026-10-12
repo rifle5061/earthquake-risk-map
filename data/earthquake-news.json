@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T19:13:46+09:00",
+  "updated_at": "2026-10-13T04:55:19+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -102,10 +102,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "フジパン、地震で熊本工場の稼働断念 九州2工場の生産増で対応 - 日本経済新聞",
-      "source": "日本経済新聞",
-      "time": "2026-10-05T23:16:11+09:00",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZdWVzSFN1b2M4UkNEbVpjNE54Zk1hUWdDcHVtR3JmQk1KUVFKalVOUnhicVRqQW9ja2txLW8zaVlSUFRzWFoyY0ZrTnQ1WU5iNEFmSzBGZHMyNzNvVG1EeEFDMjNrTlpJdHpzSQ?oc=5",
+      "title": "中米パナマでＭ7.7の強い地震、米津波警報センターが警戒呼びかけ - Reuters",
+      "source": "Reuters",
+      "time": "2026-10-10T04:03:43+09:00",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9wTGE0ZmlrRmNNcVdYUzhNa2ZJMV8zLUpNemNpclF1VUpzUlhlNUpwczdXcDQxZUhBTFZPcThWVUF2dE1FX0o0SUltMXdONnIwU2VwYTktbUN1Q1JUZ2U3c0FhdExZMndMRFBoX09VWl9BbWZlSFVzYm8wLXVndw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
