@@ -1,21 +1,7 @@
 {
-  "updated_at": "2026-10-14T06:42:52+09:00",
+  "updated_at": "2026-10-14T09:51:09+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
-    {
-      "title": "千葉県で最大震度2の地震 千葉県・旭市、匝瑳市、香取市、山武市、横芝光町、成田市（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-10-12T01:29:13+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjdUhjVlpNX1R2OWhRVWQ3WUhqVlYzdWM2bUlVNFg3XzZxNTE3alJlSURtS21ZOU9oS3NoemRaVUlJZ2xIX3NPQkZXQWdSVGZWY2ZBYjN0Tm41STRtZTZWcFNYOGcwMzc1bW9Kc1RUWm1XSWxOSzBfWEFoUG14MDQ?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
     {
       "title": "南海トラフ巨大地震 定例の評価検討会「特段の変化なし」 - NHKニュース",
       "source": "NHKニュース",
@@ -32,6 +18,20 @@
       "zoomSource": "dictionary"
     },
     {
+      "title": "千葉県で最大震度2の地震 千葉県・旭市、匝瑳市、香取市、山武市、横芝光町、成田市（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-10-12T01:29:13+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjdUhjVlpNX1R2OWhRVWQ3WUhqVlYzdWM2bUlVNFg3XzZxNTE3alJlSURtS21ZOU9oS3NoemRaVUlJZ2xIX3NPQkZXQWdSVGZWY2ZBYjN0Tm41STRtZTZWcFNYOGcwMzc1bW9Kc1RUWm1XSWxOSzBfWEFoUG14MDQ?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "パナマ南部でマグニチュード7.7の地震 震源から離れた首都パナマシティでもがれき散乱 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
       "time": "2026-10-10T05:35:33+09:00",
@@ -46,10 +46,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "パナマでM7.7地震 建物倒壊などの被害 大勢の人が屋外に避難する様子も パナマ運河の通航には影響出ず - 日テレNEWS NNN",
-      "source": "日テレNEWS NNN",
-      "time": "2026-10-10T11:41:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxON0J3cFRoZUpvNElyQUdjWERDTkdoMW53QjIzOGtWWXBrVWdraDhSUHl2UU53a0J6MTItanBOWUtXOWtDQVlYbzZSQkdlcnFTV2lBUkRDaFNPNFBjWlhZcXZFUDE3dUk3OHFjRzZtSFdZNGdlaUVXbTFPWHEzUTZZYzUwUFg?oc=5",
+      "title": "防災アプリ手がける企業に不正アクセス 自治体から個人情報漏洩か - 朝日新聞",
+      "source": "朝日新聞",
+      "time": "2026-10-13T20:36:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Bdlo5WWU2d2dNV0xfU3FOMTdSUk1vZjVLbFU3dVA4M1NMUGl1V2NmSDltNHljQWpBbjRzWk1jaGd0NmlPdTJZSWxlMVVKaGNzeDlCUUdmUFNsNmttLUQ4a1FpdlRsZE0?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -74,10 +74,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "防災情報の一斉配信に関するお知らせ - 陸前高田市ホームページ",
-      "source": "陸前高田市ホームページ",
-      "time": "2026-10-14T01:07:02+09:00",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTGRiRDlGQlY5S24zSk81bkpSY1NQbHpuekw0cUVOalczMVBDbkNMYno0djBpd2NGWFJVekF2VENZLTNHUVhsNVBDZTgxOTBlV28wb2l2UGgzcXdJR3lWd1BOczQ0WnZIOThKMGI4bEhxemxSTVdGeVpnT0xWTFJpTEE2SWI5UQ?oc=5",
+      "title": "避難はいつ？どこへ？～警戒レベル３で高齢者などは避難を！～【新見市公式番組動画】 - 新見市ホームページ",
+      "source": "新見市ホームページ",
+      "time": "2026-10-13T18:06:56+09:00",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1sWk5ZdHIwS2loenNaODJlaXVPbHFvSTJ3TVE0WGVQVVNVQzNjQ3VodlZ5WGRZTzhSaG5xWkFEejJSTVJicGtqdFNGSzRZUWZzMVpuLU1MT0RzWVQtZG1ZcGhMY2prYklMVm1zN3gxTWhUUzA?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -88,10 +88,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "避難はいつ？どこへ？～警戒レベル３で高齢者などは避難を！～【新見市公式番組動画】 - 新見市ホームページ",
-      "source": "新見市ホームページ",
-      "time": "2026-10-13T18:06:56+09:00",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1sWk5ZdHIwS2loenNaODJlaXVPbHFvSTJ3TVE0WGVQVVNVQzNjQ3VodlZ5WGRZTzhSaG5xWkFEejJSTVJicGtqdFNGSzRZUWZzMVpuLU1MT0RzWVQtZG1ZcGhMY2prYklMVm1zN3gxTWhUUzA?oc=5",
+      "title": "防災情報の一斉配信に関するお知らせ - 陸前高田市ホームページ",
+      "source": "陸前高田市ホームページ",
+      "time": "2026-10-14T02:59:37+09:00",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTGRiRDlGQlY5S24zSk81bkpSY1NQbHpuekw0cUVOalczMVBDbkNMYno0djBpd2NGWFJVekF2VENZLTNHUVhsNVBDZTgxOTBlV28wb2l2UGgzcXdJR3lWd1BOczQ0WnZIOThKMGI4bEhxemxSTVdGeVpnT0xWTFJpTEE2SWI5UQ?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
