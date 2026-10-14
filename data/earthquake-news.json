@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T09:51:09+09:00",
+  "updated_at": "2026-10-14T14:48:31+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -16,20 +16,6 @@
       "zoomable": true,
       "matchedArea": "南海トラフ",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "千葉県で最大震度2の地震 千葉県・旭市、匝瑳市、香取市、山武市、横芝光町、成田市（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-10-12T01:29:13+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjdUhjVlpNX1R2OWhRVWQ3WUhqVlYzdWM2bUlVNFg3XzZxNTE3alJlSURtS21ZOU9oS3NoemRaVUlJZ2xIX3NPQkZXQWdSVGZWY2ZBYjN0Tm41STRtZTZWcFNYOGcwMzc1bW9Kc1RUWm1XSWxOSzBfWEFoUG14MDQ?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     },
     {
       "title": "パナマ南部でマグニチュード7.7の地震 震源から離れた首都パナマシティでもがれき散乱 - TBS NEWS DIG",
@@ -50,6 +36,20 @@
       "source": "朝日新聞",
       "time": "2026-10-13T20:36:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Bdlo5WWU2d2dNV0xfU3FOMTdSUk1vZjVLbFU3dVA4M1NMUGl1V2NmSDltNHljQWpBbjRzWk1jaGd0NmlPdTJZSWxlMVVKaGNzeDlCUUdmUFNsNmttLUQ4a1FpdlRsZE0?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "防災情報に不正アクセス メールアドレス313万件流出か（共同通信） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-10-13T19:39:12+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BQ09mMk93WUxJaGVPdERIUnluU1dlTkxxejVFX2RxZV9WYVh1U0FMeHItUDVHMFc1anpsUXVUbV9RejlTc1NkaXh1SFNyYnBYZVNBalF0czJpNnRlNHZPaThVSXd5NUZITktfbVFuSUd4bm1LYnF4eHYtSmxlS2M?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -102,19 +102,18 @@
       "zoomSource": "none"
     },
     {
-      "title": "熊本地震の被災地で “場所不足” を支援。MONETのマルチタスク車両を会議や救護に - ソフトバンク",
-      "source": "ソフトバンク",
-      "time": "2026-10-13T15:12:11+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5sTHJaYW9xUzZRYXBnX1dXZnpkeFMxZUl3bTBBUXEzQ0k2UzE1emRDdlhubkZSMGg5NXVnR0FMVUhaNE5SR1JRQ3A2N1hrSzlja3o0REtHNlg3a2pu?oc=5",
+      "title": "防災メールに不正アクセス 複数自治体、情報漏えいの可能性 - 時事ドットコム",
+      "source": "時事ドットコム",
+      "time": "2026-10-13T20:32:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBXeTZwQ29WQkxENHdMLUZrSXZsS3NPdWdTSHJMZGcyWVFTOHdRWEwzY091Sk45VE5rcHgxaHVEUXdXcFRMeEdyVGhWUmh6Mk5FVWwzTC0tZmNHZGxSMWFnZ2dfZw?oc=5",
       "type": "news",
-      "area": "九州内陸・周辺",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     }
   ]
 }
