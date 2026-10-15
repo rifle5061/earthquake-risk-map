@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T02:35:30+09:00",
+  "updated_at": "2026-10-16T05:56:06+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -32,19 +32,18 @@
       "zoomSource": "none"
     },
     {
-      "title": "南海トラフだけじゃない！ 今後30年で警戒すべき大型地震（AERA DIGITAL） - Yahoo!ニュース",
+      "title": "防災情報に不正アクセス メールアドレス313万件流出か（共同通信） - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
-      "time": "2026-10-13T11:00:35+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE56LVBiYjJYOFVyUUhsbjU3NHkwbUw1U1ZEX1BGSFJGUHBKX19kQ0JyZlozTmw4R3hsVUR1bTZSRktHdXJfRkc0bDRGUXBVdlVETVNYSE5MNnpkcHhnQ29vY2Q4c1QzU1RWdzU5SWpRZXdrS1RkaHNPWEtCLUN0NE0?oc=5",
+      "time": "2026-10-13T19:39:12+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BQ09mMk93WUxJaGVPdERIUnluU1dlTkxxejVFX2RxZV9WYVh1U0FMeHItUDVHMFc1anpsUXVUbV9RejlTc1NkaXh1SFNyYnBYZVNBalF0czJpNnRlNHZPaThVSXd5NUZITktfbVFuSUd4bm1LYnF4eHYtSmxlS2M?oc=5",
       "type": "news",
-      "area": "南海トラフ",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.8,
-      "lon": 136.2,
+      "lat": null,
+      "lon": null,
       "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "南海トラフ",
-      "zoomSource": "dictionary"
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "防災アプリ手がける企業に不正アクセス 自治体から個人情報漏洩か - 朝日新聞",
@@ -75,20 +74,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "自治体防災メールで個人情報漏洩 111団体、運営会社に不正アクセス - 日本経済新聞",
-      "source": "日本経済新聞",
-      "time": "2026-10-14T19:15:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KSnEzYUNickxzOTFzMWg3M25sazRjZEl2cmRRaExyU01Tbk44VnpuSHA3OWt4TmFrZHhDQ1hLaEJkSmd6b01UQWtIQTB6Y3JIakotNW01STJ3a1c1RVBPeXBqRGxES1NScEZRNA?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "【新プロジェクトＸ～挑戦者たち～】地震津波観測網5,500キロの命綱～あの日を繰り返さない～ - NHK",
       "source": "NHK",
       "time": "2026-10-15T14:02:11+09:00",
@@ -103,19 +88,33 @@
       "zoomSource": "none"
     },
     {
-      "title": "【速報】宮城県 防災情報の配信先のメールアドレスが漏えいか 委託先への不正アクセスで - khb東日本放送",
-      "source": "khb東日本放送",
-      "time": "2026-10-14T09:44:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1HVHBqZUczelJhak1aQkVNMUlFaV9BNkE4LURRMHh6bHRFMEFWUlUtRkdHb0Z6bENnbndkRkRJcGZaU2lFRzRfWmtiWWhsZE0?oc=5",
+      "title": "令和８年度「能登半島地震からの復興に向けた観光再生支援事業」の２次公募における採択結果 | 2026年 | 公募情報 | 観光庁 - 国土交通省",
+      "source": "国土交通省",
+      "time": "2026-10-14T10:01:14+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBjcjZyRmlUTWw4cDF6YnpGeUNsd1czeXFZUmMwYl9TcEFPR2d0Q3pLVjhpT2dDOEgxZ05VdF9hTVJwd2c5aGR0d2Q3X0FBSjlnVEJEbUR1bDFZNnRnUXc?oc=5",
       "type": "news",
-      "area": "東北地方",
+      "area": "能登半島周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 39.2,
-      "lon": 140.8,
-      "zoom": 6,
+      "lat": 37.35,
+      "lon": 136.9,
+      "zoom": 8,
       "zoomable": true,
-      "matchedArea": "東北地方",
+      "matchedArea": "能登半島周辺",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "アルカディア、防災情報配信サービス復旧へ 不正アクセスで一時停止 - 日本経済新聞",
+      "source": "日本経済新聞",
+      "time": "2026-10-15T14:43:08+09:00",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1IZXBGTkxIV211aHhUUGRsWkJDWnJLV2FpQlpxaDF4UmpBOGRTZTBaT1RrbV9iVW92cFJaYlRXRnpZcE43RVp4QUUzWUdsLThXU255a0pKWDZwNGpXY1RGa2xXb2hSZzB2bU5Sdg?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     }
   ]
 }
