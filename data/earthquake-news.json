@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T10:38:34+09:00",
+  "updated_at": "2026-10-15T15:57:18+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -74,20 +74,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "防災情報の一斉配信に関するお知らせ - 陸前高田市ホームページ",
-      "source": "陸前高田市ホームページ",
-      "time": "2026-10-14T02:59:37+09:00",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTGRiRDlGQlY5S24zSk81bkpSY1NQbHpuekw0cUVOalczMVBDbkNMYno0djBpd2NGWFJVekF2VENZLTNHUVhsNVBDZTgxOTBlV28wb2l2UGgzcXdJR3lWd1BOczQ0WnZIOThKMGI4bEhxemxSTVdGeVpnT0xWTFJpTEE2SWI5UQ?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "自治体防災メールで個人情報漏洩 111団体、運営会社に不正アクセス - 日本経済新聞",
       "source": "日本経済新聞",
       "time": "2026-10-14T19:15:00+09:00",
@@ -102,10 +88,25 @@
       "zoomSource": "none"
     },
     {
-      "title": "防災メールに不正アクセス 複数自治体、情報漏えいの可能性 - 時事ドットコム",
-      "source": "時事ドットコム",
-      "time": "2026-10-13T20:32:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBXeTZwQ29WQkxENHdMLUZrSXZsS3NPdWdTSHJMZGcyWVFTOHdRWEwzY091Sk45VE5rcHgxaHVEUXdXcFRMeEdyVGhWUmh6Mk5FVWwzTC0tZmNHZGxSMWFnZ2dfZw?oc=5",
+      "title": "【速報】宮城県 防災情報の配信先のメールアドレスが漏えいか 委託先への不正アクセスで - khb東日本放送",
+      "source": "khb東日本放送",
+      "time": "2026-10-14T09:44:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1HVHBqZUczelJhak1aQkVNMUlFaV9BNkE4LURRMHh6bHRFMEFWUlUtRkdHb0Z6bENnbndkRkRJcGZaU2lFRzRfWmtiWWhsZE0?oc=5",
+      "type": "news",
+      "area": "東北地方",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 39.2,
+      "lon": 140.8,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "東北地方",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "防災情報の一斉配信に関するお知らせ - 陸前高田市ホームページ",
+      "source": "陸前高田市ホームページ",
+      "time": "2026-10-14T02:59:37+09:00",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTGRiRDlGQlY5S24zSk81bkpSY1NQbHpuekw0cUVOalczMVBDbkNMYno0djBpd2NGWFJVekF2VENZLTNHUVhsNVBDZTgxOTBlV28wb2l2UGgzcXdJR3lWd1BOczQ0WnZIOThKMGI4bEhxemxSTVdGeVpnT0xWTFJpTEE2SWI5UQ?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
