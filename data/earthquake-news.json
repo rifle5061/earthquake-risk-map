@@ -1,22 +1,7 @@
 {
-  "updated_at": "2026-10-16T08:33:30+09:00",
+  "updated_at": "2026-10-16T12:10:03+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
-    {
-      "title": "熊本地震の断層帯と酷似 新潟で最も警戒すべき「長岡平野西縁断層帯」 最悪で震度7・死者7920人想定 発生確率は最高ランクのSに - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-10-13T19:15:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBCTmhzS0lWbFVwMU1BTG50SFRIX05IREVQU3JyUm9FSlR3Nkg4ckZvUUVnQ2VoS3pYS0x0WV9NM19iMno2RmtLX0xCeHpHekVKSmJkd0JGYw?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
-    },
     {
       "title": "南海トラフ巨大地震は2035年？ 歴史が示す「100年周期」の不気味な予兆（AERA DIGITAL） - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
@@ -31,6 +16,20 @@
       "zoomable": true,
       "matchedArea": "南海トラフ",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "パナマ南部でマグニチュード7.7の地震 震源から離れた首都パナマシティでもがれき散乱 - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-10-10T05:35:33+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE96ZkZrRzByZjh5ZV83eW9qRzhyak5FeUlpZEpBNE9jSi0zejFFME1nS05zczNYSGR3b3NiOU5sNXNIMHF3TWhHdTdxYWx1RHlkMVdkNGlVaw?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "パナマでM7.6の地震 日本で若干の海面変動も被害の心配なし - NHKニュース",
