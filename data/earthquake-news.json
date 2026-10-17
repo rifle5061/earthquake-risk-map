@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T14:53:15+09:00",
+  "updated_at": "2026-10-17T19:09:34+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -46,10 +46,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "震度1 カムチャツカ半島付近 2026年10月16日12:38ごろ 地震詳細 - TBS NEWS DIG",
+      "title": "「緊急地震速報」取り消し マグニチュードの計算に震源から遠く離れた観測点データを使用 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
-      "time": "2026-10-16T12:57:36+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdkFqWjBTeG9zdThWUnBfSWV1YWZISmJTWm1VVUNBWkVjSDFmR2JrMk9YOE9pZ21xcEJYVzl2S3FTc25kVjZtMzJ6cm5qaG9JOFNSckRoemNOTTQydnBZdGhvYWVaMTYwb3lGWTVyTGYwcnROa1BHczBkZ1JrZnpJQTNn?oc=5",
+      "time": "2026-10-17T05:49:23+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5mVEFua1dNWFFDb3BlQm1EVUhOQktYSHJQSXJDbThaOF9mbHlmTHpNWXhyNEFqZ3RMTDZpdFY5eGQ3dncxM0drMWdVZGNySWZIZjJUbjdIaw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -74,20 +74,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "緊急地震速報を取り消し 気象庁 - テレ朝NEWS",
-      "source": "テレ朝NEWS",
-      "time": "2026-10-16T13:05:43+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE45Qy1VR1FyeUE3WjlaWks2NzRlM2NCeXFNamtSd21ERXByeERsRHFaMkktNXZqQzRpRHhkZ3o5akFCa1hOeXpUS0RYVmlUWEFYOG5TandUU1NXYWVTOVczY2diRjN4SzF3SUhrbUd4blRwdw?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "銀座に鳴り響いたＭ９・９の緊急地震速報「頭が真っ白」、防災無線は「大地震です」…新幹線も一時運休 - 読売新聞",
       "source": "読売新聞",
       "time": "2026-10-16T22:00:00+09:00",
@@ -102,10 +88,24 @@
       "zoomSource": "none"
     },
     {
-      "title": "「緊急地震速報」取り消し マグニチュードの計算に震源から遠く離れた観測点データを使用 - TBS NEWS DIG",
+      "title": "【速報】気象庁 緊急地震速報を取り消し - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
-      "time": "2026-10-17T05:49:23+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5mVEFua1dNWFFDb3BlQm1EVUhOQktYSHJQSXJDbThaOF9mbHlmTHpNWXhyNEFqZ3RMTDZpdFY5eGQ3dncxM0drMWdVZGNySWZIZjJUbjdIaw?oc=5",
+      "time": "2026-10-16T12:54:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA2TDV0cldmXzBreDUzVk4tME42Q1VheGFTQWVJVHl5SVZCMVZZaGNySUR6TVZfMWlwalJNVFUxbkdGNjZSOWxJdDVyUFliSWJFaGtvbUtTSQ?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "気象庁 広域に緊急地震速報発表も取り消し 原因を調査 - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-10-16T15:42:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5MMzJTbVpzd1ZqVjB0c0g2MFkzNEFpenkyVFFxV3lWNkJfdERuMGJBMVNRTndYNXlFSG93VTcyY19DMk1DVkNNaDdlVkJjUjd0WUpRSmFpQWtqcVFGU3V3?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
