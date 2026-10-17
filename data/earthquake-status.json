@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-10-17T20:58:03+09:00",
+  "fetched_at": "2026-10-18T00:20:31+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/10/17 17:42:00",
-    "area": "和歌山県北部",
-    "magnitude": 2.8,
+    "time": "2026/10/17 23:48:00",
+    "area": "長野県北部",
+    "magnitude": 2.4,
     "depth": 10,
-    "maxScale": 10,
-    "intensityLabel": "1",
+    "maxScale": 20,
+    "intensityLabel": "2",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
