@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T08:44:11+09:00",
+  "updated_at": "2026-10-18T12:03:38+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -89,24 +89,25 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "緊急地震速報→8分後に取り消し…「マグニチュードを過大に推定」気象庁が謝罪 “誤報”で各地に混乱 サイバー攻撃の可能性は否定 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-10-16T18:30:44+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5TRVU5cGw1Sm1GdHl5aVRJLTlmcHBLSGNjVnNNcGxyT1FDU29lMVMzYnZXdC1neXNCa3ZsWGMwalFSdXgtUm1hTXhSRWJZVWw3YlpvWkc0cw?oc=5",
+      "title": "緊急地震速報取り消し、札幌で「安心した」「ひどい」の声―北海道 - 時事ドットコム",
+      "source": "時事ドットコム",
+      "time": "2026-10-16T16:12:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5NeVdOOTZ1aEJkRmVIM043MHZQVzdlSEZNS0ZYNnIydXVLMGNaQm12ZjI5WTRnWi1TRTNQSzJSc0VqS1g2bGowZ0ZHZGJ0V21pZV8zXy1KeXYxUkM2blVkc0pOQQ?oc=5",
       "type": "news",
-      "area": "",
+      "area": "北海道周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
+      "lat": 43.2,
+      "lon": 142.8,
       "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "zoomable": true,
+      "matchedArea": "北海道周辺",
+      "zoomSource": "dictionary"
     },
     {
-      "title": "気象庁 広域に緊急地震速報発表も取り消し 原因を調査 - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-10-16T15:42:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5MMzJTbVpzd1ZqVjB0c0g2MFkzNEFpenkyVFFxV3lWNkJfdERuMGJBMVNRTndYNXlFSG93VTcyY19DMk1DVkNNaDdlVkJjUjd0WUpRSmFpQWtqcVFGU3V3?oc=5",
+      "title": "【速報】気象庁 緊急地震速報を取り消し - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-10-16T12:54:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA2TDV0cldmXzBreDUzVk4tME42Q1VheGFTQWVJVHl5SVZCMVZZaGNySUR6TVZfMWlwalJNVFUxbkdGNjZSOWxJdDVyUFliSWJFaGtvbUtTSQ?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
