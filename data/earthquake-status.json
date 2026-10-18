@@ -1,11 +1,11 @@
 {
   "status": "ok",
-  "fetched_at": "2026-10-18T07:17:19+09:00",
+  "fetched_at": "2026-10-18T09:08:47+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/10/17 23:48:00",
-    "area": "長野県北部",
-    "magnitude": 2.4,
+    "time": "2026/10/18 08:16:00",
+    "area": "熊本県天草・芦北地方",
+    "magnitude": 2.9,
     "depth": 10,
     "maxScale": 20,
     "intensityLabel": "2",
