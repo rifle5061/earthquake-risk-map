@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-10-20T05:03:53+09:00",
+  "fetched_at": "2026-10-20T08:40:23+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/10/19 22:41:00",
-    "area": "沖縄本島近海",
-    "magnitude": 3.6,
-    "depth": 50,
-    "maxScale": 10,
-    "intensityLabel": "1",
+    "time": "2026/10/20 05:50:00",
+    "area": "釧路沖",
+    "magnitude": 4.0,
+    "depth": 30,
+    "maxScale": 20,
+    "intensityLabel": "2",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
