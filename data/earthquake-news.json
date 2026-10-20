@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T03:35:40+09:00",
+  "updated_at": "2026-10-21T07:05:51+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -89,24 +89,25 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "「びっくりです」「避難を意識」緊急地震速報、誤報で取り消し（2026年10月16日掲載）｜日テレNEWS NNN - 日テレNEWS NNN",
+      "title": "南海トラフ地震、兵庫県が県南部の津波被害想定を発表 13年ぶり見直し、浸水面積は前回比3割減 - 神戸新聞",
+      "source": "神戸新聞",
+      "time": "2026-10-15T18:40:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HX2o4Qi1GSWRiMWNzMDV6MjlUN05pdnA0MGFTTzJodUlvNDAxZWVvYVkxd2xlQ2ZMbkFqSjB5TkRKTUxjelZEWnpBbFlXYkpEUnVBc2dqQk4xbXpaZmJHUFBXV0J0ejRGMEJlUDFB?oc=5",
+      "type": "news",
+      "area": "南海トラフ",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.8,
+      "lon": 136.2,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "南海トラフ",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "「びっくりです」「避難を意識」緊急地震速報、誤報で取り消し（2026年10月16日掲載） - 日テレNEWS NNN",
       "source": "日テレNEWS NNN",
       "time": "2026-10-16T21:12:01+09:00",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5sVWthM05Ja1FCMXFpTTl3NXdTamdZcG10RlNkNWcwRWZveEltWnViNDZBQnY1dGxIN3dGQUkzWTVjSlZlZEZUQS1ReVhaa2ZXcTd1emN2VWp4dkZLUXdDSjZDeHdvZmlIb3o3QWthOVA1Q25lQVJFUzdENXk?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "緊急地震速報→8分後に取り消し…「マグニチュードを過大に推定」気象庁が謝罪 “誤報”で各地に混乱 サイバー攻撃の可能性は否定 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-10-16T18:30:44+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5TRVU5cGw1Sm1GdHl5aVRJLTlmcHBLSGNjVnNNcGxyT1FDU29lMVMzYnZXdC1neXNCa3ZsWGMwalFSdXgtUm1hTXhSRWJZVWw3YlpvWkc0cw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
