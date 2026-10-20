@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T23:05:49+09:00",
+  "updated_at": "2026-10-21T03:35:40+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -74,7 +74,22 @@
       "zoomSource": "none"
     },
     {
-      "title": "「びっくりです」「避難を意識」緊急地震速報、誤報で取り消し（2026年10月16日掲載） - 日テレNEWS NNN",
+      "title": "緊急地震速報を取り消し 北海道から東海地方の広範囲 気象庁 - 毎日新聞",
+      "source": "毎日新聞",
+      "time": "2026-10-16T12:58:03+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ZLTFGVS1IZFduZi1maVNSeG9mS3l4eEpoVjgwUjhPeDN5ZERVQThJdDY1bnNiTkpGbXM4X3BodnBQTk5OODdnamF6WkhfeC02WEZYekEtQ2YwTnpNUDlOOXVLSkxpclFY?oc=5",
+      "type": "news",
+      "area": "北海道周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 43.2,
+      "lon": 142.8,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "北海道周辺",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "「びっくりです」「避難を意識」緊急地震速報、誤報で取り消し（2026年10月16日掲載）｜日テレNEWS NNN - 日テレNEWS NNN",
       "source": "日テレNEWS NNN",
       "time": "2026-10-16T21:12:01+09:00",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5sVWthM05Ja1FCMXFpTTl3NXdTamdZcG10RlNkNWcwRWZveEltWnViNDZBQnY1dGxIN3dGQUkzWTVjSlZlZEZUQS1ReVhaa2ZXcTd1emN2VWp4dkZLUXdDSjZDeHdvZmlIb3o3QWthOVA1Q25lQVJFUzdENXk?oc=5",
@@ -88,25 +103,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "北海道函館市で震度1 M6.9 気象庁は緊急地震速報取り消し - 毎日新聞",
-      "source": "毎日新聞",
-      "time": "2026-10-16T13:24:54+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBiNngzUm94SDNmREhqTU5nb1ZYOExlc3gxLUJkRmpWY1JlcVpvSVU3SnJxdXNQd01JM1U2UW9abktaMjdaTlJScWNuM0hTLXRQdXNqaG1TNG9QS2w5Zzc2MEFQcy10eExD?oc=5",
-      "type": "news",
-      "area": "北海道周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 43.2,
-      "lon": 142.8,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "北海道周辺",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "カムチャツカ半島を震源とする地震に関する総理指示（12：41） - 首相官邸",
-      "source": "首相官邸",
-      "time": "2026-10-16T13:34:16+09:00",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5uU2NockZCQ1UtMmpndkJMMlJoZjA2dmszc3NKd05vTjlpVGp3VkY1SkI1MlB4OFR1cmx3Y3Nha0xLaGhMaEJ2QmdpVjEza1ZCYlB2MFNTTVVMdi16M1dWWWsyaS1rUy0wLU4xSA?oc=5",
+      "title": "緊急地震速報→8分後に取り消し…「マグニチュードを過大に推定」気象庁が謝罪 “誤報”で各地に混乱 サイバー攻撃の可能性は否定 - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-10-16T18:30:44+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5TRVU5cGw1Sm1GdHl5aVRJLTlmcHBLSGNjVnNNcGxyT1FDU29lMVMzYnZXdC1neXNCa3ZsWGMwalFSdXgtUm1hTXhSRWJZVWw3YlpvWkc0cw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
