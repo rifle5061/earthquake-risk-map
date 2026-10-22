@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T17:49:23+09:00",
+  "updated_at": "2026-10-22T23:20:02+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -74,20 +74,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "銀座に鳴り響いたＭ９・９の緊急地震速報「頭が真っ白」、防災無線は「大地震です」…新幹線も一時運休 - 読売新聞",
-      "source": "読売新聞",
-      "time": "2026-10-16T22:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlMnpFNl9CR2VFQU1wY29JeHNTcUVVVGFTRUFkQnBzcXNmeFRleFg4QlR3LUVFSVYyN1h3NE1Qa25wM1NzczR0dm5Ra0tTUVlpTDAzdkxtRTlvM2lwMThiOWtUa0p4QQ?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "緊急地震速報を取り消し 北海道から東海地方の広範囲 気象庁 - 毎日新聞",
       "source": "毎日新聞",
       "time": "2026-10-16T12:58:03+09:00",
@@ -101,6 +87,20 @@
       "zoomable": true,
       "matchedArea": "北海道周辺",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "銀座に鳴り響いたＭ９・９の緊急地震速報「頭が真っ白」、防災無線は「大地震です」…新幹線も一時運休 - 読売新聞",
+      "source": "読売新聞",
+      "time": "2026-10-16T22:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlMnpFNl9CR2VFQU1wY29JeHNTcUVVVGFTRUFkQnBzcXNmeFRleFg4QlR3LUVFSVYyN1h3NE1Qa25wM1NzczR0dm5Ra0tTUVlpTDAzdkxtRTlvM2lwMThiOWtUa0p4QQ?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "緊急地震速報→8分後に取り消し…「マグニチュードを過大に推定」気象庁が謝罪 “誤報”で各地に混乱 サイバー攻撃の可能性は否定 - TBS NEWS DIG",
