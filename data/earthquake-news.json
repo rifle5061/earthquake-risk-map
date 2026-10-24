@@ -1,21 +1,7 @@
 {
-  "updated_at": "2026-10-24T15:11:33+09:00",
+  "updated_at": "2026-10-24T20:23:56+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
-    {
-      "title": "誤報の地震速報 ぞっとした被災者 - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-10-17T17:07:34+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5DNnZLSTZiZEZUT3RoLWZINEZwcXRoaEwxZkdCQkpCejBCc29IU1hBd0E3NkZGcUJybS1kUEU5QlhqeUFFeXVUeHQzbGNKMjZE?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
     {
       "title": "気象庁長官 緊急地震速報を誤発表「非常に遺憾 対策検討」 - NHKニュース",
       "source": "NHKニュース",
@@ -35,6 +21,20 @@
       "source": "日本経済新聞",
       "time": "2026-10-17T23:46:49+09:00",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtYXFDYlJ0bmhCWDZFOE5Ic3hkYUd0M1NKUS03ejdSNldiU3c2aDNQNC0yTU9oTjNVWEV3WlVzVXUtcTRzUm54a1V5MnBubmx6NTkzRnhtb0tEbmtJd3o1by02LUJuaEJNOFZUQQ?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "緊急地震速報が配信されなかったドコモ「エリアメール」、不具合解消（読売新聞オンライン） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-10-17T21:25:55+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBpY0ZHUUp1YXZzUlpobEloSy1pUlhqNmgtTDZoLUVhcXVmZ3g4dUEzSjh3UXhHUnlCTThTZTlPZGpPZ1FuaHdIekcydUpTMEx6QXJ6OVMwLXVXaFg0WnVBbnhMVkVRVmxrZlZvVWUtbmszNFlnT0p2X2JqTTkwZkk?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -73,6 +73,20 @@
       "zoomSource": "none"
     },
     {
+      "title": "親子で学ぶ！防災体験フェスタ - 阪南市",
+      "source": "阪南市",
+      "time": "2026-10-22T09:16:01+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9VSXgzcTdndU50WGRXLTIyZ3JFZy1GQ3gyQzRoOTFlWkpUcWduMzQxLXhmTk1CYzFNcjRocUU4enRCejVhU0hpV2tHWldzdTUtTjN3UW5TMmFNRDVJS1VUNHV2Zy01QjNQVi01bjR1eV9NZWltVWF6NWJB?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "令和8 年熊本地震災害義援金の受付を終了しました - 串本町",
       "source": "串本町",
       "time": "2026-10-22T16:45:58+09:00",
@@ -86,20 +100,6 @@
       "zoomable": true,
       "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "親子で学ぶ！防災体験フェスタ - 阪南市",
-      "source": "阪南市",
-      "time": "2026-10-22T09:16:01+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9VSXgzcTdndU50WGRXLTIyZ3JFZy1GQ3gyQzRoOTFlWkpUcWduMzQxLXhmTk1CYzFNcjRocUU4enRCejVhU0hpV2tHWldzdTUtTjN3UW5TMmFNRDVJS1VUNHV2Zy01QjNQVi01bjR1eV9NZWltVWF6NWJB?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     },
     {
       "title": "セキュリティ対策強化のため防災メールの配信を一時停止しています - 相馬市",
