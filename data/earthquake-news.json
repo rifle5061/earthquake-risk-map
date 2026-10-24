@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T23:44:05+09:00",
+  "updated_at": "2026-10-25T02:49:27+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -31,24 +31,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "ドコモ、緊急地震速報の配信不具合を解消 データ形式の違いが原因 - 日本経済新聞",
-      "source": "日本経済新聞",
-      "time": "2026-10-17T23:46:49+09:00",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtYXFDYlJ0bmhCWDZFOE5Ic3hkYUd0M1NKUS03ejdSNldiU3c2aDNQNC0yTU9oTjNVWEV3WlVzVXUtcTRzUm54a1V5MnBubmx6NTkzRnhtb0tEbmtJd3o1by02LUJuaEJNOFZUQQ?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "南太平洋バヌアツ沖でM6.9の地震 津波警報を解除（テレビ朝日系（ANN）） - Yahoo!ニュース",
+      "title": "夜中にマグニチュード7.0の強い地震 建物倒壊で「担架持ってきて!」死傷者90人超 避難者1万2500人 中国・チベット自治区 - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
-      "time": "2026-10-24T16:40:04+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jX0hFeEwtMll1VjhaUnIwTGRnSURmRG1nSy1XSUJMWWlnbEJWaHBpbU5fQ3N6V2NUMUNlcFhnR09zTkpwMVBqblBwamxYclBPVkVZY0c2TFhGc1VESXdBN2pXaGpGZndXeDNaeG1lSGVSWlh5dTl6RmlCNW12RG8?oc=5",
+      "time": "2026-10-23T20:43:20+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBud1ZncFliQ01DYnRpdzJ3M2ZuSlBLSDkzelB4VktUeU9LSzdFQnFWUlBXQ2c2SXg2UXlrcnBhNHI3eWlMTjE5VjltMTloa0Y5ZUZlelNidXAtWG9QLTd4Smp1VGVjZGxhV2pzcUZmcFFOcnVYOGpEMmJidkN0NHc?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -73,6 +59,21 @@
       "zoomSource": "none"
     },
     {
+      "title": "令和8 年熊本地震災害義援金の受付を終了しました - 串本町",
+      "source": "串本町",
+      "time": "2026-10-22T16:45:58+09:00",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5rSExzMUg0blp5aUJvZnVSbnV1SmdBVEVXN2hYVmNuczVDOFgzS1BfeGZXa2c4U2U4WDNEMGdvV3FYM0tiTXgtc0NuMTdTNlRUZnRYSFRQQThRS1NEYU1YLUFxQ3ZqUWJoZDN2TVZQSXRDLXNUSm5j?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
+    },
+    {
       "title": "親子で学ぶ！防災体験フェスタ - 阪南市",
       "source": "阪南市",
       "time": "2026-10-22T09:16:01+09:00",
@@ -87,19 +88,18 @@
       "zoomSource": "none"
     },
     {
-      "title": "令和8 年熊本地震災害義援金の受付を終了しました - 串本町",
-      "source": "串本町",
-      "time": "2026-10-22T16:45:58+09:00",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5rSExzMUg0blp5aUJvZnVSbnV1SmdBVEVXN2hYVmNuczVDOFgzS1BfeGZXa2c4U2U4WDNEMGdvV3FYM0tiTXgtc0NuMTdTNlRUZnRYSFRQQThRS1NEYU1YLUFxQ3ZqUWJoZDN2TVZQSXRDLXNUSm5j?oc=5",
+      "title": "避難所運営、肝は「TKB」 トイレ･キッチン･ベッド備え災害関連死防げ - 日本経済新聞",
+      "source": "日本経済新聞",
+      "time": "2026-10-19T11:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFByQVNGeTI0RHRsT0drVE1hN0J4Wl9md2cxcWZsWnpXWTJoM1ZoeTJiU01SRXpWTGZzNVBnTDl2VzZrMkNPenlzN3d5VzRMQWNqaU9IX0FNSmp4eE5KNXFvYmhKaFlqTEt1VTI5TA?oc=5",
       "type": "news",
-      "area": "九州内陸・周辺",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "セキュリティ対策強化のため防災メールの配信を一時停止しています - 相馬市",
