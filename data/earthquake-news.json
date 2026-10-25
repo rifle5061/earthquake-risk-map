@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T07:37:33+09:00",
+  "updated_at": "2026-10-25T09:49:04+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -59,18 +59,18 @@
       "zoomSource": "none"
     },
     {
-      "title": "令和8 年熊本地震災害義援金の受付を終了しました - 串本町",
-      "source": "串本町",
-      "time": "2026-10-22T16:45:58+09:00",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5rSExzMUg0blp5aUJvZnVSbnV1SmdBVEVXN2hYVmNuczVDOFgzS1BfeGZXa2c4U2U4WDNEMGdvV3FYM0tiTXgtc0NuMTdTNlRUZnRYSFRQQThRS1NEYU1YLUFxQ3ZqUWJoZDN2TVZQSXRDLXNUSm5j?oc=5",
+      "title": "震度速報＝気象庁発表（２５日９時２分） ：地震（震度３以上） - 沖縄タイムス社",
+      "source": "沖縄タイムス社",
+      "time": "2026-10-25T09:02:20+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5pYms0TTBIZk1CdW51X3BkeDNnTEQxdl9TQW01cXFScEdpUDc0cVZIelNRTFBSeVlzbDNZZVRVNXBnY3pwQVVvV0hnSUVqWjQxUXFQTTJDZ1JLUUV5RUE?oc=5",
       "type": "news",
-      "area": "九州内陸・周辺",
+      "area": "沖縄・南西諸島",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
+      "lat": 25.7,
+      "lon": 127.8,
+      "zoom": 6,
       "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
+      "matchedArea": "沖縄・南西諸島",
       "zoomSource": "dictionary"
     },
     {
@@ -102,18 +102,19 @@
       "zoomSource": "none"
     },
     {
-      "title": "セキュリティ対策強化のため防災メールの配信を一時停止しています - 相馬市",
-      "source": "相馬市",
-      "time": "2026-10-22T15:07:57+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWmlURjY4OTNYaHFNa1d6YVpGckhPTnhZdHJTWGZfSVZCOVhORGJkMjlQbEpCWFo2Z05BcUVOUE40MFpzOTE3c3BnMl9zY0c0TjdSdHozalJGTDBZdGp4SXZmM0NqcEJXWVpka0xpRnhwRkYtNDhncFowNzVIME5jZTlvbHlUS085aXNr?oc=5",
+      "title": "令和8 年熊本地震災害義援金の受付を終了しました - 串本町",
+      "source": "串本町",
+      "time": "2026-10-22T16:45:58+09:00",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5rSExzMUg0blp5aUJvZnVSbnV1SmdBVEVXN2hYVmNuczVDOFgzS1BfeGZXa2c4U2U4WDNEMGdvV3FYM0tiTXgtc0NuMTdTNlRUZnRYSFRQQThRS1NEYU1YLUFxQ3ZqUWJoZDN2TVZQSXRDLXNUSm5j?oc=5",
       "type": "news",
-      "area": "",
+      "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
     }
   ]
 }
