@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T22:52:45+09:00",
+  "updated_at": "2026-10-27T04:44:10+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -47,25 +47,38 @@
       "zoomSource": "none"
     },
     {
-      "title": "熊本地震「震度６強」の９６％が再液状化…繰り返される被害、専門家は事前対策訴え - 読売新聞",
-      "source": "読売新聞",
-      "time": "2026-10-26T05:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3VmNVcVpnS3U1V0ZuanVlb3VQdnhpaDN3NGlETGFPa3h5bURmWGJUUGJsdjh6SENpWGFUUHNGa3pMbUJNd0FndDBkakstVzV2b0U5bjVMOFRFVDFrTS1ob3RwTTZPZw?oc=5",
+      "title": "広島県で最大震度1の地震 広島県・広島西区 - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-10-27T02:18:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4tcFhTMjFxVHlBS0x2SF9fV0kxYWdRZ0UwLXFOS2RFdllwNnhMLXZXVVBWRW1iNDV0U1ZBcjhhbTlDRDl4U3JETjd0ZTluSmFaSFNGMl9vazFMdEt0UUdpMnhUcWQ?oc=5",
       "type": "news",
-      "area": "九州内陸・周辺",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "鹿屋市などで震度３ この地震による津波の心配なし（ＫＹＴ鹿児島読売テレビ） - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
       "time": "2026-10-25T09:04:13+09:00",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oekxfUmotcUtUcmJZTlI5bFhwdllhaEhaZ0lySHBaSzlkMmgtRGF3Q1FxTmdSYUFyNzN5Ul9SblNuTjBnS2NxWThwUXIxcVNLQnlkWmEtdDg0aUlCOXlYR1I4ODQ1TUxWR3VxTVplNE1fUzR0Ny1yQ1B2R1BhUnc?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "【速報】南太平洋の島国バヌアツ沖でM7.2の地震 日本への津波の影響なし - テレ朝NEWS",
+      "source": "テレ朝NEWS",
+      "time": "2026-10-24T12:06:59+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8tVVM2WFJVM0RRX1RTdkNucmpjSTkzOHpYNTZDTXRjX3FaSmN0cW1IYmNnaVFaVEswR2M1OXk3WkZ4ZVRFLVlyTmJSZ0QwWk5fSGltNFMweU9SV053TlU0RU43WVBscjdQb20wMjI3MzR2VU94WWlrTHNn?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -89,20 +102,6 @@
       "zoomable": true,
       "matchedArea": "沖縄・南西諸島",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "【速報】南太平洋の島国バヌアツ沖でM7.2の地震 日本への津波の影響なし - テレ朝NEWS",
-      "source": "テレ朝NEWS",
-      "time": "2026-10-24T12:06:59+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8tVVM2WFJVM0RRX1RTdkNucmpjSTkzOHpYNTZDTXRjX3FaSmN0cW1IYmNnaVFaVEswR2M1OXk3WkZ4ZVRFLVlyTmJSZ0QwWk5fSGltNFMweU9SV053TlU0RU43WVBscjdQb20wMjI3MzR2VU94WWlrTHNn?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     },
     {
       "title": "全国一斉情報伝達試験に伴う防災行政無線の放送を実施します - 大分市",
