@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-10-26T07:17:13+09:00",
+  "fetched_at": "2026-10-26T09:32:33+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/10/26 06:46:00",
-    "area": "福島県会津",
-    "magnitude": 3.2,
-    "depth": 0,
-    "maxScale": 20,
-    "intensityLabel": "2",
+    "time": "2026/10/26 07:15:00",
+    "area": "小笠原諸島西方沖",
+    "magnitude": 5.6,
+    "depth": 500,
+    "maxScale": 10,
+    "intensityLabel": "1",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
