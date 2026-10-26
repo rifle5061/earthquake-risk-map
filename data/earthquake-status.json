@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-10-26T14:18:48+09:00",
+  "fetched_at": "2026-10-26T20:22:20+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/10/26 13:37:00",
-    "area": "千葉県北東部",
-    "magnitude": 3.1,
-    "depth": 50,
+    "time": "2026/10/26 18:47:00",
+    "area": "紀伊水道",
+    "magnitude": 2.6,
+    "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
