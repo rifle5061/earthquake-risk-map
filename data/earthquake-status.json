@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-10-27T15:15:34+09:00",
+  "fetched_at": "2026-10-27T21:31:59+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/10/27 09:25:00",
-    "area": "福島県沖",
-    "magnitude": 4.6,
-    "depth": 60,
-    "maxScale": 30,
-    "intensityLabel": "3",
+    "time": "2026/10/27 20:50:00",
+    "area": "千葉県北東部",
+    "magnitude": 2.6,
+    "depth": 30,
+    "maxScale": 10,
+    "intensityLabel": "1",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
