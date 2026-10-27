@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T12:44:35+09:00",
+  "updated_at": "2026-10-27T18:35:59+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -63,6 +63,34 @@
       "zoomSource": "dictionary"
     },
     {
+      "title": "福山市総合防災訓練について - 福山市ホームページ",
+      "source": "福山市ホームページ",
+      "time": "2026-10-22T16:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9mTlBta1lNbzNJZVFjR1dibUNpbEtTd21nVEJsS2lwaVQyTlRyTVpBRWsyM19ab3dkX0ZZVHhFeVdvR0lrLVhHQ2lvaTZpZkVBTVpscUJJSjR4d0swSTgxSl9hRlN1WWhFYTg1c2dWdHRpaGxmNm5B?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "2016年 鳥取県中部で震度6弱の地震 - NHK",
+      "source": "NHK",
+      "time": "2026-10-21T16:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkZmR0OURYS1hLblZLVTFhNnB6UFY2c29Cbi1WdWFFRGppaWdrQkFLSUhYWWVGS05QQ2dldHBxaXRXa1VPMEhZeVVwV0RLeUdqUWJ6NWpLLTZZeVJrYkJ6eFV4dkFRcXR4M3c1eQ?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "【地震情報】宮城 福島で震度3 津波の心配なし - NHKニュース",
       "source": "NHKニュース",
       "time": "2026-10-27T09:29:02+09:00",
@@ -78,38 +106,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "福山市総合防災訓練について - 福山市ホームページ",
-      "source": "福山市ホームページ",
-      "time": "2026-10-22T16:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9mTlBta1lNbzNJZVFjR1dibUNpbEtTd21nVEJsS2lwaVQyTlRyTVpBRWsyM19ab3dkX0ZZVHhFeVdvR0lrLVhHQ2lvaTZpZkVBTVpscUJJSjR4d0swSTgxSl9hRlN1WWhFYTg1c2dWdHRpaGxmNm5B?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "広島県で最大震度1の地震 広島県・広島西区 (TBS NEWS DIG Powered by JNN) - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-10-27T02:20:25+09:00",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNkxXd0xVelhKQ1l1NzJPREltRDQ0MVdYMHZpLXNDbGtMclFWY0FkcEhKTWF1cmxqbnEyMG8tN0dfdnkzeWVRSXJ3c09PMGJ2UWJRUEt5OFRGOVVmSFM5WXlxSmlwemRMMnhHSTQ4bldTRVZyM1lTZUJSTUxya0ZaVmtJOUpBb1N4b2lLZU9B?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "11月5日（木曜日） 志布志市地震・津波防災訓練が実施されます。 - 志布志市",
-      "source": "志布志市",
-      "time": "2026-10-21T12:43:58+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5FYU5GSXdOVkVndDJDck9IbGs0OXFnTHN1YllQM015blhRZExFTTczS2VZbVRORjFpcm01UF9QbGVoRUlyQmJ3NTFaV1RFbUFNLTdBcVV4MTdFVGh6Qjc4d3Bn?oc=5",
+      "title": "広島県で最大震度1の地震 広島県・広島西区 - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-10-27T02:18:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE52OHJIcExoTnRmc2JkSnROTV9EMjdBVGd4VUtoTHRPLWttR0h4bUVfQ1RHVlV3dy1maW84TFZMbndCYVE3RFBfdUFIVEpQUVJ1aENxamVjZw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
