@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-10-29T04:44:07+09:00",
+  "fetched_at": "2026-10-29T08:36:37+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/10/29 03:32:00",
-    "area": "千葉県北東部",
+    "time": "2026/10/29 08:14:00",
+    "area": "釧路地方中南部",
     "magnitude": 4.4,
-    "depth": 50,
+    "depth": 120,
     "maxScale": 20,
     "intensityLabel": "2",
     "domesticTsunami": "None"
