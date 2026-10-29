@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T10:32:41+09:00",
+  "updated_at": "2026-10-29T17:01:30+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -33,24 +33,25 @@
       "zoomSource": "dictionary"
     },
     {
+      "title": "【地震情報】宮城 福島で震度3 津波の心配なし - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-10-27T09:29:02+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5rZ1FVYl80Ymo4UTVaRUlOQzk2ajY3SmVJbVIzSjVzZDF6U01Qc0paSVlCakQ5T2JIUkF2YWZvWmc1N3dqOWlFWERxdFBYdk80Z3pYVFYybTdXVUFLU2Nr?oc=5",
+      "type": "news",
+      "area": "東北地方",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 39.2,
+      "lon": 140.8,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "東北地方",
+      "zoomSource": "dictionary"
+    },
+    {
       "title": "【地震ライブ】千葉北東部で震度5弱 津波の心配なし（2026年10月29日) - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
       "time": "2026-10-29T00:19:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9hT0hrblowS0NId2JVR1AwdnhlREE0U0dnVXhkd1pxWF9PX0pZSktxTV9FRFNFYzU0clBkR19BaDlBTmpUcnNuOEZFTGlXTXBqUF9WX3dacw?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "【地震情報】千葉県北東部で震度5弱 津波の心配なし - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-10-29T00:11:04+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZY2NpTHI4M0lNa1RWdGRmLUFva1I2MWREV1M3X2E1YmRiSnZnTkg3cGRxNjJkU2JMWDE1VUs3X1EwUFVIS0JidUpVaGNmMlNtMkJIcGlkN1ZRb3JxdUdz?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -90,20 +91,6 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "【速報】千葉・横芝光町で最大震度5弱の地震 津波の心配なし - テレ朝NEWS",
-      "source": "テレ朝NEWS",
-      "time": "2026-10-29T00:24:49+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBpQmVUWV9fVEpmQ05TTXliRlR3YnlJT2IxZFVuRkVpclJOcmJ4bEJDbm9UUWQ3MzhkVk0zZi1Gc2tOVkJ4OHBkYjJIRTlwSjE5aEdmSVZPVEFHd2JEa1l5TWNvZC1DODJjYUFZQ1kwUjhvZw?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "小笠原諸島西方沖でM7.0の深発地震 異常震域がみられ東北でも揺れ - ウェザーニュース",
       "source": "ウェザーニュース",
       "time": "2026-10-25T11:35:00+09:00",
@@ -116,6 +103,21 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
+    },
+    {
+      "title": "2026年熊本地震3カ月 千人超がなお避難所生活 建設型仮設完成2割強、罹災証明未交付など要因（熊本日日新聞） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-10-28T05:05:25+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1XaDdwVmdTQktORlplWWk4UlFROU5MUm5BUXBER3RMeWdhcEVXcmE1OXBBTE5qUWZVYVlhc2FjMjJuWEFtRnZsQlRaWTR4akd1bEVWcFljaTJOVDlYU3haN0VPM05JeW9vcEdyVlZVRWYtd1F5aXE4ZXVhYXdIVFU?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
     }
   ]
 }
