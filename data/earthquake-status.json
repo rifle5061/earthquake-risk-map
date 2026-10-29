@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-10-29T18:20:12+09:00",
+  "fetched_at": "2026-10-30T01:18:59+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/10/29 08:14:00",
-    "area": "釧路地方中南部",
-    "magnitude": 4.4,
-    "depth": 120,
-    "maxScale": 20,
-    "intensityLabel": "2",
+    "time": "2026/10/30 01:06:00",
+    "area": "岐阜県飛騨地方",
+    "magnitude": 2.3,
+    "depth": 10,
+    "maxScale": 10,
+    "intensityLabel": "1",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
