@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-10-30T16:12:52+09:00",
+  "fetched_at": "2026-10-30T23:12:43+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/10/30 13:58:00",
+    "time": "2026/10/30 22:18:00",
     "area": "岩手県沖",
-    "magnitude": 4.1,
-    "depth": 40,
+    "magnitude": 4.0,
+    "depth": 20,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
