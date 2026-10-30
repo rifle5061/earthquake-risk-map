@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-10-30T10:13:47+09:00",
+  "fetched_at": "2026-10-30T16:12:52+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/10/30 01:06:00",
-    "area": "岐阜県飛騨地方",
-    "magnitude": 2.3,
-    "depth": 10,
+    "time": "2026/10/30 13:58:00",
+    "area": "岩手県沖",
+    "magnitude": 4.1,
+    "depth": 40,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
