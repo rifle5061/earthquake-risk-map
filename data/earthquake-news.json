@@ -1,35 +1,7 @@
 {
-  "updated_at": "2026-10-30T15:11:44+09:00",
+  "updated_at": "2026-10-30T22:18:34+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
-    {
-      "title": "一日限定！遊びながら学べる『防災フェア』を開催！ - 寝屋川市",
-      "source": "寝屋川市",
-      "time": "2026-10-25T16:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZUhReWRSV1BpXy1yNlJBTzk2VXo5andRczhpUjJ1bUpqNnJ3ckFTQzdmTFpfNkZIaU96Z2huTkdJT3lYeFEwS3RjeXVDVm8wX3JrWVBEZzJ2RTJZWXhILW9ROEJhQWdmM1hMQ1ljQUlSYmNxSkotTVo2U2pkc2pqbU5XdHltUld5TkxtUDNCVExoT2M?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "国際安全都市かめおか防災・安全安心フェスタ2026を開催します！ - 亀岡市",
-      "source": "亀岡市",
-      "time": "2026-10-23T16:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1wTHc5VmpERzU2eUlrSm1WcUU0WDlwbW1jREhTWWswVllNVGdpM2phYzBSZ3h4anAyN2l5cGdLRU9mVVRYU2tDMWdJNDhaT3R0dWFyblF3TUNHVDgxdGM2VHk3TWMtQQ?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
     {
       "title": "小笠原諸島西方沖でM7.0の深発地震 東京都小笠原村で震度3 津波の心配なし - ウェザーニュース",
       "source": "ウェザーニュース",
@@ -61,6 +33,20 @@
       "zoomSource": "dictionary"
     },
     {
+      "title": "千葉県で震度5弱の地震 マグニチュード5.5、津波なし - 日本経済新聞",
+      "source": "日本経済新聞",
+      "time": "2026-10-29T00:16:31+09:00",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE56N20xMUJSWHZoMi10YU5WbHBoRVY0Zl9JMHdyTzd3V283aC1BSm4zSmxvZkFWMlBUeExBWnBfbk5xeExnVENmZThSN0luNkhYLUhSeTFyUnFCNlkzR1pzUzdUdkZKWXQyQ04ycw?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "千葉県で最大震度5弱の強い地震 千葉県・横芝光町 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
       "time": "2026-10-29T00:16:00+09:00",
@@ -89,10 +75,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "防災えほんプロジェクトの参加者を募集します。 - 港区",
-      "source": "港区",
-      "time": "2026-10-23T16:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jak5ERm5BbGZzY1B6bnhHOUVjNjA5YWNmWXVuWk1yc2dER28zRkZtejNRZEJ2bUZEWTRZRUdYWkVJOU45MDV2eXpfSXJWS1NqQ3hkV2Z0eEM2bmFWWThHQkMyTjU2TGptRTdjekJ3?oc=5",
+      "title": "11月2日、防災庁が発足へ 国難級災害へ事前防災徹底 - 建設通信新聞Digital",
+      "source": "建設通信新聞Digital",
+      "time": "2026-10-30T16:42:25+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JZHJkbVRlUjhSc1ZORFZwekhNTVlqVzVYV0xZZThzbXNJMVVMb3oyV3lRU3d1YVpDc0Vxd3RHUEdwWXFmQlZGVDVITzk5RUZ4dEJtQmZ3?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -103,18 +89,34 @@
       "zoomSource": "none"
     },
     {
-      "title": "【速報】千葉・横芝光町で最大震度5弱の地震 津波の心配なし - テレ朝NEWS",
-      "source": "テレ朝NEWS",
-      "time": "2026-10-29T00:24:49+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBpQmVUWV9fVEpmQ05TTXliRlR3YnlJT2IxZFVuRkVpclJOcmJ4bEJDbm9UUWQ3MzhkVk0zZi1Gc2tOVkJ4OHBkYjJIRTlwSjE5aEdmSVZPVEFHd2JEa1l5TWNvZC1DODJjYUFZQ1kwUjhvZw?oc=5",
+      "title": "熊本地震「震度６強」の９６％が再液状化…繰り返される被害、専門家は事前対策訴え - 読売新聞",
+      "source": "読売新聞",
+      "time": "2026-10-26T05:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3VmNVcVpnS3U1V0ZuanVlb3VQdnhpaDN3NGlETGFPa3h5bURmWGJUUGJsdjh6SENpWGFUUHNGa3pMbUJNd0FndDBkakstVzV2b0U5bjVMOFRFVDFrTS1ob3RwTTZPZw?oc=5",
       "type": "news",
-      "area": "",
+      "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "【地震】宮城県内で震度2 千葉県北東部を震源とする最大震度5弱の地震が発生 津波の心配なし - khb東日本放送",
+      "source": "khb東日本放送",
+      "time": "2026-10-29T00:16:08+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBiTHlPYWY0TTl1T2pvd1d3Z1ktcTl0Z2xTVGdDdENLaDZJMFJscEE5UnBFbktNNmtvS2hhNWJGbHFrTGxaMVNCWXFJOTVCYU0?oc=5",
+      "type": "news",
+      "area": "東北地方",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 39.2,
+      "lon": 140.8,
       "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
+      "zoomable": true,
+      "matchedArea": "東北地方",
+      "zoomSource": "dictionary"
     }
   ]
 }
