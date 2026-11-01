@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T05:09:46+09:00",
+  "updated_at": "2026-11-02T08:44:56+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -33,21 +33,6 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "震度3 三重県南東沖 2026年11月01日07:15ごろ 地震詳細 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-11-01T07:23:28+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdlRHR1dvR3hNMjFtRl83MHZCOU5DenRhazhUVnNqMnlMcEVpbzhGN1NDX25CMjdqZVNIUGQ1MTJ1NGhXNEtwU0xNcGZDMnQxWUQxZzh5SkRoV2FNT000X2F2eGtZRjZHREZ4Y1dqTXNhMDR2M0YzZzhrSHEtMXpHNHlR?oc=5",
-      "type": "news",
-      "area": "太平洋側・南海トラフ想定域",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 33.2,
-      "lon": 134.5,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "太平洋側・南海トラフ想定域",
-      "zoomSource": "dictionary"
-    },
-    {
       "title": "11月2日、防災庁が発足へ 国難級災害へ事前防災徹底 - 建設通信新聞Digital",
       "source": "建設通信新聞Digital",
       "time": "2026-10-30T16:42:25+09:00",
@@ -76,10 +61,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "台湾東部海域でM5.6の地震 宜蘭県などで震度3を観測／台湾（中央社フォーカス台湾） - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-11-01T16:36:33+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jVURKeVZYRmRPWDd0X2twLUdFUlo4WHdnN1BhTEJuenRXbHZacWZwdlBUdTdCX2kyVnEzLWVBWk5VUnBZalBpbW5VN1RoVE9GZUlaaFJpLTJrOGxoV1g1aF9wcVRHZ09qRzdpUDVGT2Z0RExvRFlxcmZvNW84TkE?oc=5",
+      "title": "千葉県で最大震度5弱の強い地震 千葉県・横芝光町 - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-10-29T00:16:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBlS2dqWFZzZ0hZejB6OEdHZE8tRkREUnB4LUI4Z2VyY01oVmJTUEs1QkNoVjRDQ0JqeUU2eHJpYXFMOTc2MUc3ajZHNGtodGtVWEE4d0F1aw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -88,6 +73,21 @@
       "zoom": 6,
       "zoomable": false,
       "zoomSource": "none"
+    },
+    {
+      "title": "福島で震度3、北海道～関東で震度2 震源は三重県沖「異常震域」か（朝日新聞） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-11-01T09:15:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ieHRHS0dTeWRYUy1UQWZ6MC05VDltZ080cnRNalhuVmE2Z1dIcHZEdVFkYUxndVhDNThlaTBHVWtvLVp1XzBFdk94SUJSbEhOai02LVlCa1BicnhIZENvNVNleFU5MWJIQzc1ZWM1Mnl3N1JkdEhZVUZ3VXVIU1k?oc=5",
+      "type": "news",
+      "area": "北海道周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 43.2,
+      "lon": 142.8,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "北海道周辺",
+      "zoomSource": "dictionary"
     },
     {
       "title": "【地震情報】宮城 福島で震度3 津波の心配なし - NHKニュース",
