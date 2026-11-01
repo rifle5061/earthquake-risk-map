@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T17:41:56+09:00",
+  "updated_at": "2026-11-02T00:44:41+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -46,25 +46,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "福島で震度3、北海道～関東で震度2 震源は三重県沖「異常震域」か - 朝日新聞",
-      "source": "朝日新聞",
-      "time": "2026-11-01T09:15:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84NFFOMVRyeWQzNVNaS0VEZ3czc1pSVWNfLTlFVXJFZ1RaejFqSWs5VUZsM3U1ZC1oNzlLUW53TkxXdWxXVlFxMWFOUmhFX1JOcTF6V1AtbC1iWVNEamFMbkhyal9XeWM?oc=5",
-      "type": "news",
-      "area": "北海道周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 43.2,
-      "lon": 142.8,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "北海道周辺",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "震度2 愛知県西部 2026年11月01日13:39ごろ 地震詳細 - TBS NEWS DIG",
+      "title": "震度3 三重県南東沖 2026年11月01日07:15ごろ 地震詳細 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
-      "time": "2026-11-01T13:45:20+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYl9MM0YxVy1lem5YQmxEcVUtaEpDb2xtRjFJeWxhUEljT2dDUUFRaDZrdkxRaEJBUzM4cWpRWUxmSVlacjJrM184S2dTSjByR083dlQyUFYtU3d5ZkYxak9WVGUtTWhzVFlyMkNzM1pVc3Ewd0VTbTM1OVpfZ1pWOFBR?oc=5",
+      "time": "2026-11-01T07:23:28+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdlRHR1dvR3hNMjFtRl83MHZCOU5DenRhazhUVnNqMnlMcEVpbzhGN1NDX25CMjdqZVNIUGQ1MTJ1NGhXNEtwU0xNcGZDMnQxWUQxZzh5SkRoV2FNT000X2F2eGtZRjZHREZ4Y1dqTXNhMDR2M0YzZzhrSHEtMXpHNHlR?oc=5",
       "type": "news",
       "area": "太平洋側・南海トラフ想定域",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -76,19 +61,18 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "【速報】関東、東北、北海道、中部、近畿、中国、四国で地震 最大震度3 マグニチュードは6・1 三重県南東沖が震源（埼玉新聞） - Yahoo!ニュース",
+      "title": "台湾東部海域でM5.6の地震 宜蘭県などで震度3を観測／台湾（中央社フォーカス台湾） - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
-      "time": "2026-11-01T07:58:16+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCSXphLUJKODFteGNYTjM1Z2Zxd09GWUNBeEIyZV9HQlJSQXNRdnNKMmdMNVo1bTF3OTRwR3U0YnpzWDg1YjNralBsYkhrVGFqR1VrQlFDeVd1Y0FRd2Z2LWRvNV9wVmU2TXVxZzFSVHF1b3Q1RlNzdnBuWjZaSWc?oc=5",
+      "time": "2026-11-01T16:36:33+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jVURKeVZYRmRPWDd0X2twLUdFUlo4WHdnN1BhTEJuenRXbHZacWZwdlBUdTdCX2kyVnEzLWVBWk5VUnBZalBpbW5VN1RoVE9GZUlaaFJpLTJrOGxoV1g1aF9wcVRHZ09qRzdpUDVGT2Z0RExvRFlxcmZvNW84TkE?oc=5",
       "type": "news",
-      "area": "北海道周辺",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 43.2,
-      "lon": 142.8,
+      "lat": null,
+      "lon": null,
       "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "北海道周辺",
-      "zoomSource": "dictionary"
+      "zoomable": false,
+      "zoomSource": "none"
     },
     {
       "title": "【地震情報】千葉県北東部で震度5弱 津波の心配なし | NHKニュース | 地震、千葉県 - NHKニュース",
@@ -109,6 +93,20 @@
       "source": "自由民主党",
       "time": "2026-10-26T17:36:26+09:00",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBQTXRiWDg2STh1MHJ6UXNGQWtfRU9MNEl3MC0zaDBSM0hXdWFma1hvYjZYNXJ6YWRJYmR1TG9oSEg3R29aNFpwQlJleVpIT2NsT0FSeUdmSExJZEJ6aXc?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "防災庁11月2日発足 減災技術の輸出促進、大雨予測や遠隔の復旧工事 - 日本経済新聞",
+      "source": "日本経済新聞",
+      "time": "2026-10-31T05:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwYTlHZW5TRmE0bGt6bHdFVTFmRlc1cGZvd0ZhMV9mQ1I0ZlBQcWdTcmptaHBtYTY0Yjd4Mm1BS0FnT1NMQ2VHcjFpRzQ0S0Q4QW5OWWtCSkVhb1Awakd3dmVQNVhON2hDLTd5bw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
