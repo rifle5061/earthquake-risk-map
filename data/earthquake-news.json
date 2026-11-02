@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T08:44:56+09:00",
+  "updated_at": "2026-11-02T13:28:53+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -33,20 +33,6 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "11月2日、防災庁が発足へ 国難級災害へ事前防災徹底 - 建設通信新聞Digital",
-      "source": "建設通信新聞Digital",
-      "time": "2026-10-30T16:42:25+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JZHJkbVRlUjhSc1ZORFZwekhNTVlqVzVYV0xZZThzbXNJMVVMb3oyV3lRU3d1YVpDc0Vxd3RHUEdwWXFmQlZGVDVITzk5RUZ4dEJtQmZ3?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "千葉県で震度5弱の地震 マグニチュード5.5、津波なし - 日本経済新聞",
       "source": "日本経済新聞",
       "time": "2026-10-29T00:16:31+09:00",
@@ -61,10 +47,24 @@
       "zoomSource": "none"
     },
     {
-      "title": "千葉県で最大震度5弱の強い地震 千葉県・横芝光町 - TBS NEWS DIG",
+      "title": "防災庁２日発足 大規模災害時の司令塔―平時から復旧・復興まで対応 - 時事ドットコム",
+      "source": "時事ドットコム",
+      "time": "2026-11-02T00:06:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5OcHFic0N6cUtIcl9GZXZGVW1keTBWZHAteFljTDVQcU85MzZ0amszLTRnSjN4R3h4UHFON1g5NUFjY2k2bnJRbXVnWmVXdWR1Z01wUEh1U0d5eXk3alJjd0Zfdw?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "鳥取県、島根県で最大震度2の地震 鳥取県・米子市、鳥取南部町、島根県・安来市 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
-      "time": "2026-10-29T00:16:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBlS2dqWFZzZ0hZejB6OEdHZE8tRkREUnB4LUI4Z2VyY01oVmJTUEs1QkNoVjRDQ0JqeUU2eHJpYXFMOTc2MUc3ajZHNGtodGtVWEE4d0F1aw?oc=5",
+      "time": "2026-10-30T23:14:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8wWk56emR2RzBnTXBRbUJWT2pud2IwOTVsQVl1blRlOTgtZk1acWtnVWQyOGN1MTZ4Rk5nY3ZhYTUyc2FCbzVnWnhsdjNZTWFvYzl6ZGh4TQ?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -90,6 +90,20 @@
       "zoomSource": "dictionary"
     },
     {
+      "title": "全国で弾道ミサイル想定の住民避難訓練実施中 | お知らせ | ニュース - 自由民主党",
+      "source": "自由民主党",
+      "time": "2026-10-26T17:36:26+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBQTXRiWDg2STh1MHJ6UXNGQWtfRU9MNEl3MC0zaDBSM0hXdWFma1hvYjZYNXJ6YWRJYmR1TG9oSEg3R29aNFpwQlJleVpIT2NsT0FSeUdmSExJZEJ6aXc?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "【地震情報】宮城 福島で震度3 津波の心配なし - NHKニュース",
       "source": "NHKニュース",
       "time": "2026-10-27T09:29:02+09:00",
@@ -103,20 +117,6 @@
       "zoomable": true,
       "matchedArea": "東北地方",
       "zoomSource": "dictionary"
-    },
-    {
-      "title": "全国で弾道ミサイル想定の住民避難訓練実施中 | お知らせ | ニュース - 自由民主党",
-      "source": "自由民主党",
-      "time": "2026-10-26T17:36:26+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBQTXRiWDg2STh1MHJ6UXNGQWtfRU9MNEl3MC0zaDBSM0hXdWFma1hvYjZYNXJ6YWRJYmR1TG9oSEg3R29aNFpwQlJleVpIT2NsT0FSeUdmSExJZEJ6aXc?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
     }
   ]
 }
