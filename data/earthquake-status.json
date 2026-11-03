@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-11-03T18:00:03+09:00",
+  "fetched_at": "2026-11-04T01:57:47+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/11/03 14:40:00",
-    "area": "千葉県北東部",
-    "magnitude": 4.7,
-    "depth": 50,
-    "maxScale": 30,
-    "intensityLabel": "3",
+    "time": "2026/11/04 01:48:00",
+    "area": "硫黄島近海",
+    "magnitude": 5.4,
+    "depth": 150,
+    "maxScale": 10,
+    "intensityLabel": "1",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
