@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T00:04:53+09:00",
+  "updated_at": "2026-11-05T06:23:38+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -89,10 +89,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "11月2日「防災庁」発足 国民に緊急要請 最低3日分の備蓄など防災対策を徹底(気象予報士 小野 聡子) - tenki.jp",
-      "source": "tenki.jp",
-      "time": "2026-11-02T16:11:25+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE85ajFJa2o0QkxVZ1FGc0NidFRaZzhqUUFpMzBfZE9fbTgta1pYU2hkZWwxWnpBZHNyVEhRcWJ2NFExMHJOTkNnNi1tMEJkdHVOb251ZEdSZVJ5X0tEcWN2V3p0UlEzQQ?oc=5",
+      "title": "11月5日10時ごろ、緊急地震速報の訓練 兵庫では津波避難の緊急速報メールも - 共同通信PRワイヤー",
+      "source": "共同通信PRワイヤー",
+      "time": "2026-11-04T17:41:20+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1YTmVSVXNMZWFXN1hzYWFKZ2dFckduVGNMMV9tSWMzVWJQcm4zY2RfNkdxTURKd0lkSDljMzNld2dublh3VUtWVmJQckpzSnVrWTlsb3ZaVQ?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -103,10 +103,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "11月5日10時ごろ、緊急地震速報の訓練 兵庫では津波避難の緊急速報メールも - 共同通信PRワイヤー",
-      "source": "共同通信PRワイヤー",
-      "time": "2026-11-04T18:33:24+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1YTmVSVXNMZWFXN1hzYWFKZ2dFckduVGNMMV9tSWMzVWJQcm4zY2RfNkdxTURKd0lkSDljMzNld2dublh3VUtWVmJQckpzSnVrWTlsb3ZaVQ?oc=5",
+      "title": "11月2日「防災庁」発足 国民に緊急要請 最低3日分の備蓄など防災対策を徹底(気象予報士 小野 聡子) - tenki.jp",
+      "source": "tenki.jp",
+      "time": "2026-11-02T16:11:25+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE85ajFJa2o0QkxVZ1FGc0NidFRaZzhqUUFpMzBfZE9fbTgta1pYU2hkZWwxWnpBZHNyVEhRcWJ2NFExMHJOTkNnNi1tMEJkdHVOb251ZEdSZVJ5X0tEcWN2V3p0UlEzQQ?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
