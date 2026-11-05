@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-11-05T19:54:24+09:00",
+  "fetched_at": "2026-11-06T03:31:11+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/11/05 14:16:00",
-    "area": "鹿児島県薩摩地方",
-    "magnitude": 2.8,
-    "depth": 10,
+    "time": "2026/11/06 03:05:00",
+    "area": "福島県沖",
+    "magnitude": 4.3,
+    "depth": 80,
     "maxScale": 20,
     "intensityLabel": "2",
     "domesticTsunami": "None"
