@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T07:45:10+09:00",
+  "updated_at": "2026-11-06T12:09:57+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -60,6 +60,20 @@
       "zoomSource": "none"
     },
     {
+      "title": "令和8年度長泉町地域防災の日訓練に参加しましょう - 長泉町",
+      "source": "長泉町",
+      "time": "2026-11-01T16:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB3T2JvM1JtajVxMmR1T2xvWnIwTEV5N3JlLWhkLUxtZXBuUVM1em9qd0djWk5FSkpzMjBMNXBQMkdXbjdCaHlMaHVGbUlSRUZtS3BNUG45S1gzejcyS1l2VWptMG80YmRCclA4?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
       "title": "11月5日は「津波防災の日」 津波から身を守るために - ウェザーニュース",
       "source": "ウェザーニュース",
       "time": "2026-11-05T11:55:00+09:00",
@@ -92,20 +106,6 @@
       "source": "ナショナルジオグラフィック日本版",
       "time": "2026-11-05T06:00:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9OQ3FTVWtXeG1VLWdlWTZrSFdtRXBLdUNBQTV0OGN2T2t1SHUzeXl1RXNkWW56SGxsRUcyekdJTkQ5amo2dFNYT2x3V0E4bzRDcjVaSXNnVURHQmVXTmp2Nm0zUQ?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "福山市総合防災訓練について - 福山市ホームページ",
-      "source": "福山市ホームページ",
-      "time": "2026-11-04T09:20:25+09:00",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9mTlBta1lNbzNJZVFjR1dibUNpbEtTd21nVEJsS2lwaVQyTlRyTVpBRWsyM19ab3dkX0ZZVHhFeVdvR0lrLVhHQ2lvaTZpZkVBTVpscUJJSjR4d0swSTgxSl9hRlN1WWhFYTg1c2dWdHRpaGxmNm5B?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
