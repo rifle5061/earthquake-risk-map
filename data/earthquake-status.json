@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-11-07T14:11:04+09:00",
+  "fetched_at": "2026-11-07T20:43:40+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/11/07 06:30:00",
-    "area": "山口県中部",
-    "magnitude": 2.9,
-    "depth": 10,
-    "maxScale": 20,
-    "intensityLabel": "2",
+    "time": "2026/11/07 20:07:00",
+    "area": "茨城県沖",
+    "magnitude": 5.6,
+    "depth": 20,
+    "maxScale": 30,
+    "intensityLabel": "3",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
