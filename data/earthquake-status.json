@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-11-08T01:59:39+09:00",
+  "fetched_at": "2026-11-08T05:47:03+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/11/08 01:04:00",
-    "area": "静岡県西部",
-    "magnitude": 5.7,
-    "depth": 40,
-    "maxScale": 50,
-    "intensityLabel": "5強",
+    "time": "2026/11/08 02:31:00",
+    "area": "渡島地方東部",
+    "magnitude": 2.9,
+    "depth": 0,
+    "maxScale": 20,
+    "intensityLabel": "2",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
