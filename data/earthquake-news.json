@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T19:32:49+09:00",
+  "updated_at": "2026-11-08T01:43:46+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -32,10 +32,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "防災庁発足式 | 総理の一日 - 首相官邸",
-      "source": "首相官邸",
-      "time": "2026-11-02T21:09:06+09:00",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5aY09ydm9rUUtia2hhbGx2d2ZGNkc4dGZ0YTVJWnFDM1lndjhkUXBZZmN2bVdzTllOU2QzbWd4VHNKRUM3S194SVdQNElSZ3EwTzVTWlhzQzc4djRjRWpxM3NiRk1yNC1PMFc1SGVCQ2NVVUh0?oc=5",
+      "title": "防災庁が発足しました（看板掛け・発足式） - 防災情報",
+      "source": "防災情報",
+      "time": "2026-11-05T00:42:47+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5RMi1RbmUxcnBrYWJKSjlTeU9tbXVVak4zMnBhcGtDS3NSTmRTb0dHTWZaWS1EckdBcEtBMXJESXlWdnJzTXhXSXVGdHdvNmNtb05qTkFQYXpGYW1Z?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -46,10 +46,10 @@
       "zoomSource": "none"
     },
     {
-      "title": "防災庁が発足しました（看板掛け・発足式） - 防災情報",
-      "source": "防災情報",
-      "time": "2026-11-05T00:42:47+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5RMi1RbmUxcnBrYWJKSjlTeU9tbXVVak4zMnBhcGtDS3NSTmRTb0dHTWZaWS1EckdBcEtBMXJESXlWdnJzTXhXSXVGdHdvNmNtb05qTkFQYXpGYW1Z?oc=5",
+      "title": "防災庁発足式 | 総理の一日 - 首相官邸",
+      "source": "首相官邸",
+      "time": "2026-11-02T21:09:06+09:00",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5aY09ydm9rUUtia2hhbGx2d2ZGNkc4dGZ0YTVJWnFDM1lndjhkUXBZZmN2bVdzTllOU2QzbWd4VHNKRUM3S194SVdQNElSZ3EwTzVTWlhzQzc4djRjRWpxM3NiRk1yNC1PMFc1SGVCQ2NVVUh0?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
