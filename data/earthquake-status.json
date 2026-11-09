@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-11-09T10:49:26+09:00",
+  "fetched_at": "2026-11-09T18:06:06+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/11/09 05:16:00",
-    "area": "宮城県沖",
+    "time": "2026/11/09 14:01:00",
+    "area": "茨城県沖",
     "magnitude": 4.5,
-    "depth": 50,
-    "maxScale": 30,
-    "intensityLabel": "3",
+    "depth": 40,
+    "maxScale": 10,
+    "intensityLabel": "1",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
