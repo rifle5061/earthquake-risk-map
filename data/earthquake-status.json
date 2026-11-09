@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-11-09T18:06:06+09:00",
+  "fetched_at": "2026-11-10T04:48:00+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/11/09 14:01:00",
-    "area": "茨城県沖",
-    "magnitude": 4.5,
-    "depth": 40,
+    "time": "2026/11/10 00:09:00",
+    "area": "瀬戸内海中部",
+    "magnitude": 2.8,
+    "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
