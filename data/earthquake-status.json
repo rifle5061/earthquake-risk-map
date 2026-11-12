@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-11-12T16:32:37+09:00",
+  "fetched_at": "2026-11-13T01:16:10+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/11/12 13:46:00",
-    "area": "トカラ列島近海",
-    "magnitude": 2.6,
-    "depth": 0,
-    "maxScale": 10,
-    "intensityLabel": "1",
+    "time": "2026/11/12 22:27:00",
+    "area": "千葉県北東部",
+    "magnitude": 3.9,
+    "depth": 50,
+    "maxScale": 20,
+    "intensityLabel": "2",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
