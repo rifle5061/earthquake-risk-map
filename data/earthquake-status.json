@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-11-13T01:16:10+09:00",
+  "fetched_at": "2026-11-13T07:22:19+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/11/12 22:27:00",
-    "area": "千葉県北東部",
-    "magnitude": 3.9,
+    "time": "2026/11/13 03:48:00",
+    "area": "茨城県沖",
+    "magnitude": 3.6,
     "depth": 50,
-    "maxScale": 20,
-    "intensityLabel": "2",
+    "maxScale": 10,
+    "intensityLabel": "1",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
