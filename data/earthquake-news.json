@@ -1,12 +1,26 @@
 {
-  "updated_at": "2026-11-13T02:41:09+09:00",
+  "updated_at": "2026-11-13T08:13:27+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
-      "title": "次の大地震へエネルギー再蓄積 日本海溝沿い、プレート境界固着 東北大など（時事通信） - Yahoo!ニュース",
+      "title": "2011年東北地方太平洋沖地震後の プレート間固着の回復過程を解明 ―プレート境界におけるエネルギー蓄積の再開を示唆― - Tohoku University",
+      "source": "Tohoku University",
+      "time": "2026-11-06T11:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB2MGlONDBtYkp1ekRsY2hRSUxla09ET00tdVJLVFNzSjBxYmdiYjVQY1VpYWkzVE5ZMHNoRTIwMFc3c3lxbVp3OTJwTHU1RDE5YXA3aFE4dWZHeC04eVhTVDBsUmJkUHlwXzZtRGlxVmxaeUhYZ1B4Q0lCQTBpQQ?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "大地震エネルギー蓄積か 日本海溝 - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
-      "time": "2026-11-11T08:12:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOQXBLdFl2WGw5NHM1b2Q2QVJEWnU5T3hwb2NfX0ttcEp6SUhLcTlRU0pFMU9IbFVVd0E5R3JFTnE5RHZncFczVVEzT3ZPRWRsS0dhdThFZGRGN2VIQUIwTVJvdUs2dW9RTG1La3VvNjZrNHlrZ1kyakN4QlJobjQ?oc=5",
+      "time": "2026-11-09T22:37:17+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1LOXlETGVUZXVKVFM1c0xEX3JBTEowQkoyY0JJb0prdGR3Q0hrTTU1THo2YjFXcFZic0IwNlNOYnZyQVZmZThrc2x3b0E0V05k?oc=5",
       "type": "news",
       "area": "日本海溝・東北沖",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -33,8 +47,8 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "【地震情報まとめ・随時更新】愛知県で最大震度5強の強い地震 けが人も 被害･交通情報の詳細 - TBSテレビ",
-      "source": "TBSテレビ",
+      "title": "【地震情報まとめ・随時更新】愛知県で最大震度5強の強い地震 けが人も 被害･交通情報の詳細 - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
       "time": "2026-11-08T10:40:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA1cFdIX19aWWNLVnZuNG9DT0VhU090NU5ZYkVuMkhFdFREM0REQ0FkRk9pdVRIZlNiZlRBSmxpT2tXcVdqMFk0SjBuMTJUMWNVeC04RmFmMA?oc=5",
       "type": "news",
@@ -78,40 +92,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "震度5強 愛知で観測約30年ぶり 1週間ほど同程度の揺れに注意 - NHKニュース",
+      "title": "専門家 「南海トラフ巨大地震とはメカニズム異なる」 - NHKニュース",
       "source": "NHKニュース",
-      "time": "2026-11-08T01:08:14+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE11RkJjNklYYk1PNV9MZEx5ZEp3dkl5TDE2VVZVS0oyV1NEaUhIaG9uMDVqTUxTZHowQnd5NXRUUm5BYWVEUFJwZjFpdWpVRjlvTkx0bHhyVlQ3b1JRTkdv?oc=5",
-      "type": "news",
-      "area": "太平洋側・南海トラフ想定域",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 33.2,
-      "lon": 134.5,
-      "zoom": 6,
-      "zoomable": true,
-      "matchedArea": "太平洋側・南海トラフ想定域",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "大地震エネルギー蓄積か 日本海溝 - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-11-09T22:37:17+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1LOXlETGVUZXVKVFM1c0xEX3JBTEowQkoyY0JJb0prdGR3Q0hrTTU1THo2YjFXcFZic0IwNlNOYnZyQVZmZThrc2x3b0E0V05k?oc=5",
-      "type": "news",
-      "area": "日本海溝・東北沖",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 38.6,
-      "lon": 143.0,
-      "zoom": 5,
-      "zoomable": true,
-      "matchedArea": "日本海溝・東北沖",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "愛知で最大震度5強 ｢南海トラフ巨大地震｣との関連は? 安全な場所で就寝を 震源は静岡県西部 なぜ愛知･知多市で5強？専門家に聞く - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-11-08T04:29:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBHTXpjUUotWUxtb05Zd0xhYVVaV3I5VXBDX21DaW9IZDg3SlkwRUM1bWwxOWcyMldQSGZQbkVBOVdoMkZqLU9aY3lqSlRuYkhUck5VNlc0NA?oc=5",
+      "time": "2026-11-08T02:37:22+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ScGpkODhmc05JbkFpYV9TRWZvUVhzY3lJYUtmTi1GTFVfRG1FRVBCcmxkR2FPUldyQnh5dzhjSFV1cjExRVFPTkI4RmNjVFp4U3dsQW9qY18xTFdIZi1j?oc=5",
       "type": "news",
       "area": "南海トラフ",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -121,6 +105,20 @@
       "zoomable": true,
       "matchedArea": "南海トラフ",
       "zoomSource": "dictionary"
+    },
+    {
+      "title": "東海地方で最大震度５強を観測 地震の専門家は「震源の深さ」と「地震の規模」に注目（メ〜テレ（名古屋テレビ）） - Yahoo!ニュース",
+      "source": "Yahoo!ニュース",
+      "time": "2026-11-09T16:22:01+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0yS184c09COFU4M003N1UxUU5qUFhiNVdpRnpPOHRUcjlveVo3MkV6YjZFOUJ2c0haLXJOSWZhbzRFbWVybmFCakQ5OFFfNTlkcnFMT1RxUi14SUdoS0Zoa0YyZWFNQkpYYWlaV1BwN19EREZsUFliQlc1dnJIM2c?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
     }
   ]
 }
