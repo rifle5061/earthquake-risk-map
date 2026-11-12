@@ -1,14 +1,14 @@
 {
   "status": "ok",
-  "fetched_at": "2026-11-12T09:26:22+09:00",
+  "fetched_at": "2026-11-12T16:32:37+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/11/12 02:15:00",
-    "area": "青森県東方沖",
-    "magnitude": 3.6,
-    "depth": 60,
-    "maxScale": 20,
-    "intensityLabel": "2",
+    "time": "2026/11/12 13:46:00",
+    "area": "トカラ列島近海",
+    "magnitude": 2.6,
+    "depth": 0,
+    "maxScale": 10,
+    "intensityLabel": "1",
     "domesticTsunami": "None"
   },
   "check": "このファイルは確認用です。フルデータは data/latest-earthquakes.json を確認してください。"
