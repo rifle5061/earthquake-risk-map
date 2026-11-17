@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-11-17T17:16:51+09:00",
+  "fetched_at": "2026-11-18T02:45:13+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/11/17 17:00:00",
-    "area": "千葉県北東部",
-    "magnitude": 3.1,
-    "depth": 50,
+    "time": "2026/11/18 02:35:00",
+    "area": "島根県西部",
+    "magnitude": 3.2,
+    "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
