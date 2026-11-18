@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T11:07:11+09:00",
+  "updated_at": "2026-11-18T19:29:19+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -46,34 +46,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "2026年度東浦町総合防災訓練 - 東浦町",
-      "source": "東浦町",
-      "time": "2026-11-11T17:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTmZOUWRTTjJhVm5DQ3U4aVhRWVd6ejVKNEpyRnlDRU5aUVpQNTFlRWRTdk5VM3FBN0t6YkpuQVB2ekcyU2E2Tm1ZdEg2Vmg2MmJjSUJkN3hIODBnVnBXbm05Y1BhZFpDdWE3Y2w4VVVsQnRidE1ES2dscnMtR0wxclhpVkYzQ01tSHdndTdrQlZHQQ?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
-      "title": "防災FRONT LINE -TOKYO FM 80.0MHz- - TOKYO FM",
-      "source": "TOKYO FM",
-      "time": "2026-11-14T17:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFB6Smx4cU4ySnpHeDdTNEtVMUhYaWVTXzZ0ZzFFRlRJS1NpeXUwMVVYM1F2bFhjWHVMaFFrRjRBeTV6ckE?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "熊本県で最大震度3の地震 熊本県・芦北町 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
       "time": "2026-11-18T02:58:00+09:00",
@@ -101,6 +73,35 @@
       "zoom": 6,
       "zoomable": true,
       "matchedArea": "南海トラフ",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "緊急地震速報の誤報に2つの不具合 気象庁、震度を過大に推定 - 日本経済新聞",
+      "source": "日本経済新聞",
+      "time": "2026-11-17T22:23:30+09:00",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBjUnU0Y2FqWU9lTlh5UElqX1EtZDNjY0RPQjJCNHBnc1ZZcFdVcjRLenY1QVl0QllJWE13NXNQRk14ejkyakVhQnpWbEpodTF1aUpDLXhOVkFpSmdud25lY1VnNXlnQWg1aThfUA?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "【地震情報】熊本県で震度3 津波の心配なし - NHKニュース",
+      "source": "NHKニュース",
+      "time": "2026-11-13T10:55:51+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAyX0ZQRXlSSnJrQlpqenM3elc2X0xrT0JVNVhBVHUyU1BYZnV2eG1hMnU0c3dxemNnUGlNRjVJX0YwV3BfU0NSa2IxTVo5b1hKZjJEcDJBeHBYdVRpbVpR?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
     },
     {
