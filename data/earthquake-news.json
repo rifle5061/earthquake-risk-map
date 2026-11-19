@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T03:59:27+09:00",
+  "updated_at": "2026-11-19T10:03:02+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -46,20 +46,6 @@
       "zoomSource": "none"
     },
     {
-      "title": "島根県、広島県で最大震度1の地震 島根県・浜田市、益田市、広島県・安芸太田町、北広島町 - Yahoo!ニュース",
-      "source": "Yahoo!ニュース",
-      "time": "2026-11-18T02:39:15+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Sd3Z6WEVwaE5wX25lZzNaQW00NkVveXEzYnVHb1MyNzhlX1JROTJKWW5JOVFMdlZkdTVYc0dNTmhUdEpoVzNRdlJHWDMxdk41alppV0tDdnZUMmtVVHNsMFNpYUM5T0lyUEY3bTFXeFpaZWdCTVB1V0tLeTFnMTQ?oc=5",
-      "type": "news",
-      "area": "",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": null,
-      "lon": null,
-      "zoom": 6,
-      "zoomable": false,
-      "zoomSource": "none"
-    },
-    {
       "title": "愛知県で最大震度1の地震 愛知県・新城市 - TBS NEWS DIG",
       "source": "TBS NEWS DIG",
       "time": "2026-11-16T04:36:00+09:00",
@@ -75,48 +61,61 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "［地震情報・新潟］佐渡市で震度3、新潟市中央区などで震度2（11月18日） - 新潟日報",
-      "source": "新潟日報",
-      "time": "2026-11-18T18:48:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5CTjdmMWFucEI0M1N3RnJ4Zy1yd2pDRzMxNzJYU0lUOFdZSU9HczF2SEFmRW1wT0RUd1Z4VmRxYUMyR1J1LTYyMkc0c1ZYSVE5eE1oWm4tT1NXZnRxeFE?oc=5",
-      "type": "news",
-      "area": "北陸地方",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 37.0,
-      "lon": 137.2,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "北陸地方",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "新潟県で最大震度3の地震 新潟県・佐渡市 - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-11-18T18:40:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9oM0Fjb2c0a01tbWVQTGNFd2lpZ3lySmIyRTdpTjZOSXhKcG1pZlNENllmTWJhR3hRVUg1U1ZMS0dJcXR1ZUxLOXNINDZUQmpfX0xrb1F5TQ?oc=5",
-      "type": "news",
-      "area": "北陸地方",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 37.0,
-      "lon": 137.2,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "北陸地方",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "【2030年代に南海トラフ巨大地震が来る？】｢大地変動の時代｣に入った日本、地学に学び大災害に備えよ（Wedge（ウェッジ）） - Yahoo!ニュース",
+      "title": "島根県、広島県で最大震度1の地震 島根県・浜田市、益田市、広島県・安芸太田町、北広島町 - Yahoo!ニュース",
       "source": "Yahoo!ニュース",
-      "time": "2026-11-12T05:00:35+09:00",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03SV9sa01TOGM2VDVxOG9MQVFMLTN0LWdseElJSy1jWm0yYjhKdVFPSndmRjdVODktOXQ5VkNWT2dGNUJuVUhuTUhBQ3Z4OTZGa2w5eGlTWmNMdndDMkxzUERQZGpRSnJ6cFlVZFE4djRheS0xYXp5cnhSdXhFYWs?oc=5",
+      "time": "2026-11-18T02:39:15+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Sd3Z6WEVwaE5wX25lZzNaQW00NkVveXEzYnVHb1MyNzhlX1JROTJKWW5JOVFMdlZkdTVYc0dNTmhUdEpoVzNRdlJHWDMxdk41alppV0tDdnZUMmtVVHNsMFNpYUM5T0lyUEY3bTFXeFpaZWdCTVB1V0tLeTFnMTQ?oc=5",
       "type": "news",
-      "area": "南海トラフ",
+      "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.8,
-      "lon": 136.2,
+      "lat": null,
+      "lon": null,
       "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "熊本県で震度5弱の地震 津波の心配なし - 日本経済新聞",
+      "source": "日本経済新聞",
+      "time": "2026-11-19T02:35:35+09:00",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNeGR6MWpyMGZQcXVxY0ExOGZJMzFoQVJMdjZIM1JtdF8wdUpKMU1wNTg3QldSWkNVRmZxWFZGLWdLQmJvWWx4YnVDb3hFNTlqSnp2RWRuNVA5cmlKQU5zN2h2UlVWNEkzTEQxMQ?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
       "zoomable": true,
-      "matchedArea": "南海トラフ",
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "【速報】熊本・天草 芦北地方で震度5弱 午前2時22分ごろ 津波の心配なし - テレ朝NEWS",
+      "source": "テレ朝NEWS",
+      "time": "2026-11-19T02:38:06+09:00",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1nWHE3bzJqc19yeTktLURGVEdzRnkzWEJkaDhsU0trQXY1NWxGbF8yQmIwMUw5eEM3cDBySGM2enZEQS1LdFQ4a1NFcDNSUkVRQ0NjRFhJVGNsMTBwMXphY2x3VmhvYkoycDJoaGhnZ19iZw?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "熊本県で最大震度5弱の地震 今年8月1日以来の強い揺れ 津波の心配なし 九州道の一部で通行止め - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-11-19T05:51:24+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBLaHNWZnJWNERaUXVQRXo2TEh3anczWVU5WXVxNWwtek9LbG1QVkVkMnZWLVo2NklsRmR1STFqUGtRa3l6NVl0bGVQY0tiSmZ3X2NXZGZFUQ?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
     }
   ]
