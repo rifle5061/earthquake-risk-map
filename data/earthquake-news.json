@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T03:29:09+09:00",
+  "updated_at": "2026-11-20T09:50:40+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -75,21 +75,6 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "熊本県で震度5弱の地震 津波の心配なし - 日本経済新聞",
-      "source": "日本経済新聞",
-      "time": "2026-11-19T02:35:35+09:00",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNeGR6MWpyMGZQcXVxY0ExOGZJMzFoQVJMdjZIM1JtdF8wdUpKMU1wNTg3QldSWkNVRmZxWFZGLWdLQmJvWWx4YnVDb3hFNTlqSnp2RWRuNVA5cmlKQU5zN2h2UlVWNEkzTEQxMQ?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
-      "zoomSource": "dictionary"
-    },
-    {
       "title": "【地震情報】熊本県で震度5弱 熊本地震の一連 1週間程度は注意 - NHKニュース",
       "source": "NHKニュース",
       "time": "2026-11-19T02:27:55+09:00",
@@ -105,10 +90,10 @@
       "zoomSource": "dictionary"
     },
     {
-      "title": "熊本県で最大震度5弱 避難指示や一部通行止めも - テレ朝NEWS",
-      "source": "テレ朝NEWS",
-      "time": "2026-11-19T05:50:43+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uT0xvMEEtMVM1dXo4V3lRenJLb0RwVGk1TUh2bnVYT09uem9rc2J0cUN3T21DYkxQY3ljUGp5aGlhVk1aMjBpVEM1UUs3Mi1oMnRWcWJPUGZUZzh5aDhqYkNoVFFZUjhodkRXUTdReHcxZw?oc=5",
+      "title": "熊本県で震度5弱の地震 津波の心配なし - 日本経済新聞",
+      "source": "日本経済新聞",
+      "time": "2026-11-19T02:35:35+09:00",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNeGR6MWpyMGZQcXVxY0ExOGZJMzFoQVJMdjZIM1JtdF8wdUpKMU1wNTg3QldSWkNVRmZxWFZGLWdLQmJvWWx4YnVDb3hFNTlqSnp2RWRuNVA5cmlKQU5zN2h2UlVWNEkzTEQxMQ?oc=5",
       "type": "news",
       "area": "九州内陸・周辺",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
@@ -117,6 +102,21 @@
       "zoom": 7,
       "zoomable": true,
       "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
+    },
+    {
+      "title": "【全国マップ掲載】南海トラフ沿いは“濃い赤”に 30年以内に震度6弱以上の地震が発生する確率は？エリア別予測データ（政府・地震調査研究推進本部） - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-11-14T07:01:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBPUV9SalJYRWRaczNMZW9ZeXU3OFc0c0xVdEtaRXhpeEVYMGxydVZ0dFEwaGpqc0VnNUVrdS1oYmV5RE9COHFVdUZZTV9rdDJfU3huQWlTWQ?oc=5",
+      "type": "news",
+      "area": "南海トラフ",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.8,
+      "lon": 136.2,
+      "zoom": 6,
+      "zoomable": true,
+      "matchedArea": "南海トラフ",
       "zoomSource": "dictionary"
     }
   ]
