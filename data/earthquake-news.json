@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T16:14:58+09:00",
+  "updated_at": "2026-11-23T00:32:17+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -77,6 +77,21 @@
       "zoomSource": "dictionary"
     },
     {
+      "title": "熊本県で最大震度5弱 避難指示や一部通行止めも - テレ朝NEWS",
+      "source": "テレ朝NEWS",
+      "time": "2026-11-19T05:50:43+09:00",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uT0xvMEEtMVM1dXo4V3lRenJLb0RwVGk1TUh2bnVYT09uem9rc2J0cUN3T21DYkxQY3ljUGp5aGlhVk1aMjBpVEM1UUs3Mi1oMnRWcWJPUGZUZzh5aDhqYkNoVFFZUjhodkRXUTdReHcxZw?oc=5",
+      "type": "news",
+      "area": "九州内陸・周辺",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": 32.3,
+      "lon": 130.9,
+      "zoom": 7,
+      "zoomable": true,
+      "matchedArea": "九州内陸・周辺",
+      "zoomSource": "dictionary"
+    },
+    {
       "title": "「ようやく落ち着ける」 熊本・宇城の避難所にパーティション設置 - 毎日新聞",
       "source": "毎日新聞",
       "time": "2026-11-20T17:08:53+09:00",
@@ -103,21 +118,6 @@
       "zoom": 6,
       "zoomable": true,
       "matchedArea": "南海トラフ",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "【地震ライブ】熊本県天草・芦北地方で震度5弱の地震 津波の心配なし（2026年11月19日） - TBS NEWS DIG",
-      "source": "TBS NEWS DIG",
-      "time": "2026-11-19T02:47:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9XSVVQWldVSUZLcU9sSjZjdFJTcGduX1dJak5FRW03V2dDSTgwZ3pDX1dCc29SQ2tCeEFCWEhEU3MtWGRVOWtjRUxoYlYyQW5qVHRYaFFSWQ?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
     }
   ]
