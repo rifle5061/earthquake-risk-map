@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-11-23T11:44:05+09:00",
+  "fetched_at": "2026-11-23T20:18:49+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/11/23 08:50:00",
-    "area": "沖縄本島近海",
-    "magnitude": 3.5,
-    "depth": 50,
+    "time": "2026/11/23 19:50:00",
+    "area": "熊本県天草・芦北地方",
+    "magnitude": 2.3,
+    "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
