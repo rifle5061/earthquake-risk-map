@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T06:31:37+09:00",
+  "updated_at": "2026-11-23T11:13:55+09:00",
   "note": "位置情報つきの項目はクリックで地図ズーム可能。一般ニュースは地域名辞書で推定エリアにズームします。",
   "news": [
     {
@@ -29,21 +29,6 @@
       "zoom": 6,
       "zoomable": true,
       "matchedArea": "南海トラフ",
-      "zoomSource": "dictionary"
-    },
-    {
-      "title": "【地震情報】熊本県球磨村で震度3 津波の心配なし - NHKニュース",
-      "source": "NHKニュース",
-      "time": "2026-11-20T13:53:36+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1JSGVpZWV6NWJaZGxRUkdDX1Bfci1CM0VJZ2NkQ0lVNEdHU2xPU29YMEtJWDQzVVNLSlJQQmR1S0lTUnp4b3dQWk43MFlYTWRUSEEyTVZ2eTdvZmVpZGpz?oc=5",
-      "type": "news",
-      "area": "九州内陸・周辺",
-      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
-      "lat": 32.3,
-      "lon": 130.9,
-      "zoom": 7,
-      "zoomable": true,
-      "matchedArea": "九州内陸・周辺",
       "zoomSource": "dictionary"
     },
     {
@@ -111,6 +96,20 @@
       "source": "会津若松市",
       "time": "2026-11-16T18:24:10+09:00",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1uWkF4UnpPT0l4eFRhMk9tNW9xYm1TdExOYlUwMk1ZUXpQdUNaemdGMTgyRDdaZGV4RUlGcWt2bk9Ca010Q1lPeWo4aEhDbm1oRFk1YWtJVGFIV0lfRnAtcjlXdldTTFdIaWRNUENnUHk?oc=5",
+      "type": "news",
+      "area": "",
+      "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
+      "lat": null,
+      "lon": null,
+      "zoom": 6,
+      "zoomable": false,
+      "zoomSource": "none"
+    },
+    {
+      "title": "鳥取県で最大震度1の地震 鳥取県・八頭町 - TBS NEWS DIG",
+      "source": "TBS NEWS DIG",
+      "time": "2026-11-23T04:35:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE40RnBrRzZxOHNqVlBPVkZtbndVQkRxQm45bFFVWlhXX2Nfc1dGSWxMNWhnSnpLSXVKTC1uYkdEbGJaaWM4cDJsYlY4ckZTWWhUOHYxSWdQaw?oc=5",
       "type": "news",
       "area": "",
       "summary": "一般ニュースです。地域名辞書に該当する場合は推定エリアへズームできます。",
