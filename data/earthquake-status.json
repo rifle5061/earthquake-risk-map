@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-11-23T07:03:03+09:00",
+  "fetched_at": "2026-11-23T11:44:05+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/11/23 06:35:00",
-    "area": "熊本県熊本地方",
-    "magnitude": 2.8,
-    "depth": 10,
+    "time": "2026/11/23 08:50:00",
+    "area": "沖縄本島近海",
+    "magnitude": 3.5,
+    "depth": 50,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
