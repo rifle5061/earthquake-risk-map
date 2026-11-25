@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-11-25T20:45:02+09:00",
+  "fetched_at": "2026-11-26T05:40:53+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/11/25 19:32:00",
-    "area": "熊本県天草・芦北地方",
-    "magnitude": 1.7,
-    "depth": 0,
+    "time": "2026/11/26 05:18:00",
+    "area": "釧路地方中南部",
+    "magnitude": 1.8,
+    "depth": 10,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
