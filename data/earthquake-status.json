@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-11-25T03:22:14+09:00",
+  "fetched_at": "2026-11-25T11:42:26+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/11/25 01:40:00",
-    "area": "大隅半島東方沖",
-    "magnitude": 3.9,
-    "depth": 30,
+    "time": "2026/11/25 10:42:00",
+    "area": "熊本県天草・芦北地方",
+    "magnitude": 1.6,
+    "depth": 0,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
