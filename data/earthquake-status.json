@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-11-26T21:30:43+09:00",
+  "fetched_at": "2026-11-27T06:56:07+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/11/26 19:40:00",
-    "area": "陸奥湾",
-    "magnitude": 3.6,
-    "depth": 20,
+    "time": "2026/11/27 04:33:00",
+    "area": "父島近海",
+    "magnitude": 5.5,
+    "depth": 30,
     "maxScale": 20,
     "intensityLabel": "2",
     "domesticTsunami": "None"
