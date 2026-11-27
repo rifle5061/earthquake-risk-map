@@ -1,12 +1,12 @@
 {
   "status": "ok",
-  "fetched_at": "2026-11-27T22:35:02+09:00",
+  "fetched_at": "2026-11-28T07:20:04+09:00",
   "count": 100,
   "latest": {
-    "time": "2026/11/27 21:58:00",
-    "area": "秋田県内陸北部",
-    "magnitude": 2.6,
-    "depth": 10,
+    "time": "2026/11/28 04:32:00",
+    "area": "根室地方南部",
+    "magnitude": 3.1,
+    "depth": 80,
     "maxScale": 10,
     "intensityLabel": "1",
     "domesticTsunami": "None"
